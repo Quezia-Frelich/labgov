@@ -10,7 +10,7 @@ export default function Accordion_item ( { title, description, img, index, onCli
       <div className={`rounded-lg border-2 transition-all text-blue-crea-400/80 ${isActive === index ? 'bg-blue-crea-400/10 border-blue-crea-400' : 'border-blue-crea-400/80'}`}>
 
         {/* Title */}
-        <div className="p-4 relative h-20 md:h-auto overflow-y-hidden flex gap-3 items-center rounded-md" onClick={onClick}>
+        <div className="p-4 relative h-20 md:h-auto overflow-y-hidden flex gap-3 items-center rounded-md cursor-pointer" onClick={onClick}>
           
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ export default function Accordion_item ( { title, description, img, index, onCli
 
           <div className="p-4 mb-5 min-h-14 md:min-h-24" dangerouslySetInnerHTML={{ __html: description }} />
 
-          <img src={img} className="w-72 ml-auto mb-5 md:hidden"></img>
+          <img src={img} className="w-5/6 mx-auto mb-5 md:hidden"></img>
 
         </div>
           

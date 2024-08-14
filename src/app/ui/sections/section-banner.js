@@ -18,7 +18,9 @@ export default function Section_banner ( {} ) {
       </div>
 
     </Container>
-    <ArrowDownCircleIcon width={50} className='absolute inset-x-0 bottom-5 mx-auto animate-fade-down animate-infinite animate-duration-[3000ms] animate-ease-in-out'/>
+    <Link href={'#EstagiosGov'}>
+      <ArrowDownCircleIcon width={50} className='absolute inset-x-0 bottom-5 mx-auto animate-fade-down animate-infinite animate-duration-[3000ms] animate-ease-in-out'/>
+    </Link>
   </section>
   );
 }

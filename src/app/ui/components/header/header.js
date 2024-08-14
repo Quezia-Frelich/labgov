@@ -38,14 +38,14 @@ export default function Header() {
       <div className={`text-blue-700 text-lg w-full sticky top-0 z-50 `}>
         <nav className={headerStiky ? 'bg-gray-50':'bg-white'}>
 
-              <div className="mx-auto max-w-screen-lg flex flex-row items-center justify-between py-5 px-4 xl:px-0 sm:px-6 lg:px-8">
+              <div className="mx-auto max-w-screen-lg flex flex-row items-center justify-center py-5 px-4 xl:px-0 sm:px-6 lg:px-8">
                   <Link href={"/"}>
                     <div className="w-44 md:w-56">
                       <Logo/>
                     </div>
                   </Link>
 
-                  <div>
+                  <div className="hidden">
                     <Button_outline href={'#'}  text={'Entrar'}/>
                   </div>
 

@@ -25,8 +25,10 @@ export default function Section_contact ( {} ) {
             </div>
             <Text_body><Text_link href={'mailto:contato@estagiosgov.com'}>contato@estagiosgov.com</Text_link></Text_body>
           </div>
-          <Text_body><Text_link href={'#'} underline={true}>Política de privacidade</Text_link></Text_body>
-          <Text_body><Text_link href={'#'} underline={true}>Termos de uso</Text_link></Text_body>
+          <div className='hidden'>
+            <Text_body><Text_link href={'#'} underline={true}>Política de privacidade</Text_link></Text_body>
+            <Text_body><Text_link href={'#'} underline={true}>Termos de uso</Text_link></Text_body>
+          </div>
         </div>
       </div>
         
