@@ -1,10 +1,12 @@
 "use client"
 
 import { useEffect, useState } from "react";
-import Icon_Information from "../../icons/information";
 import { useInView } from 'react-intersection-observer';
+import Text_display_3 from "../text/text-display-3";
+import Text_body from "../text/text-body";
+import Text_display_2 from "../text/text-display-2";
 
-export default function Number_count({ number, after_number, title, description }) {
+export default function Number_count({ number, after_number, title, description, animate }) {
 
   const [newNumber, setNewNumber] = useState(0);
 
@@ -19,18 +21,17 @@ export default function Number_count({ number, after_number, title, description 
         if (counter === number) {
           clearInterval(timer);
         }
-      }, 30);
+      }, 1.5);
     }
   }, [inView, number]);
 
   return (
-    <div ref={countNumber} className="text-center">
-      <p className="text-4xl font-bold mb-2">{newNumber} {after_number}</p>
+    <div ref={animate && countNumber} className="text-center">
+      <Text_display_2 className="font-bold mb-2">{animate ? newNumber : number} {after_number}</Text_display_2>
       <div className="flex justify-center items-center gap-2 relative">
-        <p className="text-center">{title}</p>
+        <Text_body className="text-center w-52">{title}</Text_body>
         {description &&
           <div className="group cursor-pointer">
-            <Icon_Information />
             <div className="hidden group-hover:block group-hover:animate-fade-up group-hover:animate-duration-300 absolute w-52 h-auto -top-16 left-0 p-2 bg-white transition-all rounded-md border shadow-md">
               <p className="text-sm">{description}</p>
             </div>

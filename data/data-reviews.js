@@ -1,0 +1,6 @@
+export const data_reviews = [
+    {review: '“Admiro os convites de mulheres apresentarem suas ideias e cases no palco, a representação feminina faz parte de um processo (ainda) lento e contínuo de inspiração para o avanço igualitário da sociedade. O evento organizado pelo CREA - SC junto a sua rede de parceiros está de parabéns.”', profile: 'Ravine Gonçalves - Buuc Analítica e Design'},
+    {review: '“Foi muito bom poder participar do CREASC Summit! Uma bela iniciativa do CREA - SC que viabilizou a discussão sobre inovação e tendências para o estado de SC. É muito importante que o sistema CONFEA/CREA seja esse hub de conhecimento e network. Acredito que essa seja uma demanda de muitos profissionais da área.”', profile: 'Ian Gomes - Engenheiro Mecânico'},
+    {review: '“Eu amei participar, foi uma experiência incrível, agradeço ao CREA SC por oportunizar que jovens ainda durante a graduação possam ter contato com os melhores profissionais da área e essa aproximação com o sistema!”', profile: 'Emanuelle Scheffler - Estudante'},
+    {review: '“Hoje estive em mais uma novidade do nosso conselho profissional para os engenheiros: CREA summit! Com muita inovação e tecnologia pra inspirar novos negócios, deixei o espaço com a mente renovada e cheia de ideias!”', profile: 'Marina C. Laus - Engª Sanitarista e Ambiental'},
+]

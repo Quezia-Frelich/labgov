@@ -1,0 +1,37 @@
+import { data_palestrantes } from "../../../../../data/data-palestrantes";
+import Container from "../../components/container/container";
+import Text_body from "../../components/text/text-body";
+import Text_display_3 from "../../components/text/text-display-3";
+
+
+
+export default function Section_palestrantes(){
+    return(
+        <>
+        <section className="py-20 flex flex-col items-center justify-center">
+            <Container className="flex flex-col gap-10">
+                <div>
+                    <Text_display_3 className="text-pink-summit-400 font-bold mb-5">Palestrantes</Text_display_3>
+                    <Text_body className={'text-pink-summit-500 max-w-5xl'}>22 palestrantes abordaram temas como: desafios tecnológicos, digitalização da construção, agronegócio e desafios profissionais, empreendedorismo, mercado de trabalho, regulamentação profissional, inovação, BIM nas engenharias e smart cities.</Text_body>
+                </div>
+
+                <div className="grid grid-cols-2 md:grid-cols-8 gap-5">
+                    {data_palestrantes.map((palestrante, index) => (
+                        <div key={index} className="space-y-3">
+                            <img src={palestrante.profile} alt={palestrante.profile} className="rounded-md"/>
+                            <div className="text-center">
+                                <Text_body className={'text-sm text-violet-crea-500 font-medium leading-4 mb-1'}>{palestrante.name}</Text_body>
+                                <Text_body className={'text-xs'}>{palestrante.subtitle}</Text_body>
+                                <Text_body className={'text-xs'}>{palestrante.position}</Text_body>
+                            </div>
+                        </div>
+                    ) )}
+
+                </div>
+
+            </Container>
+        </section>
+
+        </>
+    )
+}
