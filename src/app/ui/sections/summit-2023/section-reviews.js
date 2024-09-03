@@ -33,7 +33,8 @@ export default function Section_reviews(){
                 slidesPerView={1}
                 spaceBetween={20}
                 modules={[Pagination, Autoplay, Navigation]}
-                className="mySwiper"
+                className="min-h-[470px]"
+                id="swiper-summit_2023-reviews"
                 autoplay={autoplayConfig}
                 navigation={false}
                 pagination={{ clickable: true }}
@@ -47,7 +48,7 @@ export default function Section_reviews(){
                 {/* render array */}
                 {data_reviews.map((review, index) => (
                     <SwiperSlide key={index}>
-                    <div className="border rounded-md bg-white/10 border-white p-5 text-white h-72 space-y-5 flex flex-col justify-center">
+                    <div className="border rounded-md bg-white/10 border-white p-5 text-white min-h-96 space-y-5 flex flex-col justify-center">
                         <Text_body>{review.review}</Text_body>
                         <Text_body className={'font-bold'}>{review.profile}</Text_body>
                     </div>

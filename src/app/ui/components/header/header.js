@@ -122,7 +122,7 @@ export default function Header() {
                               leaveFrom="transform opacity-100 scale-100"
                               leaveTo="transform opacity-0 scale-95"
                             >
-                              <Menu.Items className={`absolute top-8 left-0 w-60 px-5 origin-top-left divide-y divide-gray-100 backdrop-blur-md bg-white ${headerStiky ? 'bg-white' : 'bg-white/20'} shadow-lg focus:outline-none rounded-lg`}>
+                              <Menu.Items className={`absolute top-8 left-0 w-60 px-5 origin-top-left divide-y divide-gray-100 ${pathName === '/' && 'bg-white/20'} backdrop-blur-md bg-white ${headerStiky && 'bg-white'} shadow-lg focus:outline-none rounded-lg`}>
                                 {item.subMenuItem.map((subItem, index) => (
                                   <Menu.Item key={index}>
                                     <Link

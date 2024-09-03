@@ -11,7 +11,7 @@ export default function Section_welcome ( {} ) {
     <video muted loop autoPlay className='absolute top-0 left-0 w-auto min-w-full min-h-full max-w-none z-10'>
       <source src='/video/crea_summit_video.mp4' type='video/mp4'></source>
     </video>
-    <div className='absolute top-0 z-20 bg-radial-gradient h-screen w-full mix-blend-multiply'></div>
+    <div className='absolute top-0 z-20 opacity-70 bg-radial-gradient h-screen w-full mix-blend-multiply'></div>
     <div className='absolute top-0 z-30 h-screen w-full'>
       <Container className={'flex flex-col gap-8 py-20 justify-center items-center h-full text-white'}>
 
