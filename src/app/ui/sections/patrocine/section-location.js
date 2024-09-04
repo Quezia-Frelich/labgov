@@ -20,7 +20,8 @@ export default function Section_location ( {} ) {
               </Text_link>
             </div>
           </div>
-        <img src="/elements/espaco.webp" className="rounded-lg"/>
+        <img src="/elements/espaco.webp" className="rounded-lg hidden md:block"/>
+        <img src="/elements/espaco-responsive.png" className="rounded-lg block md:hidden"/>
         </Container>
     </section>
   );

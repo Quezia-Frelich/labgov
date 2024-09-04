@@ -8,16 +8,16 @@ const sponsorshipPlans = [
     price: '40.000,00',
     standSize: '18m²',
     features: {
-      welcomeKit: true,
-      stageScreen: true,
-      sponsorPanel: true,
-      mcMention: true,
-      videoOnStage: true,
-      eventReport: true,
-      websiteLogo: true,
-      socialMediaApp: true,
-      emailMarketing: true,
-      mediaKit: true,
+      kit_de_boas_vindas: true,
+      palco_principal: true,
+      painel_de_patrocinadores: true,
+      mencao_da_marca_pelo_mestre: true,
+      video_no_palco: true,
+      resultados_do_evento: true,
+      logo_no_site: true,
+      marca_nas_redes: true,
+      marca_em_email: true,
+      envio_de_enxoval: true,
     },
   },
   {
@@ -25,16 +25,16 @@ const sponsorshipPlans = [
     price: '30.000,00',
     standSize: '12m²',
     features: {
-      welcomeKit: true,
-      stageScreen: true,
-      sponsorPanel: true,
-      mcMention: true,
-      videoOnStage: false,
-      eventReport: true,
-      websiteLogo: true,
-      socialMediaApp: true,
-      emailMarketing: true,
-      mediaKit: false,
+      kit_de_boas_vindas: true,
+      palco_principal: true,
+      painel_de_patrocinadores: true,
+      mencao_da_marca_pelo_mestre: true,
+      video_no_palco: false,
+      resultados_do_evento: true,
+      logo_no_site: true,
+      marca_nas_redes: true,
+      marca_em_email: true,
+      envio_de_enxoval: true,
     },
   },
   {
@@ -42,16 +42,16 @@ const sponsorshipPlans = [
     price: '20.000,00',
     standSize: '9m²',
     features: {
-      welcomeKit: true,
-      stageScreen: true,
-      sponsorPanel: true,
-      mcMention: false,
-      videoOnStage: false,
-      eventReport: false,
-      websiteLogo: true,
-      socialMediaApp: true,
-      emailMarketing: false,
-      mediaKit: false,
+      kit_de_boas_vindas: true,
+      palco_principal: true,
+      painel_de_patrocinadores: true,
+      mencao_da_marca_pelo_mestre: false,
+      video_no_palco: false,
+      resultados_do_evento: true,
+      logo_no_site: true,
+      marca_nas_redes: false,
+      marca_em_email: true,
+      envio_de_enxoval: true,
     },
   },
   {
@@ -59,16 +59,16 @@ const sponsorshipPlans = [
     price: '10.000,00',
     standSize: '4m²',
     features: {
-      welcomeKit: true,
-      stageScreen: true,
-      sponsorPanel: true,
-      mcMention: false,
-      videoOnStage: false,
-      eventReport: false,
-      websiteLogo: true,
-      socialMediaApp: true,
-      emailMarketing: false,
-      mediaKit: false,
+      kit_de_boas_vindas: true,
+      palco_principal: false,
+      painel_de_patrocinadores: true,
+      mencao_da_marca_pelo_mestre: false,
+      video_no_palco: false,
+      resultados_do_evento: true,
+      logo_no_site: true,
+      marca_nas_redes: false,
+      marca_em_email: true,
+      envio_de_enxoval: true,
     },
   },
   {
@@ -76,16 +76,16 @@ const sponsorshipPlans = [
     price: '3.000,00',
     standSize: null,
     features: {
-      welcomeKit: true,
-      stageScreen: false,
-      sponsorPanel: false,
-      mcMention: false,
-      videoOnStage: false,
-      eventReport: false,
-      websiteLogo: true,
-      socialMediaApp: false,
-      emailMarketing: false,
-      mediaKit: true,
+      kit_de_boas_vindas: true,
+      palco_principal: false,
+      painel_de_patrocinadores: false,
+      mencao_da_marca_pelo_mestre: false,
+      video_no_palco: false,
+      resultados_do_evento: false,
+      logo_no_site: true,
+      marca_nas_redes: false,
+      marca_em_email: false,
+      envio_de_enxoval: false,
     },
   },
 ];
@@ -124,7 +124,7 @@ export default function SponsorshipTable() {
         <div className="p-5 col-span-1 md:col-span-6 border-2 rounded-md bg-white/10 grid grid-cols-8 gap-2">
           <div className="col-span-3">Material no kit de boas-vindas do evento*</div>
           {sponsorshipPlans.map((item, index) => (
-            <div key={index} className="text-center">{item.features.welcomeKit ? <CheckIcon className="w-6 h-6 mx-auto" /> : ' '}</div>
+            <div key={index} className="text-center">{item.features.kit_de_boas_vindas ? <CheckIcon className="w-6 h-6 mx-auto" /> : ' '}</div>
           ))}
         </div>
 
@@ -132,7 +132,7 @@ export default function SponsorshipTable() {
         <div className="p-5 col-span-1 md:col-span-6 border-2 rounded-md bg-white/10 grid grid-cols-8 gap-2">
           <div className="col-span-3">Exibição da marca na tela do palco principal</div>
           {sponsorshipPlans.map((item, index) => (
-            <div key={index} className="text-center">{item.features.stageScreen ? <CheckIcon className="w-6 h-6 mx-auto" /> : ' '}</div>
+            <div key={index} className="text-center">{item.features.palco_principal ? <CheckIcon className="w-6 h-6 mx-auto" /> : ' '}</div>
           ))}
         </div>
 
@@ -140,7 +140,7 @@ export default function SponsorshipTable() {
         <div className="p-5 col-span-1 md:col-span-6 border-2 rounded-md bg-white/10 grid grid-cols-8 gap-2">
           <div className="col-span-3">Exibição da marca em painel de patrocinadores e participantes</div>
           {sponsorshipPlans.map((item, index) => (
-            <div key={index} className="text-center">{item.features.sponsorPanel ? <CheckIcon className="w-6 h-6 mx-auto" /> : ' '}</div>
+            <div key={index} className="text-center">{item.features.painel_de_patrocinadores ? <CheckIcon className="w-6 h-6 mx-auto" /> : ' '}</div>
           ))}
         </div>
 
@@ -148,7 +148,7 @@ export default function SponsorshipTable() {
         <div className="p-5 col-span-1 md:col-span-6 border-2 rounded-md bg-white/10 grid grid-cols-8 gap-2">
           <div className="col-span-3">Menção da marca pelo Mestre de Cerimônias no palco principal</div>
           {sponsorshipPlans.map((item, index) => (
-            <div key={index} className="text-center">{item.features.mcMention ? <CheckIcon className="w-6 h-6 mx-auto" /> : ' '}</div>
+            <div key={index} className="text-center">{item.features.mencao_da_marca_pelo_mestre ? <CheckIcon className="w-6 h-6 mx-auto" /> : ' '}</div>
           ))}
         </div>
 
@@ -156,7 +156,7 @@ export default function SponsorshipTable() {
         <div className="p-5 col-span-1 md:col-span-6 border-2 rounded-md bg-white/10 grid grid-cols-8 gap-2">
           <div className="col-span-3">Vídeo de até 60 segundos no palco principal</div>
           {sponsorshipPlans.map((item, index) => (
-            <div key={index} className="text-center">{item.features.videoOnStage ? <CheckIcon className="w-6 h-6 mx-auto" /> : ' '}</div>
+            <div key={index} className="text-center">{item.features.video_no_palco ? <CheckIcon className="w-6 h-6 mx-auto" /> : ' '}</div>
           ))}
         </div>
 
@@ -164,7 +164,7 @@ export default function SponsorshipTable() {
         <div className="p-5 col-span-1 md:col-span-6 border-2 rounded-md bg-white/10 grid grid-cols-8 gap-2">
           <div className="col-span-3">Relatório completo com os resultados do evento</div>
           {sponsorshipPlans.map((item, index) => (
-            <div key={index} className="text-center">{item.features.eventReport ? <CheckIcon className="w-6 h-6 mx-auto" /> : ' '}</div>
+            <div key={index} className="text-center">{item.features.resultados_do_evento ? <CheckIcon className="w-6 h-6 mx-auto" /> : ' '}</div>
           ))}
         </div>
 
@@ -172,7 +172,7 @@ export default function SponsorshipTable() {
         <div className="p-5 col-span-1 md:col-span-6 border-2 rounded-md bg-white/10 grid grid-cols-8 gap-2">
           <div className="col-span-3">Logo no site oficial do evento</div>
           {sponsorshipPlans.map((item, index) => (
-            <div key={index} className="text-center">{item.features.websiteLogo ? <CheckIcon className="w-6 h-6 mx-auto" /> : ' '}</div>
+            <div key={index} className="text-center">{item.features.logo_no_site ? <CheckIcon className="w-6 h-6 mx-auto" /> : ' '}</div>
           ))}
         </div>
 
@@ -180,7 +180,7 @@ export default function SponsorshipTable() {
         <div className="p-5 col-span-1 md:col-span-6 border-2 rounded-md bg-white/10 grid grid-cols-8 gap-2">
           <div className="col-span-3">Aplicação da marca nas redes sociais do evento</div>
           {sponsorshipPlans.map((item, index) => (
-            <div key={index} className="text-center">{item.features.socialMediaApp ? <CheckIcon className="w-6 h-6 mx-auto" /> : ' '}</div>
+            <div key={index} className="text-center">{item.features.marca_nas_redes ? <CheckIcon className="w-6 h-6 mx-auto" /> : ' '}</div>
           ))}
         </div>
 
@@ -188,7 +188,7 @@ export default function SponsorshipTable() {
         <div className="p-5 col-span-1 md:col-span-6 border-2 rounded-md bg-white/10 grid grid-cols-8 gap-2">
           <div className="col-span-3">Aplicação da marca em e-mail marketing de divulgação</div>
           {sponsorshipPlans.map((item, index) => (
-            <div key={index} className="text-center">{item.features.emailMarketing ? <CheckIcon className="w-6 h-6 mx-auto" /> : ' '}</div>
+            <div key={index} className="text-center">{item.features.marca_em_email ? <CheckIcon className="w-6 h-6 mx-auto" /> : ' '}</div>
           ))}
         </div>
 
@@ -196,7 +196,7 @@ export default function SponsorshipTable() {
         <div className="p-5 col-span-1 md:col-span-6 border-2 rounded-md bg-white/10 grid grid-cols-8 gap-2">
           <div className="col-span-3">Envio de enxoval de peças para divulgação em redes sociais</div>
           {sponsorshipPlans.map((item, index) => (
-            <div key={index} className="text-center">{item.features.mediaKit ? <CheckIcon className="w-6 h-6 mx-auto" /> : ' '}</div>
+            <div key={index} className="text-center">{item.features.envio_de_enxoval ? <CheckIcon className="w-6 h-6 mx-auto" /> : ' '}</div>
           ))}
         </div>
       </div>
@@ -207,17 +207,17 @@ export default function SponsorshipTable() {
             <div key={index} className="p-5 border-2 rounded-md text-center bg-white/10">
               <Text_head_1 className="font-bold mb-5">{item.plan}</Text_head_1>
               <p className="py-2 border-b">R$ <strong>{item.price}</strong></p>
-              <p className="py-2 border-b">Tamanho do estande: <strong>{item.standSize}</strong></p>
-              {item.features.welcomeKit && <p className="py-2 border-b">Material no kit de boas-vindas do evento*</p>}
-              {item.features.stageScreen && <p className="py-2 border-b">Exibição da marca na tela do palco principal</p>}
-              {item.features.sponsorPanel && <p className="py-2 border-b">Exibição da marca em painel de patrocinadores e participantes</p>}
-              {item.features.mcMention && <p className="py-2 border-b">Menção da marca pelo Mestre de Cerimônias no palco principal</p>}
-              {item.features.videoOnStage && <p className="py-2 border-b">Vídeo de até 60 segundos no palco principal</p>}
-              {item.features.eventReport && <p className="py-2 border-b">Relatório completo com os resultados do evento</p>}
-              {item.features.websiteLogo && <p className="py-2 border-b">Logo no site oficial do evento</p>}
-              {item.features.socialMediaApp && <p className="py-2 border-b">Aplicação da marca nas redes sociais do evento</p>}
-              {item.features.emailMarketing && <p className="py-2 border-b">Aplicação da marca em e-mail marketing de divulgação</p>}
-              {item.features.mediaKit && <p className="py-2">Envio de enxoval de peças para divulgação em redes sociais</p>}
+              {item.standSize && <p className="py-2 border-b">Tamanho do estande: <strong>{item.standSize}</strong></p>}       
+              {item.features.kit_de_boas_vindas && <p className="py-2 border-b">Material no kit de boas-vindas do evento*</p>}
+              {item.features.palco_principal && <p className="py-2 border-b">Exibição da marca na tela do palco principal</p>}
+              {item.features.painel_de_patrocinadores && <p className="py-2 border-b">Exibição da marca em painel de patrocinadores e participantes</p>}
+              {item.features.mencao_da_marca_pelo_mestre && <p className="py-2 border-b">Menção da marca pelo Mestre de Cerimônias no palco principal</p>}
+              {item.features.video_no_palco && <p className="py-2 border-b">Vídeo de até 60 segundos no palco principal</p>}
+              {item.features.resultados_do_evento && <p className="py-2 border-b">Relatório completo com os resultados do evento</p>}
+              {item.features.logo_no_site && <p className="py-2 border-b">Logo no site oficial do evento</p>}
+              {item.features.marca_nas_redes && <p className="py-2 border-b">Aplicação da marca nas redes sociais do evento</p>}
+              {item.features.marca_em_email && <p className="py-2 border-b">Aplicação da marca em e-mail marketing de divulgação</p>}
+              {item.features.envio_de_enxoval && <p className="py-2">Envio de enxoval de peças para divulgação em redes sociais</p>}
             </div>
       ))}
       </div>

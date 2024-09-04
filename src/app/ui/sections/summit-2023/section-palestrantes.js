@@ -22,7 +22,7 @@ export default function Section_palestrantes(){
             <Container className="flex flex-col gap-10">
                 <div>
                     <Text_display_3 className="text-pink-summit-400 font-bold mb-5">Palestrantes</Text_display_3>
-                    <Text_body className={'text-pink-summit-500 max-w-5xl'}>22 palestrantes abordaram temas como: desafios tecnológicos, digitalização da construção, agronegócio e desafios profissionais, empreendedorismo, mercado de trabalho, regulamentação profissional, inovação, BIM nas engenharias e smart cities.</Text_body>
+                    <Text_body className={'text-pink-summit-500 max-w-5xl'}>23 palestrantes abordaram temas como: desafios tecnológicos, digitalização da construção, agronegócio e desafios profissionais, empreendedorismo, mercado de trabalho, regulamentação profissional, inovação, BIM nas engenharias e smart cities.</Text_body>
                 </div>
 
                 <div className="hidden md:grid grid-cols-2 md:grid-cols-8 gap-5">
@@ -39,7 +39,7 @@ export default function Section_palestrantes(){
 
                 </div>
 
-                <div className="grid md:hidden h-[550px] ">
+                <div className="grid md:hidden h-[800px] ">
 
                         <Swiper
                             breakpoints={{
@@ -64,7 +64,7 @@ export default function Section_palestrantes(){
                             clickable: true,
                             }}
                             modules={[Grid, Pagination]}
-                            className="w-full mx-auto h-[550px]"
+                            className="w-full mx-auto h-[800px]"
                             id="swiper-palestrantes"
                         >
                             

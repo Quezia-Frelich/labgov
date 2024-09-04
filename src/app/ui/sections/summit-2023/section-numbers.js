@@ -17,7 +17,7 @@ export default function Section_numbers(){
         <section className="min-h-72 bg-radial-gradient text-white py-20 flex flex-col items-center justify-center">
             <Container className="flex flex-col gap-10 md:flex-row justify-between items-center md:items-start">
                 <Number_count number={500} title={'Participantes no evento'} animate={true}/>
-                <Number_count number={'1,5'} after_number={'k'} title={'Visualizações na página do evento'}/>
+                <Number_count number={'5,5'} after_number={'k'} title={'Visualizações na página do evento'}/>
                 <Number_count number={314} after_number={'k'} title={'Impressões no Instagram'} animate={true}/>
                 <Number_count number={6} after_number={'k'} title={'Impressões no Facebook'}/>
             </Container>
