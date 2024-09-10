@@ -1,3 +1,4 @@
+
 import { MapPinIcon } from "@heroicons/react/24/outline";
 import Card_benefit from "../../components/cards/card-benefit";
 import Container from "../../components/container/container";

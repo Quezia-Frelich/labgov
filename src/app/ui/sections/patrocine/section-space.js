@@ -1,3 +1,5 @@
+'use client'
+
 import { MapPinIcon } from "@heroicons/react/24/outline";
 import Card_benefit from "../../components/cards/card-benefit";
 import Container from "../../components/container/container";
@@ -5,6 +7,8 @@ import Text_display_3 from "../../components/text/text-display-3";
 import Text_head_1 from "../../components/text/text-head-1";
 import Text_link from "../../components/text/text-link";
 import Text_body from "../../components/text/text-body";
+import { PhotoProvider, PhotoView } from 'react-photo-view';
+import 'react-photo-view/dist/react-photo-view.css';
 
 export default function Section_space ( {} ) {
   return (
@@ -14,7 +18,11 @@ export default function Section_space ( {} ) {
 
           <div className="flex flex-col md:flex-row items-center gap-10">
 
-            <img src="/elements/plano.webp" className="rounded-lg md:max-w-lg"/>
+            <PhotoProvider>
+              <PhotoView src="/elements/plano.webp">
+                <img src="/elements/plano.webp" className="rounded-lg md:max-w-lg"/>
+              </PhotoView>
+            </PhotoProvider>
 
             <div className="w-full space-y-4">
               <Text_head_1 className={'font-bold mb-5'}>Investimentos disponíveis</Text_head_1>
