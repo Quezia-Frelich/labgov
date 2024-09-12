@@ -11,7 +11,7 @@ import Container from "../container/container";
 const navigation = [
   {
     name: "Patrocine o evento",
-    href: "/patrocine",
+    href: "/patrocine-o-evento",
     first: true,
   },
   {
