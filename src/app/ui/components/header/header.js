@@ -10,9 +10,14 @@ import Container from "../container/container";
 
 const navigation = [
   {
+    name: "Ingressos",
+    href: "https://www.sympla.com.br/crea-summit-2024__2629588",
+    first: true,
+    blank: true,
+  },
+  {
     name: "Patrocine o evento",
     href: "/patrocine-o-evento",
-    first: true,
   },
   {
     name: "Edições anteriores",
@@ -140,6 +145,7 @@ export default function Header() {
                           <Link
                             key={item.name}
                             href={item.href}
+                            target={item.blank && '_blank'}
                             className={`h-4 flex items-center text-base px-3 ${
                               item.first ? "border-none" : ""
                             } ${
@@ -149,7 +155,7 @@ export default function Header() {
 
                                 : "font-normal hover:font-semibold transition-all"
                             }`}
-                            target={item.icon ? "_blank" : ""}
+                            
                           >
                             {item.name}
                             {item.icon ? (
@@ -204,18 +210,14 @@ export default function Header() {
 
               {/* Nav Responsive */}
               <Disclosure.Panel className="md:hidden">
-                <div className="space-y-7 px-2 py-8 sm:px-5">
+                <div className={`space-y-7 px-2 py-8 sm:px-5 ${pathName === '/' && 'bg-white/20'} backdrop-blur-lg bg-white ${headerStiky ? 'bg-white': `${pathName === '/' && 'shadow-lg'}`} focus:outline-none rounded-lg`}>
                   {navigation.map((item) =>
                     item.subMenu ? (
                       <>
                         <Disclosure>
                           <Disclosure.Button
                             key={item.name}
-                            className={` border-blue-crea-500 h-4 flex items-center text-base px-2 ${
-                              pathName === `${item.href}`
-                                ? " text-blue-crea-500 font-bold border-l-2"
-                                : "text-blue-crea-500 font-light"
-                            }`}
+                            className={` border-blue-crea-500 h-4 flex items-center text-base px-2`}
                           >
                             {" "}
                             {item.name}{" "}
@@ -231,8 +233,8 @@ export default function Header() {
                                 href={subItem.subItem.subHref}
                                 className={`py-3 border-blue-crea-500 flex items-center text-base px-2 ${
                                   pathName === `${item.href}`
-                                    ? " text-blue-crea-500 font-bold border-l-2"
-                                    : "text-blue-crea-500 font-light"
+                                    ? "font-bold border-l-2"
+                                    : "font-light"
                                 }`}
                               >
                                 {subItem.subItem.subName}
