@@ -6,7 +6,7 @@ import Text_display_3 from "../text/text-display-3";
 import Text_body from "../text/text-body";
 import Text_display_2 from "../text/text-display-2";
 
-export default function Number_count({ number, after_number, title, description, animate }) {
+export default function Number_count({ number, before_number, after_number, title, description, animate }) {
 
   const [newNumber, setNewNumber] = useState(0);
 
@@ -27,7 +27,7 @@ export default function Number_count({ number, after_number, title, description,
 
   return (
     <div ref={animate && countNumber} className="text-center">
-      <Text_display_2 className="font-bold mb-2">{animate ? newNumber : number} {after_number}</Text_display_2>
+      <Text_display_2 className="font-bold mb-2">{before_number}{animate ? newNumber : number}{after_number}</Text_display_2>
       <div className="flex justify-center items-center gap-2 relative">
         <Text_body className="text-center w-52">{title}</Text_body>
         {description &&

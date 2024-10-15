@@ -1,8 +1,8 @@
 import Section_banner from "../ui/sections/patrocine/section-banner";
-import Section_location from "../ui/sections/patrocine/section-location";
+import Section_location from "../ui/sections/global/section-location";
 import Section_space from "../ui/sections/patrocine/section-space";
 import Section_price from "../ui/sections/patrocine/section-price";
-import Section_sponsors from "../ui/sections/patrocine/section-sponsors";
+import Section_sponsors from "../ui/sections/global/section-sponsors";
 import Section_cta from "../ui/sections/patrocine/section-cta";
 
 export default function Patrocine ( {} ) {

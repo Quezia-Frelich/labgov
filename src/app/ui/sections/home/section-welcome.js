@@ -1,10 +1,10 @@
-import Text_display_3 from '../components/text/text-display-3';
-import Container from '../components/container/container';
-import Text_head_1 from '../components/text/text-head-1';
+import Text_display_3 from '../../components/text/text-display-3';
+import Container from '../../components/container/container';
+import Text_head_1 from '../../components/text/text-head-1';
 import { CalendarDaysIcon, MapPinIcon, ArrowRightIcon } from '@heroicons/react/24/outline';
-import Text_head_3 from '../components/text/text-head-3';
-import Text_head_2 from '../components/text/text-head-2';
-import Button_outline from '../components/buttons/button_outline';
+import Text_head_3 from '../../components/text/text-head-3';
+import Text_head_2 from '../../components/text/text-head-2';
+import Button_outline from '../../components/buttons/button_outline';
 
 export default function Section_welcome ( {} ) {
   return (
