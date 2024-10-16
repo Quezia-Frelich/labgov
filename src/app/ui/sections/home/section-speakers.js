@@ -5,7 +5,6 @@ import Container from "../../components/container/container";
 import { data_palestrantes_2024 } from "../../../../../data/data-palestrantes-2024";
 import Text_head_3 from "../../components/text/text-head-3";
 import Text_head_1 from "../../components/text/text-head-1";
-import Text_body from "../../components/text/text-body";
 import Icon_linkedin from "../../icons/footer/LinkedIn";
 import Icon_instagram from "../../icons/footer/Instagram";
 import Text_display_3 from "../../components/text/text-display-3";
@@ -52,8 +51,8 @@ export default function Section_speakers() {
                 </div>
                 <p className="text-xs mt-2">{palestrante.description}</p>
                 <div className="flex items-center justify-start gap-5 mt-2 text-violet-crea-400">
-                  {palestrante.instagram && <Icon_instagram href={palestrante.instagram}/>}
-                  {palestrante.linkedin && <Icon_linkedin href={palestrante.linkedin}/>}
+                  {palestrante.instagram && <Icon_instagram key={palestrante.instagram} href={palestrante.instagram}/>}
+                  {palestrante.linkedin && <Icon_linkedin key={palestrante.linkedin} href={palestrante.linkedin}/>}
                 </div>
               </div>               
 

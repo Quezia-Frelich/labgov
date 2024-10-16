@@ -41,9 +41,9 @@ export default function Section_schedule ( {} ) {
     <section className="my-10 py-10 flex items-center justify-center">
       <Container className="space-y-10">
         {/* Switch date */}
-        <div className="max-w-screen-lg mx-auto text-violet-crea-700 flex justify-between items-center gap-10">
+        <div className="max-w-screen-lg mx-auto text-violet-crea-700 grid grid-cols-2 gap-10">
           <button 
-            className={`w-full py-3 px-10 md:px-20 border-2 rounded-2xl hover:bg-violet-crea-400 hover:text-white hover:border-violet-crea-400 ${selectDay === '22/11' ? 'bg-violet-crea-400 text-white border-violet-crea-400 scale-105' : 'border-violet-crea-700'} transition-all`} 
+            className={`w-full py-3 px-5 md:px-20 border-2 rounded-2xl hover:bg-violet-crea-400 hover:text-white hover:border-violet-crea-400 ${selectDay === '22/11' ? 'bg-violet-crea-400 text-white border-violet-crea-400 scale-105' : 'border-violet-crea-700'} transition-all`} 
             onClick={() => handleSelectDay('22/11')}
           >
             <div>
@@ -52,7 +52,7 @@ export default function Section_schedule ( {} ) {
             </div>
           </button>
           <button 
-            className={`w-full py-3 px-10 md:px-20 border-2 rounded-2xl hover:bg-violet-crea-400 hover:text-white hover:border-violet-crea-400 ${selectDay === '23/11' ? 'bg-violet-crea-400 text-white border-violet-crea-400 scale-105' : 'border-violet-crea-700'} transition-all`} 
+            className={`w-full py-3 px-5 md:px-20 border-2 rounded-2xl hover:bg-violet-crea-400 hover:text-white hover:border-violet-crea-400 ${selectDay === '23/11' ? 'bg-violet-crea-400 text-white border-violet-crea-400 scale-105' : 'border-violet-crea-700'} transition-all`} 
             onClick={() => handleSelectDay('23/11')}
           >
             <div>
@@ -64,27 +64,27 @@ export default function Section_schedule ( {} ) {
 
         {/* Filter scenary */}
         {selectDay === '23/11' && (
-          <div className="max-w-screen-lg mx-auto grid grid-cols-2 md:grid-cols-4 gap-5">
+          <div className="max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-4 gap-5">
             <button 
-              className={`w-full md:min-w-52 py-3 px-10 border rounded-full hover:bg-violet-crea-400 hover:text-white hover:border-violet-crea-400 ${selectedScenery === 'todos' ? 'bg-violet-crea-400 text-white border-violet-crea-400 scale-105' : 'border-violet-crea-700'} transition-all`} 
+              className={`w-full py-3 px-10 border rounded-full hover:bg-violet-crea-400 hover:text-white hover:border-violet-crea-400 ${selectedScenery === 'todos' ? 'bg-violet-crea-400 text-white border-violet-crea-400 scale-105' : 'border-violet-crea-700'} transition-all`} 
               onClick={() => handleFilterScenery('todos')}
             >
               <Text_body>Todos</Text_body>
             </button>
             <button 
-              className={`w-full md:min-w-52 py-3 px-10 border rounded-full hover:bg-schedule-violet-100 hover:text-schedule-violet-500 hover:border-schedule-violet-100 ${selectedScenery === 'plenária' ? 'bg-schedule-violet-100 text-schedule-violet-500 border-schedule-violet-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
+              className={`w-full py-3 px-10 border rounded-full hover:bg-schedule-violet-100 hover:text-schedule-violet-500 hover:border-schedule-violet-100 ${selectedScenery === 'plenária' ? 'bg-schedule-violet-100 text-schedule-violet-500 border-schedule-violet-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
               onClick={() => handleFilterScenery('plenária')}
             >
               <Text_body>Plenária</Text_body>
             </button>
             <button 
-              className={`w-full md:min-w-52 py-3 px-10 border rounded-full hover:bg-schedule-blue-100 hover:text-schedule-blue-500 hover:border-schedule-blue-100 ${selectedScenery === 'tech 1' ? 'bg-schedule-blue-100 text-schedule-blue-500 border-schedule-blue-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
+              className={`w-full py-3 px-10 border rounded-full hover:bg-schedule-blue-100 hover:text-schedule-blue-500 hover:border-schedule-blue-100 ${selectedScenery === 'tech 1' ? 'bg-schedule-blue-100 text-schedule-blue-500 border-schedule-blue-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
               onClick={() => handleFilterScenery('tech 1')}
             >
               <Text_body>Tech 1</Text_body>
             </button>
             <button 
-              className={`w-full md:min-w-52 py-3 px-10 border rounded-full hover:bg-schedule-pink-100 hover:schedule-pink-500 hover:border-schedule-pink-100 ${selectedScenery === 'tech 2' ? 'bg-schedule-pink-100 text-schedule-pink-500 border-schedule-pink-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
+              className={`w-full py-3 px-10 border rounded-full hover:bg-schedule-pink-100 hover:schedule-pink-500 hover:border-schedule-pink-100 ${selectedScenery === 'tech 2' ? 'bg-schedule-pink-100 text-schedule-pink-500 border-schedule-pink-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
               onClick={() => handleFilterScenery('tech 2')}
             >
               <Text_body>Tech 2</Text_body>
@@ -119,13 +119,13 @@ export default function Section_schedule ( {} ) {
               `} text={item.scenery}/>
 
             {/* Data time */}
-            <div className="flex flex-ror md:flex-col gap-5 md:text-center md:items-center">
+            <div className="flex flex-col gap-5 md:text-center md:items-center">
               <div>
                 <Text_display_3 className={'font-bold'}>{item.time}</Text_display_3>
                 <Text_head_3 className={'text-violet-crea-300 font-light'}>{item.duration}min</Text_head_3>
               </div>
               {/* Title responsive */}
-              <Text_head_2 className={'font-bold block md:hidden'}>Engenharia com Elas: Conquistas, Desafios e Oportunidades para as Próximas Gerações</Text_head_2>
+              <Text_head_1 className={'font-bold block md:hidden'}>{item.title}</Text_head_1>
             </div>
             
             {/* Data speaker */}

@@ -14,22 +14,16 @@ const navigation = [
     href: "/",
   },
   {
-    name: "Como chegar",
-    href: "/#comoChegar",
-  },
-  {
-    name: "Ingressos",
-    href: "https://www.sympla.com.br/crea-summit-2024__2629588",
-    first: true,
-    blank: true,
+    name: "Palestrantes",
+    href: "/#palestrantes",
   },
   {
     name: "Programação",
     href: "/programacao",
   },
   {
-    name: "Palestrantes",
-    href: "/#palestrantes",
+    name: "Como chegar",
+    href: "/#comoChegar",
   },
   {
     name: "Edições anteriores",

@@ -57,12 +57,12 @@ export default function Section_programs(){
             modules={[Pagination, Autoplay]}
             id="main"
             >
-                <SwiperSlide><Link target="blank" href="https://unicrea.crea-sc.org.br/"><img src="/programs/crea_unicrea.png" alt="Crea Unicrea" className="h-72"/></Link></SwiperSlide>
-                <SwiperSlide><Link target="blank" href="https://entidadesdeclasse.crea-sc.org.br/"><img src="/programs/crea_entidades.png" alt="Crea entidades de classe" className="h-72"/></Link></SwiperSlide>
-                <SwiperSlide><Link target="blank" href="https://acelera.crea-sc.org.br/"><img src="/programs/crea_acelera.png" alt="Crea Acelera" className="h-72"/></Link></SwiperSlide>
-                <SwiperSlide><Link target="blank" href="https://creajovem.crea-sc.org.br/"><img src="/programs/crea_jovem.png" alt="Crea Jovem" className="h-72"/></Link></SwiperSlide>
-                <SwiperSlide><Link target="blank" href="https://www.creajr-sc.org.br/landing/"><img src="/programs/crea_jr.png" alt="Crea JR" className="h-72"/></Link></SwiperSlide>
-                <SwiperSlide><Link target="blank" href="https://inovacao.crea-sc.org.br/"><img src="/programs/crea_inova.png" alt="Crea Inova" className="h-72"/></Link></SwiperSlide>
+                <SwiperSlide><Link target="blank" href="https://unicrea.crea-sc.org.br/"><img src="/programs/crea_unicrea.png" alt="Crea Unicrea" className="h-72 mx-auto"/></Link></SwiperSlide>
+                <SwiperSlide><Link target="blank" href="https://entidadesdeclasse.crea-sc.org.br/"><img src="/programs/crea_entidades.png" alt="Crea entidades de classe" className="h-72 mx-auto"/></Link></SwiperSlide>
+                <SwiperSlide><Link target="blank" href="https://acelera.crea-sc.org.br/"><img src="/programs/crea_acelera.png" alt="Crea Acelera" className="h-72 mx-auto"/></Link></SwiperSlide>
+                <SwiperSlide><Link target="blank" href="https://creajovem.crea-sc.org.br/"><img src="/programs/crea_jovem.png" alt="Crea Jovem" className="h-72 mx-auto"/></Link></SwiperSlide>
+                <SwiperSlide><Link target="blank" href="https://www.creajr-sc.org.br/landing/"><img src="/programs/crea_jr.png" alt="Crea JR" className="h-72 mx-auto"/></Link></SwiperSlide>
+                <SwiperSlide><Link target="blank" href="https://inovacao.crea-sc.org.br/"><img src="/programs/crea_inova.png" alt="Crea Inova" className="h-72 mx-auto"/></Link></SwiperSlide>
             </Swiper>
             </Container>
         </section>

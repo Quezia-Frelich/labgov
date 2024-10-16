@@ -1,33 +1,18 @@
 "use client"
 
-import { useEffect, useState } from "react";
-import { useInView } from 'react-intersection-observer';
+import { InView } from 'react-intersection-observer';
 import Text_display_3 from "../text/text-display-3";
 import Text_body from "../text/text-body";
-import Text_display_2 from "../text/text-display-2";
+import CountUp from 'react-countup';
+
 
 export default function Number_count({ number, before_number, after_number, title, description, animate }) {
 
-  const [newNumber, setNewNumber] = useState(0);
-
-  const { ref:countNumber, inView, entry } = useInView();
-
-  useEffect(() => {
-    if (inView) {
-      let counter = 0;
-      const timer = setInterval(() => {
-        counter++;
-        setNewNumber(counter);
-        if (counter === number) {
-          clearInterval(timer);
-        }
-      }, 1.5);
-    }
-  }, [inView, number]);
-
   return (
-    <div ref={animate && countNumber} className="text-center">
-      <p className="font-bold mb-2 text-4xl">{before_number}{animate ? newNumber : number}{after_number}</p>
+    <InView>
+    {({ inView, ref }) => (
+    <div ref={ref} className="text-center">
+      {inView && <p className="font-bold mb-2 text-4xl">{animate ? <CountUp prefix={before_number} end={number} suffix={after_number} duration={1} /> : number}</p>}
       <div className="flex justify-center items-center gap-2 relative">
         <Text_body className="text-center w-52">{title}</Text_body>
         {description &&
@@ -39,5 +24,8 @@ export default function Number_count({ number, before_number, after_number, titl
         }
       </div>
     </div>
+    )}
+    </InView>
+
   );
 }
