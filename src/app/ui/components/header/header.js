@@ -193,7 +193,7 @@ export default function Header() {
                   </div>
 
                   <div className="flex items-center justify-between gap-5">
-                  <Button_outline href={'https://www.sympla.com.br/crea-summit-2024__2629588'} text={'Garantir meu ingresso'} icon={<ArrowRightIcon className='size-5'/>} className={`items-center rounded-full py-1 md:py-3 px-5 transition-all text-xs md:text-base ${pathName === '/' ? `${headerStiky ? 'bg-violet-crea-400 hover:bg-violet-crea-400 text-white':'bg-white/20 hover:bg-white/10'}` : 'bg-violet-crea-400 hover:bg-violet-crea-400 text-white'}`} target={true}/>
+                  <Button_outline href={'https://www.sympla.com.br/crea-summit-2024__2629588'} text={'Garantir meu ingresso'} icon={<ArrowRightIcon className='size-5'/>} className={`items-center rounded-full py-1 md:py-3 px-5 transition-all hidden md:flex ${pathName === '/' ? `${headerStiky ? 'bg-violet-crea-400 hover:bg-violet-crea-400 text-white':'bg-white/20 hover:bg-white/10'}` : 'bg-violet-crea-400 hover:bg-violet-crea-400 text-white'}`} target={true}/>
 
                   {/* Button Responsive */}
                   <div className="-mr-2 flex xl:hidden">
@@ -291,6 +291,7 @@ export default function Header() {
                       </Disclosure.Button>
                     )
                   )}
+                  <Button_outline href={'https://www.sympla.com.br/crea-summit-2024__2629588'} text={'Garantir meu ingresso'} icon={<ArrowRightIcon className='size-5'/>} className={`items-center justify-between rounded-full py-1 md:py-3 px-5 transition-all mt-5 w-full flex md:hidden ${pathName === '/' ? `${headerStiky ? 'bg-violet-crea-400 hover:bg-violet-crea-400 text-white':'bg-white/20 hover:bg-white/10'}` : 'bg-violet-crea-400 hover:bg-violet-crea-400 text-white'}`} target={true}/>
                 </div>
               </Disclosure.Panel>
             </>
