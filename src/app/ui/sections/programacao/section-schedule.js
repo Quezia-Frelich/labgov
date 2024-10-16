@@ -1,0 +1,173 @@
+'use client'
+
+import Container from "../../components/container/container";
+import Text_display_3 from "../../components/text/text-display-3";
+import Text_head_2 from "../../components/text/text-head-2";
+import Text_body from "../../components/text/text-body";
+import { useState } from "react";
+import Text_head_3 from "../../components/text/text-head-3";
+import Tag from "../../components/tags/tag";
+import { data_schedule_2024 } from "../../../../../data/data-schedule-2024";
+import Text_head_1 from "../../components/text/text-head-1";
+
+export default function Section_schedule ( {} ) {
+
+  const [selectDay, setSelectDay] = useState('22/11'); // Controla el día seleccionado
+  const [selectedScenery, setSelectedScenery] = useState('todos'); // Controla el escenario seleccionado en 23/11
+
+  const handleSelectDay = (day) => {
+    setSelectDay(day);
+    setSelectedScenery('todos'); // Reinicia el filtro de escenario cuando se cambia de día
+  }
+
+  const handleFilterScenery = (scenery) => {
+    setSelectedScenery(scenery);
+  }
+
+  const filteredSchedule = data_schedule_2024.filter(item => {
+    if (item.date !== selectDay) {
+      return false;
+    }
+    if (selectDay === '23/11') {
+      return selectedScenery === 'todos' || item.scenery === selectedScenery;
+    }
+    return true;
+  });
+
+  const showSpecialRenderings = selectDay === '23/11' && selectedScenery === 'todos';
+
+
+  return (
+    <section className="my-10 py-10 flex items-center justify-center">
+      <Container className="space-y-10">
+        {/* Switch date */}
+        <div className="max-w-screen-lg mx-auto text-violet-crea-700 flex justify-between items-center gap-10">
+          <button 
+            className={`w-full py-3 px-10 md:px-20 border-2 rounded-2xl hover:bg-violet-crea-400 hover:text-white hover:border-violet-crea-400 ${selectDay === '22/11' ? 'bg-violet-crea-400 text-white border-violet-crea-400 scale-105' : 'border-violet-crea-700'} transition-all`} 
+            onClick={() => handleSelectDay('22/11')}
+          >
+            <div>
+              <Text_display_3 className={`font-bold`}>22/11</Text_display_3>
+              <Text_body>Sexta feira</Text_body>
+            </div>
+          </button>
+          <button 
+            className={`w-full py-3 px-10 md:px-20 border-2 rounded-2xl hover:bg-violet-crea-400 hover:text-white hover:border-violet-crea-400 ${selectDay === '23/11' ? 'bg-violet-crea-400 text-white border-violet-crea-400 scale-105' : 'border-violet-crea-700'} transition-all`} 
+            onClick={() => handleSelectDay('23/11')}
+          >
+            <div>
+              <Text_display_3 className={`font-bold`}>23/11</Text_display_3>
+              <Text_body>Sábado</Text_body>
+            </div>
+          </button>
+        </div>
+
+        {/* Filter scenary */}
+        {selectDay === '23/11' && (
+          <div className="max-w-screen-lg mx-auto grid grid-cols-2 md:grid-cols-4 gap-5">
+            <button 
+              className={`w-full md:min-w-52 py-3 px-10 border rounded-full hover:bg-violet-crea-400 hover:text-white hover:border-violet-crea-400 ${selectedScenery === 'todos' ? 'bg-violet-crea-400 text-white border-violet-crea-400 scale-105' : 'border-violet-crea-700'} transition-all`} 
+              onClick={() => handleFilterScenery('todos')}
+            >
+              <Text_body>Todos</Text_body>
+            </button>
+            <button 
+              className={`w-full md:min-w-52 py-3 px-10 border rounded-full hover:bg-schedule-violet-100 hover:text-white hover:border-schedule-violet-100 ${selectedScenery === 'plenária' ? 'bg-schedule-violet-100 text-white border-schedule-violet-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
+              onClick={() => handleFilterScenery('plenária')}
+            >
+              <Text_body>Plenária</Text_body>
+            </button>
+            <button 
+              className={`w-full md:min-w-52 py-3 px-10 border rounded-full hover:bg-schedule-blue-100 hover:text-white hover:border-schedule-blue-100 ${selectedScenery === 'tech 1' ? 'bg-schedule-blue-100 text-white border-schedule-blue-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
+              onClick={() => handleFilterScenery('tech 1')}
+            >
+              <Text_body>Tech 1</Text_body>
+            </button>
+            <button 
+              className={`w-full md:min-w-52 py-3 px-10 border rounded-full hover:bg-schedule-pink-100 hover:text-white hover:border-schedule-pink-100 ${selectedScenery === 'tech 2' ? 'bg-schedule-pink-100 text-white border-schedule-pink-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
+              onClick={() => handleFilterScenery('tech 2')}
+            >
+              <Text_body>Tech 2</Text_body>
+            </button>
+          </div>
+        )}
+
+        {/* Show program */}
+        {filteredSchedule.map((item, index) => (
+          <div key={index} className="space-y-10">   
+          {/* Render simultane line */}
+          {showSpecialRenderings && item.firstSimultaneus && (
+            <div>
+              <div className="flex items-center text-schedule-violet-200">
+                <p className={'min-w-44 text-sm'}>Palestras simultâneas</p>
+                <div className="border-b border-schedule-violet-200 w-full"></div>
+              </div>
+            </div>
+          )}           
+
+          {/* Box item */} 
+          <div className={`bg-gray-50 border-l-8 p-5 md:p-10 flex flex-col md:flex-row gap-5 md:gap-10 relative text-violet-crea-600
+            ${item.scenery === 'plenária' && 'border-schedule-violet-200'} 
+            ${item.scenery === 'tech 1' && 'border-schedule-blue-100'} 
+            ${item.scenery === 'tech 2' && 'border-schedule-pink-100'}
+          `}>
+            {/* Tag */}
+            <Tag className={`h-min rounded-full font-normal uppercase text-xs tracking-wider md:absolute top-5 right-5
+              ${item.scenery === 'plenária' && 'bg-schedule-violet-100 text-white'} 
+              ${item.scenery === 'tech 1' && 'bg-schedule-blue-100 text-white'} 
+              ${item.scenery === 'tech 2' && 'bg-schedule-pink-100 text-white'}
+              `} text={item.scenery}/>
+
+            {/* Data time */}
+            <div className="flex flex-ror md:flex-col gap-5 md:text-center md:items-center">
+              <div>
+                <Text_display_3 className={'font-bold'}>{item.time}</Text_display_3>
+                <Text_head_3 className={'text-violet-crea-300 font-light'}>{item.duration}min</Text_head_3>
+              </div>
+              {/* Title responsive */}
+              <Text_head_2 className={'font-bold block md:hidden'}>Engenharia com Elas: Conquistas, Desafios e Oportunidades para as Próximas Gerações</Text_head_2>
+            </div>
+            
+            {/* Data speaker */}
+            <div className="flex flex-col">
+              {/* Title */}
+              <Text_head_2 className={'font-bold hidden md:block'}>{item.title}</Text_head_2>
+
+              {/* Speakers names */}
+              <div className="flex flex-col md:flex-row md:gap-10 mb-5">
+                <Text_body className={'text-violet-crea-400'}>
+                  {item.speakers.map((speaker, index)=>(
+                  <span key={index} className="mr-5">{speaker.fullName} {speaker.fullName}</span> 
+                  ))}
+                </Text_body>
+              </div>
+
+              {/* Speakers profile */}
+              <div className="flex gap-5">
+              {item.speakers.map((speaker, index)=>(
+                <div key={index} className="max-w-12 max-h-12 rounded-md overflow-hidden">
+                  <img src={speaker.profile} alt={speaker.fullName} className="w-full"/>
+                </div>
+              ))}
+              </div>
+            </div>
+
+          </div>
+
+          {/* Render line of the last item */}
+          {showSpecialRenderings && item.lastEvent && (
+              <div className="border-b border-schedule-violet-200 w-full"></div>
+            )}
+
+          {/* Render when is launch time */}
+          {showSpecialRenderings && item.isLunchBreak && (
+            <div className="bg-violet-crea-300 p-5 w-full text-center">
+              <Text_head_2>Pausa para almoço</Text_head_2>
+            </div>
+          )}
+          </div>
+        ))}
+      </Container>
+    </section>
+  );
+}

@@ -16,6 +16,10 @@ const navigation = [
     blank: true,
   },
   {
+    name: "Programação",
+    href: "/programacao",
+  },
+  {
     name: "Patrocine o evento",
     href: "/patrocine-o-evento",
   },

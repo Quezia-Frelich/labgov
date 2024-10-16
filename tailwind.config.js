@@ -40,7 +40,25 @@ module.exports = {
       "pink-summit": {
         400: "#FF007E",
         500: "#270061",
-      }
+      },
+      "schedule-violet": {
+        100: "#C7A4FF",
+        200: "#AE7FFA",
+        300: "#9459F4",
+        400: "#763FCF",
+      },
+      "schedule-blue": {
+        100: "#A4D1FA",
+        200: "#71B2ED",
+        300: "#4A91D5",
+        400: "#3577B5",
+      },
+      "schedule-pink": {
+        100: "#FFA8D8",
+        200: "#F287C2",
+        300: "#ED5CAD",
+        400: "#D03A8D",
+      },
     },
   },
   plugins: [require("tailwindcss-animated")],
