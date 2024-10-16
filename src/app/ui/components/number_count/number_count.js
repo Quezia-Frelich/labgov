@@ -27,7 +27,7 @@ export default function Number_count({ number, before_number, after_number, titl
 
   return (
     <div ref={animate && countNumber} className="text-center">
-      <Text_display_2 className="font-bold mb-2">{before_number}{animate ? newNumber : number}{after_number}</Text_display_2>
+      <p className="font-bold mb-2 text-4xl">{before_number}{animate ? newNumber : number}{after_number}</p>
       <div className="flex justify-center items-center gap-2 relative">
         <Text_body className="text-center w-52">{title}</Text_body>
         {description &&

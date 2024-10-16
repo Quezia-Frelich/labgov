@@ -10,6 +10,14 @@ import Container from "../container/container";
 
 const navigation = [
   {
+    name: "Inicio",
+    href: "/",
+  },
+  {
+    name: "Como chegar",
+    href: "/#comoChegar",
+  },
+  {
     name: "Ingressos",
     href: "https://www.sympla.com.br/crea-summit-2024__2629588",
     first: true,
@@ -20,8 +28,8 @@ const navigation = [
     href: "/programacao",
   },
   {
-    name: "Patrocine o evento",
-    href: "/patrocine-o-evento",
+    name: "Palestrantes",
+    href: "/#palestrantes",
   },
   {
     name: "Edições anteriores",

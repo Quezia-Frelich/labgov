@@ -118,4 +118,28 @@ export const data_palestrantes_2024 = [
         instagram: 'https://www.instagram.com/edilenesourural/',
         linkedin: ''
       },
+    {
+        profile: '/summit-2024/Vinicius Lummertz.png',
+        fullName: 'Vinicius Lummertz',
+        position: 'Presidente do Conselho - Grupo Wish',
+        description: 'Catarinense, ex-ministro do Turismo e ex-presidente da Embratur do governo Temer. Formado em Ciências Políticas pela Universidade Americana de Paris com cursos executivos na Universidade de Harvard e IMD da Suíça. Atualmente, é presidente do Conselho do Grupo Wish de Hotéis e Resorts. É o primeiro fellow brasileiro do Milken Institute, sediado em Los Angeles. É também membro fundador e conselheiro da Aliança dos Municípios da Rota da Seda. ',
+        instagram: '',
+        linkedin: ''
+      },
+    {
+        profile: '/summit-2024/Eike Batista.png',
+        fullName: 'Eike Batista',
+        position: 'Fundador e presidente - Grupo EBX',
+        description: 'Eike Batista é um renomado empresário, conhecido por ter sido um dos homens mais ricos do mundo e criador de projetos bilionários que começam do absoluto zero. Ele utiliza o conceito da Visão de Empreender 360º, um processo que abrange oito aspectos de engenharia: pessoas, financeira, jurídica, política, logística, ambiental e social, marketing, e a própria engenharia da engenharia.',
+        instagram: '',
+        linkedin: ''
+      },
+    {
+        profile: '/summit-2024/Marcos Paulo Hirth.png',
+        fullName: 'Marcos Paulo Hirth',
+        position: 'CEO - HR Soluções em Energia',
+        description: 'Engenheiro Eletricista, Mestre e Doutor em Engenharia Elétrica pela UTFPR. CEO da HR Soluções em Energia, atuando com energia solar fotovoltaica, projetos elétricos e mobilidade elétrica. Além disso, é docente do Programa de Mestrado da UNC e pesquisador, atuando com conversores estáticos de potência, energia renovável e eficiência energética. Atua também como conselheiro da Câmara Especializada em Engenharia Elétrica (CEEE) do CREA-SC, o qual também é Diretor.',
+        instagram: 'https://www.instagram.com/marcoshirth',
+        linkedin: ''
+      },
 ]

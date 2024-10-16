@@ -72,19 +72,19 @@ export default function Section_schedule ( {} ) {
               <Text_body>Todos</Text_body>
             </button>
             <button 
-              className={`w-full md:min-w-52 py-3 px-10 border rounded-full hover:bg-schedule-violet-100 hover:text-white hover:border-schedule-violet-100 ${selectedScenery === 'plenária' ? 'bg-schedule-violet-100 text-white border-schedule-violet-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
+              className={`w-full md:min-w-52 py-3 px-10 border rounded-full hover:bg-schedule-violet-100 hover:text-schedule-violet-500 hover:border-schedule-violet-100 ${selectedScenery === 'plenária' ? 'bg-schedule-violet-100 text-schedule-violet-500 border-schedule-violet-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
               onClick={() => handleFilterScenery('plenária')}
             >
               <Text_body>Plenária</Text_body>
             </button>
             <button 
-              className={`w-full md:min-w-52 py-3 px-10 border rounded-full hover:bg-schedule-blue-100 hover:text-white hover:border-schedule-blue-100 ${selectedScenery === 'tech 1' ? 'bg-schedule-blue-100 text-white border-schedule-blue-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
+              className={`w-full md:min-w-52 py-3 px-10 border rounded-full hover:bg-schedule-blue-100 hover:text-schedule-blue-500 hover:border-schedule-blue-100 ${selectedScenery === 'tech 1' ? 'bg-schedule-blue-100 text-schedule-blue-500 border-schedule-blue-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
               onClick={() => handleFilterScenery('tech 1')}
             >
               <Text_body>Tech 1</Text_body>
             </button>
             <button 
-              className={`w-full md:min-w-52 py-3 px-10 border rounded-full hover:bg-schedule-pink-100 hover:text-white hover:border-schedule-pink-100 ${selectedScenery === 'tech 2' ? 'bg-schedule-pink-100 text-white border-schedule-pink-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
+              className={`w-full md:min-w-52 py-3 px-10 border rounded-full hover:bg-schedule-pink-100 hover:schedule-pink-500 hover:border-schedule-pink-100 ${selectedScenery === 'tech 2' ? 'bg-schedule-pink-100 text-schedule-pink-500 border-schedule-pink-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
               onClick={() => handleFilterScenery('tech 2')}
             >
               <Text_body>Tech 2</Text_body>
@@ -113,9 +113,9 @@ export default function Section_schedule ( {} ) {
           `}>
             {/* Tag */}
             <Tag className={`h-min rounded-full font-normal uppercase text-xs tracking-wider md:absolute top-5 right-5
-              ${item.scenery === 'plenária' && 'bg-schedule-violet-100 text-white'} 
-              ${item.scenery === 'tech 1' && 'bg-schedule-blue-100 text-white'} 
-              ${item.scenery === 'tech 2' && 'bg-schedule-pink-100 text-white'}
+              ${item.scenery === 'plenária' && 'bg-schedule-violet-100 text-schedule-violet-500'} 
+              ${item.scenery === 'tech 1' && 'bg-schedule-blue-100 text-schedule-blue-500'} 
+              ${item.scenery === 'tech 2' && 'bg-schedule-pink-100 text-schedule-pink-500'}
               `} text={item.scenery}/>
 
             {/* Data time */}
@@ -136,8 +136,12 @@ export default function Section_schedule ( {} ) {
               {/* Speakers names */}
               <div className="flex flex-col md:flex-row md:gap-10 mb-5">
                 <Text_body className={'text-violet-crea-400'}>
-                  {item.speakers.map((speaker, index)=>(
-                  <span key={index} className="mr-5">{speaker.fullName} {speaker.fullName}</span> 
+                  {item.speakers.map((speaker, index, array)=>(
+                  <span key={index} className="font-light">
+                    <strong className="font-medium">{speaker.fullName} </strong> 
+                    {speaker.company}
+                    {index < array.length - 1 ? ' - ' : '.'}
+                  </span> 
                   ))}
                 </Text_body>
               </div>

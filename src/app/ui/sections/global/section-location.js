@@ -9,7 +9,7 @@ import GoogleMap from "../../components/maps/map";
 
 export default function Section_location ( { showMap } ) {
   return (
-    <section className="my-10 py-10 flex items-center justify-center">
+    <section className="my-10 py-10 flex items-center justify-center" id="comoChegar">
         <Container>
           <div>
             <Text_display_3 className={'text-violet-crea-400 font-bold mb-5'}>O espaço</Text_display_3>
