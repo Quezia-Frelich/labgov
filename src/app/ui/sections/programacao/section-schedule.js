@@ -66,25 +66,25 @@ export default function Section_schedule ( {} ) {
         {selectDay === '23/11' && (
           <div className="max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-4 gap-5">
             <button 
-              className={`w-full py-3 px-10 border rounded-full hover:bg-violet-crea-400 hover:text-white hover:border-violet-crea-400 ${selectedScenery === 'todos' ? 'bg-violet-crea-400 text-white border-violet-crea-400 scale-105' : 'border-violet-crea-700'} transition-all`} 
+              className={`w-full py-1 px-10 border rounded-full hover:bg-violet-crea-400 hover:text-white hover:border-violet-crea-400 ${selectedScenery === 'todos' ? 'bg-violet-crea-400 text-white border-violet-crea-400 scale-105' : 'border-violet-crea-700'} transition-all`} 
               onClick={() => handleFilterScenery('todos')}
             >
               <Text_body>Todos</Text_body>
             </button>
             <button 
-              className={`w-full py-3 px-10 border rounded-full hover:bg-schedule-violet-100 hover:text-schedule-violet-500 hover:border-schedule-violet-100 ${selectedScenery === 'plenária' ? 'bg-schedule-violet-100 text-schedule-violet-500 border-schedule-violet-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
+              className={`w-full py-1 px-10 border rounded-full hover:bg-schedule-violet-100 hover:text-schedule-violet-500 hover:border-schedule-violet-100 ${selectedScenery === 'plenária' ? 'bg-schedule-violet-100 text-schedule-violet-500 border-schedule-violet-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
               onClick={() => handleFilterScenery('plenária')}
             >
               <Text_body>Plenária</Text_body>
             </button>
             <button 
-              className={`w-full py-3 px-10 border rounded-full hover:bg-schedule-blue-100 hover:text-schedule-blue-500 hover:border-schedule-blue-100 ${selectedScenery === 'tech 1' ? 'bg-schedule-blue-100 text-schedule-blue-500 border-schedule-blue-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
+              className={`w-full py-1 px-10 border rounded-full hover:bg-schedule-blue-100 hover:text-schedule-blue-500 hover:border-schedule-blue-100 ${selectedScenery === 'tech 1' ? 'bg-schedule-blue-100 text-schedule-blue-500 border-schedule-blue-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
               onClick={() => handleFilterScenery('tech 1')}
             >
               <Text_body>Tech 1</Text_body>
             </button>
             <button 
-              className={`w-full py-3 px-10 border rounded-full hover:bg-schedule-pink-100 hover:schedule-pink-500 hover:border-schedule-pink-100 ${selectedScenery === 'tech 2' ? 'bg-schedule-pink-100 text-schedule-pink-500 border-schedule-pink-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
+              className={`w-full py-1 px-10 border rounded-full hover:bg-schedule-pink-100 hover:schedule-pink-500 hover:border-schedule-pink-100 ${selectedScenery === 'tech 2' ? 'bg-schedule-pink-100 text-schedule-pink-500 border-schedule-pink-100 scale-105' : 'border-violet-crea-700'} transition-all`} 
               onClick={() => handleFilterScenery('tech 2')}
             >
               <Text_body>Tech 2</Text_body>

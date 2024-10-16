@@ -1,12 +1,13 @@
 "use client";
 import { Fragment, useEffect } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { ArrowRightIcon, Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { useState } from "react";
 import { useRef } from "react";
 import Container from "../container/container";
+import Button_outline from "../buttons/button_outline";
 
 const navigation = [
   {
@@ -107,7 +108,7 @@ export default function Header() {
                   </Link>
 
                   {/* Nav */}
-                  <div className="hidden md:block">
+                  <div className="hidden xl:block">
                     <div className="ml-5 flex gap-8 items-baseline">
                       {navigation.map((item) =>
                         item.subMenu ? (
@@ -187,11 +188,15 @@ export default function Header() {
                           </Link>
                         )
                       )}
+                      
                     </div>
                   </div>
 
+                  <div className="flex items-center justify-between gap-5">
+                  <Button_outline href={'https://www.sympla.com.br/crea-summit-2024__2629588'} text={'Garantir meu ingresso'} icon={<ArrowRightIcon className='size-5'/>} className={`items-center rounded-full py-1 md:py-3 px-5 transition-all text-xs md:text-base ${pathName === '/' ? `${headerStiky ? 'bg-violet-crea-400 hover:bg-violet-crea-400 text-white':'bg-white/20 hover:bg-white/10'}` : 'bg-violet-crea-400 hover:bg-violet-crea-400 text-white'}`} target={true}/>
+
                   {/* Button Responsive */}
-                  <div className="-mr-2 flex md:hidden">
+                  <div className="-mr-2 flex xl:hidden">
                     <Disclosure.Button
                       ref={menuMobileButton}
                       className="relative inline-flex items-center justify-center rounded-md bg-transparent p-2 text-blue-crea-500 hover:text-blue-crea-500 transition-all"
@@ -211,11 +216,12 @@ export default function Header() {
                       )}
                     </Disclosure.Button>
                   </div>
+                  </div>
                 </div>
               </div>
 
               {/* Nav Responsive */}
-              <Disclosure.Panel className="md:hidden">
+              <Disclosure.Panel className="xl:hidden">
                 <div className={`space-y-7 px-2 py-8 sm:px-5 ${pathName === '/' && 'bg-white/20'} backdrop-blur-lg bg-white ${headerStiky ? 'bg-white': `${pathName === '/' && 'shadow-lg'}`} focus:outline-none rounded-lg`}>
                   {navigation.map((item) =>
                     item.subMenu ? (

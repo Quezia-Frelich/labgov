@@ -31,13 +31,13 @@ export const data_schedule_2024 = [
         duration: '60',
         speakers: [
           { 
-            profile: '/summit-2024/generic.png',
+            profile: '/summit-2024/Eike Batista.png',
             fullName: 'Elke Batista', 
             company: 'Grupo EBX'
           },
           { 
-            profile: '/summit-2024/generic.png',
-            fullName: 'EVinicius Lummertz', 
+            profile: '/summit-2024/Vinicius Lummertz.png',
+            fullName: 'Vinicius Lummertz', 
             company: 'Grupo Wish'
           },
           { 
@@ -146,7 +146,7 @@ export const data_schedule_2024 = [
             company: 'Expo Centro'
           },
           { 
-            profile: '/summit-2024/generic.png',
+            profile: '/summit-2024/Marcos Paulo Hirth.png',
             fullName: 'Marcos Paulo Hirth', 
             company: 'HR Soluções em Energia'
           },
