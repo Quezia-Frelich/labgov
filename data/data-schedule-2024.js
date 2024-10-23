@@ -41,7 +41,7 @@ export const data_schedule_2024 = [
             company: 'Grupo Wish'
           },
           { 
-            profile: '/summit-2024/generic.png',
+            profile: '/summit-2024/Delton Batista.png',
             fullName: 'Delton Batista', 
             company: 'Sistema LIDE RS SC'
           },
@@ -170,8 +170,8 @@ export const data_schedule_2024 = [
             company: 'CREA-SC'
           },
           { 
-            profile: '/summit-2024/generic.png',
-            fullName: 'Everton  Lourenço', 
+            profile: '/summit-2024/Everton Lourenço.png',
+            fullName: 'Everton Lourenço', 
             company: 'Monetizando Negócios'
           },
         ],
@@ -269,9 +269,9 @@ export const data_schedule_2024 = [
             company: 'CREA-SC'
           },
           { 
-            profile: '/summit-2024/generic.png',
-            fullName: 'A definir', 
-            company: '-'
+            profile: '/summit-2024/Raquel Cardamone.png',
+            fullName: 'Raquel Cardamone', 
+            company: 'Bright Cities'
           },
         ],
         firstSimultaneus: true,
@@ -318,7 +318,7 @@ export const data_schedule_2024 = [
             company: 'UNIVALI'
           },
           { 
-            profile: '/summit-2024/generic.png',
+            profile: '/summit-2024/Fabiola Sena.png',
             fullName: 'Fabiola Sena', 
             company: 'FSET'
           },
