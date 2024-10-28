@@ -16,7 +16,7 @@ export default function Section_welcome () {
         <source src='/video/crea_summit_video.mp4' type='video/mp4' />
         <source src='/video/crea_summit_video.webm' type='video/webm' />
         <source src='/video/crea_summit_video.ogg' type='video/ogg' />
-        Tu navegador no soporta la reproducción de video.
+        
       </video>
 
       <div className='absolute top-0 z-20 opacity-70 bg-radial-gradient h-screen w-full mix-blend-multiply'></div>
