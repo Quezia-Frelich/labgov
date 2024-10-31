@@ -7,12 +7,12 @@ export const data_schedule_2024 = [
         duration: '30',
         speakers: [
           { 
-            profile: '/summit-2024/generic.png',
-            fullName: 'Carlos A. Kita Xavier', 
+            profile: '/summit-2024/Kita Xavier.jpeg',
+            fullName: 'Kita Xavier', 
             company: 'CREA-SC'
           },
           { 
-            profile: '/summit-2024/generic.png',
+            profile: '/summit-2024/Vinicius Marchese.jpg',
             fullName: 'Vinicius Marchese', 
             company: 'CONFEA'
           },
@@ -170,6 +170,11 @@ export const data_schedule_2024 = [
             company: 'CREA-SC'
           },
           { 
+            profile: '/summit-2024/Rodrigo Bianchetti.jpg',
+            fullName: 'Rodrigo Bianchetti', 
+            company: 'Labofcodes'
+          },
+          { 
             profile: '/summit-2024/Everton Lourenço.png',
             fullName: 'Everton Lourenço', 
             company: 'Monetizando Negócios'
@@ -185,12 +190,12 @@ export const data_schedule_2024 = [
         duration: '50',
         speakers: [
           { 
-            profile: '/summit-2024/generic.png',
-            fullName: 'Carlos A. Kita Xavier', 
+            profile: '/summit-2024/Kita Xavier.jpeg',
+            fullName: 'Kita Xavier', 
             company: 'CREA-SC'
           },
           { 
-            profile: '/summit-2024/generic.png',
+            profile: '/summit-2024/Vinicius Marchese.jpg',
             fullName: 'Vinicius Marchese', 
             company: 'CONFEA'
           },
@@ -326,6 +331,21 @@ export const data_schedule_2024 = [
             profile: '/summit-2024/Edilene Steinwandter.png',
             fullName: 'Edilene Steinwandter', 
             company: 'Epagri'
+          },
+        ],
+        lastEvent: true,
+      },
+      {
+        title: 'MUTUA-SC',
+        date:'23/11',
+        scenery:'plenária',
+        time: '16:10',
+        duration: '15',
+        speakers: [
+          { 
+            profile: '/summit-2024/generic.png',
+            fullName: 'A definir', 
+            company: 'MUTUA-SC'
           },
         ],
         lastEvent: true,
