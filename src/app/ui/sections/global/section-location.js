@@ -6,6 +6,8 @@ import Text_display_3 from "../../components/text/text-display-3";
 import Text_head_1 from "../../components/text/text-head-1";
 import Text_link from "../../components/text/text-link";
 import GoogleMap from "../../components/maps/map";
+import Text_display_1 from "../../components/text/text-display-1";
+import Text_body from "../../components/text/text-body";
 
 export default function Section_location ( { showMap } ) {
   return (
@@ -21,6 +23,9 @@ export default function Section_location ( { showMap } ) {
                   <MapPinIcon className='size-6'/> 
                   Av. Marginal Oeste Nova Esperança, Balneário Camboriú
                 </Text_link>
+                <Text_body className={''}>
+                  <span className="font-extrabold pl-1 text-xl pr-2 text-lg">P</span>O local possui estacionamento para aproximadamente 1.000 veículos e custa R$ 60,00 cada vez que for utilizado
+                </Text_body>
               </div>
             </div>
 
