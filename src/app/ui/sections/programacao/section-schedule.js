@@ -140,7 +140,7 @@ export default function Section_schedule ( {} ) {
                   <span key={index} className="font-light">
                     <strong className="font-medium">{speaker.fullName} </strong> 
                     {speaker.company}
-                    {index < array.length - 1 ? ' - ' : '.'}
+                    {index < array.length - 1 ? <span className="text-xl">{' | '}</span> : '.'}
                   </span> 
                   ))}
                 </Text_body>
