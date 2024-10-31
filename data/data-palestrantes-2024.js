@@ -1,5 +1,21 @@
 export const data_palestrantes_2024 = [
     {
+      profile: '/summit-2024/Kita Xavier.jpeg',
+      fullName: 'Kita Xavier',
+      position: 'Presidente - Crea-SC',
+      description: 'Eng. Civil e de Segurança do Trabalho, apaixonado por gestão de pessoas, engenharia, inovação e transformação tecnológica. Em prol do desenvolvimento de Santa Catarina e da engenharia catarinense, foi eleito quatro vezes presidente do Crea-SC, sendo gestor até o momento. Presidiu a Associação dos Conselhos Profissionais de SC em 2015/2016. Esteve à frente da EMASA/Balneário Camboriú, em 2020, como diretor técnico e por 24 anos foi responsável técnico da Construtora Zita, na Grande Florianópolis.',
+      instagram: 'https://www.instagram.com/kitaxaviersc/',
+      linkedin: 'https://www.linkedin.com/in/kita-xavier-278732233/'
+    },
+    {
+      profile: '/summit-2024/Vinicius Marchese.jpg',
+      fullName: 'Vinicius Marchese',
+      position: 'Presidente - Confea',
+      description: 'Mestrando em Cidades Inteligentes e Sustentáveis pela UNINOVE. Graduado em Engenharia de Telecomunicações, com especializações em Universidades como Mackenzie, Dublin Business School e UNIVESP de São Paulo. Ex-presidente do Crea-SP. Atual Presidente do Confea. É responsável por definir as estratégias de atuação do Conselho para todo o Brasil, com impacto em +1M profissionais registrados.',
+      instagram: 'https://www.instagram.com/viniciusmarchese/',
+      linkedin: 'https://www.linkedin.com/in/viniciusmarchese/'
+    },
+    {
       profile: '/summit-2024/Eike Batista.png',
       fullName: 'Eike Batista',
       position: 'Fundador e presidente - Grupo EBX',
@@ -93,6 +109,14 @@ export const data_palestrantes_2024 = [
         description: 'Coordenador da Assessoria de Integração Profissional do CREA-SC, responsável pelos programas CREA Jr e CREA Jovem. Com experiência em liderança, inovação e empreendedorismo, Rodrigo possui MBA em Liderança, Inovação e Gestão 4.0 pela PUCRS, além de ser Tecnólogo em Gestão Ambiental. No CREA-SC, liderou o desenvolvimento de diversas ações de melhorias de processos, novos produtos e inovação.',
         instagram: 'https://www.instagram.com/rrespindola/',
         linkedin: 'https://www.linkedin.com/in/rodrigoesp%C3%ADndola/'
+      },
+      {
+        profile: '/summit-2024/Rodrigo Bianchetti.jpg',
+        fullName: 'Rodrigo Bianchetti',
+        position: 'CEO - LAB OF CODES',
+        description: 'Consultor de Inovação e Transformação Digital para o Setor Público e CEO da LAB OF CODES, startup especializada em inovação, transformação digital e governança digital para o setor público. Graduado em Ciências da Computação, com pós-graduação em Desenvolvimento de Aplicações WEB e especialização em Gestão de Pessoas, possui certificação PMP e mais de 30 anos de experiência em projetos públicos no Brasil, América Central e EUA. Atua com consultoria, capacitação e mentoria, aplicando metodologias de transformação digital e inovação.',
+        instagram: '',
+        linkedin: 'https://www.linkedin.com/in/rodrigo-bianchetti/'
       },
       {
         profile: '/summit-2024/Everton Lourenço.png',

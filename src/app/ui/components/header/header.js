@@ -1,7 +1,11 @@
 "use client";
 import { Fragment, useEffect } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { ArrowRightIcon, Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import {
+  ArrowRightIcon,
+  Bars3Icon,
+  XMarkIcon,
+} from "@heroicons/react/24/outline";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { useState } from "react";
@@ -18,10 +22,14 @@ const navigation = [
     name: "Palestrantes",
     href: "/#palestrantes",
   },
-/*   {
+  {
     name: "Programação",
     href: "/programacao",
-  }, */
+  },
+  {
+    name: "Guia do evento",
+    href: "/guia-evento",
+  },
   {
     name: "Como chegar",
     href: "/#comoChegar",
@@ -31,11 +39,13 @@ const navigation = [
     href: "/",
     subMenu: true,
     subMenuItem: [
-      { subItem: {
+      {
+        subItem: {
           subName: "Summit 2023",
           subHref: "/summit-2023",
-        }},
-    ]
+        },
+      },
+    ],
   },
 ];
 
@@ -71,40 +81,69 @@ export default function Header() {
 
   return (
     <>
-      <div className={`text-lg w-full top-0 z-50  animate-duration-300 ${pathName === '/' ? `${headerStiky ? 'bg-white fixed animate-fade-down text-violet-crea-800':'bg-transparent absolute text-white'}` : 'bg-white sticky animate-fade-down text-violet-crea-800'}`}>
+      <div
+        className={`text-lg w-full top-0 z-50  animate-duration-300 ${
+          pathName === "/"
+            ? `${
+                headerStiky
+                  ? "bg-white fixed animate-fade-down text-violet-crea-800"
+                  : "bg-transparent absolute text-white"
+              }`
+            : "bg-white sticky animate-fade-down text-violet-crea-800"
+        }`}
+      >
         <Container>
           <Disclosure as="nav">
             {({ open }) => (
               <>
                 <div className="mx-auto max-w-screen-xl py-5 px-4 xl:px-0 sm:px-6 lg:px-8">
                   <div className="flex h-16 items-center justify-between">
-                    <Link className="w-52" href={"/"}>
-                      {pathName === '/' ? (
+                    <Link className="w-49" href={"/"}>
+                      {pathName === "/" ? (
                         <>
                           {headerStiky ? (
-                            <img src={'/brand/Crea_summit_2024_color.png'} className="w-24" alt="Crea Summit 2024 Logo"/>
+                            <img
+                              src={"/brand/Crea_summit_2024_color.png"}
+                              className="w-24"
+                              alt="Crea Summit 2024 Logo"
+                            />
                           ) : (
-                            <img src={'/brand/Crea_summit_2024_white.png'} className="w-24" alt="Crea Summit 2024 Logo"/>
+                            <img
+                              src={"/brand/Crea_summit_2024_white.png"}
+                              className="w-24"
+                              alt="Crea Summit 2024 Logo"
+                            />
                           )}
                         </>
                       ) : (
-                        <img src={'/brand/Crea_summit_2024_color.png'} className="w-24" alt="Crea Summit 2024 Logo"/>
+                        <img
+                          src={"/brand/Crea_summit_2024_color.png"}
+                          className="w-24"
+                          alt="Crea Summit 2024 Logo"
+                        />
                       )}
                     </Link>
 
                     <div className="hidden xl:block">
-                      <div className="ml-5 flex gap-8 items-baseline">
+                      <div className="ml-5 flex gap-5 items-baseline">
                         {navigation.map((item) => (
                           <Fragment key={item.name}>
                             {item.subMenu ? (
                               <Menu
                                 as="div"
                                 className="relative inline-block text-left"
-                                onMouseEnter={() => handleSubMenuOpen(item.name)}
-                                onMouseLeave={() => handleSubMenuClose(item.name)}
+                                onMouseEnter={() =>
+                                  handleSubMenuOpen(item.name)
+                                }
+                                onMouseLeave={() =>
+                                  handleSubMenuClose(item.name)
+                                }
                               >
                                 <Menu.Button
-                                  className={`h-4 flex items-center text-base px-3 ${pathName === item.href && "font-light hover:font-semibold transition-all"}`}
+                                  className={`h-4 flex items-center text-base px-3 ${
+                                    pathName === item.href &&
+                                    "font-light hover:font-semibold transition-all"
+                                  }`}
                                 >
                                   {item.name}
                                 </Menu.Button>
@@ -118,7 +157,15 @@ export default function Header() {
                                   leaveFrom="transform opacity-100 scale-100"
                                   leaveTo="transform opacity-0 scale-95"
                                 >
-                                  <Menu.Items className={`absolute top-10 left-0 w-60 px-5 origin-top-left divide-y divide-gray-100 ${pathName === '/' && headerStiky ? 'bg-white' : 'bg-white/20'} backdrop-blur-md bg-white ${headerStiky && 'bg-white'} shadow-lg focus:outline-none rounded-lg`}>
+                                  <Menu.Items
+                                    className={`absolute top-10 left-0 w-60 px-5 origin-top-left divide-y divide-gray-100 ${
+                                      pathName === "/" && headerStiky
+                                        ? "bg-white"
+                                        : "bg-white/20"
+                                    } backdrop-blur-md bg-white ${
+                                      headerStiky && "bg-white"
+                                    } shadow-lg focus:outline-none rounded-lg`}
+                                  >
                                     {item.subMenuItem.map((subItem) => (
                                       <Menu.Item key={subItem.subItem.subName}>
                                         <Link
@@ -135,7 +182,7 @@ export default function Header() {
                             ) : (
                               <Link
                                 href={item.href}
-                                target={item.blank ? '_blank' : undefined}
+                                target={item.blank ? "_blank" : undefined}
                                 className={`h-4 flex items-center text-base px-3 ${
                                   item.first ? "border-none" : ""
                                 } ${
@@ -171,11 +218,21 @@ export default function Header() {
                     </div>
 
                     <div className="flex items-center justify-between gap-5">
-                      <Button_outline 
-                        href={'https://www.sympla.com.br/crea-summit-2024__2629588'} 
-                        text={'Garantir meu ingresso'} 
-                        icon={<ArrowRightIcon className='size-5'/>} 
-                        className={`items-center rounded-full py-1 md:py-3 px-5 transition-all hidden md:flex ${pathName === '/' ? `${headerStiky ? 'bg-violet-crea-400 hover:bg-violet-crea-400 text-white':'bg-white/20 hover:bg-white/10'}` : 'bg-violet-crea-400 hover:bg-violet-crea-400 text-white'}`} 
+                      <Button_outline
+                        href={
+                          "https://www.sympla.com.br/crea-summit-2024__2629588"
+                        }
+                        text={"Ingresso"}
+                        icon={<ArrowRightIcon className="size-5" />}
+                        className={`items-center rounded-full py-1 md:py-3 px-5 transition-all hidden md:flex ${
+                          pathName === "/"
+                            ? `${
+                                headerStiky
+                                  ? "bg-violet-crea-400 hover:bg-violet-crea-400 text-white"
+                                  : "bg-white/20 hover:bg-white/10"
+                              }`
+                            : "bg-violet-crea-400 hover:bg-violet-crea-400 text-white"
+                        }`}
                         target={true}
                       />
 
@@ -187,9 +244,15 @@ export default function Header() {
                           <span className="absolute -inset-0.5" />
                           <span className="sr-only">Open main menu</span>
                           {open ? (
-                            <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
+                            <XMarkIcon
+                              className="block h-6 w-6"
+                              aria-hidden="true"
+                            />
                           ) : (
-                            <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
+                            <Bars3Icon
+                              className="block h-6 w-6"
+                              aria-hidden="true"
+                            />
                           )}
                         </Disclosure.Button>
                       </div>
@@ -198,22 +261,36 @@ export default function Header() {
                 </div>
 
                 <Disclosure.Panel className="xl:hidden">
-                  <div className={`space-y-7 px-2 py-8 sm:px-5 ${pathName === '/' && 'bg-white/20'} backdrop-blur-lg bg-white ${headerStiky ? 'bg-white': `${pathName === '/' && 'shadow-lg'}`} focus:outline-none rounded-lg`}>
+                  <div
+                    className={`space-y-7 px-2 py-8 sm:px-5 ${
+                      pathName === "/" && "bg-white/20"
+                    } backdrop-blur-lg bg-white ${
+                      headerStiky
+                        ? "bg-white"
+                        : `${pathName === "/" && "shadow-lg"}`
+                    } focus:outline-none rounded-lg`}
+                  >
                     {navigation.map((item) => (
                       <Fragment key={item.name}>
                         {item.subMenu ? (
                           <Disclosure>
-                            <Disclosure.Button className={`border-blue-crea-500 h-4 flex items-center text-base px-2`}>
+                            <Disclosure.Button
+                              className={`border-blue-crea-500 h-4 flex items-center text-base px-2`}
+                            >
                               {item.name}
                             </Disclosure.Button>
                             <Disclosure.Panel className="px-5 divide-y divide-gray-200">
                               {item.subMenuItem.map((subItem) => (
                                 <Link
                                   key={subItem.subItem.subName}
-                                  onClick={() => menuMobileButton.current.click()}
+                                  onClick={() =>
+                                    menuMobileButton.current.click()
+                                  }
                                   href={subItem.subItem.subHref}
                                   className={`py-3 border-blue-crea-500 flex items-center text-base px-2 ${
-                                    pathName === `${item.href}` ? "font-bold border-l-2" : "font-light"
+                                    pathName === `${item.href}`
+                                      ? "font-bold border-l-2"
+                                      : "font-light"
                                   }`}
                                 >
                                   {subItem.subItem.subName}
@@ -254,11 +331,21 @@ export default function Header() {
                         )}
                       </Fragment>
                     ))}
-                    <Button_outline 
-                      href={'https://www.sympla.com.br/crea-summit-2024__2629588'} 
-                      text={'Garantir meu ingresso'} 
-                      icon={<ArrowRightIcon className='size-5'/>} 
-                      className={`items-center justify-between rounded-full py-1 md:py-3 px-5 transition-all mt-5 w-full flex md:hidden ${pathName === '/' ? `${headerStiky ? 'bg-violet-crea-400 hover:bg-violet-crea-400 text-white':'bg-white/20 hover:bg-white/10'}` : 'bg-violet-crea-400 hover:bg-violet-crea-400 text-white'}`} 
+                    <Button_outline
+                      href={
+                        "https://www.sympla.com.br/crea-summit-2024__2629588"
+                      }
+                      text={"Ingresso"}
+                      icon={<ArrowRightIcon className="size-5" />}
+                      className={`items-center justify-between rounded-full py-1 md:py-3 px-5 transition-all mt-5 w-full flex md:hidden ${
+                        pathName === "/"
+                          ? `${
+                              headerStiky
+                                ? "bg-violet-crea-400 hover:bg-violet-crea-400 text-white"
+                                : "bg-white/20 hover:bg-white/10"
+                            }`
+                          : "bg-violet-crea-400 hover:bg-violet-crea-400 text-white"
+                      }`}
                       target={true}
                     />
                   </div>
