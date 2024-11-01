@@ -23,7 +23,6 @@ export default function Section_sponsors ( {} ) {
               <img src="/brand/confeacrea-color.png" className="rounded-lg max-h-12"/>
               <img src="/brand/Crea_SC-color.png" className="rounded-lg max-h-12"/>
               <img src="/brand/Mutua-SC-color.png" className="rounded-lg max-h-12"/>
-              <img src="/brand/balneario camboriu.png" className="rounded-lg max-h-12"/>
             </div>
           </div>
 
@@ -33,6 +32,7 @@ export default function Section_sponsors ( {} ) {
               <img src="/brand/ACATE.png" className="rounded-lg max-h-12"/>
               <img src="/brand/SEBRAE.png" className="rounded-lg max-h-12"/>
               <img src="/brand/CREDCREA.png" className="rounded-lg max-h-12"/>
+              <img src="/brand/balneario camboriu.png" className="rounded-lg max-h-12"/>
             </div>
           </div>
         </Container>

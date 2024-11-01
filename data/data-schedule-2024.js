@@ -211,7 +211,7 @@ export const data_schedule_2024 = [
   },
   {
     title:
-      "Conexão Portugal: Tecnologias de Hidrogénio para Eficiência Energética e Descarbonização",
+      "Tecnologias disruptivas: Hidrogênio para a Eficiência Energética e Descarbonização",
     date: "23/11",
     scenery: "plenária",
     time: "11:00",
@@ -358,7 +358,7 @@ export const data_schedule_2024 = [
     title: "Maior Edifício Residencial do Mundo",
     date: "23/11",
     scenery: "plenária",
-    time: "16:10",
+    time: "16:25",
     duration: "50",
     speakers: [
       {
