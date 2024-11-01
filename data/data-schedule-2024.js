@@ -219,8 +219,8 @@ export const data_schedule_2024 = [
     speakers: [
       {
         profile: "/summit-2024/generic.png",
-        fullName: "A definir",
-        company: "UTIS",
+        fullName: "Fabiano Souza",
+        company: "UTIS Brasil",
       },
     ],
     isLunchBreak: true,
