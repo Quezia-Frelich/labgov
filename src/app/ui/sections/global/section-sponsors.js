@@ -33,6 +33,8 @@ export default function Section_sponsors ( {} ) {
               <img src="/brand/SEBRAE.png" className="rounded-lg max-h-12"/>
               <img src="/brand/CREDCREA.png" className="rounded-lg max-h-12"/>
               <img src="/brand/balneario camboriu.png" className="rounded-lg max-h-12"/>
+              <img src="/brand/logo rede cat.png" className="rounded-lg max-h-12"/>
+              <img src="/brand/scgovbr.webp" className="rounded-lg max-h-12"/>
             </div>
           </div>
         </Container>
