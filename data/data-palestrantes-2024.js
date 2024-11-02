@@ -178,7 +178,7 @@ export const data_palestrantes_2024 = [
         profile: '/summit-2024/Fabiola Sena.png',
         fullName: 'Fabiola Sena',
         position: 'Fundadora - FSET',
-        description: 'Raquel Cardamone, especialista em cidades inteligentes e fundadora da Bright Cities, tem mais de 20 anos de experiência no setor empresarial. Graduada em Administração pela FACAMP, é professora e pesquisadora em Smart Cities na UNICAMP, INSPER, PUCPR e Unianchieta. Com passagens por IBM, MARS INC. e Grupo Abril, iniciou sua trajetória empreendedora em 2013 com a Bright Consulting, e desde 2015 foca em soluções para cidades mais sustentáveis, sendo referência no setor.',
+        description: 'Fabiola Sena é fundadora da FSET, consultoria especializada em regulação e mercado de energia, e co-fundadora da Head Energia, escola especializada no setor elétrico. É engenheira eletricista com mestrado e doutorado em engenharia elétrica pela UFSC. Fabiola possui mais de 30 anos de experiência em mercados de energia, dos quais 20 anos como executiva em multinacionais do setor.',
         instagram: '',
         linkedin: ''
       },
