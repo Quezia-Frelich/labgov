@@ -17,14 +17,14 @@ export const data_palestrantes_2024 = [
     instagram: "https://www.instagram.com/viniciusmarchese/",
     linkedin: "https://www.linkedin.com/in/viniciusmarchese/",
   },
-  {
-    profile: "/summit-2024/Joel Kruger.jpg",
-    fullName: "Joel Krüger",
-    position: "Presidente - MUTUA",
-    description: "",
-    instagram: "",
-    linkedin: "",
-  },
+  // {
+  //   profile: "/summit-2024/Joel Kruger.jpg",
+  //   fullName: "Joel Krüger",
+  //   position: "Presidente - MUTUA",
+  //   description: "",
+  //   instagram: "",
+  //   linkedin: "",
+  // },
   {
     profile: "/summit-2024/Eike Batista.png",
     fullName: "Eike Batista",
