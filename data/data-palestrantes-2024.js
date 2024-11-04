@@ -18,6 +18,14 @@ export const data_palestrantes_2024 = [
     linkedin: "https://www.linkedin.com/in/viniciusmarchese/",
   },
   {
+    profile: "/summit-2024/Joel Kruger.jpg",
+    fullName: "Joel Krüger",
+    position: "Presidente - MUTUA",
+    description: "",
+    instagram: "",
+    linkedin: "",
+  },
+  {
     profile: "/summit-2024/Eike Batista.png",
     fullName: "Eike Batista",
     position: "Fundador e presidente - Grupo EBX",
@@ -34,6 +42,24 @@ export const data_palestrantes_2024 = [
       "Catarinense, ex-ministro do Turismo e ex-presidente da Embratur do governo Temer. Formado em Ciências Políticas pela Universidade Americana de Paris com cursos executivos na Universidade de Harvard e IMD da Suíça. Atualmente, é presidente do Conselho do Grupo Wish de Hotéis e Resorts. É o primeiro fellow brasileiro do Milken Institute, sediado em Los Angeles. É também membro fundador e conselheiro da Aliança dos Municípios da Rota da Seda. ",
     instagram: "",
     linkedin: "",
+  },
+  {
+    profile: "/summit-2024/Felipe Penter.png",
+    fullName: "Felipe Penter",
+    position: "Chefe de Gabinete - Crea-SC",
+    description: "",
+    instagram: "",
+    linkedin: "",
+  },
+  {
+    profile: "/summit-2024/Luiz Henrique Pellegrini.png",
+    fullName: "Luiz Henrique Pellegrini",
+    position: "Superintendente - Crea-SC",
+    description:
+      "Engenheiro Civil pela UFSC, Pós-Graduado em Perícia, Auditoria e Gestão Ambiental, Faculdade Oswaldo Cruz/SP. Atuou na coordenação de equipes de projetos, supervisão e fiscalização de obras rodoviárias. Em posição estratégica no Conselho, idealizou projetos na área de inovação como o CREA Summit, Unicrea e Rede de Embaixadores. Entusiasta do assunto, em 2024 inicia Mestrado na UFSC em Cidades Inteligentes. Superintendente do CREA-SC, de 2008 a 2018, retorna para a função em 2021.",
+    instagram: "",
+    linkedin:
+      "https://www.linkedin.com/in/luiz-henrique-pellegrini-610b0067?originalSubdomain=br",
   },
   {
     profile: "/summit-2024/Delton Batista.png",
@@ -171,16 +197,6 @@ export const data_palestrantes_2024 = [
     linkedin: "https://www.linkedin.com/in/thaisnahas/",
   },
   {
-    profile: "/summit-2024/Luiz Henrique Pellegrini.png",
-    fullName: "Luiz Henrique Pellegrini",
-    position: "Superintendente - Crea-SC",
-    description:
-      "Engenheiro Civil pela UFSC, Pós-Graduado em Perícia, Auditoria e Gestão Ambiental, Faculdade Oswaldo Cruz/SP. Atuou na coordenação de equipes de projetos, supervisão e fiscalização de obras rodoviárias. Em posição estratégica no Conselho, idealizou projetos na área de inovação como o CREA Summit, Unicrea e Rede de Embaixadores. Entusiasta do assunto, em 2024 inicia Mestrado na UFSC em Cidades Inteligentes. Superintendente do CREA-SC, de 2008 a 2018, retorna para a função em 2021.",
-    instagram: "",
-    linkedin:
-      "https://www.linkedin.com/in/luiz-henrique-pellegrini-610b0067?originalSubdomain=br",
-  },
-  {
     profile: "/summit-2024/Raquel Cardamone.png",
     fullName: "Raquel Cardamone",
     position: "CEO - Bright Cities",
@@ -197,15 +213,6 @@ export const data_palestrantes_2024 = [
       "Fundador/CEO do FazendaCheia e atual Diretor da Vertical Agtech ACATE. É especialista em Gestão de Projetos e Mestre em Engenharia e Gestão do Conhecimento com mais de 15 anos de experiência em desenvolvimento e gestão de projetos de software.",
     instagram: "https://www.instagram.com/vzacarkim/",
     linkedin: "https://www.linkedin.com/in/valder-zacarkim/",
-  },
-
-  {
-    profile: "/summit-2024/Felipe Penter.png",
-    fullName: "Felipe Penter",
-    position: "Chefe de Gabinete - Crea-SC",
-    description: "",
-    instagram: "",
-    linkedin: "",
   },
   {
     profile: "/summit-2024/Caroline Pimenta.png",
