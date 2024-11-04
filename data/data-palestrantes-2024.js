@@ -107,6 +107,15 @@ export const data_palestrantes_2024 = [
     linkedin: "https://www.linkedin.com/in/thaisnahas/",
   },
   {
+    profile: "/summit-2024/Luiz Henrique Pellegrini.png",
+    fullName: "Luiz Henrique Pellegrini",
+    position: "Superintendente - Crea-SC",
+    description:
+      "Engenheiro Civil pela UFSC, Pós-Graduado em Perícia, Auditoria e Gestão Ambiental, Faculdade Oswaldo Cruz/SP. Atuou na coordenação de equipes de projetos, supervisão e fiscalização de obras rodoviárias. Em posição estratégica no Conselho, idealizou projetos na área de inovação como o CREA Summit, Unicrea e Rede de Embaixadores. Entusiasta do assunto, em 2024 inicia Mestrado na UFSC em Cidades Inteligentes. Superintendente do CREA-SC, de 2008 a 2018, retorna para a função em 2021.",
+    instagram: "https://www.instagram.com/pellegrini01/",
+    linkedin: "https://www.linkedin.com/in/luiz-henrique-pellegrini",
+  },
+  {
     profile: "/summit-2024/Raquel Cardamone.png",
     fullName: "Raquel Cardamone",
     position: "Especialista em Cidades Inteligentes - Bright Cities",
@@ -114,16 +123,6 @@ export const data_palestrantes_2024 = [
       "Raquel Cardamone é especialista em cidades inteligentes e fundadora da Bright Cities, com mais de 20 anos de experiência empresarial em empresas como IBM, MARS INC. e Grupo Abril. Graduada em Administração pela FACAMP, é professora, pesquisadora e membro da ABNT/CEE-268. Em 2013, fundou a Bright Consulting e, desde 2015, dedica-se às cidades inteligentes, participando de eventos como o Smart City Expo World Congress e promovendo soluções para cidades mais sustentáveis e resilientes.",
     instagram: "https://www.instagram.com/bright_cities_/",
     linkedin: "https://www.linkedin.com/in/raquel-cardamone-7b76b712/",
-  },
-  {
-    profile: "/summit-2024/Luiz Henrique Pellegrini.png",
-    fullName: "Luiz Henrique Pellegrini",
-    position: "Superintendente - Crea-SC",
-    description:
-      "Engenheiro Civil pela UFSC, Pós-Graduado em Perícia, Auditoria e Gestão Ambiental, Faculdade Oswaldo Cruz/SP. Atuou na coordenação de equipes de projetos, supervisão e fiscalização de obras rodoviárias. Em posição estratégica no Conselho, idealizou projetos na área de inovação como o CREA Summit, Unicrea e Rede de Embaixadores. Entusiasta do assunto, em 2024 inicia Mestrado na UFSC em Cidades Inteligentes. Superintendente do CREA-SC, de 2008 a 2018, retorna para a função em 2021.",
-    instagram: "",
-    linkedin:
-      "https://www.linkedin.com/in/luiz-henrique-pellegrini-610b0067?originalSubdomain=br",
   },
   {
     profile: "/summit-2024/Rogério Bonini Ruiz.png",
@@ -215,6 +214,15 @@ export const data_palestrantes_2024 = [
     linkedin: "",
   },
   {
+    profile: "/summit-2024/Kesia Alves da Silva.png",
+    fullName: "Késia Alves da Silva",
+    position: "Diretora - Conexão BIM",
+    description:
+      "Eng. Civil Késia Alves da Silva MBA em Plataforma BIM. 26 anos de experiência em Projetos, obras, orçamento planejamento e implementações de sistemas de gestão. Consultora para implementação BIM em órgãos públicos. Sócia proprietária da Alves Espíndola Engenharia. Diretora da Conexão BIM. Organizadora das 6 edições do BIM CREA-SC. Coordenadora da Liga BIM Prefeituras. Membro da comissão externa da estratégia BIM SC e do Comitê BIM CREA-SC. Coordenadora em diversos projetos de impacto social.",
+    instagram: "https://www.instagram.com/conexaobimoficial",
+    linkedin: "https://www.linkedin.com/company/conexaobim/",
+  },
+  {
     profile: "/summit-2024/Rodrigo Broering Koerich.png",
     fullName: "Rodrigo Broering Koerich",
     position: "Presidente - BIM Fórum Brasil",
@@ -223,15 +231,6 @@ export const data_palestrantes_2024 = [
     instagram: "",
     linkedin: "https://www.linkedin.com/in/rodrigo-broering-koerich-5992847a/",
   },
-  // {
-  //   profile: "/summit-2024/Kesia Alves da Silva.png",
-  //   fullName: "Késia Alves da Silva",
-  //   position: "Comitê BIM",
-  //   description:
-  //     "",
-  //   instagram: "",
-  //   linkedin: "",
-  // },
   {
     profile: "/summit-2024/Valder Zacarkim.png",
     fullName: "Valder Zacarkim",
@@ -249,6 +248,16 @@ export const data_palestrantes_2024 = [
       "Desde 2018, atuo como COO na ManejeBem, onde sou responsável pela implementação de projetos de ATER e impacto socioambiental em comunidades rurais. Sou graduada em Agronomia, mestre e doutora em Ciências pela UFSC, onde desenvolvi pesquisas sobre controle alternativo de doenças de plantas. Entre 2016 e 2020, trabalhei na PEAT, identificando doenças e pragas vegetais e fornecendo assistência técnica  online para em várias regiões do mundo.",
     instagram: "https://www.instagram.com/manejebem/",
     linkedin: "https://www.linkedin.com/in/caroline-luiz-pimenta-996704143/",
+  },
+  {
+    profile: "/summit-2024/Silvia Santos.png",
+    fullName: "Silvia Santos",
+    position: "Assessora Pedagógica - Escola Politécnica da Univali",
+    description:
+      "Eng. Civil com mestrado e doutorado na UFSC. É professora do curso de Eng. Civil da UNIVALI desde março de 2000, tendo sido coordenadora do curso de maio de 2006 a janeiro de 2012. Atuou no Programa de Pós-Graduação em Ciência e Tecnologia Ambiental da Univali por 5 anos. Pesquisa concretos inteligentes a partir do uso de resíduos. Foi consultora da Eletrosul, na área de concreto para barragens de 2010 a 2013 e Conselheira Titular no Crea SC por 3 ocasiões. É Assessora Pedagógica da Escola Politécnica da Univali desde maio de 2022.",
+    instagram:
+      "https://www.instagram.com/profsilviasantos?igsh=am1zOThzdnY2dXZ6",
+    linkedin: "https://linkedin.com/in/silvia-santos-a96016143",
   },
   {
     profile: "/summit-2024/Felipe Penter.png",
@@ -285,34 +294,29 @@ export const data_palestrantes_2024 = [
     instagram: "https://www.instagram.com/edilenesourural/",
     linkedin: "",
   },
-  // {
-  //   profile: "/summit-2024/Silvia Santos.png",
-  //   fullName: "Silvia Santos",
-  //   position: "",
-  //   description: "",
-  //   instagram: "",
-  //   linkedin: "",
-  // },
+  {
+    profile: "/summit-2024/Nubia F Luz.png",
+    fullName: "Núbia F Luz",
+    position: "Diretora Administrativa - Mútua SC",
+    description:
+      "Engenheira Civil formada pela UFSM, atuo como responsável técnica em empresa de execução de obras residenciais, trabalho com regularização de obras comerciais com adequações da acessibilidade dos ambientes.",
+    instagram:
+      "https://www.instagram.com/nubiaferreiraluz/profilecard/?igsh=NTRya3hnanF6NmJi",
+    linkedin: "https://www.linkedin.com/in/nubia-ferreira-da-luz-32333126/",
+  },
+  {
+    profile: "/summit-2024/Roberta Maas dos Anjos.png",
+    fullName: "Roberta Maas dos Anjos",
+    position: "Diretora Financeira - MUTUA/SC",
+    description:
+      "Diretora Financeira da Mútua/SC. Presidente do SENGE/SC. Engª Civil, Sanitarista e Ambiental. Mestre em Gestão da Inovação. Pós-graduada em Construção Civil; Eng. de Avaliações e Perícias; Gestão e Governança Corporativa Direcionada às Práticas de ESG; Licitações e compras públicas sustentáveis. MBA em Gestão de Sistemas de Abastecimento de Água e Sistemas de Esgotos Sanitários. Diretora Financeira e Vice-Presidente do CREA (2016/2018) e Presidente da CASAN (2019/2022).",
+    instagram: "https://instagram.com/robertamaas",
+    linkedin: "https://www.linkedin.com/in/robertamaas",
+  },
   // {
   //   profile: "/summit-2024/Avaro Dourado.png",
   //   fullName: "Ávaro Dourado",
   //   position: "Diretor Geral - MUTUA-SC",
-  //   description: "",
-  //   instagram: "",
-  //   linkedin: "",
-  // },
-  // {
-  //   profile: "/summit-2024/Núbia F Luz Viezzer.png",
-  //   fullName: "Núbia F. Luz Viezzer",
-  //   position: "Diretora Administrativa - MUTUA-SC",
-  //   description: "",
-  //   instagram: "",
-  //   linkedin: "",
-  // },
-  // {
-  //   profile: "/summit-2024/Roberta Maas Anjos.png",
-  //   fullName: "Roberta Maas Anjos",
-  //   position: "Diretora Financeira - MUTUA-SC",
   //   description: "",
   //   instagram: "",
   //   linkedin: "",
