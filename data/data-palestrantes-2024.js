@@ -241,6 +241,14 @@ export const data_palestrantes_2024 = [
     linkedin: "https://www.linkedin.com/in/valder-zacarkim/",
   },
   {
+    profile: "/summit-2024/Felipe Penter.png",
+    fullName: "Felipe Penter",
+    position: "Chefe de Gabinete - Crea-SC",
+    description: "",
+    instagram: "",
+    linkedin: "",
+  },
+  {
     profile: "/summit-2024/Caroline Pimenta.png",
     fullName: "Caroline Pimenta",
     position: "COO - ManejeBem",
@@ -258,14 +266,6 @@ export const data_palestrantes_2024 = [
     instagram:
       "https://www.instagram.com/profsilviasantos?igsh=am1zOThzdnY2dXZ6",
     linkedin: "https://linkedin.com/in/silvia-santos-a96016143",
-  },
-  {
-    profile: "/summit-2024/Felipe Penter.png",
-    fullName: "Felipe Penter",
-    position: "Chefe de Gabinete - Crea-SC",
-    description: "",
-    instagram: "",
-    linkedin: "",
   },
   // {
   //   profile: "/summit-2024/XXX.png",
