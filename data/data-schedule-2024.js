@@ -5,7 +5,12 @@ export const data_schedule_2024 = [
     scenery: "",
     time: "17:00",
     duration: "",
-    speakers: [],
+    speakers: [
+      { company: "ACATE" },
+      { company: "SEBRAE" },
+      { company: "REDE CATARINENSE DE POLOS DE INOVAÇÃO" },
+      { company: "SAPIENS PARQUE" }
+    ]
   },
   {
     title: "Abertura do CREA Summit 2024",
@@ -74,7 +79,12 @@ export const data_schedule_2024 = [
     scenery: "",
     time: "08:00",
     duration: "",
-    speakers: [],
+    speakers: [
+      { company: "ACATE" },
+      { company: "SEBRAE" },
+      { company: "REDE CATARINENSE DE POLOS DE INOVAÇÃO" },
+      { company: "SAPIENS PARQUE" }
+    ]
   },
   {
     title: "Soluções Construtivas Ágeis",
@@ -126,7 +136,7 @@ export const data_schedule_2024 = [
       },
     ],
   },
-  
+
   {
     title: "O papel dos profissionais do sistema na transformação das cidades em ambientes mais inteligentes e sustentáveis",
     date: "23/11",
@@ -240,8 +250,8 @@ export const data_schedule_2024 = [
     duration: "50",
     speakers: [
       {
-        profile: "/summit-2024/generic.png",
-        fullName: "Fabiano Souza",
+        profile: "/summit-2024/Fabiano Sousa.png",
+        fullName: "Fabiano Sousa",
         company: "UTIS Brasil",
       },
     ],

@@ -133,7 +133,7 @@ export default function Section_schedule({ }) {
               {/* Data speaker */}
               <div className="flex flex-col">
                 {/* Title */}
-                <Text_head_2 className={'font-bold hidden md:block'}>{item.title}</Text_head_2>
+                <Text_head_2 className={'font-bold hidden md:block w-11/12'}>{item.title}</Text_head_2>
 
                 {/* Speakers names */}
                 <div className="flex flex-col md:flex-row md:gap-10 mb-5">
@@ -152,7 +152,7 @@ export default function Section_schedule({ }) {
                 <div className="flex gap-5">
                   {item.speakers.map((speaker, index) => (
                     <div key={index} className="max-w-12 max-h-12 rounded-md overflow-hidden">
-                      <img src={speaker.profile} alt={speaker.fullName} className="w-full" />
+                      {speaker.profile && <img src={speaker.profile} alt={speaker.fullName} className="w-full" />}
                     </div>
                   ))}
                 </div>
