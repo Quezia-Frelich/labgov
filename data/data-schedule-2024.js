@@ -1,6 +1,6 @@
 export const data_schedule_2024 = [
   {
-    title: "Abertura da Feira",
+    title: "Abertura da Feira Tecnológica",
     date: "22/11",
     scenery: "",
     time: "17:00",
@@ -69,7 +69,7 @@ export const data_schedule_2024 = [
     speakers: [],
   },
   {
-    title: "Abertura da Feira",
+    title: "Abertura da Feira Tecnológica",
     date: "23/11",
     scenery: "",
     time: "08:00",
@@ -281,7 +281,6 @@ export const data_schedule_2024 = [
       },
     ],
   },
-  
   {
     title: "Comitê BIM CREA-SC ações e desafios para Santa Catarina",
     date: "23/11",

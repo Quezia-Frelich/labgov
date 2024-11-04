@@ -44,24 +44,6 @@ export const data_palestrantes_2024 = [
     linkedin: "",
   },
   {
-    profile: "/summit-2024/Felipe Penter.png",
-    fullName: "Felipe Penter",
-    position: "Chefe de Gabinete - Crea-SC",
-    description: "",
-    instagram: "",
-    linkedin: "",
-  },
-  {
-    profile: "/summit-2024/Luiz Henrique Pellegrini.png",
-    fullName: "Luiz Henrique Pellegrini",
-    position: "Superintendente - Crea-SC",
-    description:
-      "Engenheiro Civil pela UFSC, Pós-Graduado em Perícia, Auditoria e Gestão Ambiental, Faculdade Oswaldo Cruz/SP. Atuou na coordenação de equipes de projetos, supervisão e fiscalização de obras rodoviárias. Em posição estratégica no Conselho, idealizou projetos na área de inovação como o CREA Summit, Unicrea e Rede de Embaixadores. Entusiasta do assunto, em 2024 inicia Mestrado na UFSC em Cidades Inteligentes. Superintendente do CREA-SC, de 2008 a 2018, retorna para a função em 2021.",
-    instagram: "",
-    linkedin:
-      "https://www.linkedin.com/in/luiz-henrique-pellegrini-610b0067?originalSubdomain=br",
-  },
-  {
     profile: "/summit-2024/Delton Batista.png",
     fullName: "Delton Batista",
     position: "Presidente - LIDE-SC e LIDE-RS",
@@ -70,6 +52,15 @@ export const data_palestrantes_2024 = [
     instagram: "",
     linkedin: "",
   },
+  // {
+  //   profile: "/summit-2024/Anderson Becker.png",
+  //   fullName: "Anderson Becker",
+  //   position: "",
+  //   description:
+  //     "",
+  //   instagram: "",
+  //   linkedin: "",
+  // },
   {
     profile: "/summit-2024/Ricardo Mateus.png",
     fullName: "Ricardo Mateus",
@@ -107,13 +98,32 @@ export const data_palestrantes_2024 = [
     linkedin: "www.linkedin.com/in/evpinheiro",
   },
   {
-    profile: "/summit-2024/Rodrigo Broering Koerich.png",
-    fullName: "Rodrigo Broering Koerich",
-    position: "Presidente - BIM Fórum Brasil",
+    profile: "/summit-2024/Thais Nahas.png",
+    fullName: "Thais Nahas",
+    position: "CEO - Intelink Mercado e Inovação",
     description:
-      "Engenheiro Civil (1995), Mestre em Estruturas (2004). Diretor de Portfolio na AltoQi Tecnologia, empresa que atua há 35 anos no desenvolvimento de software para projetos em BIM. É presidente do BIM Fórum Brasil, Chair da buildingSMART Brasil e Coordenador Técnico do Projeto Construa Brasil.",
+      "CEO da Intelink Mercado e Inovação, especialista em Cidades Inteligentes, Inovação Urbana e Living Labs. Diretora do Polo de Tecnologia da Grande Florianópolis e da Vertical de Smart Cities da ACATE. Foi Diretora de Negócios Inovadores na Superintendência de Ciência, Tecnologia e Inovação da Prefeitura Municipal de Florianópolis. É graduada em administração de empresas pela Universidade Federal de Santa Catarina e MBA em Marketing pela Fundação Getúlio Vargas.",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/rodrigo-broering-koerich-5992847a/",
+    linkedin: "https://www.linkedin.com/in/thaisnahas/",
+  },
+  {
+    profile: "/summit-2024/Raquel Cardamone.png",
+    fullName: "Raquel Cardamone",
+    position: "Especialista em Cidades Inteligentes - Bright Cities",
+    description:
+      "Raquel Cardamone é especialista em cidades inteligentes e fundadora da Bright Cities, com mais de 20 anos de experiência empresarial em empresas como IBM, MARS INC. e Grupo Abril. Graduada em Administração pela FACAMP, é professora, pesquisadora e membro da ABNT/CEE-268. Em 2013, fundou a Bright Consulting e, desde 2015, dedica-se às cidades inteligentes, participando de eventos como o Smart City Expo World Congress e promovendo soluções para cidades mais sustentáveis e resilientes.",
+    instagram: "https://www.instagram.com/bright_cities_/",
+    linkedin: "https://www.linkedin.com/in/raquel-cardamone-7b76b712/",
+  },
+  {
+    profile: "/summit-2024/Luiz Henrique Pellegrini.png",
+    fullName: "Luiz Henrique Pellegrini",
+    position: "Superintendente - Crea-SC",
+    description:
+      "Engenheiro Civil pela UFSC, Pós-Graduado em Perícia, Auditoria e Gestão Ambiental, Faculdade Oswaldo Cruz/SP. Atuou na coordenação de equipes de projetos, supervisão e fiscalização de obras rodoviárias. Em posição estratégica no Conselho, idealizou projetos na área de inovação como o CREA Summit, Unicrea e Rede de Embaixadores. Entusiasta do assunto, em 2024 inicia Mestrado na UFSC em Cidades Inteligentes. Superintendente do CREA-SC, de 2008 a 2018, retorna para a função em 2021.",
+    instagram: "",
+    linkedin:
+      "https://www.linkedin.com/in/luiz-henrique-pellegrini-610b0067?originalSubdomain=br",
   },
   {
     profile: "/summit-2024/Rogério Bonini Ruiz.png",
@@ -170,6 +180,23 @@ export const data_palestrantes_2024 = [
     linkedin: "",
   },
   {
+    profile: "/summit-2024/Fabiano Sousa.png",
+    fullName: "Fabiano Sousa",
+    position: "Gerente Operacional - UTIS Brasil",
+    description:
+      "Fabiano Sousa, Responsável pela operação UTIS Brasil, com mais de 20 anos de carreira nas áreas de Produção Industrial, Manutenção, Vendas e Projetos, atualmente trabalhando há 2 anos com a implantação da tecnologia de hidrogênio UC3. Graduado em Engenharia de Automação com MBA em Gestão Industrial pela FGV;",
+    instagram: "",
+    linkedin: "https://www.linkedin.com/in/fabiano-sousa/",
+  },
+  // {
+  //   profile: "/summit-2024/Tarcisio Rosa.png",
+  //   fullName: "Tarcisio Rosa",
+  //   position: "Presidente - CELESC",
+  //   description: "",
+  //   instagram: "",
+  //   linkedin: "",
+  // },
+  {
     profile: "/summit-2024/Tulio Duarte.png",
     fullName: "Tulio Duarte",
     position: "COO da HarboR - VP de Ecossistema ACATE ",
@@ -188,23 +215,23 @@ export const data_palestrantes_2024 = [
     linkedin: "",
   },
   {
-    profile: "/summit-2024/Thais Nahas.png",
-    fullName: "Thais Nahas",
-    position: "CEO - Intelink Mercado e Inovação",
+    profile: "/summit-2024/Rodrigo Broering Koerich.png",
+    fullName: "Rodrigo Broering Koerich",
+    position: "Presidente - BIM Fórum Brasil",
     description:
-      "CEO da Intelink Mercado e Inovação, especialista em Cidades Inteligentes, Inovação Urbana e Living Labs. Diretora do Polo de Tecnologia da Grande Florianópolis e da Vertical de Smart Cities da ACATE. Foi Diretora de Negócios Inovadores na Superintendência de Ciência, Tecnologia e Inovação da Prefeitura Municipal de Florianópolis. É graduada em administração de empresas pela Universidade Federal de Santa Catarina e MBA em Marketing pela Fundação Getúlio Vargas.",
+      "Engenheiro Civil (1995), Mestre em Estruturas (2004). Diretor de Portfolio na AltoQi Tecnologia, empresa que atua há 35 anos no desenvolvimento de software para projetos em BIM. É presidente do BIM Fórum Brasil, Chair da buildingSMART Brasil e Coordenador Técnico do Projeto Construa Brasil.",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/thaisnahas/",
+    linkedin: "https://www.linkedin.com/in/rodrigo-broering-koerich-5992847a/",
   },
-  {
-    profile: "/summit-2024/Raquel Cardamone.png",
-    fullName: "Raquel Cardamone",
-    position: "CEO - Bright Cities",
-    description:
-      "Raquel Cardamone, especialista em cidades inteligentes e fundadora da Bright Cities, tem mais de 20 anos de experiência no setor empresarial. Graduada em Administração pela FACAMP, é professora e pesquisadora em Smart Cities na UNICAMP, INSPER, PUCPR e Unianchieta. Com passagens por IBM, MARS INC. e Grupo Abril, iniciou sua trajetória empreendedora em 2013 com a Bright Consulting, e desde 2015 foca em soluções para cidades mais sustentáveis, sendo referência no setor.",
-    instagram: "https://www.instagram.com/bright_cities_/channel/",
-    linkedin: "https://www.linkedin.com/in/raquel-cardamone-7b76b712/",
-  },
+  // {
+  //   profile: "/summit-2024/Kesia Alves da Silva.png",
+  //   fullName: "Késia Alves da Silva",
+  //   position: "Comitê BIM",
+  //   description:
+  //     "",
+  //   instagram: "",
+  //   linkedin: "",
+  // },
   {
     profile: "/summit-2024/Valder Zacarkim.png",
     fullName: "Valder Zacarkim",
@@ -224,6 +251,22 @@ export const data_palestrantes_2024 = [
     linkedin: "https://www.linkedin.com/in/caroline-luiz-pimenta-996704143/",
   },
   {
+    profile: "/summit-2024/Felipe Penter.png",
+    fullName: "Felipe Penter",
+    position: "Chefe de Gabinete - Crea-SC",
+    description: "",
+    instagram: "",
+    linkedin: "",
+  },
+  // {
+  //   profile: "/summit-2024/XXX.png",
+  //   fullName: "XXX",
+  //   position: "",
+  //   description: "",
+  //   instagram: "",
+  //   linkedin: "",
+  // },
+  {
     profile: "/summit-2024/Fabiola Sena.png",
     fullName: "Fabiola Sena",
     position: "Fundadora - FSET",
@@ -242,6 +285,38 @@ export const data_palestrantes_2024 = [
     instagram: "https://www.instagram.com/edilenesourural/",
     linkedin: "",
   },
+  // {
+  //   profile: "/summit-2024/Silvia Santos.png",
+  //   fullName: "Silvia Santos",
+  //   position: "",
+  //   description: "",
+  //   instagram: "",
+  //   linkedin: "",
+  // },
+  // {
+  //   profile: "/summit-2024/Avaro Dourado.png",
+  //   fullName: "Ávaro Dourado",
+  //   position: "Diretor Geral - MUTUA-SC",
+  //   description: "",
+  //   instagram: "",
+  //   linkedin: "",
+  // },
+  // {
+  //   profile: "/summit-2024/Núbia F Luz Viezzer.png",
+  //   fullName: "Núbia F. Luz Viezzer",
+  //   position: "Diretora Administrativa - MUTUA-SC",
+  //   description: "",
+  //   instagram: "",
+  //   linkedin: "",
+  // },
+  // {
+  //   profile: "/summit-2024/Roberta Maas Anjos.png",
+  //   fullName: "Roberta Maas Anjos",
+  //   position: "Diretora Financeira - MUTUA-SC",
+  //   description: "",
+  //   instagram: "",
+  //   linkedin: "",
+  // },
   {
     profile: "/summit-2024/Stephane Domeneghini.png",
     fullName: "Stephane Domeneghini",
