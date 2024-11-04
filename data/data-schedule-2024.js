@@ -1,5 +1,13 @@
 export const data_schedule_2024 = [
   {
+    title: "Abertura da Feira",
+    date: "22/11",
+    scenery: "",
+    time: "17:00",
+    duration: "",
+    speakers: [],
+  },
+  {
     title: "Abertura do CREA Summit 2024",
     date: "22/11",
     scenery: "plenária",
@@ -17,7 +25,7 @@ export const data_schedule_2024 = [
         company: "CONFEA",
       },
       {
-        profile: "/summit-2024/generic.png",
+        profile: "/summit-2024/Joel Kruger.jpg",
         fullName: "Joel Krüger",
         company: "MUTUA",
       },
@@ -57,6 +65,14 @@ export const data_schedule_2024 = [
     date: "22/11",
     scenery: "plenária",
     time: "20:30",
+    duration: "",
+    speakers: [],
+  },
+  {
+    title: "Abertura da Feira",
+    date: "23/11",
+    scenery: "",
+    time: "08:00",
     duration: "",
     speakers: [],
   },
@@ -110,42 +126,48 @@ export const data_schedule_2024 = [
       },
     ],
   },
+  
   {
-    title: "Comitê BIM CREA-SC ações e desafios para Santa Catarina",
+    title: "O papel dos profissionais do sistema na transformação das cidades em ambientes mais inteligentes e sustentáveis",
     date: "23/11",
     scenery: "plenária",
     time: "09:40",
-    duration: "30",
+    duration: "40",
     speakers: [
       {
-        profile: "/summit-2024/generic.png",
-        fullName: "Késia Alves da Silva",
-        company: "Comitê BIM",
+        profile: "/summit-2024/Thais Nahas.png",
+        fullName: "Thais Nahas",
+        company: "Intelink",
       },
       {
-        profile: "/summit-2024/Rodrigo Broering Koerich.png",
-        fullName: "Rodrigo Koerich",
-        company: "BIM Brasil",
+        profile: "/summit-2024/Luiz Henrique Pellegrini.png",
+        fullName: "Luiz Henrique Pellegrini",
+        company: "CREA-SC",
+      },
+      {
+        profile: "/summit-2024/Raquel Cardamone.png",
+        fullName: "Raquel Cardamone",
+        company: "Bright Cities",
       },
     ],
     firstSimultaneus: true,
   },
   {
-    title: "Sistemas Energéticos Eficiêntes",
+    title: "Sistemas Energéticos Eficientes",
     date: "23/11",
     scenery: "tech 1",
     time: "09:40",
-    duration: "30",
+    duration: "40",
     speakers: [
-      {
-        profile: "/summit-2024/generic.png",
-        fullName: "Djalma Berger",
-        company: "Expo Centro",
-      },
+      // {
+      //   profile: "/summit-2024/generic.png",
+      //   fullName: "Djalma Berger",
+      //   company: "EXPOCENTRO",
+      // },
       {
         profile: "/summit-2024/Rogério Bonini Ruiz.png",
         fullName: "Rogério Bonini",
-        company: "Expo Centro",
+        company: "EXPOCENTRO",
       },
       {
         profile: "/summit-2024/Marcos Paulo Hirth.png",
@@ -159,12 +181,12 @@ export const data_schedule_2024 = [
     date: "23/11",
     scenery: "tech 2",
     time: "09:40",
-    duration: "30",
+    duration: "40",
     speakers: [
       {
         profile: "/summit-2024/Giziane de Brito.png",
         fullName: "Giziane de Brito",
-        company: "ESCURI",
+        company: "ESUCRI",
       },
       {
         profile: "/summit-2024/Rodrigo Espindola.png",
@@ -188,7 +210,7 @@ export const data_schedule_2024 = [
     title: "Inovação no Sistema Profissional",
     date: "23/11",
     scenery: "plenária",
-    time: "10:10",
+    time: "10:20",
     duration: "50",
     speakers: [
       {
@@ -202,7 +224,7 @@ export const data_schedule_2024 = [
         company: "CONFEA",
       },
       {
-        profile: "/summit-2024/generic.png",
+        profile: "/summit-2024/Joel Kruger.jpg",
         fullName: "Joel Krüger",
         company: "MUTUA",
       },
@@ -214,7 +236,7 @@ export const data_schedule_2024 = [
       "Tecnologias disruptivas: Hidrogênio para a Eficiência Energética e Descarbonização",
     date: "23/11",
     scenery: "plenária",
-    time: "11:00",
+    time: "11:10",
     duration: "50",
     speakers: [
       {
@@ -259,27 +281,23 @@ export const data_schedule_2024 = [
       },
     ],
   },
+  
   {
-    title: "Trilha Smart Cities - Cidades Inteligentes",
+    title: "Comitê BIM CREA-SC ações e desafios para Santa Catarina",
     date: "23/11",
     scenery: "plenária",
     time: "15:30",
     duration: "40",
     speakers: [
       {
-        profile: "/summit-2024/Thais Nahas.png",
-        fullName: "Thais Nahas",
-        company: "Intelink",
-      },
-      {
         profile: "/summit-2024/generic.png",
-        fullName: "Luiz Henrique Pellegrini",
-        company: "CREA-SC",
+        fullName: "Késia Alves da Silva",
+        company: "Comitê BIM",
       },
       {
-        profile: "/summit-2024/Raquel Cardamone.png",
-        fullName: "Raquel Cardamone",
-        company: "Bright Cities",
+        profile: "/summit-2024/Rodrigo Broering Koerich.png",
+        fullName: "Rodrigo Koerich",
+        company: "BIM Brasil",
       },
     ],
     firstSimultaneus: true,
@@ -297,7 +315,7 @@ export const data_schedule_2024 = [
         company: "Fazendacheia",
       },
       {
-        profile: "/summit-2024/generic.png",
+        profile: "/summit-2024/Felipe Penter.png",
         fullName: "Felipe Penter",
         company: "CREA-SC",
       },
@@ -306,11 +324,11 @@ export const data_schedule_2024 = [
         fullName: "Caroline L. Pimenta",
         company: "Maneje Bem",
       },
-      {
-        profile: "/summit-2024/generic.png",
-        fullName: "A definir",
-        company: "-",
-      },
+      // {
+      //   profile: "/summit-2024/generic.png",
+      //   fullName: "A definir",
+      //   company: "-",
+      // },
     ],
   },
   {
@@ -340,7 +358,7 @@ export const data_schedule_2024 = [
     lastEvent: true,
   },
   {
-    title: "MUTUA-SC",
+    title: "Mútua SC, inovação para o fortalecimento dos profissionais e entidades",
     date: "23/11",
     scenery: "plenária",
     time: "16:10",
@@ -348,14 +366,24 @@ export const data_schedule_2024 = [
     speakers: [
       {
         profile: "/summit-2024/generic.png",
-        fullName: "A definir",
+        fullName: "Ávaro Dourado",
+        company: "MUTUA-SC",
+      },
+      {
+        profile: "/summit-2024/generic.png",
+        fullName: "Núbia F. Luz Viezzer",
+        company: "MUTUA-SC",
+      },
+      {
+        profile: "/summit-2024/generic.png",
+        fullName: "Roberta Maas Anjos",
         company: "MUTUA-SC",
       },
     ],
     lastEvent: true,
   },
   {
-    title: "Maior Edifício Residencial do Mundo",
+    title: "Senna Tower - Maior Edifício Residencial do Mundo",
     date: "23/11",
     scenery: "plenária",
     time: "16:25",
@@ -363,7 +391,7 @@ export const data_schedule_2024 = [
     speakers: [
       {
         profile: "/summit-2024/Stephane Domeneghini.png",
-        fullName: "Stephanie Domeneguini",
+        fullName: "Stephane Domeneghini",
         company: "FG Empreendimentos",
       },
     ],
