@@ -209,7 +209,7 @@ export const data_palestrantes_2024 = [
     fullName: "Mario Cezar de Aguiar",
     position: "Presidente - Sistema FIESC",
     description:
-      "Engenheiro civil e empresário dos setores da construção civil e do plástico. Preside a Federação das Indústrias de Santa Catarina (FIESC), os conselhos regionais do SESI e do SENAI e o Conselho Estratégico para Infraestrutura de Transporte e Logística Catarinense. É vice-presidente da Confederação Nacional da Indústria (CNI), membro dos Conselhos Nacionais do SESI e do SENAI, além de presidir o Conselho Temático da Indústria de Defesa e Segurança da CNI (Condefesa). É conselheiro da Agência Espacial Brasileira, além de compor o Conselho do Sebrae/SC.",
+      "Engenheiro civil e empresário dos setores da construção civil e do plástico. Presidente da Federação das Indústrias de Santa Catarina (FIESC), dos conselhos regionais do SESI e do SENAI e do Conselho Estratégico para Infraestrutura de Transporte e Logística Catarinense. É vice-presidente da Confederação Nacional da Indústria (CNI), membro dos Conselhos Nacionais do SESI e do SENAI, além de presidir o Conselho Temático da Indústria de Defesa e Segurança da CNI (Condefesa). É conselheiro da Agência Espacial Brasileira, além de compor o Conselho do Sebrae/SC.",
     instagram: "",
     linkedin: "",
   },

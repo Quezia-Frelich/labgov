@@ -300,7 +300,7 @@ export const data_schedule_2024 = [
     duration: "40",
     speakers: [
       {
-        profile: "/summit-2024/generic.png",
+        profile: "/summit-2024/Kesia Alves da Silva.png",
         fullName: "Késia Alves da Silva",
         company: "Comitê BIM",
       },
@@ -350,7 +350,7 @@ export const data_schedule_2024 = [
     duration: "40",
     speakers: [
       {
-        profile: "/summit-2024/generic.png",
+        profile: "/summit-2024/Silvia Santos.png",
         fullName: "Silvia Santos",
         company: "UNIVALI",
       },
@@ -381,13 +381,13 @@ export const data_schedule_2024 = [
         company: "MUTUA-SC",
       },
       {
-        profile: "/summit-2024/generic.png",
-        fullName: "Núbia F. Luz Viezzer",
+        profile: "/summit-2024/Nubia F Luz.png",
+        fullName: "Nubia F Luz",
         company: "MUTUA-SC",
       },
       {
-        profile: "/summit-2024/generic.png",
-        fullName: "Roberta Maas Anjos",
+        profile: "/summit-2024/Roberta Maas dos Anjos.png",
+        fullName: "Roberta Maas dos Anjos",
         company: "MUTUA-SC",
       },
     ],
