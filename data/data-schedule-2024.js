@@ -309,6 +309,11 @@ export const data_schedule_2024 = [
         fullName: "Rodrigo Koerich",
         company: "BIM Brasil",
       },
+      {
+        profile: "/summit-2024/Flavio Schafer.png",
+        fullName: "Flávio Schäfer",
+        company: "CREA-SC",
+      },
     ],
     firstSimultaneus: true,
   },
