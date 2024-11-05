@@ -22,10 +22,10 @@ const navigation = [
     name: "Palestrantes",
     href: "/#palestrantes",
   },
-  // {
-  //   name: "Programação",
-  //   href: "/programacao",
-  // },
+  {
+    name: "Programação",
+    href: "/programacao",
+  },
   {
     name: "Guia do evento",
     href: "/guia-evento",
