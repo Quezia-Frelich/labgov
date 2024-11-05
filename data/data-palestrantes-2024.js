@@ -244,7 +244,8 @@ export const data_palestrantes_2024 = [
     profile: "/summit-2024/Felipe Penter.png",
     fullName: "Felipe Penter",
     position: "Chefe de Gabinete - Crea-SC",
-    description: "",
+    description:
+      "Engenheiro Agrônomo com mestrado e doutorado em Produção Vegetal, empresário em fruticultura temperada. Especialista em Agronomia, com foco em vitis vinifera, fertilidade de gemas e suinocultura, além de experiência em educação ambiental. Ex-Professor na Fabet e ex-responsável pelo Depto de Meio Ambiente da ACCS. Foi Conselheiro e Vice-presidente (2012-2013) do CREA-SC, e Coordenador da Câmara de Agronomia. Atualmente, ocupa o cargo de Chefe de Gabinete no CREA-SC.",
     instagram: "",
     linkedin: "",
   },
