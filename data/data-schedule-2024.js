@@ -356,7 +356,7 @@ export const data_schedule_2024 = [
       },
       {
         profile: "/summit-2024/Fabiola Sena.png",
-        fullName: "Fabiola Sena",
+        fullName: "Fabiola Sena Vieira",
         company: "FSET",
       },
       {

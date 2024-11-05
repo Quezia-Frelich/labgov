@@ -277,7 +277,7 @@ export const data_palestrantes_2024 = [
   // },
   {
     profile: "/summit-2024/Fabiola Sena.png",
-    fullName: "Fabiola Sena",
+    fullName: "Fabiola Sena Vieira",
     position: "Fundadora - FSET",
     description:
       "Fabiola Sena é fundadora da FSET, consultoria especializada em regulação e mercado de energia, e co-fundadora da Head Energia, escola especializada no setor elétrico. É engenheira eletricista com mestrado e doutorado em engenharia elétrica pela UFSC. Fabiola possui mais de 30 anos de experiência em mercados de energia, dos quais 20 anos como executiva em multinacionais do setor.",
