@@ -17,14 +17,16 @@ export const data_palestrantes_2024 = [
     instagram: "https://www.instagram.com/viniciusmarchese/",
     linkedin: "https://www.linkedin.com/in/viniciusmarchese/",
   },
-  // {
-  //   profile: "/summit-2024/Joel Kruger.jpg",
-  //   fullName: "Joel Krüger",
-  //   position: "Presidente - MUTUA",
-  //   description: "",
-  //   instagram: "",
-  //   linkedin: "",
-  // },
+  {
+    profile: "/summit-2024/Joel Kruger.png",
+    fullName: "Joel Krüger",
+    position: "Presidente - MÚTUA Nacional",
+    description:
+      "Ex presidente do Confea. Ex Conselheiro Federal pelas Instituições de Ensino do Confea. Ex presidente do Crea-PR. Professor universitário da PUC-PR",
+    instagram:
+      "https://www.instagram.com/engenheirojoelkruger?igsh=czBlajJkN3RlcXZz",
+    linkedin: "",
+  },
   {
     profile: "/summit-2024/Eike Batista.png",
     fullName: "Eike Batista",
@@ -187,14 +189,15 @@ export const data_palestrantes_2024 = [
     instagram: "",
     linkedin: "https://www.linkedin.com/in/fabiano-sousa/",
   },
-  // {
-  //   profile: "/summit-2024/Tarcisio Rosa.png",
-  //   fullName: "Tarcisio Rosa",
-  //   position: "Presidente - CELESC",
-  //   description: "",
-  //   instagram: "",
-  //   linkedin: "",
-  // },
+  {
+    profile: "/summit-2024/Tarcisio Rosa.png",
+    fullName: "Tarcísio Estefano Rosa",
+    position: "Diretor-Presidente - Celesc",
+    description:
+      "Graduado em Engenharia Elétrica pela UFSC e com especialização em Qualidade e Produtividade pela Unisul. Iniciou a carreira na Eletrosul, em 1978, como engenheiro eletricista e gerente de usina. De 2000 a 2008, foi gerente de Comercialização na Tractebel (atual Engie). Atuou como diretor de Geração, Transmissão e Distribuição na Eletrobras Amazonas Energia (2010-2014) e foi Presidente de 2017 a 2020. Desde 2023, é Presidente das Centrais Elétricas de SC e Presidente do Conselho de Administração da SCGás.",
+    instagram: "",
+    linkedin: "",
+  },
   {
     profile: "/summit-2024/Tulio Duarte.png",
     fullName: "Tulio Duarte",
@@ -204,15 +207,15 @@ export const data_palestrantes_2024 = [
     instagram: "",
     linkedin: "https://www.linkedin.com/in/tulioharbor/",
   },
-  {
-    profile: "/summit-2024/Mario Cezar de Aguiar.png",
-    fullName: "Mario Cezar de Aguiar",
-    position: "Presidente - Sistema FIESC",
-    description:
-      "Engenheiro civil e empresário dos setores da construção civil e do plástico. Presidente da Federação das Indústrias de Santa Catarina (FIESC), dos conselhos regionais do SESI e do SENAI e do Conselho Estratégico para Infraestrutura de Transporte e Logística Catarinense. É vice-presidente da Confederação Nacional da Indústria (CNI), membro dos Conselhos Nacionais do SESI e do SENAI, além de presidir o Conselho Temático da Indústria de Defesa e Segurança da CNI (Condefesa). É conselheiro da Agência Espacial Brasileira, além de compor o Conselho do Sebrae/SC.",
-    instagram: "",
-    linkedin: "",
-  },
+  // {
+  //   profile: "/summit-2024/Mario Cezar de Aguiar.png",
+  //   fullName: "Mario Cezar de Aguiar",
+  //   position: "Presidente - Sistema FIESC",
+  //   description:
+  //     "Engenheiro civil e empresário dos setores da construção civil e do plástico. Presidente da Federação das Indústrias de Santa Catarina (FIESC), dos conselhos regionais do SESI e do SENAI e do Conselho Estratégico para Infraestrutura de Transporte e Logística Catarinense. É vice-presidente da Confederação Nacional da Indústria (CNI), membro dos Conselhos Nacionais do SESI e do SENAI, além de presidir o Conselho Temático da Indústria de Defesa e Segurança da CNI (Condefesa). É conselheiro da Agência Espacial Brasileira, além de compor o Conselho do Sebrae/SC.",
+  //   instagram: "",
+  //   linkedin: "",
+  // },
   {
     profile: "/summit-2024/Kesia Alves da Silva.png",
     fullName: "Késia Alves da Silva",
@@ -230,6 +233,16 @@ export const data_palestrantes_2024 = [
       "Engenheiro Civil (1995), Mestre em Estruturas (2004). Diretor de Portfolio na AltoQi Tecnologia, empresa que atua há 35 anos no desenvolvimento de software para projetos em BIM. É presidente do BIM Fórum Brasil, Chair da buildingSMART Brasil e Coordenador Técnico do Projeto Construa Brasil.",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/rodrigo-broering-koerich-5992847a/",
+  },
+  {
+    profile: "/summit-2024/Flavio Schafer.png",
+    fullName: "Flávio Schäfer",
+    position: "Assessor de Relações Institucionais - Crea-SC",
+    description:
+      "Engenheiro civil, formado pela Universidade Federal de Santa Catarina, Especialista em Gestão de Projetos - IPOG, Sócio Fundador da Cooperativa de Crédito – Credcrea. Na área profissional atuou como diretor técnico e responsável técnico de Construtora e Incorporadora com atuação em SC e RS, foi do Conselho do Sinduscon da Grande Florianópolis, exerce atualmente a função de Assessor de Relações Institucionais do Crea-SC, Conselheiro da cidade de Florianópolis e Membro titular do Bim Fórum Brasil.",
+    instagram:
+      "https://www.instagram.com/flavioschafer/profilecard/?igsh=YjN3NG1pZzIzOTZq",
+    linkedin: "https://www.linkedin.com/in/fl%C3%A1vio-sch%C3%A4fer-b90b205b/",
   },
   {
     profile: "/summit-2024/Valder Zacarkim.png",
@@ -296,6 +309,16 @@ export const data_palestrantes_2024 = [
     linkedin: "",
   },
   {
+    profile: "/summit-2024/Alvaro Dourado.png",
+    fullName: "Álvaro Antônio Ribas Dourado",
+    position: "Diretor Geral - MÚTUA/SC",
+    description:
+      "Engenheiro Agrônomo formado pela Universidade Estadual de Maringá em 1985 com Especialização em Administração Rural pela Universidade Federal de Lavras-MG e funcionário público da Companhia Integrada de Desenvolvimento Agrícola de Santa Catarina - CIDASC.",
+    instagram:
+      "https://www.instagram.com/alvaroribasdourado/profilecard/?igsh=MTRyd2dyaHlpeTUxdA==",
+    linkedin: "",
+  },
+  {
     profile: "/summit-2024/Nubia F Luz.png",
     fullName: "Núbia F Luz",
     position: "Diretora Administrativa - Mútua SC",
@@ -314,14 +337,6 @@ export const data_palestrantes_2024 = [
     instagram: "https://instagram.com/robertamaas",
     linkedin: "https://www.linkedin.com/in/robertamaas",
   },
-  // {
-  //   profile: "/summit-2024/Avaro Dourado.png",
-  //   fullName: "Ávaro Dourado",
-  //   position: "Diretor Geral - MUTUA-SC",
-  //   description: "",
-  //   instagram: "",
-  //   linkedin: "",
-  // },
   {
     profile: "/summit-2024/Stephane Domeneghini.png",
     fullName: "Stephane Domeneghini",

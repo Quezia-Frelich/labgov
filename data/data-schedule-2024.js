@@ -30,9 +30,9 @@ export const data_schedule_2024 = [
         company: "CONFEA",
       },
       {
-        profile: "/summit-2024/Joel Kruger.jpg",
+        profile: "/summit-2024/Joel Kruger.png",
         fullName: "Joel Krüger",
-        company: "MUTUA",
+        company: "MÚTUA",
       },
     ],
   },
@@ -45,7 +45,7 @@ export const data_schedule_2024 = [
     speakers: [
       {
         profile: "/summit-2024/Eike Batista.png",
-        fullName: "Elke Batista",
+        fullName: "Eike Batista",
         company: "Grupo EBX",
       },
       {
@@ -235,7 +235,7 @@ export const data_schedule_2024 = [
         company: "CONFEA",
       },
       {
-        profile: "/summit-2024/Joel Kruger.jpg",
+        profile: "/summit-2024/Joel Kruger.png",
         fullName: "Joel Krüger",
         company: "MUTUA",
       },
@@ -266,7 +266,7 @@ export const data_schedule_2024 = [
     duration: "40",
     speakers: [
       {
-        profile: "/summit-2024/generic.png",
+        profile: "/summit-2024/Tarcisio Rosa.png",
         fullName: "Tarcísio Rosa",
         company: "CELESC",
       },
@@ -285,11 +285,11 @@ export const data_schedule_2024 = [
         fullName: "Tulio Duarte Christofoletti",
         company: "HarboR",
       },
-      {
-        profile: "/summit-2024/Mario Cezar de Aguiar.png",
-        fullName: "Mario Cezar de Aguiar",
-        company: "FIESC",
-      },
+      // {
+      //   profile: "/summit-2024/Mario Cezar de Aguiar.png",
+      //   fullName: "Mario Cezar de Aguiar",
+      //   company: "FIESC",
+      // },
     ],
   },
   {
@@ -376,8 +376,8 @@ export const data_schedule_2024 = [
     duration: "15",
     speakers: [
       {
-        profile: "/summit-2024/generic.png",
-        fullName: "Ávaro Dourado",
+        profile: "/summit-2024/Alvaro Dourado.png",
+        fullName: "Álvaro Dourado",
         company: "MUTUA-SC",
       },
       {
