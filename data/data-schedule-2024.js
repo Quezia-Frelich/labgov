@@ -9,8 +9,8 @@ export const data_schedule_2024 = [
       { company: "ACATE" },
       { company: "SEBRAE" },
       { company: "REDE CATARINENSE DE POLOS DE INOVAÇÃO" },
-      { company: "SAPIENS PARQUE" }
-    ]
+      { company: "SAPIENS PARQUE" },
+    ],
   },
   {
     title: "Abertura do CREA Summit 2024",
@@ -83,11 +83,11 @@ export const data_schedule_2024 = [
       { company: "ACATE" },
       { company: "SEBRAE" },
       { company: "REDE CATARINENSE DE POLOS DE INOVAÇÃO" },
-      { company: "SAPIENS PARQUE" }
-    ]
+      { company: "SAPIENS PARQUE" },
+    ],
   },
   {
-    title: "Soluções Construtivas Ágeis",
+    title: "Industrialização da Construção Civil e o Despertar para Inovação",
     date: "23/11",
     scenery: "plenária",
     time: "09:00",
@@ -138,7 +138,8 @@ export const data_schedule_2024 = [
   },
 
   {
-    title: "O papel dos profissionais do sistema na transformação das cidades em ambientes mais inteligentes e sustentáveis",
+    title:
+      "O papel dos profissionais do sistema na transformação das cidades em ambientes mais inteligentes e sustentáveis",
     date: "23/11",
     scenery: "plenária",
     time: "09:40",
@@ -367,7 +368,8 @@ export const data_schedule_2024 = [
     lastEvent: true,
   },
   {
-    title: "Mútua SC, inovação para o fortalecimento dos profissionais e entidades",
+    title:
+      "Mútua SC, inovação para o fortalecimento dos profissionais e entidades",
     date: "23/11",
     scenery: "plenária",
     time: "16:10",
