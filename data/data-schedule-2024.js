@@ -274,7 +274,8 @@ export const data_schedule_2024 = [
     lastEvent: true,
   },
   {
-    title: "Transformação Digital para ampliar a Neo Industrialização",
+    title:
+      "Indústria 4.0 e Neo Industrialização: A Revolução Digital que está redefinindo o futuro da produção",
     date: "23/11",
     scenery: "plenária",
     time: "14:40",
