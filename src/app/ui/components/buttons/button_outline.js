@@ -7,7 +7,7 @@ export default function Button_outline ({href, text, icon, className, target}){
         <>
         <Link href={href} target={target && '_blank'}>
             <button className={`${icon && 'flex gap-2'} border ${className}`}>
-                <Text_body>{text}</Text_body>
+                {text && <p>{text}</p>}
                 {icon}
             </button>
         </Link>

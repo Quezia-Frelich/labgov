@@ -16,7 +16,7 @@ import Text_link from "../../components/text/text-link";
 export default function Section_schedule(){
     return(
         <>
-        <section className="py-20 flex flex-col items-center justify-center" id="macro">
+        <section className="min-h-screen py-20 flex flex-col items-center justify-center">
             <Container className="flex flex-col gap-10 text-violet-crea-700">
                 <div>
                     <Text_display_3 className="font-bold mb-5">Macro Programação</Text_display_3>

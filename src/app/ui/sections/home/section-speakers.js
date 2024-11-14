@@ -5,8 +5,8 @@ import Container from "../../components/container/container";
 import { data_palestrantes_2024 } from "../../../../../data/data-palestrantes-2024";
 import Text_head_3 from "../../components/text/text-head-3";
 import Text_head_1 from "../../components/text/text-head-1";
-import Icon_linkedin from "../../icons/footer/LinkedIn";
-import Icon_instagram from "../../icons/footer/Instagram";
+import Icon_linkedin from "../../components/title/icons/footer/LinkedIn";
+import Icon_instagram from "../../components/title/icons/footer/Instagram";
 import Text_display_3 from "../../components/text/text-display-3";
 
 export default function Section_speakers() {

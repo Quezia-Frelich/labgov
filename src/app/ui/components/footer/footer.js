@@ -1,19 +1,15 @@
 'use client'
-import Image from "next/image";
-import Icon_facebook from "@/app/ui/icons/footer/Facebook";
-import Icon_instagram from "@/app/ui/icons/footer/Instagram";
-import Icon_linkedin from "@/app/ui/icons/footer/LinkedIn";
-import Icon_youtube from "@/app/ui/icons/footer/YouTube";
-import Icon_email from "@/app/ui/icons/footer/email";
-import Icon_person from "@/app/ui/icons/footer/person";
-import Icon_phone from "@/app/ui/icons/footer/phone";
-import Icon_twitter from "@/app/ui/icons/footer/twitter";
-import Icon_ubication from "@/app/ui/icons/footer/ubication";
+
 import Link from "next/link";
-import Icon_whatsapp from "../../icons/footer/whatsapp";
 import { usePathname } from "next/navigation";
-import Crea_logo from "../../../../../public/brand/crea_logo";
 import Container from "../container/container";
+import Icon_instagram from "../../icons/footer/Instagram";
+import Icon_linkedin from "../../icons/footer/LinkedIn";
+import Icon_youtube from "../../icons/footer/YouTube";
+import Icon_phone from "../../icons/footer/phone";
+import Icon_email from "../../icons/footer/email";
+import Icon_facebook from "../../icons/footer/Facebook";
+import Icon_twitter from "../../icons/footer/twitter";
 
 export default function Footer() {
   const pathName = usePathname();

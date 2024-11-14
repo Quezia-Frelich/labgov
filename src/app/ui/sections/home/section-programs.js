@@ -11,7 +11,6 @@ import 'swiper/css/pagination';
 // import required modules
 import { Pagination, Autoplay } from 'swiper/modules';
 import Link from "next/link";
-import Text_display_3 from "../../components/text/text-display-3";
 import Text_head_1 from "../../components/text/text-head-1";
 
 
