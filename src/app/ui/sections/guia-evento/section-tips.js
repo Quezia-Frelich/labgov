@@ -14,21 +14,21 @@ export default function Section_tips ( {} ) {
               <div>
               <Text_display_3 className={'font-bold mb-10'}>Dicas para o evento</Text_display_3>
 
-              <ul class="space-y-8 list-disc list-inside">
+              <ul className="space-y-8 list-disc list-inside">
                 <li>
-                  <span class="font-bold">Facilite a troca de informações:</span> Leve cartões de visita ou utilize QR codes digitais para facilitar a troca de contatos com agilidade e profissionalismo.
+                  <span className="font-bold">Facilite a troca de informações:</span> Leve cartões de visita ou utilize QR codes digitais para facilitar a troca de contatos com agilidade e profissionalismo.
                 </li>
                 <li>
-                  <span class="font-bold">Visite os stands das empresas:</span> Conversar com expositores pode abrir portas para parcerias e novas oportunidades.
+                  <span className="font-bold">Visite os stands das empresas:</span> Conversar com expositores pode abrir portas para parcerias e novas oportunidades.
                 </li>
                 <li>
-                  <span class="font-bold">Mantenha o contato após o evento:</span> Não esqueça de conectar-se com seus novos contatos nas redes sociais para continuar o networking.
+                  <span className="font-bold">Mantenha o contato após o evento:</span> Não esqueça de conectar-se com seus novos contatos nas redes sociais para continuar o networking.
                 </li>
                 <li>
-                  <span class="font-bold">Cuide-se:</span> Hidrate-se regularmente e priorize o descanso e o bem-estar. Assim, você aproveitará o evento com disposição.
+                  <span className="font-bold">Cuide-se:</span> Hidrate-se regularmente e priorize o descanso e o bem-estar. Assim, você aproveitará o evento com disposição.
                 </li>
                 <li>
-                  <span class="font-bold">Tenha em mente a climatização:</span> Os palcos podem ser climatizados, por isso, leve um casaco leve para se manter confortável durante o evento.
+                  <span className="font-bold">Tenha em mente a climatização:</span> Os palcos podem ser climatizados, por isso, leve um casaco leve para se manter confortável durante o evento.
                 </li>
               </ul>
 

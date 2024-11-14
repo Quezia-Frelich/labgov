@@ -49,11 +49,11 @@ export const data_restaurants = [
         instagram: 'https://www.instagram.com/donnagrillrestaurant/',
     },
     {
-        image: '/restaurantes/Donuts.png',
-        brand: 'Donuts',
+        image: '/restaurantes/Hello Donuts.png',
+        brand: 'Hello Donuts',
         description: 'Donuts fresquinhos e recheados com diversas coberturas, ideais para adoçar o dia.',
         menu: '',
-        instagram: '',
+        instagram: 'https://www.instagram.com/hellodonutsbc/',
     },
     {
         image: '/restaurantes/Elite Bar.png',

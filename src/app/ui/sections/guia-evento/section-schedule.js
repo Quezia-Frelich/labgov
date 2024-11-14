@@ -16,7 +16,7 @@ import Text_link from "../../components/text/text-link";
 export default function Section_schedule(){
     return(
         <>
-        <section className="min-h-screen py-20 flex flex-col items-center justify-center">
+        <section className="py-20 flex flex-col items-center justify-center">
             <Container className="flex flex-col gap-10 text-violet-crea-700">
                 <div>
                     <Text_display_3 className="font-bold mb-5">Macro Programação</Text_display_3>
@@ -28,7 +28,7 @@ export default function Section_schedule(){
                     </div>
                     <div className="space-y-2">
                         <Text_head_3 className={'font-bold text-violet-crea-700'}>Sexta Feira</Text_head_3>
-                        <ul class="list-disc list-inside">
+                        <ul className="list-disc list-inside">
                             <li>17h - Credenciamento e abertura da feira</li>
                             <li>19h - Abertura oficial do evento</li>
                             <li>21h - Encerramento do primeiro dia</li>
@@ -42,7 +42,7 @@ export default function Section_schedule(){
                     </div>
                     <div className="space-y-2">
                         <Text_head_3 className={'font-bold text-violet-crea-700'}>Sábado</Text_head_3>
-                        <ul class="list-disc list-inside">
+                        <ul className="list-disc list-inside">
                             <li>08h - Credenciamento e abertura da feira</li>
                             <li>09h - Início dos painéis/palestras do segundo dia</li>
                             <li>12h - Intervalo para almoço</li>

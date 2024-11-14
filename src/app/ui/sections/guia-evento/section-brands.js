@@ -37,8 +37,8 @@ export default function Section_brands(){
                     <Text_body>Descubra soluções inovadoras na feira do CREA Summit...</Text_body>
                 </div>
 
-                <div className="flex justify-between items-center">
-                    <div className="flex items-center gap-2 p-2 bg-violet-crea-400/10 border border-violet-crea-400 rounded-lg w-full md:w-96">
+                <div className="flex flex-col md:flex-row gap-5 justify-between items-center">
+                    <div className="flex items-center gap-2 p-3 bg-violet-crea-400/10 border border-violet-crea-400 rounded-lg w-full md:w-96">
                         <MagnifyingGlassIcon className="size-5"/>
                         <input 
                             type="text" 
@@ -48,7 +48,7 @@ export default function Section_brands(){
                             className="bg-transparent text-violet-crea-600 placeholder:text-violet-crea-600 w-full focus:outline-none"
                         />
                     </div>
-                    <div className="flex items-center gap-2 p-2 bg-violet-crea-400/10 border border-violet-crea-400 rounded-lg">
+                    <div className="flex items-center  gap-2 p-3 bg-violet-crea-400/10 border border-violet-crea-400 rounded-lg w-full md:w-min">
                         <select 
                             value={filterCategory} 
                             onChange={(e) => setFilterCategory(e.target.value)}
@@ -127,7 +127,8 @@ export default function Section_brands(){
                             </p>
                         </div>
                         </div>
-                        <p className="text-xs mt-2">{empresa.Bio}</p>
+                        {empresa.Bio && <p className="text-xs mt-2">{empresa.Bio}</p>}
+                        {empresa.Site && 
                         <div className="mt-4 max-w-52">
                             {empresa.Site && 
                             <Button_outline
@@ -138,6 +139,7 @@ export default function Section_brands(){
                             target={true}/>                        
                             }
                         </div>
+                        }
                     </div>               
 
                     </div>
