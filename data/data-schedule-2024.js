@@ -59,7 +59,7 @@ export const data_schedule_2024 = [
         company: "Sistema LIDE RS SC",
       },
       {
-        profile: "/summit-2024/generic.png",
+        profile: "/summit-2024/Anderson Becker.png",
         fullName: "Anderson Becker",
         company: "ABecker Loteamentos",
       },

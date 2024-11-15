@@ -54,15 +54,14 @@ export const data_palestrantes_2024 = [
     instagram: "",
     linkedin: "",
   },
-  // {
-  //   profile: "/summit-2024/Anderson Becker.png",
-  //   fullName: "Anderson Becker",
-  //   position: "",
-  //   description:
-  //     "",
-  //   instagram: "",
-  //   linkedin: "",
-  // },
+  {
+    profile: "/summit-2024/Anderson Becker.png",
+    fullName: "Anderson Becker",
+    position: "CEO - ABecker Loteamentos",
+    description: "",
+    instagram: "",
+    linkedin: "https://www.linkedin.com/in/anderson-becker-376940258",
+  },
   {
     profile: "/summit-2024/Ricardo Mateus.png",
     fullName: "Ricardo Mateus",
