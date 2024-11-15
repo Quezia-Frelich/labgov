@@ -10,15 +10,6 @@ import { ArrowRightIcon, ChevronDownIcon, MagnifyingGlassIcon } from "@heroicons
 import { data_empresas_expositoras } from "../../../../../data/data-empresas-expositoras";
 import Button_outline from "../../components/buttons/button_outline";
 
-function normalizePath(name) {
-    return name
-      .toLowerCase()
-      .normalize('NFD') // Remueve acentos
-      .replace(/[\u0300-\u036f]/g, '') // Elimina los diacríticos
-      .replace(/ /g, '-') // Sustituye espacios por guiones
-      .replace(/[^a-z0-9-]/g, ''); // Elimina caracteres especiales
-  }
-  
 
 export default function Section_brands(){
     const [openBox, setOpenBox] = useState(null);
@@ -85,7 +76,7 @@ export default function Section_brands(){
                     
                     {/* Profile da empresa */}
                     <div></div>
-                    <img src={`/empresas-expositoras-2024/${normalizePath(empresa.Tag)}/${normalizePath(empresa.NomeDaEmpresa)}.png`} alt={empresa.NomeDaEmpresa} className={`rounded-md max-h-80 ${openBox === index && 'hidden md:block'} `}/>
+                    <img src={empresa.Image} alt={empresa.NomeDaEmpresa} className={`rounded-md max-h-80 ${openBox === index && 'hidden md:block'} `}/>
                     
                     {/* Nome e titulo em profile */}
                     <div className={'absolute bottom-0 p-5 h-full flex flex-col justify-end text-center w-full'}>
@@ -93,14 +84,13 @@ export default function Section_brands(){
                         <div>
                         <img 
                             src={
-                            empresa.Tag === "Aceleradas" ? `/empresas-expositoras-2024/${normalizePath(empresa.Tag)}/crea-acelera.png` :
-                            empresa.Tag === "Agtech" ? `/empresas-expositoras-2024/${normalizePath(empresa.Tag)}/acate-agtech.png` :
-                            empresa.Tag === "Construtech" ? `/empresas-expositoras-2024/${normalizePath(empresa.Tag)}/acate-construtech.png` :
-                            empresa.Tag === "Energia" ? `/empresas-expositoras-2024/${normalizePath(empresa.Tag)}/acate-energia.png` :
-                            empresa.Tag === "Ferramentas Digitais" ? `/empresas-expositoras-2024/${normalizePath(empresa.Tag)}/inovacrea.png` :
+                            empresa.Tag === "Aceleradas" ? `/empresas-expositoras-2024/aceleradas/crea-acelera.png` :
+                            empresa.Tag === "Agtech" ? `/empresas-expositoras-2024/agtech/acate-agtech.png` :
+                            empresa.Tag === "Construtech" ? `/empresas-expositoras-2024/construtech/acate-construtech.png` :
+                            empresa.Tag === "Energia" ? `/empresas-expositoras-2024/energia/acate-energia.png` :
+                            empresa.Tag === "Ferramentas Digitais" ? `/empresas-expositoras-2024/ferramentas-digitais/inovacrea.png` :
                             empresa.Tag === "Manufatura" ? `/empresas-expositoras-2024/manufatura/manufatura.png` :
-                            empresa.Tag === "Smart Cities" ? `/empresas-expositoras-2024/${normalizePath(empresa.Tag)}/acate-smart-cities.png` :
-                            empresa.Tag === "Sistema Profissional" ? `/empresas-expositoras-2024/${normalizePath(empresa.Tag)}/crea-acelera.png` :
+                            empresa.Tag === "Smart Cities" ? `/empresas-expositoras-2024/smart-cities/acate-smart-cities.png` :
                             ""
                             }
                             alt={empresa.Tag} 
@@ -119,7 +109,7 @@ export default function Section_brands(){
                     {/* Descrição do empresa */}
                     <div className={openBox === index ? 'p-5' : 'hidden'}>
                         <div className="flex items-center gap-5">
-                        <img src={`/empresas-expositoras-2024/${normalizePath(empresa.Tag)}/${normalizePath(empresa.NomeDaEmpresa)}.png`} alt={empresa.NomeDaEmpresa} className={`rounded-md max-h-20 md:hidden`}/>
+                        <img src={empresa.Image} alt={empresa.NomeDaEmpresa} className={`rounded-md max-h-20 md:hidden`}/>
                         <div>
                             <Text_head_1 className={'font-bold'}>{empresa.NomeDaEmpresa}</Text_head_1>
                             <p className={`text-xs text-nowrap w-min rounded-full py-1 px-3 my-2 text-[#072440] 
