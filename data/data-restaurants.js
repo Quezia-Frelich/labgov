@@ -90,13 +90,13 @@ export const data_restaurants = [
         menu: '/pdf/restaurantes/Cardapio Pizza Haus.pdf',
         instagram: 'https://www.instagram.com/pizzahausbc/',
     },
-    {
+    /* {
         image: '/restaurantes/Smart Point.png',
         brand: 'Smart Point',
         description: 'Ponto de conveniência com opções rápidas e práticas, perfeito para quem busca uma refeição ágil sem abrir mão da qualidade.',
         menu: '',
         instagram: '',
-    },
+    }, */
     {
         image: '/restaurantes/Well Coffee.png',
         brand: 'Well Coffee',
