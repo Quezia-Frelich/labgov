@@ -82,21 +82,20 @@ export default function Section_brands(){
                     {empresa.Tag !== "Parceira" && empresa.Tag !== "Sistema Profissional" && (
                         <div>
                         <img 
-                        src={
-                            empresa.Tag === "Aceleradas" ? `/empresas-expositoras-2024/${encodeURIComponent(empresa.Tag)}/crea-acelera.png` :
-                            empresa.Tag === "Agtech" ? `/empresas-expositoras-2024/${encodeURIComponent(empresa.Tag)}/Acate-agtech.png` :
-                            empresa.Tag === "Construtech" ? `/empresas-expositoras-2024/${encodeURIComponent(empresa.Tag)}/Acate-construtech.png` :
-                            empresa.Tag === "Energia" ? `/empresas-expositoras-2024/${encodeURIComponent(empresa.Tag)}/Acate-energia.png` :
-                            empresa.Tag === "Ferramentas Digitais" ? `/empresas-expositoras-2024/${encodeURIComponent(empresa.Tag)}/inovacrea.png` :
-                            empresa.Tag === "Manufatura 4.0" ? `/empresas-expositoras-2024/${encodeURIComponent(empresa.Tag)}/Acate-manufatura.png` :
-                            empresa.Tag === "Smart Cities" ? `/empresas-expositoras-2024/${encodeURIComponent(empresa.Tag)}/Acate-smart-cities.png` :
-                            empresa.Tag === "Sistema Profissional" ? `/empresas-expositoras-2024/${encodeURIComponent(empresa.Tag)}/crea-acelera.png` :
+                            src={
+                            empresa.Tag === "Aceleradas" ? `/empresas-expositoras-2024/${empresa.Tag}/crea-acelera.png` :
+                            empresa.Tag === "Agtech" ? `/empresas-expositoras-2024/${empresa.Tag}/Acate-agtech.png` :
+                            empresa.Tag === "Construtech" ? `/empresas-expositoras-2024/${empresa.Tag}/Acate-construtech.png` :
+                            empresa.Tag === "Energia" ? `/empresas-expositoras-2024/${empresa.Tag}/Acate-energia.png` :
+                            empresa.Tag === "Ferramentas Digitais" ? `/empresas-expositoras-2024/${empresa.Tag}/inovacrea.png` :
+                            empresa.Tag === "Manufatura" ? `/empresas-expositoras-2024/Manufatura/Acate-manufatura.png` :
+                            empresa.Tag === "Smart Cities" ? `/empresas-expositoras-2024/${empresa.Tag}/Acate-smart-cities.png` :
+                            empresa.Tag === "Sistema Profissional" ? `/empresas-expositoras-2024/${empresa.Tag}/crea-acelera.png` :
                             ""
-                        }
-                        alt={empresa.NomeDaEmpresa} 
-                        className={`rounded-md max-w-16 ${openBox === index ? 'hidden md:block absolute left-20 -translate-x-3 bottom-5' : 'mx-auto'}`}
+                            }
+                            alt={empresa.NomeDaEmpresa} 
+                            className={`rounded-md max-w-16 ${openBox === index ? 'hidden md:block absolute left-20 -translate-x-3 bottom-5' : 'mx-auto'}`}
                         />
-
                         </div>
                     )}
                     
@@ -119,12 +118,13 @@ export default function Section_brands(){
                                 ${empresa.Tag === "Construtech" && 'bg-[#FF9399]' }
                                 ${empresa.Tag === "Energia" && 'bg-[#FFD290]' }
                                 ${empresa.Tag === "Ferramentas Digitais" && 'bg-[#F5B6ED]' }
-                                ${empresa.Tag === "Manufatura 4.0" && 'bg-[#C2CAD0]' }
+                                ${empresa.Tag === "Manufatura" && 'bg-[#C2CAD0]' }
                                 ${empresa.Tag === "Parceira" && 'bg-[#C7A4FF]' }
                                 ${empresa.Tag === "Smart Cities" && 'bg-[#E0D0C0]' }
                                 ${empresa.Tag === "Sistema Profissional" && 'bg-[#8E90FF]' }
                                 `}>
-                                    {empresa.Tag}
+                                    
+                                    {empresa.Tag === "Manufatura" ? 'Manufatura 4.0' : empresa.Tag }
                             </p>
                         </div>
                         </div>

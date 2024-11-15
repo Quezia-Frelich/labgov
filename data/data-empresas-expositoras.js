@@ -73,7 +73,7 @@ export const data_empresas_expositoras = [
   },
   {
     NomeDaEmpresa: "APIPASS",
-    Tag: "Manufatura 4.0",
+    Tag: "Manufatura",
     Site: "https://www.apipass.com.br",
     Bio: "A APIPASS simplifica integrações e impulsiona resultados com soluções que conectam sistemas e automatizam processos de forma eficiente e segura. Com foco na transformação digital, a empresa viabiliza operações mais ágeis e produtivas, potencializando o desempenho empresarial. Com uma solução ponta a ponta, é possível assegurar uma eficiência operacional ainda maior."
   },
@@ -91,7 +91,7 @@ export const data_empresas_expositoras = [
   },
   {
     NomeDaEmpresa: "Buuk Analítica & Design",
-    Tag: "Manufatura 4.0",
+    Tag: "Manufatura",
     Site: "https://www.buuk.com.br",
     Bio: "Martech especializada em inteligência de mercado para negócios que oferecem soluções de engenharia aplicada."
   },
@@ -138,7 +138,7 @@ export const data_empresas_expositoras = [
 	},
 	{
 		NomeDaEmpresa: "Ctrlmat Automação Industrial",
-		Tag: "Manufatura 4.0",
+		Tag: "Manufatura",
 		Site: "https://www.ctrlmat.com.br",
 		Bio: "A CTRLMAT é especialista em automação industrial, oferecendo soluções customizadas e inovadoras em segurança e eficiência a linhas de manufatura. Nossa expertise em soluções industriais garante: automatizar processos repetitivos e complexos, minimizar erros humanos, garantir consistência e repetibilidade, implementar rastreabilidade de processos e produtos, melhorar a visibilidade das atividades e processos industriais."
 	},
@@ -168,7 +168,7 @@ export const data_empresas_expositoras = [
 	},
 	{
 		NomeDaEmpresa: "Dotse Software Engineering",
-		Tag: "Manufatura 4.0",
+		Tag: "Manufatura",
 		Site: "https://dotse.com.br/",
 		Bio: "A segurança dos colaboradores precisa estar em primeiro lugar. Para isso, ter os processos otimizados e um sistema de gerenciamento são pontos importantes. O sistema SGE + Vida pode ser um aliado na sua gestão."
 	},
@@ -198,7 +198,7 @@ export const data_empresas_expositoras = [
 	},
 	{
 		NomeDaEmpresa: "EntregaEpi",
-		Tag: "Manufatura 4.0",
+		Tag: "Manufatura",
 		Site: "https://entregaepi.com.br",
 		Bio: "A EntregaEpi é uma solução completa para a gestão de EPIs, que integra controle de estoque, entregas planejadas ou avulsas, e gestão de treinamentos, garantindo segurança, eficiência e conformidade com a NR6 e LGPD, tudo em uma plataforma digital."
 	},
@@ -258,7 +258,7 @@ export const data_empresas_expositoras = [
 	},
 	{
 		NomeDaEmpresa: "Grafos Tech",
-		Tag: "Manufatura 4.0",
+		Tag: "Manufatura",
 		Site: "https://www.grafostech.com.br/",
 		Bio: "Reduza custos e otimize sua logística com a Grafos Tech: roteirização automática, acompanhamento em tempo real e comprovação de entregas com fotos. Focados em economia de tempo, combustível e controle de entregas, oferecemos tecnologia acessível para empresas de todos os portes. O motorista registra as evidências no sistema, centralizando a comunicação e comprovando cada etapa, desde o início até a conclusão da rota."
 	},
@@ -342,19 +342,19 @@ export const data_empresas_expositoras = [
 	},
 	{
 		NomeDaEmpresa: "MetaVersoStartup",
-		Tag: "Manufatura 4.0",
+		Tag: "Manufatura",
 		Site: "https://www.metaversostartup.com.br",
 		Bio: "Desenvolvemos ambientes de realidades virtuais e metaverso utilizando avatares inteligentes e gamificação para criar negócios conectando o físico e o digital - o phygital. No CREA Summit desejamos demonstrar o Treinamento Virtual e interativo das NR's de Saúde e Segurança do Trabalho."
 	},
 	{
 		NomeDaEmpresa: "Mip Wise",
-		Tag: "Manufatura 4.0",
+		Tag: "Manufatura",
 		Site: "https://www.mipwise.com/",
 		Bio: "A Mip Wise ajuda empresas a maximizar a eficiência produtiva e logística ao transformar dados em decisões e automatizar processos, otimizando o uso de matéria-prima, mão de obra, maquinário, estoque, capital, tempo e muito mais. Prestamos consultoria e desenvolvemos softwares que combinam modelos de otimização, machine learning e simulação para prescrever decisões fundamentadas em dados."
 	},
 	{
 		NomeDaEmpresa: "Miner Tecnologia",
-		Tag: "Manufatura 4.0",
+		Tag: "Manufatura",
 		Site: "https://www.minertecnologia.com",
 		Bio: "Somos uma IT Service focada em inovação e transformação digital para empresas que buscam aumentar eficiência."
 	},
@@ -372,7 +372,7 @@ export const data_empresas_expositoras = [
 	},
 	{
 		NomeDaEmpresa: "Opller",
-		Tag: "Manufatura 4.0",
+		Tag: "Manufatura",
 		Site: "https://www.opller.com",
 		Bio: "A Opller é uma empresa fabricante de hardwares industriais robustos, open source e de baixo custo para controle de máquinas industriais e monitoramento. Desenvolvemos o software de controle ou monitoramento para os nossos clientes, entregando a solução completa para a aplicação."
 	},
@@ -463,7 +463,7 @@ export const data_empresas_expositoras = [
 	},
 	{
 		NomeDaEmpresa: "Teclógica Serviços em Informática",
-		Tag: "Manufatura 4.0",
+		Tag: "Manufatura",
 		Site: "https://www.teclogica.com.br",
 		Bio: "Estamos há mais de 30 anos trabalhando para evoluir o segmento da indústria para um novo patamar. Ao longo desses 30 anos a Teclógica afirmou parcerias com empresas multinacionais, como a Dassault Systemes e recentemente com o grupo WEG, que viabilizou sermos um Hub de soluções para indústria, entregando serviços de ponta a ponta para os nossos clientes."
 	},
@@ -481,13 +481,13 @@ export const data_empresas_expositoras = [
   },
 	{
 		NomeDaEmpresa: "Versionne IA",
-		Tag: "Manufatura 4.0",
+		Tag: "Manufatura",
 		Site: "https://www.versionne.com",
 		Bio: "A Versionne, spin-off da Dalmark Systems especialista em sistemas de gestão (ERP) para manufaturas com grande volume de dados e automações. Em fevereiro de 2023, lançamos nossa startup de tecnologia Low Code e No-Code. Agora, evoluímos para uma startup de Inteligência Artificial e estamos validando nosso novo produto, o Chat With Database."
 	},
 	{
 		NomeDaEmpresa: "Wishbox",
-		Tag: "Manufatura 4.0",
+		Tag: "Manufatura",
 		Site: "https://www.wishbox.net.br",
 		Bio: "A Wishbox é especialista em manufatura aditiva, fornecendo tecnologias de impressão 3D de ponta e consultoria estratégica para indústrias. Nossas impressoras aliadas a nossa metodologia de aceleração de resultados e uma equipe experiente ajudam empresas a otimizar processos, reduzir custos e impulsionar a inovação industrial."
 	},
