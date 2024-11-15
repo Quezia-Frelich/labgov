@@ -84,13 +84,13 @@ export default function Section_brands(){
                         <div>
                         <img 
                             src={
-                            empresa.Tag === "Aceleradas" ? `/empresas-expositoras-2024/aceleradas/crea-acelera.png` :
-                            empresa.Tag === "Agtech" ? `/empresas-expositoras-2024/agtech/acate-agtech.png` :
-                            empresa.Tag === "Construtech" ? `/empresas-expositoras-2024/construtech/acate-construtech.png` :
-                            empresa.Tag === "Energia" ? `/empresas-expositoras-2024/energia/acate-energia.png` :
-                            empresa.Tag === "Ferramentas Digitais" ? `/empresas-expositoras-2024/ferramentas-digitais/inovacrea.png` :
-                            empresa.Tag === "Manufatura" ? `/empresas-expositoras-2024/manufatura/manufatura.png` :
-                            empresa.Tag === "Smart Cities" ? `/empresas-expositoras-2024/smart-cities/acate-smart-cities.png` :
+                            empresa.Tag === "Aceleradas" ? `/empresas-expositoras-2024/empresas-aceleradas/crea-acelera.png` :
+                            empresa.Tag === "Agtech" ? `/empresas-expositoras-2024/empresas-agtech/acate-agtech.png` :
+                            empresa.Tag === "Construtech" ? `/empresas-expositoras-2024/empresas-construtech/acate-construtech.png` :
+                            empresa.Tag === "Energia" ? `/empresas-expositoras-2024/empresas-energia/acate-energia.png` :
+                            empresa.Tag === "Ferramentas Digitais" ? `/empresas-expositoras-2024/empresas-ferramentas-digitais/inovacrea.png` :
+                            empresa.Tag === "Manufatura" ? `/empresas-expositoras-2024/empresas-manufatura/manufatura.png` :
+                            empresa.Tag === "Smart Cities" ? `/empresas-expositoras-2024/empresas-smart-cities/acate-smart-cities.png` :
                             ""
                             }
                             alt={empresa.Tag} 
