@@ -1,8 +1,8 @@
-import Icon_dicas from "../../../../../public/icons/icon-dicas";
-import Icon_feira from "../../../../../public/icons/icon-feira";
-import Icon_local from "../../../../../public/icons/icon-local";
-import Icon_Macro_programacao from "../../../../../public/icons/icon-macro-programacao";
-import Icon_restaurantes from "../../../../../public/icons/icon-restaurantes";
+import Icon_dicas from "../../icons/button-nav/icon-dicas";
+import Icon_feira from "../../icons/button-nav/icon-feira";
+import Icon_local from "../../icons/button-nav/icon-local";
+import Icon_Macro_programacao from "../../icons/button-nav/icon-macro-programacao";
+import Icon_restaurantes from "../../icons/button-nav/icon-restaurantes";
 import Button_outline from "../../components/buttons/button_outline";
 import Container from "../../components/container/container";
 
