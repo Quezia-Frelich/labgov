@@ -82,20 +82,21 @@ export default function Section_brands(){
                     {empresa.Tag !== "Parceira" && empresa.Tag !== "Sistema Profissional" && (
                         <div>
                         <img 
-                            src={
-                            empresa.Tag === "Aceleradas" ? `/empresas-expositoras-2024/${empresa.Tag}/crea-acelera.png` :
-                            empresa.Tag === "Agtech" ? `/empresas-expositoras-2024/${empresa.Tag}/Acate-agtech.png` :
-                            empresa.Tag === "Construtech" ? `/empresas-expositoras-2024/${empresa.Tag}/Acate-construtech.png` :
-                            empresa.Tag === "Energia" ? `/empresas-expositoras-2024/${empresa.Tag}/Acate-energia.png` :
-                            empresa.Tag === "Ferramentas Digitais" ? `/empresas-expositoras-2024/${empresa.Tag}/inovacrea.png` :
-                            empresa.Tag === "Manufatura 4.0" ? `/empresas-expositoras-2024/${empresa.Tag}/Acate-manufatura.png` :
-                            empresa.Tag === "Smart Cities" ? `/empresas-expositoras-2024/${empresa.Tag}/Acate-smart-cities.png` :
-                            empresa.Tag === "Sistema Profissional" ? `/empresas-expositoras-2024/${empresa.Tag}/crea-acelera.png` :
+                        src={
+                            empresa.Tag === "Aceleradas" ? `/empresas-expositoras-2024/${encodeURIComponent(empresa.Tag)}/crea-acelera.png` :
+                            empresa.Tag === "Agtech" ? `/empresas-expositoras-2024/${encodeURIComponent(empresa.Tag)}/Acate-agtech.png` :
+                            empresa.Tag === "Construtech" ? `/empresas-expositoras-2024/${encodeURIComponent(empresa.Tag)}/Acate-construtech.png` :
+                            empresa.Tag === "Energia" ? `/empresas-expositoras-2024/${encodeURIComponent(empresa.Tag)}/Acate-energia.png` :
+                            empresa.Tag === "Ferramentas Digitais" ? `/empresas-expositoras-2024/${encodeURIComponent(empresa.Tag)}/inovacrea.png` :
+                            empresa.Tag === "Manufatura 4.0" ? `/empresas-expositoras-2024/${encodeURIComponent(empresa.Tag)}/Acate-manufatura.png` :
+                            empresa.Tag === "Smart Cities" ? `/empresas-expositoras-2024/${encodeURIComponent(empresa.Tag)}/Acate-smart-cities.png` :
+                            empresa.Tag === "Sistema Profissional" ? `/empresas-expositoras-2024/${encodeURIComponent(empresa.Tag)}/crea-acelera.png` :
                             ""
-                            }
-                            alt={empresa.NomeDaEmpresa} 
-                            className={`rounded-md max-w-16 ${openBox === index ? 'hidden md:block absolute left-20 -translate-x-3 bottom-5' : 'mx-auto'}`}
+                        }
+                        alt={empresa.NomeDaEmpresa} 
+                        className={`rounded-md max-w-16 ${openBox === index ? 'hidden md:block absolute left-20 -translate-x-3 bottom-5' : 'mx-auto'}`}
                         />
+
                         </div>
                     )}
                     
