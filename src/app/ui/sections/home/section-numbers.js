@@ -13,12 +13,12 @@ export default function Section_numbers(){
 
                 <div className="flex flex-col items-center justify-center gap-5">
                     <img src="/icons/icon_participantes.png" alt="Participantes" className="h-12 md:h-14"></img>
-                    <Number_count before_number={'+'} number={1500} title={'Participantes'} animate={true}/>
+                    <Number_count before_number={'+'} number={2000} title={'Participantes'} animate={true}/>
                 </div>
 
                 <div className="flex flex-col items-center justify-center gap-5">
                     <img src="/icons/icon_estandes.png" alt="Participantes" className="h-12 md:h-14"></img>
-                    <Number_count before_number={'+'} number={84} title={'Estandes'} animate={true}/>
+                    <Number_count before_number={'+'} number={83} title={'Estandes'} animate={true}/>
                 </div>
 
                 <div className="flex flex-col items-center justify-center gap-5">

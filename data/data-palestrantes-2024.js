@@ -58,7 +58,8 @@ export const data_palestrantes_2024 = [
     profile: "/summit-2024/Anderson Becker.png",
     fullName: "Anderson Becker",
     position: "CEO - ABecker Loteamentos",
-    description: "",
+    description:
+      "O CEO da Abecker Loteamentos, Anderson Becker, possui mais de 20 anos de experiência no ramo imobiliário e em projetos de loteamentos e condomínios residenciais e industriais.",
     instagram: "",
     linkedin: "https://www.linkedin.com/in/anderson-becker-376940258",
   },
