@@ -17,7 +17,7 @@ export default function Section_button_nav ( { activeSection } ) {
             hiddenText={true}
             href={'#macro'}
             text={'Macro Programação'}
-            className={`items-center rounded-full w-full  text-nowrap py-3 px-7 border-violet-crea-700 hover:text-white hover:bg-violet-crea-400 transition-all ${activeSection === 1 && 'bg-violet-crea-400 text-white'}`}
+            className={`items-center rounded-full w-full  text-nowrap py-3 border-violet-crea-700 hover:text-white hover:bg-violet-crea-400 transition-all ${activeSection === 1 && 'bg-violet-crea-400 text-white'}`}
           />
         <Button_outline
             icon={<Icon_local/>}
@@ -25,7 +25,7 @@ export default function Section_button_nav ( { activeSection } ) {
             hiddenText={true}
             href={'#localDoEvento'}
             text={'Local do Evento'}
-            className={`items-center rounded-full w-full  text-nowrap py-3 px-7 border-violet-crea-700 hover:text-white hover:bg-violet-crea-400 transition-all ${activeSection === 2 && 'bg-violet-crea-400 text-white'}`}
+            className={`items-center rounded-full w-full  text-nowrap py-3 border-violet-crea-700 hover:text-white hover:bg-violet-crea-400 transition-all ${activeSection === 2 && 'bg-violet-crea-400 text-white'}`}
           />
         <Button_outline
             icon={<Icon_restaurantes/>}
@@ -33,7 +33,7 @@ export default function Section_button_nav ( { activeSection } ) {
             hiddenText={true}
             href={'#restaurantes'}
             text={'Restaurantes'}
-            className={`items-center rounded-full w-full  text-nowrap py-3 px-7 border-violet-crea-700 hover:text-white hover:bg-violet-crea-400 transition-all ${activeSection === 3 && 'bg-violet-crea-400 text-white'}`}
+            className={`items-center rounded-full w-full  text-nowrap py-3 border-violet-crea-700 hover:text-white hover:bg-violet-crea-400 transition-all ${activeSection === 3 && 'bg-violet-crea-400 text-white'}`}
           />
         <Button_outline
             icon={<Icon_dicas/>}
@@ -41,7 +41,7 @@ export default function Section_button_nav ( { activeSection } ) {
             hiddenText={true}
             href={'#dicas'}
             text={'Dicas'}
-            className={`items-center rounded-full w-full  text-nowrap py-3 px-7 border-violet-crea-700 hover:text-white hover:bg-violet-crea-400 transition-all ${activeSection === 4 && 'bg-violet-crea-400 text-white'}`}
+            className={`items-center rounded-full w-full  text-nowrap py-3 border-violet-crea-700 hover:text-white hover:bg-violet-crea-400 transition-all ${activeSection === 4 && 'bg-violet-crea-400 text-white'}`}
           />
         <Button_outline
             icon={<Icon_feira/>}
@@ -49,7 +49,7 @@ export default function Section_button_nav ( { activeSection } ) {
             hiddenText={true}
             href={'#feiraTecnológica'}
             text={'Feira Tecnológica'}
-            className={`items-center rounded-full w-full text-nowrap py-3 px-7 border-violet-crea-700 hover:text-white hover:bg-violet-crea-400 transition-all ${activeSection === 5 && 'bg-violet-crea-400 text-white'}`}
+            className={`items-center rounded-full w-full text-nowrap py-3 border-violet-crea-700 hover:text-white hover:bg-violet-crea-400 transition-all ${activeSection === 5 && 'bg-violet-crea-400 text-white'}`}
           />
         </Container>
     </section>
