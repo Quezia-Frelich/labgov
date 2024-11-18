@@ -19,21 +19,21 @@ export const data_schedule_2024 = [
     time: "19:00",
     duration: "30",
     speakers: [
-      {
-        profile: "/summit-2024/Kita Xavier.jpeg",
-        fullName: "Kita Xavier",
-        company: "CREA-SC",
-      },
-      {
-        profile: "/summit-2024/Vinicius Marchese.jpg",
-        fullName: "Vinicius Marchese",
-        company: "CONFEA",
-      },
-      {
-        profile: "/summit-2024/Joel Kruger.png",
-        fullName: "Joel Krüger",
-        company: "MÚTUA",
-      },
+      // {
+      //   profile: "/summit-2024/Kita Xavier.jpeg",
+      //   fullName: "Kita Xavier",
+      //   company: "CREA-SC",
+      // },
+      // {
+      //   profile: "/summit-2024/Vinicius Marchese.jpg",
+      //   fullName: "Vinicius Marchese",
+      //   company: "CONFEA",
+      // },
+      // {
+      //   profile: "/summit-2024/Joel Kruger.png",
+      //   fullName: "Joel Krüger",
+      //   company: "MÚTUA",
+      // },
     ],
   },
   {
@@ -248,7 +248,7 @@ export const data_schedule_2024 = [
     date: "23/11",
     scenery: "plenária",
     time: "11:10",
-    duration: "40",
+    duration: "50",
     speakers: [
       {
         profile: "/summit-2024/Tulio Duarte.png",
@@ -369,6 +369,11 @@ export const data_schedule_2024 = [
         profile: "/summit-2024/Edilene Steinwandter.png",
         fullName: "Edilene Steinwandter",
         company: "Epagri",
+      },
+      {
+        profile: "/summit-2024/Cinthya M S Zanuzzi.png",
+        fullName: "Cinthya M S Zanuzzi",
+        company: "Aggrotertium",
       },
     ],
     lastEvent: true,

@@ -309,6 +309,16 @@ export const data_palestrantes_2024 = [
     linkedin: "",
   },
   {
+    profile: "/summit-2024/Cinthya M S Zanuzzi.png",
+    fullName: "Cinthya M S Zanuzzi",
+    position: "CEO - Aggrotertium",
+    description:
+      "CINTHYA MÔNICA DA SILVA ZANUZZI é Engenheira Agrônoma (UDESC) e Sócia Proprietária da Aggrotertium, doutora e mestre em Engenharia e Gestão do Conhecimento (UFSC). Possui mais de 25 anos de experiência no agro, na área ambiental, na coordenação de projetos de sustentabilidade e inovação no agronegócio.",
+    instagram:
+      "https://www.instagram.com/cinthya_zanuzzi/profilecard/?igsh=MTRrdXdiMDJuejd5OQ==",
+    linkedin: "https://linkedin.com/in/cinthya-m-s-zanuzzi-0139bb166",
+  },
+  {
     profile: "/summit-2024/Alvaro Dourado.png",
     fullName: "Álvaro Antônio Ribas Dourado",
     position: "Diretor Geral - MÚTUA/SC",
