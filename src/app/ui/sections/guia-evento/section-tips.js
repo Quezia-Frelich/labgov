@@ -36,7 +36,12 @@ export default function Section_tips ( {} ) {
 
               <div className="my-10 p-4 bg-white/20 border border-white rounded-md">
                 <Text_body className={'font-bold'}>Conexão WiFi</Text_body>
-                <Text_body className={'flex items-center gap-5'}> A rede Wi-Fi do evento será aberta para todos os participantes. Basta se conectar à rede "CREASummit" sem a necessidade de senha.</Text_body>
+                <Text_body className={'flex items-center gap-5'}>Nosso evento contará com uma rede de wifi própria:
+                </Text_body>
+                <ul className="ml-5">
+                  <li><strong>Nome da rede: </strong> CREASUMMIT2024</li>
+                  <li><strong>Senha: </strong> Creasc@2024</li>
+                </ul>
               </div>
 
           </div>

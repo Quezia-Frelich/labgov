@@ -16,6 +16,7 @@ export default function Section_description ( {} ) {
                 Esperamos que o CREA Summit SC seja um marco na sua carreira e que você saia daqui motivado e preparado para os desafios do futuro.
                 <br></br><br></br>
                 Atenciosamente,
+                <br></br><br></br>
                 Equipe Organizadora do CREA Summit SC
                 </Text_body>
             </div>
