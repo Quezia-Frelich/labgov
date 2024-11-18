@@ -26,10 +26,10 @@ const navigation = [
     name: "Programação",
     href: "/programacao",
   },
-  {
+  /* {
     name: "Guia do evento",
     href: "/guia-evento",
-  },
+  }, */
   {
     name: "Como chegar",
     href: "/#comoChegar",
@@ -142,7 +142,7 @@ export default function Header() {
                                 <Menu.Button
                                   className={`h-4 flex items-center text-base px-3 ${
                                     pathName === item.href &&
-                                    "font-light hover:font-semibold transition-all"
+                                    "hover:font-semibold transition-all"
                                   }`}
                                 >
                                   {item.name}
@@ -158,13 +158,7 @@ export default function Header() {
                                   leaveTo="transform opacity-0 scale-95"
                                 >
                                   <Menu.Items
-                                    className={`absolute top-10 left-0 w-60 px-5 origin-top-left divide-y divide-gray-100 ${
-                                      pathName === "/" && headerStiky
-                                        ? "bg-white"
-                                        : "bg-white/20"
-                                    } backdrop-blur-md bg-white ${
-                                      headerStiky && "bg-white"
-                                    } shadow-lg focus:outline-none rounded-lg`}
+                                    className={`absolute top-10 left-0 w-60 px-5 origin-top-left divide-y divide-gray-100 backdrop-blur-md bg-white text-violet-crea-600 shadow-lg focus:outline-none rounded-lg`}
                                   >
                                     {item.subMenuItem.map((subItem) => (
                                       <Menu.Item key={subItem.subItem.subName}>
@@ -290,7 +284,7 @@ export default function Header() {
                                   className={`py-3 border-blue-crea-500 flex items-center text-base px-2 ${
                                     pathName === `${item.href}`
                                       ? "font-bold border-l-2"
-                                      : "font-light"
+                                      : "font-normal"
                                   }`}
                                 >
                                   {subItem.subItem.subName}
@@ -305,7 +299,7 @@ export default function Header() {
                             className={`border-blue-crea-500 h-4 flex items-center text-base px-2 ${
                               pathName === `${item.href}`
                                 ? "text-blue-crea-500 font-bold border-l-2"
-                                : "text-blue-crea-500 font-light"
+                                : "text-blue-crea-500 font-normal"
                             }`}
                           >
                             {item.name}

@@ -27,7 +27,7 @@ export default function Section_schedule(){
                     </div>
                     <div className="space-y-2">
                         <Text_head_3 className={'font-bold text-violet-crea-700'}>Primeiro dia de evento</Text_head_3>
-                        <ul class="list-disc list-inside">
+                        <ul className="list-disc list-inside">
                             <li>17h - Credenciamento do CREA Summit 2023</li>
                             <li>19h - Abertura do CREA Summit 2023</li>
                             <li>20h - Phygital: a imersão digital no mundo da engenharia</li>
@@ -42,7 +42,7 @@ export default function Section_schedule(){
                     </div>
                     <div className="space-y-2">
                         <Text_head_3 className={'font-bold text-violet-crea-700'}>Segundo dia de evento</Text_head_3>
-                        <ul class="list-disc list-inside">
+                        <ul className="list-disc list-inside">
                             <li>08h - Credenciamento do CREA Summit 2023</li>
                             <li>09h - Painel: “Tecnologias que proporcionam a identificação de obras irregulares”</li>
                             <li>10h - Palestra: “Tendências e tecnologias para cidades inteligentes e sustentáveis”</li>
