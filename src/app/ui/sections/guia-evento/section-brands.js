@@ -61,7 +61,7 @@ export default function Section_brands(){
                             <option value="Construtech">Construtech</option>
                             <option value="Energia">Energia</option>
                             <option value="Ferramentas Digitais">Ferramentas Digitais</option>
-                            <option value="Manufatura 4.0">Manufatura 4.0</option>
+                            <option value="Manufatura">Manufatura 4.0</option>
                             <option value="Smart Cities">Smart Cities</option>
                             <option value="Sistema Profissional">Sistema Profissional</option>
                             <option value="Parceira">Parceira</option>
