@@ -261,6 +261,7 @@ export const data_schedule_2024 = [
       //   company: "FIESC",
       // },
     ],
+    isLunchBreak: true,
   },
   {
     title: "Energia Renovável e o Mercado Livre",
@@ -291,7 +292,6 @@ export const data_schedule_2024 = [
         company: "UTIS Brasil",
       },
     ],
-    isLunchBreak: true,
   },
   {
     title: "Comitê BIM CREA-SC ações e desafios para Santa Catarina",
