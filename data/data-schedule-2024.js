@@ -244,19 +244,23 @@ export const data_schedule_2024 = [
   },
   {
     title:
-      "Tecnologias disruptivas: Hidrogênio para a Eficiência Energética e Descarbonização",
+      "Indústria 4.0 e Neo Industrialização: A Revolução Digital que está redefinindo o futuro da produção",
     date: "23/11",
     scenery: "plenária",
     time: "11:10",
-    duration: "50",
+    duration: "40",
     speakers: [
       {
-        profile: "/summit-2024/Fabiano Sousa.png",
-        fullName: "Fabiano Sousa",
-        company: "UTIS Brasil",
+        profile: "/summit-2024/Tulio Duarte.png",
+        fullName: "Tulio Duarte Christofoletti",
+        company: "HarboR",
       },
+      // {
+      //   profile: "/summit-2024/Mario Cezar de Aguiar.png",
+      //   fullName: "Mario Cezar de Aguiar",
+      //   company: "FIESC",
+      // },
     ],
-    isLunchBreak: true,
   },
   {
     title: "Energia Renovável e o Mercado Livre",
@@ -275,23 +279,19 @@ export const data_schedule_2024 = [
   },
   {
     title:
-      "Indústria 4.0 e Neo Industrialização: A Revolução Digital que está redefinindo o futuro da produção",
+      "Tecnologias disruptivas: Hidrogênio para a Eficiência Energética e Descarbonização",
     date: "23/11",
     scenery: "plenária",
     time: "14:40",
-    duration: "40",
+    duration: "50",
     speakers: [
       {
-        profile: "/summit-2024/Tulio Duarte.png",
-        fullName: "Tulio Duarte Christofoletti",
-        company: "HarboR",
+        profile: "/summit-2024/Fabiano Sousa.png",
+        fullName: "Fabiano Sousa",
+        company: "UTIS Brasil",
       },
-      // {
-      //   profile: "/summit-2024/Mario Cezar de Aguiar.png",
-      //   fullName: "Mario Cezar de Aguiar",
-      //   company: "FIESC",
-      // },
     ],
+    isLunchBreak: true,
   },
   {
     title: "Comitê BIM CREA-SC ações e desafios para Santa Catarina",
