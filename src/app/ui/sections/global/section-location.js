@@ -24,7 +24,7 @@ export default function Section_location ( { showMap } ) {
                   Av. Marginal Oeste Nova Esperança, Balneário Camboriú
                 </Text_link>
                 <Text_body className={''}>
-                  <span className="font-extrabold pl-1 text-xl pr-2 text-lg">P</span>O local possui estacionamento para aproximadamente 1.000 veículos e custa R$ 60,00 cada vez que for utilizado
+                  <span className="font-extrabold pl-1 pr-2 text-lg">P</span>O local possui estacionamento para aproximadamente 1.000 veículos e custa R$ 60,00 cada vez que for utilizado
                 </Text_body>
               </div>
             </div>
