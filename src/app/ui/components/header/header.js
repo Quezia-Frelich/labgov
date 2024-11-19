@@ -26,10 +26,10 @@ const navigation = [
     name: "Programação",
     href: "/programacao",
   },
-  /* {
+  {
     name: "Guia do evento",
     href: "/guia-evento",
-  }, */
+  },
   {
     name: "Como chegar",
     href: "/#comoChegar",
