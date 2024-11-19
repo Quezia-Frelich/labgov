@@ -76,7 +76,7 @@ export default function Section_local({}) {
 
           <div className="max-w-72">
             <Button_outline
-              href={"/pdf/Mapa Evento CREA Summit 2024.pdf"}
+              href={"/pdf/Mapa Expocentro CREA Summit 2024.pdf"}
               text={"Baixar mapa do evento"}
               icon={<ArrowDownTrayIcon className="size-5" />}
               className={

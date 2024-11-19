@@ -59,8 +59,8 @@ export const data_palestrantes_2024 = [
     fullName: "Anderson Becker",
     position: "CEO - ABecker Loteamentos",
     description:
-      "O CEO da Abecker Loteamentos, Anderson Becker, possui mais de 20 anos de experiência no ramo imobiliário e em projetos de loteamentos e condomínios residenciais e industriais.",
-    instagram: "",
+      "Anderson Becker é um empresário de destaque no setor imobiliário, cuja trajetória combina perseverança, inovação e visão estratégica. Sua liderança visionária tem impulsionado projetos residenciais e industriais de alta qualidade em Santa Catarina e no Paraná, consolidando a ABecker como uma das principais referências do setor.",
+    instagram: "https://www.instagram.com/abecker.oficial/",
     linkedin: "https://www.linkedin.com/in/anderson-becker-376940258",
   },
   {
