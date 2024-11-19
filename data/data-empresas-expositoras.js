@@ -442,14 +442,14 @@ export const data_empresas_expositoras = [
     Site: "https://www.mipwise.com/",
     Bio: "A Mip Wise ajuda empresas a maximizar a eficiência produtiva e logística ao transformar dados em decisões e automatizar processos, otimizando o uso de matéria-prima, mão de obra, maquinário, estoque, capital, tempo e muito mais. Prestamos consultoria e desenvolvemos softwares que combinam modelos de otimização, machine learning e simulação para prescrever decisões fundamentadas em dados.",
   },
-  {
-    NomeDaEmpresa: "Miner Tecnologia",
-    Tag: "Manufatura",
-    Image:
-      "/empresas-expositoras-2024/empresas-manufatura/miner-tecnologia.png",
-    Site: "https://www.minertecnologia.com",
-    Bio: "Somos uma IT Service focada em inovação e transformação digital para empresas que buscam aumentar eficiência.",
-  },
+  // {
+  //   NomeDaEmpresa: "Miner Tecnologia",
+  //   Tag: "Manufatura",
+  //   Image:
+  //     "/empresas-expositoras-2024/empresas-manufatura/miner-tecnologia.png",
+  //   Site: "https://www.minertecnologia.com",
+  //   Bio: "Somos uma IT Service focada em inovação e transformação digital para empresas que buscam aumentar eficiência.",
+  // },
   {
     NomeDaEmpresa: "Mobuss Soluções Tecnologicas",
     Tag: "Construtech",
@@ -516,13 +516,13 @@ export const data_empresas_expositoras = [
     Site: null,
     Bio: "A Ravem Engenharia é especializada em regularização imobiliária e projetos de documentação, atuando com responsabilidade e inovação desde 2017.",
   },
-  {
-    NomeDaEmpresa: "Revella",
-    Tag: "Agtech",
-    Image: "/empresas-expositoras-2024/empresas-agtech/revella.png",
-    Site: "https://revellatech.com/",
-    Bio: "A Revella desenvolve e produz aditivos que são sinônimos de alta performance e sustentabilidade para a agroindústria.Os produtos à base de bioativos e nutrientes estruturados em tamanho nano são incorporados por nossos clientes em diversos insumos agrícolas tais como fertilizantes, adjuvantes e tratamento de sementes.",
-  },
+  // {
+  //   NomeDaEmpresa: "Revella",
+  //   Tag: "Agtech",
+  //   Image: "/empresas-expositoras-2024/empresas-agtech/revella.png",
+  //   Site: "https://revellatech.com/",
+  //   Bio: "A Revella desenvolve e produz aditivos que são sinônimos de alta performance e sustentabilidade para a agroindústria.Os produtos à base de bioativos e nutrientes estruturados em tamanho nano são incorporados por nossos clientes em diversos insumos agrícolas tais como fertilizantes, adjuvantes e tratamento de sementes.",
+  // },
   {
     NomeDaEmpresa: "Rhas Ambiental",
     Tag: "Aceleradas",
@@ -614,11 +614,18 @@ export const data_empresas_expositoras = [
     Bio: "A Wishbox é especialista em manufatura aditiva, fornecendo tecnologias de impressão 3D de ponta e consultoria estratégica para indústrias. Nossas impressoras aliadas a nossa metodologia de aceleração de resultados e uma equipe experiente ajudam empresas a otimizar processos, reduzir custos e impulsionar a inovação industrial.",
   },
   {
-    NomeDaEmpresa: "WeCharge Eletropostos LTDA",
+    NomeDaEmpresa: "ZeroWastex",
     Tag: "Smart Cities",
-    Image:
-      "/empresas-expositoras-2024/empresas-smart-cities/wecharge-eletropostos-ltda.png",
-    Site: "https://www.wecharge.com.br",
-    Bio: "Soluções completas de recarga para veículos eletrificados.",
+    Image: "/empresas-expositoras-2024/empresas-smart-cities/zerowastex.png",
+    Site: "www.zerowastex.com.br",
+    Bio: "Ajudamos as cidades a fazerem a transição para a economia circular com governo digital, para smart cities lixo zero.",
   },
+  // {
+  //   NomeDaEmpresa: "WeCharge Eletropostos LTDA",
+  //   Tag: "Smart Cities",
+  //   Image:
+  //     "/empresas-expositoras-2024/empresas-smart-cities/wecharge-eletropostos-ltda.png",
+  //   Site: "https://www.wecharge.com.br",
+  //   Bio: "Soluções completas de recarga para veículos eletrificados.",
+  // },
 ];
