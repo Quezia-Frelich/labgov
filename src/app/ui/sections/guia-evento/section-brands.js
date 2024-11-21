@@ -107,7 +107,7 @@ export default function Section_brands(){
           
 
                     {/* Descrição do empresa */}
-                    <div className={openBox === index ? 'p-5' : 'hidden'}>
+                    <div className={openBox === index ? 'p-5 z-50' : 'hidden'}>
                         <div className="flex items-center gap-5">
                         <img src={empresa.Image} alt={empresa.NomeDaEmpresa} className={`rounded-md max-h-20 md:hidden`}/>
                         <div>

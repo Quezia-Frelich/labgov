@@ -132,7 +132,7 @@ export const data_empresas_expositoras = [
     Tag: "Construtech",
     Image:
       "/empresas-expositoras-2024/empresas-construtech/cartesian-engenharia.png",
-    Site: "www.cartesianengenharia.com",
+    Site: "https://www.cartesianengenharia.com",
     Bio: "A Cartesian Engenharia oferece soluções inovadoras para o setor de construção civil, integrando escopo, tempo e custo em projetos. Especialista em BIM, coordenamos e compatibilizamos projetos com foco em eficiência e redução de custos. Nosso diferencial é um trabalho personalizado que reflete o estilo construtivo do cliente, com uma equipe altamente qualificada que garante o sucesso de cada empreendimento por meio de uma metodologia colaborativa e tecnologia avançada.",
   },
   {
@@ -275,7 +275,7 @@ export const data_empresas_expositoras = [
     NomeDaEmpresa: "FazendaCheia",
     Tag: "Agtech",
     Image: "/empresas-expositoras-2024/empresas-agtech/fazendacheia.png",
-    Site: "http://www.fazendacheia.com.br",
+    Site: "https://www.fazendacheia.com.br",
     Bio: "Plataforma de investimento focada na originação e lançamento de projetos agro.",
   },
   {
@@ -322,7 +322,7 @@ export const data_empresas_expositoras = [
     NomeDaEmpresa: "Gás Orgânico",
     Tag: "Energia",
     Image: "/empresas-expositoras-2024/empresas-energia/gas-organico.png",
-    Site: "www.gasorganico.com.br",
+    Site: "https://www.gasorganico.com.br",
     Bio: "Gás Orgânico desenvolve interfaces de alta performance para produtos relacionados à gás e energia, baseada nos pilares das novas tecnologias, atuando em pesquisa, desenvolvimento e inovação, priorizando projetos de energia renovável e ferramentas de inteligência de mercado para descarbonização de frotas e operações.",
   },
   {
@@ -350,7 +350,7 @@ export const data_empresas_expositoras = [
     NomeDaEmpresa: "NPU-Hinc",
     Tag: "Construtech",
     Image: "/empresas-expositoras-2024/empresas-construtech/npu-hinc.png",
-    Site: "www.hinc.com.br",
+    Site: "https://www.hinc.com.br",
     Bio: "Solução que integra inteligência em dados e gestão de planos de ação para a indústria da construção. Mais insights para a tomada de decisão da engenharia à contabilidade. Maior alinhamento e engajamento da equipe.",
   },
   {
@@ -372,7 +372,7 @@ export const data_empresas_expositoras = [
     NomeDaEmpresa: "INMETA",
     Tag: "Construtech",
     Image: "/empresas-expositoras-2024/empresas-construtech/inmeta.png",
-    Site: "www.inmeta.com.br",
+    Site: "https://www.inmeta.com.br",
     Bio: "A InMeta é uma plataforma voltada para empresas de construção civil que desejam otimizar o controle e gerenciamento de seus processos no canteiro de obras. Nossas soluções abrangem todo o ciclo da obra, desde a fase de projetos até o pós-obra. As principais funcionalidades incluem controle de projetos e documentos, gestão de acesso, segurança, qualidade e assistência técnica.",
   },
   {
@@ -409,7 +409,7 @@ export const data_empresas_expositoras = [
     NomeDaEmpresa: "Locates",
     Tag: "Construtech",
     Image: "/empresas-expositoras-2024/empresas-construtech/locates.png",
-    Site: "locates.com.br",
+    Site: "https://locates.com.br",
     Bio: "Simplificamos e potencializamos o desenvolvimento imobiliário com alta tecnologia. Criamos uma nova forma de identificar, avaliar, conectar e investir em oportunidades imobiliárias.",
   },
   {
@@ -462,7 +462,7 @@ export const data_empresas_expositoras = [
     NomeDaEmpresa: "Nexpoint",
     Tag: "Energia",
     Image: "/empresas-expositoras-2024/empresas-energia/nexpoint.png",
-    Site: "www.nexpoint.com.br",
+    Site: "https://www.nexpoint.com.br",
     Bio: "A Nexpoint é uma empresa que desenvolve e aplica soluções inteligentes para redução de custos operacionais de seus clientes. Contando com uma equipe altamente especializada, desenvolvemos um completo sistema de gestão da energia elétrica, integrando dados de consumo, de geração própria e até variáveis de influência no comportamento das cargas, com funcionalidades de auditoria, alertas e controle para evitar multas e maximizar a eficiência energética.",
   },
   {
@@ -483,7 +483,7 @@ export const data_empresas_expositoras = [
     NomeDaEmpresa: "ORN SPACE",
     Tag: "Agtech",
     Image: "/empresas-expositoras-2024/empresas-agtech/orn-space.png",
-    Site: "www.ornspace.com",
+    Site: "https://www.ornspace.com",
     Bio: "A ORN Space é uma Greentech especializada em soluções de inteligência geoespacial para os setores de Agro, Mercado de Carbono e Cidades Inteligentes. Utilizando Imagens de satélite e inteligência artificial, oferecemos ferramentas inovadoras para monitoramento ambiental, compliance e otimização de recursos. Nossa tecnologia transforma dados complexos em insights estratégicos, promovendo sustentabilidade e eficiência em escala.",
   },
   {
@@ -596,7 +596,7 @@ export const data_empresas_expositoras = [
     NomeDaEmpresa: "Vaca Roxa",
     Tag: "Agtech",
     Image: "/empresas-expositoras-2024/empresas-agtech/vaca-roxa.png",
-    Site: "vacaroxaa.com",
+    Site: "https://vacaroxaa.com",
     Bio: "A vaca Roxa é a raquete digital iot e em apenas 40 segundos, identificamos a vaca infectada e o grau de infecção da mastite e por meio da nossa plataforma web e do aplicativo veterinário, disponibilizamos os resultados dos testes em tempo real, permitindo que produtores de leite, laticínios e veterinários acompanhem e monitorem a saúde e a produtividade do rebanho. Garantindo intervenções rápidas e otimiza a qualidade do leite, promovendo o bem-estar animal e a rentabilidade da fazenda.",
   },
   {
@@ -617,7 +617,7 @@ export const data_empresas_expositoras = [
     NomeDaEmpresa: "ZeroWastex",
     Tag: "Smart Cities",
     Image: "/empresas-expositoras-2024/empresas-smart-cities/zerowastex.png",
-    Site: "www.zerowastex.com.br",
+    Site: "https://www.zerowastex.com.br",
     Bio: "Ajudamos as cidades a fazerem a transição para a economia circular com governo digital, para smart cities lixo zero.",
   },
   // {
