@@ -30,10 +30,10 @@ const navigation = [
     name: "Guia do evento",
     href: "/guia-evento",
   },
-  {
-    name: "Como chegar",
-    href: "/#comoChegar",
-  },
+  // {
+  //   name: "Como chegar",
+  //   href: "/#comoChegar",
+  // },
   {
     name: "Edições anteriores",
     href: "/",
@@ -212,7 +212,7 @@ export default function Header() {
                     </div>
 
                     <div className="flex items-center justify-between gap-5">
-                      <Button_outline
+                      {/* <Button_outline
                         href={
                           "https://www.sympla.com.br/crea-summit-2024__2629588"
                         }
@@ -228,7 +228,7 @@ export default function Header() {
                             : "bg-violet-crea-400 hover:bg-violet-crea-400 text-white"
                         }`}
                         target={true}
-                      />
+                      /> */}
 
                       <div className="-mr-2 flex xl:hidden">
                         <Disclosure.Button
