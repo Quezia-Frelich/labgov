@@ -36,13 +36,10 @@ export default function Section_welcome() {
 
           <Text_head_2 className={"flex gap-5"}>
             <CalendarDaysIcon className="size-8" />
-            22 e 23 de novembro de 2024
+            Muito obrigado pela sua participação!
           </Text_head_2>
 
-          <Text_head_2 className={"flex gap-5"}>
-            <MapPinIcon className="size-8" />
-            Expocentro Balneário Camboriú
-          </Text_head_2>
+          <Text_head_2 className={"flex gap-5"}>Nos vemos em 2025.</Text_head_2>
 
           {/* <Button_outline
             href={'https://www.sympla.com.br/crea-summit-2024__2629588'}
