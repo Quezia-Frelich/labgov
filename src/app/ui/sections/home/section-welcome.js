@@ -35,7 +35,6 @@ export default function Section_welcome() {
           />
 
           <Text_head_2 className={"flex gap-5"}>
-            <CalendarDaysIcon className="size-8" />
             Muito obrigado pela sua participação!
           </Text_head_2>
 
