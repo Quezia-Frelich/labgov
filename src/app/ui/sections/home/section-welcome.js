@@ -47,10 +47,10 @@ export default function Section_welcome() {
             className={'items-center rounded-full w-full min-w-32 md:min-w-40 py-5 px-7 bg-white/20 hover:bg-white/10 transition-all'}
             target={true}
           /> */}
-          {/* 
+
           <Button_outline
             href={
-              "https://creascorgbr-my.sharepoint.com/:f:/g/personal/audiovisual_crea-sc_org_br/EqFA19JqJ5lKin1JI2PsJDUBguzgMYiy5RW0BOJezUFtwA?e=1mL3vi"
+              "https://www.flickr.com/photos/creasc/collections/72157723385872275/"
             }
             text={"Confira aqui as fotos do evento!"}
             icon={<ArrowRightIcon className="size-5" />}
@@ -58,7 +58,7 @@ export default function Section_welcome() {
               "items-center rounded-full w-full min-w-32 md:min-w-40 py-5 px-7 bg-white/20 hover:bg-white/10 transition-all"
             }
             target={true}
-          /> */}
+          />
         </Container>
       </div>
     </section>
