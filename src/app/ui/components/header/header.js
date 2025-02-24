@@ -18,18 +18,18 @@ const navigation = [
     name: "Inicio",
     href: "/",
   },
-  {
-    name: "Palestrantes",
-    href: "/#palestrantes",
-  },
-  {
-    name: "Programação",
-    href: "/programacao",
-  },
-  {
-    name: "Guia do evento",
-    href: "/guia-evento",
-  },
+  // {
+  //   name: "Palestrantes",
+  //   href: "/#palestrantes",
+  // },
+  // {
+  //   name: "Programação",
+  //   href: "/programacao",
+  // },
+  // {
+  //   name: "Guia do evento",
+  //   href: "/guia-evento",
+  // },
   // {
   //   name: "Como chegar",
   //   href: "/#comoChegar",
@@ -109,7 +109,7 @@ export default function Header() {
                             />
                           ) : (
                             <img
-                              src={"/brand/Crea_summit_2024_white.png"}
+                              src={"/brand/CREA Summit 2025_logo.svg"}
                               className="w-24"
                               alt="Crea Summit 2024 Logo"
                             />

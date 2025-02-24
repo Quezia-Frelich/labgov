@@ -30,16 +30,19 @@ export default function Section_welcome() {
           }
         >
           <img
-            src="/brand/Crea_summit_2024_white.png"
+            src="/brand/CREA Summit 2025_logo.svg"
             className="w-52 md:w-80 mb-10 animate-fade-up animate-once animate-duration-500 animate-ease-in-out"
           />
 
-          <Text_head_2 className={"flex gap-5"}>
-            Muito obrigado pela sua participação!
+          <Text_head_2 className={'flex gap-5'}>
+            <CalendarDaysIcon className='size-8' /> 
+            25 e 26 de julho de 2025
           </Text_head_2>
 
-          <Text_head_2 className={"flex gap-5"}>Nos vemos em 2025.</Text_head_2>
-
+          <Text_head_2 className={'flex gap-5'}>
+            <MapPinIcon className='size-8' /> 
+            Expocentro Balneário Camboriú
+          </Text_head_2>
           {/* <Button_outline
             href={'https://www.sympla.com.br/crea-summit-2024__2629588'}
             text={'Garantir meu ingresso'}
@@ -52,7 +55,7 @@ export default function Section_welcome() {
             href={
               "https://www.flickr.com/photos/creasc/collections/72157723385872275/"
             }
-            text={"Confira aqui as fotos do evento!"}
+            text={"Fotos edição 2024"}
             icon={<ArrowRightIcon className="size-5" />}
             className={
               "items-center rounded-full w-full min-w-32 md:min-w-40 py-5 px-7 bg-white/20 hover:bg-white/10 transition-all"

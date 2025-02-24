@@ -15,7 +15,7 @@ export default function Home() {
       <Section_numbers />
       <Section_speakers />
       <Section_location showMap={true} />
-      <Section_cta />
+      {/* <Section_cta /> */}
       <Section_sponsors />
       <Section_programs />
     </>
