@@ -31,7 +31,7 @@ export default function Section_welcome() {
         >
           <img
             src="/brand/CREA Summit 2025_logo.svg"
-            className="w-52 md:w-80 mb-10 animate-fade-up animate-once animate-duration-500 animate-ease-in-out"
+            className="w-52 md:w-80 animate-fade-up animate-once animate-duration-500 animate-ease-in-out"
           />
 
           <Text_head_2 className={'flex gap-5'}>
@@ -43,6 +43,11 @@ export default function Section_welcome() {
             <MapPinIcon className='size-8' /> 
             Expocentro Balneário Camboriú
           </Text_head_2>
+
+          <Text_head_2 className={'flex gap-5'}>
+            Inscrições em breve
+          </Text_head_2>
+          
           {/* <Button_outline
             href={'https://www.sympla.com.br/crea-summit-2024__2629588'}
             text={'Garantir meu ingresso'}
