@@ -9,7 +9,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Crea Summit 2024",
+  title: "Crea Summit 2025",
   description:
     "O CREA-SC promove este evento com o intuito de ampliar o debate em relação a inovação e às novas tendências tecnológicas nas áreas da Engenharia, Agronomia e Geociências.",
 };
