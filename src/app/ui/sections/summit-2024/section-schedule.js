@@ -25,6 +25,7 @@ export default function Section_schedule() {
                         <div className="py-1 px-5 bg-gradient-to-r from-violet-crea-700 to-violet-crea-400 max-w-min h-8 rounded-md text-white">
                             <Text_body className={'font-bold'}>22/11</Text_body>
                         </div>
+                        
                         <div className="space-y-2">
                             <Text_head_3 className={'font-bold text-violet-crea-700'}>Sexta Feira</Text_head_3>
                             <ul className="list-disc list-inside">
