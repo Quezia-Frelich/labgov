@@ -58,9 +58,9 @@ export default function Section_welcome() {
 
           <Button_outline
             href={
-              "https://www.flickr.com/photos/creasc/collections/72157723385872275/"
+              "/summit-2024"
             }
-            text={"Fotos edição 2024"}
+            text={"Confira aqui a edição de 2024"}
             icon={<ArrowRightIcon className="size-5" />}
             className={
               "items-center rounded-full w-full min-w-32 md:min-w-40 py-5 px-7 bg-white/20 hover:bg-white/10 transition-all"

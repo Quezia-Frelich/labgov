@@ -1,0 +1,8 @@
+export const data_reviews = [
+    {review: '“A ideia é gerar um alto nível de discussão, diretrizes e tendências à produção. O Confea promove iniciativas como essa para gerar valor aos profissionais, novas ideias, conexões e oportunidades, ou seja, profissionais mais preparados para suprir as demandas da sociedade.”', profile: 'Eng. Vinícius Marcheze, - Presidente do Confea'},
+    {review: '“Eventos como este criam ecossistemas propícios à inovação, essenciais para o desenvolvimento do setor.”', profile: 'Ricardo Mateus - Brasil ao Cubo'},
+    {review: '“O habitat de inovação são os ambientes onde esses atores se encontram e, por fim, o ator sociedade, cuja participação é essencial para validar e consolidar as transformações reais”', profile: 'Thais Nahas - Intelink'},
+    {review: '“Quando falamos de indústria, falamos de tecnologia, conhecimento, bons empregos e qualidade de vida, que impactam áreas como saúde, educação, infraestrutura, mobilidade,” ressaltou.”', profile: 'Tulio Duarte Christofoletti - HarboR'},
+    {review: '“Engenheiros precisam gostar de máquinas e ainda, saber se elas são eficientes. Tem que haver o apetite para buscar as coisas que são dez vezes melhores do que as que estão aí. O mundo é dos visionários que estão quebrando moldes”. O empresário destacou ainda que é preciso uma interação muito maior entre a área acadêmica e o mundo real no Brasil, o que facilitaria muitos projetos e pesquisas.”', profile: 'Eike Batista'},
+    {review: '“Acreditamos que debates como esse são fundamentais para promover ideias que impactam positivamente o país. Nossa missão no LIDE é aproximar lideranças e estimular a criação de soluções inovadoras e práticas para os desafios atuais.”', profile: 'Delton Batista - Presidente LIDE-SC'},
+]

@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <>
       <Section_welcome />
-      <Section_numbers />
-      <Section_speakers />
+      {/* <Section_numbers />*/}
+      {/*<Section_speakers />*/}
       <Section_location showMap={true} />
       {/* <Section_cta /> */}
       <Section_sponsors />

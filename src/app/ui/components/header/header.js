@@ -41,6 +41,12 @@ const navigation = [
     subMenuItem: [
       {
         subItem: {
+          subName: "Summit 2024",
+          subHref: "/summit-2024",
+        },
+      },
+      {
+        subItem: {
           subName: "Summit 2023",
           subHref: "/summit-2023",
         },
@@ -103,23 +109,23 @@ export default function Header() {
                         <>
                           {headerStiky ? (
                             <img
-                              src={"/brand/Crea_summit_2024_color.png"}
+                              src={"/brand/Summit_2025_colorido.png"}
                               className="w-24"
-                              alt="Crea Summit 2024 Logo"
+                              alt="Crea Summit 2025 Logo"
                             />
                           ) : (
                             <img
-                              src={"/brand/CREA Summit 2025_logo.svg"}
+                              src={"/brand/Summit_2025_branco.png"}
                               className="w-24"
-                              alt="Crea Summit 2024 Logo"
+                              alt="Crea Summit 2025 Logo"
                             />
                           )}
                         </>
                       ) : (
                         <img
-                          src={"/brand/Crea_summit_2024_color.png"}
+                          src={"/brand/Summit_2025_colorido.png"}
                           className="w-24"
-                          alt="Crea Summit 2024 Logo"
+                          alt="Crea Summit 2025 Logo"
                         />
                       )}
                     </Link>
