@@ -15,6 +15,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         "radial-gradient": "radial-gradient(245.74% 150.11% at -13.02% -30.97%, rgba(157, 36, 191, 0.50) 0%, rgba(39, 0, 97, 0.00) 100%), radial-gradient(137.06% 113.98% at 108.52% 65.16%, #9162F0 0%, #100047 100%);",
+        "radial-gradient25": "radial-gradient(141.79% 161.09% at 114.14% 113.72%, #3CF547 0%, #72C396 30.68%, #6083B4 57.05%, #6C32E2 94.05%);",
+
         "summit-2023":"url('/banners/summit-2023.webp')",
         "summit-2023-responsive":"url('/banners/summit-2023-responsive.webp')",
       },

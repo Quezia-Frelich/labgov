@@ -1,6 +1,7 @@
 "use client";
 
 import Section_welcome from "./ui/sections/home/section-welcome";
+import Section_cards from "./ui/sections/home/section-cards";
 import Section_numbers from "./ui/sections/home/section-numbers";
 import Section_location from "./ui/sections/global/section-location";
 import Section_cta from "./ui/sections/global/section-cta";
@@ -12,8 +13,9 @@ export default function Home() {
   return (
     <>
       <Section_welcome />
-      {/* <Section_numbers />*/}
+      <Section_cards/>
       <Section_speakers />
+      <Section_numbers />
       <Section_location showMap={true} />
       {/* <Section_cta /> */}
       <Section_sponsors />

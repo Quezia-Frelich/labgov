@@ -16,7 +16,7 @@ export default function Footer() {
   return (
     <>
       {/* Section Contact */}
-      <section className="py-20 md:py-20 min-h-96 flex flex-col justify-center bg-radial-gradient">
+      <section className="py-20 md:py-20 min-h-96 flex flex-col justify-center bg-radial-gradient25">
      
         <Container className={'flex flex-col md:flex-row justify-between gap-16 text-white'}>
           
