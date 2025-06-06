@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Section_welcome />
-      <Section_cards/>
+      {/* <Section_cards/>*/}
       <Section_speakers />
       <Section_numbers />
       <Section_location showMap={true} />
