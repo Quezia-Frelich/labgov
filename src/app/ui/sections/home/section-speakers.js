@@ -19,7 +19,7 @@ export default function Section_speakers() {
   return (
     <section className="my-10 py-10 flex items-center justify-center" id="palestrantes">
       <Container>
-        <Text_display_3 className={'text-violet-crea-400 font-bold'}>Palestrantes 2024</Text_display_3>
+        <Text_display_3 className={'text-violet-crea-400 font-bold'}>Palestrantes Confirmados</Text_display_3>
         <Text_head_3 className={'mb-10'}>Clique no participante para conhecer sua trajetória e saber mais sobre sua experiência profissional.</Text_head_3>
         <div className={'grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-5 text-violet-crea-600'}>
           {data_palestrantes_2024.map((palestrante, index) => (
