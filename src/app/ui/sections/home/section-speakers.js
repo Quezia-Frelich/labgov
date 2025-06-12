@@ -29,7 +29,7 @@ export default function Section_speakers() {
               <img src={palestrante.profile} alt={palestrante.fullName} className={`rounded-md max-h-64 ${openBox === index && 'hidden md:block'} `}/>
 
               {/* Nome e titulo em profile */}
-              <div className={openBox === index ? 'hidden' : 'absolute bottom-0 p-5 h-full flex flex-col justify-end text-center bg-gradient-to-b from-40% from-violet-crea-600/0 to-violet-crea-600/80 w-full text-white'}>
+              <div className={openBox === index ? 'hidden' : 'absolute bottom-0 p-4 h-full flex flex-col justify-end text-center bg-gradient-to-b from-40% from-violet-crea-600/0 to-violet-crea-600/80 w-full text-white'}>
                 <div>
                   <Text_head_3 className={'font-extrabold'}>{palestrante.fullName}</Text_head_3>
                   <p className={'text-xs'}>{palestrante.position}</p>

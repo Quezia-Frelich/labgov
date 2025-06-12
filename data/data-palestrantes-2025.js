@@ -36,6 +36,24 @@ export const data_palestrantes_2024 = [
     linkedin: "",
   },
   {
+    profile: "/summit-2025/cibele.png",
+    fullName: "Cibele Assmann",
+    position: "Gerente de Inovação da Sec. de Planejamento Urbano de Florianópolis",
+    description:
+      "Urbanista com especialização em Smart Cities e Gestão Urbana, Habitacional e no Desenvolvimento Social, focada no desenvolvimento urbano sustentável e inovador das cidades através de ações na área de Planejamento Urbano e Planos Estratégicos que priorizem a sustentabilidade, mitigações de mudanças climáticas, mobilidade ativa, eficiência energética e cidades compactas, mistas e resilientes. Professora de Pós Graduação sobre planejamento Urbano e Plano Diretor. Conselheira Municipal de Inovação.",
+    instagram: "https://www.instagram.com/cibele.assmann/",
+    linkedin: "https://www.linkedin.com/in/cibeleurbanista",
+  },
+  {
+    profile: "/summit-2025/mario mota.png",
+    fullName: "Mário Mota",
+    position: "Deputado Estadual - Assembleia Legislativa de Santa Catarina",
+    description:
+      "Formado em Educação Física, iniciou sua trajetória em Tupã (SP) e se consolidou como comunicador em Santa Catarina, onde apresentou o Jornal do Almoço por 36 anos. Em 2022, foi eleito deputado estadual com 56.363 votos. Na Alesc, lidera ações de fiscalização e transparência, com foco em educação, saúde e uso eficiente dos recursos públicos. Defende uma política participativa e próxima da população.",
+    instagram: "https://www.instagram.com/mariomottaoficial/",
+    linkedin: "https://www.linkedin.com/in/mariomottatv/",
+  },
+  {
     profile: "/summit-2025/Renan S. Antoniolli.png",
     fullName: "Renan S. Antoniolli",
     position: "IoT Strategic Manager - Tuya Smart",
