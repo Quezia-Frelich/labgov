@@ -29,7 +29,7 @@ export const data_palestrantes_2024 = [
   {
     profile: "/summit-2025/Ministro Joaquim Leite.png",
     fullName: "Joaquim Leite",
-    position: "Sócio fundador - YVY Capital",
+    position: "Ex-Ministro do Meio Ambiente",
     description:
       "Ex Ministro do Meio Ambiente do Brasil em 2021 e 2022. Chefe da delegação do Brasil durante as Conferências do Clima, COP26 e COP27. Atualmente sócio fundador da YVY Capital e Vivens Business School. Conselheiro CIMED e Minerva Foods. Foi produtor de café e conselheiro da Sociedade Rural Brasileira",
     instagram: "",
