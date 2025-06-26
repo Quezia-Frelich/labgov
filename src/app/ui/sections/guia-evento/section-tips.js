@@ -7,7 +7,7 @@ import Text_link from "../../components/text/text-link";
 
 export default function Section_tips ( {} ) {
   return (
-    <section className="mb-10 py-20 bg-gradient-to-r from-violet-crea-700 to-violet-crea-400">
+    <section className="mb-10 py-20 bg-radial-gradient25">
         <Container className={'text-white flex flex-col md:flex-row justify-between items-center gap-10'}>
           
           <div className="w-full">

@@ -10,7 +10,7 @@ import Text_link from "../../components/text/text-link";
 
 export default function Section_hero ( {} ) {
   return (
-    <section className="bg-[url('/backgrounds/bg_section_cta.jpg')] bg-cover bg-center bg-no-repeat min-h-96 mb-10 py-10 flex items-center justify-center">
+    <section className="bg-[url('/backgrounds/bg_section_cta25.png')] bg-cover bg-center bg-no-repeat min-h-96 mb-10 py-10 flex items-center justify-center">
         <Container className={'text-white flex flex-col items-center gap-10 text-center'}>
             <div>
                 <Text_display_2 className={'font-bold mb-5'}>Guia do evento</Text_display_2>
