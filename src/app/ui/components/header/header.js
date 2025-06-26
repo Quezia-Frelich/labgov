@@ -18,10 +18,18 @@ const navigation = [
     name: "Inicio",
     href: "/",
   },
-  // {
-  //   name: "Palestrantes",
-  //   href: "/#palestrantes",
-  // },
+  {
+    name: "Palestrantes",
+    href: "/#palestrantes",
+  },
+  {
+    name: "Feira Tecnológica",
+    href: "/guia-evento#feiraTecnológica",
+  },
+  {
+    name: "Guia do evento",
+    href: "/guia-evento",
+  },
   // {
   //   name: "Programação",
   //   href: "/programacao",

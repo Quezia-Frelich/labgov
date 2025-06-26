@@ -61,16 +61,54 @@ export const data_palestrantes_2024 = [
       "Formado em Engenharia de Telecomunicações pela FURB e pela Universidade do Porto, Portugal. É pós-graduado em Cidades Inteligentes, e também, em Inovação e Transformação Digital. Conta com MBAs em Gestão Comercial e de Gestão de Negócios, pelo IBMEC. Atuou também como Smart Cities Ambassador e liderou a iniciativa de 5G na Deloitte. Com mais de 20 anos de experiência, atualmente é Gerente Estratégico de IoT na Tuya Smart e Diretor de Inovação no SENGE-SC.",
     instagram: "https://www.instagram.com/renanantoniolli/",
     linkedin: "https://www.linkedin.com/in/renanantoniolli/",
-  },/*
+  },
   {
-    profile: "/summit-2024/Delton Batista.png",
+    profile: "/summit-2025/Jose Eduardo Fiates.png",
+    fullName: "José Eduardo Fiates",
+    position: "Diretor de Inovação e Competitividade e Superintendente do IEL/SC",
+    description:
+      "Engenheiro Mecânico com mestrado e doutorado em Gestão da Inovação e Empreendedorismo- UFSC. Diretor da incubadora CELTA - CERTI (1994-1999), Diretor e Presidente da ANPROTEC (1993-2003), Diretor Executivo do Sapiens Parque (2002/2019), Superintendente Geral da FUNDAÇÃO CERTI (2016/2020), Fundador e Presidente da CVENTURES (2008/2020), Atual Diretor de inovação e Competitividade da FIESC e Superintendente do IEL.",
+    instagram: null,
+    linkedin: null,
+  },
+  {
+    profile: "/summit-2025/Fernando Schmidt.png",
+    fullName: "Fernando Schmidt",
+    position: "Vice presidente de operações - Nova Participações",
+    description:
+      "Catarinense, natural de Itajaí/SC, casado e pai de duas meninas. Engenheiro Civil, graduado pela Universidade Federal de Santa Catarina – UFSC e com MBA em Gerenciamento de Projetos pela Fundação Getúlio Vargas - FGV. Conta com 24 anos de expertise no mercado de engenharia, atuando em projetos, gerenciamento e construção de obras nas áreas de energia, infraestrutura, recursos hídricos, transporte, saneamento, indústrias, óleo e gás e meio ambiente.",
+    instagram: null,
+    linkedin: "https://www.linkedin.com/in/fernando-da-silva-schmidt-4496b09a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+  },
+  {
+    profile: "/summit-2025/modesto-h-ferrer.png",
+    fullName: "Modesto H Ferrert",
+    position: "Professor - UFSC (Campus Joinville)",
+    description:
+      "Engenheiro mecânico, com mestrado e doutorado em Engenharia Metalúrgica. Há mais de 30 anos lidera projetos de inovação que conectam universidade e mercado. Diretor Técnico do Ágora Tech Park e Presidente do COMCITI, integra a governança do ecossistema de inovação de Joinville. TEDx Speaker e mentor de startups, acumula mais de 20 anos na coordenação das equipes de competição Baja e Fórmula SAE, potencializando talentos e formando lideranças.",
+    instagram: "https://www.instagram.com/mariomottaoficial/",
+    linkedin: "https://www.linkedin.com/in/mariomottatv/",
+  },
+  {
+    profile: "/summit-2025/Delton Batista.png",
     fullName: "Delton Batista",
     position: "Presidente - LIDE-SC e LIDE-RS",
     description:
-      "Presidente do LIDE-SC e LIDE-RS, maior ecossistema de relacionamento corporativo do Brasil, que reúne as empresas com faturamento anual acima de R$ 200 milhões e representam 52% do PIB Privado Nacional. Economista com MBA em Gestão de Marketing pela FGV, Programas de Especialização em Gestão Empresarial pela FDC e IBMEC, e extensão em Liderança e Inovação pelas Universidades de Ohio (EUA) e Cambridge (Reino Unido), Delton é Conselheiro de grandes grupos empresariais e fundos de investimento.",
-    instagram: "",
-    linkedin: "",
+      "Presidente do LIDE-SC e LIDE-RS, maior ecossistema de relacionamento corporativo do Brasil, que reúne as empresas com faturamento anual acima de R$ 200 milhões e representam 52% do PIB Privado Nacional.  Economista com MBA em Gestão de Marketing pela FGV, Programas de Especialização em Gestão Empresarial pela FDC e IBMEC, e extensão em Liderança e Inovação pelas Universidades de Ohio (EUA) e Cambridge (Reino Unido), Delton é Conselheiro de grandes grupos empresariais e fundos de investimento.",
+    instagram: null,
+    linkedin: null,
   },
+  {
+    profile: "/summit-2025/Erick Galante.png",
+    fullName: "Erick Galante",
+    position: "Chefe Agencia de Gestão e Inovação do Exercito",
+    description:
+      "Erick Galante é Coronel do Exército Brasileiro e atual chefe da AGITEC – Agência de Gestão e Inovação Tecnológica. Engenheiro químico formado pelo IME, doutor.  Atuou na IMBEL liderando projetos, foi professor e pró-reitor no IME. É autor do livro Princípios de Gestão de Riscos, membro ativo de entidades de engenharia e segurança, e condecorado com diversas medalhas militares e civis. É reconhecido por integrar ciência, segurança e inovação tecnológica na defesa nacional.",
+    instagram: "https://www.linkedin.com/in/erick-galante-82670b24www.instagram.com/erickgalante",
+    linkedin: "https://www.linkedin.com/in/erick-galante-82670b24",
+  },
+  /*
+  
   {
     profile: "/summit-2024/Anderson Becker.png",
     fullName: "Anderson Becker",

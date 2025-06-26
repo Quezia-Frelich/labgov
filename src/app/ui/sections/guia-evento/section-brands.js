@@ -31,7 +31,7 @@ export default function Section_brands(){
     }, [searchTerm, filterCategory]);
 
     return (
-        <section className="py-20 flex flex-col items-center justify-center">
+        <section className="py-20 flex flex-col items-center justify-center" id="feiratecnologica" >
             <Container className="flex flex-col gap-10 text-violet-crea-700">
                 <div>
                     <Text_display_3 className="font-bold mb-5">Feira tecnológica</Text_display_3>
