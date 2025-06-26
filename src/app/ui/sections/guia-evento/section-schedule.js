@@ -24,7 +24,7 @@ export default function Section_schedule(){
                 
                 <div className="flex gap-5">
                     <div className="py-1 px-5 bg-gradient-to-r from-violet-crea-700 to-violet-crea-400 max-w-min h-8 rounded-md text-white">
-                        <Text_body className={'font-bold'}>22/11</Text_body>
+                        <Text_body className={'font-bold'}>25/07</Text_body>
                     </div>
                     <div className="space-y-2">
                         <Text_head_3 className={'font-bold text-violet-crea-700'}>Sexta Feira</Text_head_3>
@@ -38,7 +38,7 @@ export default function Section_schedule(){
 
                 <div className="flex gap-5">
                     <div className="py-1 px-5 bg-gradient-to-r from-violet-crea-700 to-violet-crea-400 max-w-min h-8 rounded-md text-white">
-                        <Text_body className={'font-bold'}>23/11</Text_body>
+                        <Text_body className={'font-bold'}>26/07</Text_body>
                     </div>
                     <div className="space-y-2">
                         <Text_head_3 className={'font-bold text-violet-crea-700'}>Sábado</Text_head_3>
