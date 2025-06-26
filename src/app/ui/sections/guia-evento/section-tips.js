@@ -34,7 +34,7 @@ export default function Section_tips ( {} ) {
 
               </div>
 
-              <div className="my-10 p-4 bg-white/20 border border-white rounded-md">
+              {/*<div className="my-10 p-4 bg-white/20 border border-white rounded-md">
                 <Text_body className={'font-bold'}>Conexão WiFi</Text_body>
                 <Text_body className={'flex items-center gap-5'}>Nosso evento contará com uma rede de wifi própria:
                 </Text_body>
@@ -42,7 +42,7 @@ export default function Section_tips ( {} ) {
                   <li><strong>Nome da rede: </strong> CREASUMMIT2024</li>
                   <li><strong>Senha: </strong> Creasc@2024</li>
                 </ul>
-              </div>
+              </div>*/}
 
           </div>
 

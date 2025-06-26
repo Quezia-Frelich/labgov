@@ -29,9 +29,9 @@ export default function Section_schedule(){
                     <div className="space-y-2">
                         <Text_head_3 className={'font-bold text-violet-crea-700'}>Sexta Feira</Text_head_3>
                         <ul className="list-disc list-inside">
-                            <li>17h - Credenciamento e abertura da feira</li>
-                            <li>19h - Abertura oficial do evento</li>
-                            <li>21h - Encerramento do primeiro dia</li>
+                            <li>17:00 - Credenciamento</li>
+                            <li>19:00 - Abertura oficial do evento</li>
+                            <li>20:45 - Encerramento do primeiro dia</li>
                         </ul>
                     </div>
                 </div>
@@ -43,17 +43,17 @@ export default function Section_schedule(){
                     <div className="space-y-2">
                         <Text_head_3 className={'font-bold text-violet-crea-700'}>Sábado</Text_head_3>
                         <ul className="list-disc list-inside">
-                            <li>08h - Credenciamento e abertura da feira</li>
-                            <li>09h - Início dos painéis/palestras do segundo dia</li>
-                            <li>12h - Intervalo para almoço</li>
-                            <li>14h - Retorno dos painéis/palestras</li>
-                            <li>18h - Encerramento do evento</li>
+                            <li>08:00 - Credenciamento</li>
+                            <li>09:00 - Início dos painéis/palestras e abertura da feira</li>
+                            <li>12:10 - Intervalo para almoço</li>
+                            <li>14:00 - Retorno dos painéis/palestras</li>
+                            <li>18:00 - Encerramento do evento</li>
                         </ul>
 
                     </div>
                 </div>
 
-                <Text_body>Para ver a programação detalhada <Text_link href={'/programacao'} underline={true}><strong>clique aqui.</strong></Text_link></Text_body>
+                {/*<Text_body>Para ver a programação detalhada <Text_link href={'/programacao'} underline={true}><strong>clique aqui.</strong></Text_link></Text_body>*/}
             </Container>
         </section>
 

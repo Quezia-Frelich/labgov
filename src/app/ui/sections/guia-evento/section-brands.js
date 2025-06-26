@@ -7,7 +7,7 @@ import Text_head_1 from "../../components/text/text-head-1";
 import Text_display_3 from "../../components/text/text-display-3";
 import Text_body from "../../components/text/text-body";
 import { ArrowRightIcon, ChevronDownIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
-import { data_empresas_expositoras } from "../../../../../data/data-empresas-expositoras";
+import { data_empresas_expositoras } from "../../../../../data/data-empresas-expositoras-2025";
 import Button_outline from "../../components/buttons/button_outline";
 
 
@@ -58,6 +58,7 @@ export default function Section_brands(){
                             <option value="" disabled>Filtrar por</option>
                             <option value="Todos">Todos</option>
                             <option value="Agtech">Agtech</option>
+                            <option value="CREA Jr-SC">Crea Jr-SC</option>
                             <option value="Construtech">Construtech</option>
                             <option value="Energia">Energia</option>
                             <option value="Ferramentas Digitais">Ferramentas Digitais</option>
@@ -85,6 +86,7 @@ export default function Section_brands(){
                         <img 
                             src={
                             empresa.Tag === "Aceleradas" ? `/empresas-expositoras-2024/empresas-aceleradas/crea-acelera.png` :
+                            empresa.Tag === "CREA Jr-SC" ? `/empresas-expositoras-2024/empresas-creajr/CREA-Jr-SC.png`:
                             empresa.Tag === "Agtech" ? `/empresas-expositoras-2024/empresas-agtech/acate-agtech.png` :
                             empresa.Tag === "Construtech" ? `/empresas-expositoras-2024/empresas-construtech/acate-construtech.png` :
                             empresa.Tag === "Energia" ? `/empresas-expositoras-2024/empresas-energia/acate-energia.png` :
@@ -114,6 +116,7 @@ export default function Section_brands(){
                             <Text_head_1 className={'font-bold'}>{empresa.NomeDaEmpresa}</Text_head_1>
                             <p className={`text-xs text-nowrap w-min rounded-full py-1 px-3 my-2 text-[#072440] 
                                 ${empresa.Tag === "Aceleradas" && 'bg-[#B6D7F5]' }
+                                ${empresa.Tag === "CREA Jr-SC" && 'bg-[#68B6FF]' }
                                 ${empresa.Tag === "Agtech" && 'bg-[#C3F48D]' }
                                 ${empresa.Tag === "Construtech" && 'bg-[#FF9399]' }
                                 ${empresa.Tag === "Energia" && 'bg-[#FFD290]' }

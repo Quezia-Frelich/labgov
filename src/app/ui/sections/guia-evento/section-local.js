@@ -71,10 +71,10 @@ export default function Section_local({}) {
             conhecimento e conexão.
             <br></br>
             <br></br>
-            Clique no botão abaixo e veja com mais detalhes o mapa do evento.
+            {/*Clique no botão abaixo e veja com mais detalhes o mapa do evento.*/}
           </Text_body>
 
-          <div className="max-w-72">
+          {/*<div className="max-w-72">
             <Button_outline
               href={"/pdf/Mapa expocentro - CREA Summit 2024.pdf"}
               text={"Baixar mapa do evento"}
@@ -84,7 +84,7 @@ export default function Section_local({}) {
               }
               target={true}
             />
-          </div>
+          </div>*/}
         </div>
       </Container>
     </section>
