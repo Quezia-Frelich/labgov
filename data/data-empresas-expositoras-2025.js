@@ -384,7 +384,7 @@ export const data_empresas_expositoras = [
     Tag: "Construtech",
     Image: "/empresas-expositoras-2024/empresas-construtech/Hauseful.png",
     Site: "https://www.hauseful.com",
-    Bio: "Serviços de campo e checklist ",
+    Bio: "A plataforma que integra equipes, dados e processos de sua operação de campo em tempo real. Gere laudos, vistorias e checklist com sua equipe ou com equipe sob demanda.",
   },
   {
     NomeDaEmpresa: "Hawk Engenharia",
@@ -445,7 +445,7 @@ export const data_empresas_expositoras = [
   },
   {
     NomeDaEmpresa: "ipTrust Tecnologia",
-    Tag: "Energia",
+    Tag: "Security Tech",
     Image: "/empresas-expositoras-2024/empresas-energia/ipTrust.png",
     Site: "https://iptrust.com.br/",
     Bio: "A ipTrust é um Ecossistema de Serviços e Soluções de Cibersegurança, incluindo serviços Estratégicos: como Governança, Gestão de Riscos e Conformidade, Segurança Defensiva, integrando soluções líderes de mercado e Segurança Ofensiva, como exemplo, Pentest.",
@@ -589,7 +589,7 @@ export const data_empresas_expositoras = [
     Tag: "Manufatura",
     Image: "/empresas-expositoras-2024/empresas-manufatura/opller.png",
     Site: "https://www.opller.com",
-    Bio: "A Opller é uma empresa fabricante de hardwares industriais robustos, open source e de baixo custo para controle de máquinas industriais e monitoramento. Nosso grande diferencial é que fazemos projetos especiais de hardware sem cobrar pelo desenvolvimento, cobramos somente o valor do lote orçado que pode ser adquirido a partir de 25 unidades por pedido. Além disso, desenvolvemos o software de controle ou monitoramento para os nossos clientes, entregando a solução entregando a solução completa para a aplicação.",
+    Bio: "A Opller é uma empresa fabricante de hardwares industriais robustos, open source e de baixo custo para controle de máquinas industriais e monitoramento. Nosso grande diferencial é que fazemos projetos especiais de hardware sem cobrar pelo desenvolvimento, cobramos somente o valor do lote orçado que pode ser adquirido a partir de 25 unidades por pedido. Além disso, desenvolvemos o software de controle ou monitoramento para os nossos clientes, entregando a solução para a aplicação.",
   },
   {
     NomeDaEmpresa: "ORN Space",
@@ -747,7 +747,7 @@ export const data_empresas_expositoras = [
     Image:
       "/empresas-expositoras-2024/empresas-creajr/terramud.png",
     Site: "https://www.instagram.com/terra.mud/",
-    Bio: "A AXISAI é uma plataforma de IA que transforma gestão e atendimento de PMEs. Conecta dados de ERPs, CRMs e sistemas internos, entregando indicadores estratégicos via chat em linguagem natural. Oferece também uma IA treinável para atendimento via WhatsApp, vendas, suporte e SAC, com escalabilidade, eficiência e personalização. Já validada nos setores de estética e tecnologia, está pronta para escalar a qualquer segmento que busca digitalização, produtividade e decisões ágeis.",
+    Bio: "A TerraMud é uma startup voltada à construção sustentável, que busca modernizar a técnica ancestral da taipa de pilão. Seu objetivo é desenvolver blocos modulares autoportantes em terra crua compactada, tornando o sistema mais acessível, escalável e compatível com o mercado atual, sem perder o compromisso com o meio ambiente. A proposta alia tradição, inovação e viabilidade econômica em prol de um futuro mais ecológico.",
   },
   {
     NomeDaEmpresa: "Tuya Smart",

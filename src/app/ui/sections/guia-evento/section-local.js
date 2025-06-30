@@ -23,11 +23,11 @@ export default function Section_local({}) {
           <Text_display_3 className={"font-bold mb-5 block md:hidden"}>
             Local do Evento
           </Text_display_3>
-          <img
+          {/*<img
             src="/elements/local-do-evento.png"
             className="md:max-w-96"
             alt="Local do evento"
-          ></img>
+          ></img>*/}
         </div>
         <div className="space-y-8">
           <div>

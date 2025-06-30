@@ -32,7 +32,7 @@ export default function Section_speakers() {
               <div className={openBox === index ? 'hidden' : 'absolute bottom-0 p-4 h-full flex flex-col justify-end text-center bg-gradient-to-b from-40% from-violet-crea-600/0 to-violet-crea-600/80 w-full text-white'}>
                 <div>
                   <Text_head_3 className={'font-extrabold'}>{palestrante.fullName}</Text_head_3>
-                  <p className={'text-xs'}>{palestrante.position}</p>
+                  <p className={'text-xs leading-tight'}>{palestrante.position}</p>
                 </div>
                 <button className="bg-violet-crea-400 text-white rounded-full absolute top-2 right-2 w-5 group-hover:w-20 h-5 text-xs transition-all"> 
                   <span className="block group-hover:hidden">+</span>

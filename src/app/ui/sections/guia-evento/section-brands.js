@@ -63,6 +63,7 @@ export default function Section_brands(){
                             <option value="Energia">Energia</option>
                             <option value="Ferramentas Digitais">Ferramentas Digitais</option>
                             <option value="Manufatura">Manufatura 4.0</option>
+                            <option value="Security Tech">Smart Cities</option>
                             <option value="Smart Cities">Smart Cities</option>
                             <option value="Sistema Profissional">Sistema Profissional</option>
                             <option value="Parceira">Parceira</option>
@@ -92,6 +93,7 @@ export default function Section_brands(){
                             empresa.Tag === "Energia" ? `/empresas-expositoras-2024/empresas-energia/acate-energia.png` :
                             empresa.Tag === "Ferramentas Digitais" ? `/empresas-expositoras-2024/empresas-ferramentas-digitais/inovacrea.png` :
                             empresa.Tag === "Manufatura" ? `/empresas-expositoras-2024/empresas-manufatura/manufatura.png` :
+                            empresa.Tag === "Security Tech" ? `/empresas-expositoras-2024/empresas-security-tech/acate-security-tech.png` :
                             empresa.Tag === "Smart Cities" ? `/empresas-expositoras-2024/empresas-smart-cities/acate-smart-cities.png` :
                             ""
                             }
@@ -123,6 +125,7 @@ export default function Section_brands(){
                                 ${empresa.Tag === "Ferramentas Digitais" && 'bg-[#F5B6ED]' }
                                 ${empresa.Tag === "Manufatura" && 'bg-[#C2CAD0]' }
                                 ${empresa.Tag === "Parceira" && 'bg-[#C7A4FF]' }
+                                ${empresa.Tag === "Security Tech" && 'bg-[#F87D7D]' }
                                 ${empresa.Tag === "Smart Cities" && 'bg-[#E0D0C0]' }
                                 ${empresa.Tag === "Sistema Profissional" && 'bg-[#8E90FF]' }
                                 `}>

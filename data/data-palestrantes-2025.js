@@ -83,7 +83,7 @@ export const data_palestrantes_2024 = [
   {
     profile: "/summit-2025/modesto-h-ferrer.png",
     fullName: "Modesto H Ferrert",
-    position: "Professor - UFSC (Campus Joinville)",
+    position: "Diretor Técnico do Ágora Tech Park",
     description:
       "Engenheiro mecânico, com mestrado e doutorado em Engenharia Metalúrgica. Há mais de 30 anos lidera projetos de inovação que conectam universidade e mercado. Diretor Técnico do Ágora Tech Park e Presidente do COMCITI, integra a governança do ecossistema de inovação de Joinville. TEDx Speaker e mentor de startups, acumula mais de 20 anos na coordenação das equipes de competição Baja e Fórmula SAE, potencializando talentos e formando lideranças.",
     instagram: "https://www.instagram.com/mariomottaoficial/",
@@ -106,6 +106,15 @@ export const data_palestrantes_2024 = [
       "Erick Galante é Coronel do Exército Brasileiro e atual chefe da AGITEC – Agência de Gestão e Inovação Tecnológica. Engenheiro químico formado pelo IME, doutor.  Atuou na IMBEL liderando projetos, foi professor e pró-reitor no IME. É autor do livro Princípios de Gestão de Riscos, membro ativo de entidades de engenharia e segurança, e condecorado com diversas medalhas militares e civis. É reconhecido por integrar ciência, segurança e inovação tecnológica na defesa nacional.",
     instagram: "https://www.linkedin.com/in/erick-galante-82670b24www.instagram.com/erickgalante",
     linkedin: "https://www.linkedin.com/in/erick-galante-82670b24",
+  },
+  {
+    profile: "/summit-2025/Everton William.png",
+    fullName: "Everton William Tischer",
+    position: "Diretor de Engenharia e Arquitetura e Engenheiro Civil",
+    description:
+      "Engenheiro Civil formado pela UFSC, com experiência acadêmica nas áreas de Tecnologia das Construções e Materiais de Construção. Engenheiro Civil a 17 anos no quadro do Poder Judiciário de Santa Catarina e Diretor de Engenharia e Arquitetura a 8 anos, com experiência nas áreas de planejamento, gestão, fiscalização e acompanhamento de contratos de projetos, execução de obras públicas e de manutenção predial.",
+    instagram: null,
+    linkedin: null,
   },
   /*
   
