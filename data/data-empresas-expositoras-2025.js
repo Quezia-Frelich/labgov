@@ -294,7 +294,7 @@ export const data_empresas_expositoras = [
   },
   {
     NomeDaEmpresa: "Entrega Epi",
-    Tag: "Manufatura",
+    Tag: "Construtech",
     Image: "/empresas-expositoras-2024/empresas-manufatura/entregaepi.png",
     Site: "https://entregaepi.com.br",
     Bio: "Você ainda coleta assinatura em papel? Com o EntregaEPI, a entrega de EPI é confirmada por biometria digital ou reconhecimento facial, eliminando o papel e garantindo conformidade total com a NR-6 e a LGPD.",

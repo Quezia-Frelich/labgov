@@ -63,7 +63,7 @@ export default function Section_brands(){
                             <option value="Energia">Energia</option>
                             <option value="Ferramentas Digitais">Ferramentas Digitais</option>
                             <option value="Manufatura">Manufatura 4.0</option>
-                            <option value="Security Tech">Smart Cities</option>
+                            <option value="Security Tech">Security Tech</option>
                             <option value="Smart Cities">Smart Cities</option>
                             <option value="Sistema Profissional">Sistema Profissional</option>
                             <option value="Parceira">Parceira</option>
