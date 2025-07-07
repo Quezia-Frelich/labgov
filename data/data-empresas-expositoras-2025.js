@@ -43,13 +43,13 @@ export const data_empresas_expositoras = [
     Site: "https://sebrae.com.br/sites/PortalSebrae/",
     Bio: "O Sebrae é uma instituição que apoia micro e pequenas empresas no Brasil, oferecendo orientação e capacitação em empreendedorismo, inovação, finanças, marketing e gestão. Com programas de consultoria, cursos e eventos, o Sebrae visa fortalecer negócios e impulsionar o desenvolvimento sustentável das empresas, ajudando-as a superar desafios e a crescer no mercado competitivo. É uma referência para quem busca iniciar ou expandir um empreendimento com suporte especializado.",
   },
-  /*{
+  {
     NomeDaEmpresa: "CREDCREA",
     Tag: "Parceira",
     Image: "/empresas-expositoras-2024/empresas-parceira/credcrea.png",
     Site: "https://www.credcrea.coop.br/",
     Bio: "A CredCrea é uma cooperativa de crédito do sistema Ailos, que oferece soluções financeiras para engenheiros, arquitetos, técnicos e tecnólogos. Ela disponibiliza produtos como contas correntes, cartões, crédito, investimentos e seguros, com o objetivo de facilitar a vida financeira de seus associados e apoiar o crescimento de seus negócios. A CredCrea se destaca por tarifas reduzidas e atendimento personalizado, promovendo o cooperativismo como base de sua atuação.",
-  },
+  },/*
   {
     NomeDaEmpresa: "ACATE",
     Tag: "Parceira",
@@ -136,6 +136,14 @@ export const data_empresas_expositoras = [
     Bio: "A AXISAI é uma plataforma de IA que transforma gestão e atendimento de PMEs. Conecta dados de ERPs, CRMs e sistemas internos, entregando indicadores estratégicos via chat em linguagem natural. Oferece também uma IA treinável para atendimento via WhatsApp, vendas, suporte e SAC, com escalabilidade, eficiência e personalização. Já validada nos setores de estética e tecnologia, está pronta para escalar a qualquer segmento que busca digitalização, produtividade e decisões ágeis.",
   },
   {
+    NomeDaEmpresa: "BlocX",
+    Tag: "CREA Jr-SC",
+    Image:
+      "/empresas-expositoras-2024/empresas-creajr/blocX.png",
+    Site: "https://www.instagram.com/blocx.construtech?igsh=czcxMzFnZXh0c2xv",
+    Bio: "A BlocX desenvolve soluções inteligentes para gestão de almoxarifados na construção civil. Através de IA, sensores e dados em tempo real, nosso software garante controle total dos estoques. Também desenvolvemos uma máquina de distribuição automática de materiais “vending machine” , com reconhecimento facial, rastreio de saídas e geração de relatórios para uma gestão mais eficiente e segura.",
+  },
+  {
     NomeDaEmpresa: "BlueTech Liquid",
     Tag: "Smart Cities",
     Image:
@@ -195,7 +203,7 @@ export const data_empresas_expositoras = [
     NomeDaEmpresa: "Comitê de Crise e Defesa Civil",
     Tag: "Parceira",
     Image:
-      "/empresas-expositoras-2024/empresas-sistema-profissional/crea-sc.png",
+      "/empresas-expositoras-2024/empresas-parceira/Comite-de-Crise.png",
     Site: null,
     Bio: "O Comitê de Gestão de Crise, instituído em 2023 e reconhecido pela Assembleia Legislativa de Santa Catarina em dezembro de 2024, é um grupo técnico preparado para atuar em dois momentos: no pré-evento, realizando ações preventivas, e no pós-evento, fazendo a avaliação dos danos. O conhecimento técnico de áreas específicas faz toda a diferença e é utilizado para melhorar a vida das pessoas.",
   },
@@ -437,6 +445,14 @@ export const data_empresas_expositoras = [
     Bio: "Fundada em 2020, a iFlorestal tem como missão melhorar a qualidade de vida nos centros urbanos, tornando as cidades mais verdes, seguras e eficientes, além de fortalecer o setor florestal. É a desenvolvedora do Inventree, uma solução mobile que otimiza os inventários florestais; utilizada em 19 países. Além do desenvolvimento de tecnologias, a iFlorestal oferece consultoria e serviços especializados em planejamento e gestão da arborização, incluindo inventários e diagnósticos, plantios, podas, transplantes e treinamentos.",
   },
   {
+    NomeDaEmpresa: "IEL",
+    Tag: "CREA Jr-SC",
+    Image:
+      "/empresas-expositoras-2024/empresas-creajr/IEL.png",
+    Site: "https://ielsc.org.br/ ",
+    Bio: "O Instituto Euvaldo Lodi de Santa Catarina (IEL/SC), entidade da Federação das Indústrias de Santa Catarina (FIESC) , conecta negócios, conhecimento e pessoas, gerando transformações impactantes, tendo como missão contribuir com o crescimento sustentável e inovador do setor industrial. Atua nas áreas de Talentos, desenvolvendo estudantes e profissionais; Inteligência, gerando dados estratégicos e Academia de Negócios, preparando líderes e executivos para os desafios da indústria.",
+  },
+  {
     NomeDaEmpresa: "INMETA",
     Tag: "Construtech",
     Image: "/empresas-expositoras-2024/empresas-construtech/inmeta.png",
@@ -481,6 +497,14 @@ export const data_empresas_expositoras = [
     Bio: "Somos KL GAMA: um empresa parceira para um futuro sustentável e próspero. Há mais de 6 anos, a KL GAMA se dedica a ser mais que uma empresa de assessoria e tecnologia em engenharia. Somos especialistas em soluções personalizadas para os desafios em meio ambiente, saneamento e sustentabilidade de marcas e negócios. ",
   },
   {
+    NomeDaEmpresa: "Kosmos Rocketry",
+    Tag: "CREA Jr-SC",
+    Image:
+      "/empresas-expositoras-2024/empresas-creajr/kosmos-rocketry.png",
+    Site: "https://www.instagram.com/kosmosrocketry",
+    Bio: "A Kosmos Rocketry é uma equipe de foguetes de sondagem experimental, criada em 2013, com o propósito de participar de competições nacionais e internacionais, buscando sempre excelência técnica. Premiada em sua primeira participação na IREC (2022) com o Nancy Squires Team Spirit Award. Em 2025, recebeu dois prêmios internacionais na mesma competição: 3º lugar na categoria 30k SRAD Solid Motor e Team Sportsmanship Award, além de bater o recorde de maior apogeu entre as universidades brasileiras.",
+  },
+  {
     NomeDaEmpresa: "LAB OF CODES",
     Tag: "Smart Cities",
     Image: "/empresas-expositoras-2024/empresas-smart-cities/lab-of-codes.png",
@@ -493,7 +517,7 @@ export const data_empresas_expositoras = [
     Image:
       "/empresas-expositoras-2024/empresas-aceleradas/lex-engenharia-e-consultoria-ltda.png",
     Site: "https://www.instagram.com/eng.jenniferxavier/",
-    Bio: "Soluções Inteligentes na Engenharia Civil com Regularização Imobiliária: Especialistas em laudos técnicos e regularização de imóveis com eficiência e respaldo jurídico. Atuamos na solução de anomalias construtivas e na conformidade legal, incluindo desmembramento, unificação, incorporação de condomínios e averbações. Com a LEX, você evita problemas futuros e valoriza seu patrimônio com segurança.",
+    Bio: "Soluções Inteligentes na Engenharia Civil com Regularização Imobiliária: Especialistas em regularização de obras e imóveis, atuamos na elaboração de documentação imobiliária em eficiência e respaldo jurídico. Realizamos legalizações, desmembramentos, unificações, incorporações e averbações. Com a LEX, seu imóvel ganha segurança legal e valorização de forma inteligente.",
   },
   {
     NomeDaEmpresa: "Linedata",
@@ -620,6 +644,14 @@ export const data_empresas_expositoras = [
       "/empresas-expositoras-2024/empresas-creajr/lato-sensu.png",
     Site: null,
     Bio: "A crescente demanda por profissionais capacitados na prevenção e combate a incêndios reforça a importância da Engenharia de Incêndio. A AREA ITAJAÍ, entidade voltada à inovação e valorização das engenharias, em parceria com a UNIAVAN e com execução da COOPERÁREA, promove este curso de especialização. Oferecido na modalidade EaD, amplia o acesso ao conhecimento técnico, com flexibilidade e qualidade para profissionais de todo o país.",
+  },
+  {
+    NomeDaEmpresa: "PÓS GRADUAÇÃO - UFSC",
+    Tag: "CREA Jr-SC",
+    Image:
+      "/empresas-expositoras-2024/empresas-creajr/PÓS-GRADUAÇÃO-UFSC.png",
+    Site: "http://ppgtg.ufsc.br/ ",
+    Bio: "O PPGTG/UFSC, criado em 2015, tem por missão produzir conhecimento e compartilhar saberes por meio de pesquisas, formando profissionais para atuar nas áreas de Engenharia de Transportes — com foco em projetos, logística e mobilidade — e de Gestão Territorial, voltada ao uso racional do solo, planejamento e legislação. Com quatro linhas de pesquisa, o programa promove inovação e conhecimento com alcance nacional e internacional.",
   },
   {
     NomeDaEmpresa: "PROJETO ROBÓTICA UNIVILLE ",
