@@ -385,7 +385,7 @@ export const data_empresas_expositoras = [
     Tag: "Ferramentas Digitais",
     Image: "/empresas-expositoras-2024/empresas-ferramentas-digitais/Gestor-Obras.png",
     Site: "https://gestor-obras.com/",
-    Bio: "SSimplifique a rotina da sua construtora e reduza até 14 horas semanais de trabalho. Feito para pequenas construtoras, o Gestor Obras integra toda a operação e traz mais agilidade e assertividade às decisões.",
+    Bio: "Simplifique a rotina da sua construtora e reduza até 14 horas semanais de trabalho. Feito para pequenas construtoras, o Gestor Obras integra toda a operação e traz mais agilidade e assertividade às decisões.",
   },
   {
     NomeDaEmpresa: "Hauseful Serviços Ltda",

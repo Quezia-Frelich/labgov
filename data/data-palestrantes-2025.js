@@ -112,7 +112,7 @@ export const data_palestrantes_2024 = [
     fullName: "Everton William Tischer",
     position: "Diretor de Engenharia e Arquitetura - Engenheiro Civl - TJSC",
     description:
-      "Engenheiro Civil formado pela UFSC, com experiência acadêmica nas áreas de Tecnologia das Construções e Materiais de Construção. Engenheiro Civil a 17 anos no quadro do Poder Judiciário de Santa Catarina e Diretor de Engenharia e Arquitetura a 8 anos, com experiência nas áreas de planejamento, gestão, fiscalização e acompanhamento de contratos de projetos, execução de obras públicas e de manutenção predial.",
+      "Engenheiro Civil com experiência acadêmica na área de tecnologia das construções e materiais de construção pela Universidade Federal de Santa Catarina. Servidor do quadro do Tribunal de Justiça de Santa Catarina - Engenheiro Civil há 17 anos e há 8 anos no cargo de Diretor de Engenharia e Arquitetura, com experiência profissional em planejamento, gestão, fiscalização e acompanhamento de contratos de obras públicas, projetos técnicos de engenharia e arquitetura, e serviços de manutenção predial.",
     instagram: null,
     linkedin: null,
   },
@@ -172,7 +172,7 @@ export const data_palestrantes_2024 = [
   },
    {
     profile: "/summit-2025/dilnei-bittencourt.png",
-    fullName: "Dilnei Silva Bittencourtr",
+    fullName: "Dilnei Silva Bittencourt",
     position: "Eng civil  consultor - Multilog / Hurbana",
     description:
       "Eng civil. Crea 5833-7 ufsc 1975. Perto de 1milhao de m2 de galpoes. Projetos urbanos (pedra branca). Especialista em sustentabilidade de edificaçoes . Calculista estrutural",
@@ -241,5 +241,68 @@ export const data_palestrantes_2024 = [
       "Palestrante, Engenheiro de Produção Civil pela UFSC e especialista em gestão empresarial pela FGV, professor na Amplum biogás academia e professor no curso de MBA Energias renováveis da COOPE UFRJ, Diretor de Energia da ACATE, Conselheiro de inovaçã. CEO da Gás Orgânico, empresa de consultoria e desenvolvimento de novos negócios, integrando Biogás, Biometano e Hidrogênio Verde ao mercado de Gás e Energia.",
     instagram: null,
     linkedin: "https://www.linkedin.com/in/giovane-rosa-gas-organico",
+  },
+  {
+    profile: "/summit-2025/rodrigo-ferraz.png",
+    fullName: "Rodrigo Ferraz",
+    position: "CTO - ESSS",
+    description:
+      "Engenheiro Mecânico formado pela UFSC, com mestrado em Ciências Térmicas pela mesma instituição. Iniciou sua trajetória profissional na ESSS, apoiando empresas de diversos setores — como Aeroespacial, Automotivo, Óleo & Gás e Naval — na aplicação de técnicas avançadas de simulação computacional. Ao longo de sua carreira, atuou em diferentes áreas da companhia e hoje ocupa o cargo de Chief Technology Officer (CTO), sendo responsável pela equipe técnica da ESSS.",
+    instagram: null,
+    linkedin: "https://www.linkedin.com/in/rodrigoferrazandrade/",
+  },
+  {
+    profile: "/summit-2025/fernando-farina.png",
+    fullName: "Fernando Farina",
+    position: "Diretor de Engenharia - Líder Global de Materiais da Whirlpool",
+    description:
+      "Fernando é Diretor Global de Materiais na Whirlpool Corporation. Engenheiro eletricista formado pela UFSC com MBA pela FGV, atua há mais de 16 anos em posições de liderança nas áreas de Desenvolvimento de Produto, Liderança de Projetos, Suprimentos e Qualidade. Ao longo da carreira, liderou projetos e equipes globalmente com foco em inovação, transformação e excelência operacional.",
+    instagram: null,
+    linkedin: null,
+  },
+  {
+    profile: "/summit-2025/matheus-brighenti.png",
+    fullName: "Matheus Lapolli Brighenti",
+    position: "Auditor Fiscal de Controle Externo - TCE/SC",
+    description:
+      "Engenheiro Civil pela UDESC (2010) e mestre em Engenharia de Estruturas pela UFSC (2019). Atuou no setor privado com projetos estruturais e execução de estruturas metálicas e pré-moldadas. Desde 2016, é Auditor Fiscal de Controle Externo no TCE-SC, com foco na fiscalização de obras públicas, especialmente edificações.",
+    instagram: null,
+    linkedin: "https://www.linkedin.com/in/matheus-brighenti-75196b1b3/",
+  },
+  {
+    profile: "/summit-2025/claudio-jacoski.png",
+    fullName: "Claudio Jacoski",
+    position: "Reitor Unochapecó / Presidente ABRUC (Associação Brasileira de Instituições Comunitárias)",
+    description:
+      "Dr. em Eng. de Produção, Eng. Civil. Pesquisador do Programa em Tecnologia e Gestão da Inovação; e do Programa em Contabilidade e Administração da Unochapecó. Liderou o projeto - Pollen Parque Científico e Tecnológico. Autor do Livro - PARQUES TECNOLÓGICOS -Estratégias para estruturação de um ecossistema de inovação. Foi Presidente da Acafe. É conselheiro do CREA/SC, e Reitor da UNOCHAPECÓ, Também é Presidente da ABRUC - Associação Brasileira das Instituições Comunitárias de Educação Superior.",
+    instagram: "https://www.instagram.com/claudiojacoski/#",
+    linkedin: "https://www.linkedin.com/in/jacoski/",
+  },
+  {
+    profile: "/summit-2025/priscila-nunes.png",
+    fullName: "Priscila Nunes",
+    position: "COO - Construmove",
+    description:
+      "COO do Grupo Construmove, um hub de soluções para o mercado imobiliário que atua nos braços de tecnologia, incorporação e gestão para construtoras e incorporadoras.  Engenheira civil com mais de 16 anos de experiência, com três pós-graduações, além do Grupo Construmove atua em todo o Brasil no ramo de avaliações. Priscila Nunes já ajudou mais de 10.000 engenheiras e arquitetas a conhecerem no mercado de Avaliação de Imóveis.",
+    instagram: "https://www.instagram.com/aprinunes/",
+    linkedin: null,
+  },
+  {
+    profile: "/summit-2025/andre-lima.png",
+    fullName: "André Ribeiro de Souza Lima",
+    position: "Coordenador de Projetos",
+    description:
+      "André Lima é engenheiro mecânico pela UTFPR, com MBA em Gerenciamento de Projetos pela FGV e certificação PMP®. Acumula mais de 15 anos de experiência atuando em projetos estratégicos de engenharia, pesquisa, desenvolvimento e inovação em setores industriais de alta complexidade, com destaque para o setor automotivo. Atualmente, é Coordenador de Projetos na Tupy, onde lidera iniciativas de P&D com foco em sustentabilidade, economia circular e tecnologias de baixo carbono. Atua de forma integrada ao ecossistema de inovação, gerenciando portfólios, fomentos e conectando engenharia, mercado e desenvolvimento tecnológico.",
+    instagram: null,
+    linkedin: null,
+  },
+  {
+    profile: "/summit-2025/maryanne-mattos.png",
+    fullName: "Maryanne Mattos",
+    position: "Vice Prefeita de Florianópolis e Secretária de Segurança e Ordem Pública ",
+    description:
+      "Maryanne Mattos é formada em Licenciatura Plena em Educação Artística pela UDESC. Possui pós-graduação em Rádio, TV e Cinema pela Universidade de Lisboa, em Portugal, e em Educação e Sexualidade Humana pela UDESC.  Servidora pública na Guarda Municipal de Florianópolis há 21 anos. Eleita vereadora em 2020, onde ficou até 2024, Maryanne foi eleita  vice-prefeita ao lado do prefeito Topázio em outubro do ano passado. Desde janeiro também ocupa o cargo de secretária de segurança pública da capital",
+    instagram: "https://www.instagram.com/mattosmaryanne?igsh=MTQ3MWZoNmVzYmJmcg==",
+    linkedin: "https://br.linkedin.com/in/mattosmaryanne",
   },
 ];
