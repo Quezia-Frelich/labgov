@@ -18,13 +18,13 @@ export default function Section_hero() {
           </Text_head_2>
         </div>
 
-        <Button_outline
+    {/*<Button_outline
           href="/programacao.pdf"
           text="Baixar programação"
           icon={<ArrowDownTrayIcon className="size-5" />}
           className="items-center rounded-full w-auto min-w-40 py-3 px-6 bg-white/20 hover:bg-white/10 transition-all"
           target={true}
-        />
+        />*/}
       </Container>
     </section>
   );

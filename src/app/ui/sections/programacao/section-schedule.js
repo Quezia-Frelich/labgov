@@ -63,7 +63,7 @@ export default function Section_schedule({ }) {
         </div>
 
         {/* Filter scenary */}
-        {selectDay === '26/071' && (
+        {selectDay === '26/07' && (
           <div className="max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-4 gap-5">
             <button
               className={`w-full py-1 px-10 border rounded-full hover:bg-violet-crea-400 hover:text-white hover:border-violet-crea-400 ${selectedScenery === 'todos' ? 'bg-violet-crea-400 text-white border-violet-crea-400 scale-105' : 'border-violet-crea-700'} transition-all`}
