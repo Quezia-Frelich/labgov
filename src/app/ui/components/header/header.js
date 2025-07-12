@@ -19,6 +19,10 @@ const navigation = [
     href: "/",
   },
   {
+    name: "Programação",
+    href: "/programacao",
+  },
+  {
     name: "Palestrantes",
     href: "/#palestrantes",
   },

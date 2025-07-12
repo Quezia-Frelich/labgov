@@ -290,7 +290,7 @@ export const data_palestrantes_2024 = [
   {
     profile: "/summit-2025/andre-lima.png",
     fullName: "André Ribeiro de Souza Lima",
-    position: "Coordenador de Projetos",
+    position: "Coordenador de Projetos - Tupy",
     description:
       "André Lima é engenheiro mecânico pela UTFPR, com MBA em Gerenciamento de Projetos pela FGV e certificação PMP®. Acumula mais de 15 anos de experiência atuando em projetos estratégicos de engenharia, pesquisa, desenvolvimento e inovação em setores industriais de alta complexidade, com destaque para o setor automotivo. Atualmente, é Coordenador de Projetos na Tupy, onde lidera iniciativas de P&D com foco em sustentabilidade, economia circular e tecnologias de baixo carbono. Atua de forma integrada ao ecossistema de inovação, gerenciando portfólios, fomentos e conectando engenharia, mercado e desenvolvimento tecnológico.",
     instagram: null,
@@ -299,10 +299,55 @@ export const data_palestrantes_2024 = [
   {
     profile: "/summit-2025/maryanne-mattos.png",
     fullName: "Maryanne Mattos",
-    position: "Vice Prefeita de Florianópolis e Secretária de Segurança e Ordem Pública ",
+    position: "Vice Prefeita de Florianópolis e Secretária de Segurança e Ordem Pública",
     description:
       "Maryanne Mattos é formada em Licenciatura Plena em Educação Artística pela UDESC. Possui pós-graduação em Rádio, TV e Cinema pela Universidade de Lisboa, em Portugal, e em Educação e Sexualidade Humana pela UDESC.  Servidora pública na Guarda Municipal de Florianópolis há 21 anos. Eleita vereadora em 2020, onde ficou até 2024, Maryanne foi eleita  vice-prefeita ao lado do prefeito Topázio em outubro do ano passado. Desde janeiro também ocupa o cargo de secretária de segurança pública da capital",
     instagram: "https://www.instagram.com/mattosmaryanne?igsh=MTQ3MWZoNmVzYmJmcg==",
     linkedin: "https://br.linkedin.com/in/mattosmaryanne",
+  },
+  {
+    profile: "/summit-2025/Carlos-Schneider.png",
+    fullName: "Carlos Alberto Schneider",
+    position: "Academia Nacional de Engenharia (ANE)",
+    description:
+      "Engenheiro mecânico formado pela UFSC em 1972. Após doutorado em metrologia e automação pela RWTH-Aachen, passou a atuar como docente do Dep de Eng.Mecanica na UFSC. Concluiu carreira como prof.titular do programa de pós graduação. Em 1984 criou a Fundação CERTI, que se tornou referência nacional em Metrologia, automação industrial, inovação em produtos eletromecânicos e de programas de empreendedorismo inovador. Hoje é membro da Academia Nacional de Engenharia.",
+    instagram: null,
+    linkedin: null,
+  },
+  {
+    profile: "/summit-2025/dirceu-leite.png",
+    fullName: "Dirceu Leite",
+    position: "Presidente - Empresa de Pesquisa Agropecuária e Extensão Rural de Santa Catarina",
+    description:
+      "Dirceu Leite é natural de Agrolândia (SC), onde atuou como vice-prefeito de 2017 a 2020. Engenheiro agrônomo formado pela Universidade do Estado de Santa Catarina (UDESC), possui mestrado em Manejo do Solo pela mesma instituição. Ingressou na Epagri em 2014 como extensionista rural e, desde 21 de março de 2023, ocupa a presidência da empresa.",
+    instagram: "https://www.instagram.com/dirceuleite.oficial/",
+    linkedin: null,
+  },
+  {
+    profile: "/summit-2025/luiz-pellegrini.png",
+    fullName: "Luiz Henrique Pellegrini",
+    position: "Especialista em Smart Cities",
+    description:
+      "Engenheiro Civil pela UFSC, Pós-Graduado em Perícia, Auditoria e Gestão Ambiental, Faculdade Oswaldo Cruz/SP. Atuou na coordenação de equipes de projetos, supervisão e fiscalização de obras rodoviárias. Em posição estratégica no Conselho, idealizou projetos na área de inovação como o CREA Summit, Unicrea e Rede de Embaixadores. Entusiasta do assunto, em 2024 inicia o Mestrado na UFSC em Cidades Inteligentes.",
+    instagram: "https://www.instagram.com/pellegrini01/",
+    linkedin: "https://www.linkedin.com/in/luiz-henrique-pellegrini",
+  },
+  {
+    profile: "/summit-2025/Vinicios Bandeira.png",
+    fullName: "Vinícios Bandeira",
+    position: "Diretor Executivo - Gartner",
+    description:
+      "Diretor Executivo do Gartner liderando a expansão regional em Santa Catarina, profissional com mais de 13 anos de experiência e atuação no mercado de tecnologia e inovação, tanto na iniciativa privada quanto pública. Administrador  (CRA/SC 28410) formado pela UNESC e cursando Pós-Graduação em Governança de TI, Segurança Digital e Gestão de Dados pela PUC-PR. Têm como hobby o esporte, principalmente os mergulhos autônomos.",
+    instagram: null,
+    linkedin: "https://www.linkedin.com/in/viniciosbandeira/",
+  },
+  {
+    profile: "/summit-2025/Annelise-Bittencourt.png",
+    fullName: "Annelise Anderson Bittencourt",
+    position: "Lead Service Application Engineer - GE VERNOVA",
+    description:
+      "Annelise Anderson Bittencourt é engenheira eletricista com mestrado em Sistemas de Energia pela UFSC. Possui 18 anos de experiência no setor elétrico, atuando em projetos e soluções em proteção de sistemas de potência, redes de comunicação, IEC 61850 e Digitalização de Subestações. Desde 2016, integra a GE Grid Solutions como Engenheira de Aplicação de Serviços, com foco em soluções inovadoras aplicadas a transição energética do setor elétrico.",
+    instagram: null,
+    linkedin: "www.linkedin.com/in/ annelise-anderson-bittencourt-5836a642",
   },
 ];

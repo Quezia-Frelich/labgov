@@ -223,6 +223,13 @@ export const data_empresas_expositoras = [
     Bio: "Somos uma Fintech que realiza financiamentos para pequenas e medias construtoras com muito menos burocracias e maior flexibilidade para aprovação dos projetos.",
   },
   {
+    NomeDaEmpresa: "CTJ Baja UFSC",
+    Tag: "CREA Jr-SC",
+    Image: "/empresas-expositoras-2024/empresas-creajr/CTJ-Baja-UFSC.png",
+    Site: "https://sites.google.com/view/ctjbajaufsc",
+    Bio: "A CTJ Baja UFSC é uma equipe de competição do Centro Tecnológico de Joinville (UFSC) que projeta e constrói veículos off-road para disputar as provas da SAE Brasil. Fundada em 2018, a equipe desenvolve estudantes nas áreas técnica, de gestão e liderança, unindo teoria e prática em um ambiente colaborativo e inovador.",
+  },
+  {
     NomeDaEmpresa: "Cultiva",
     Tag: "CREA Jr-SC",
     Image: "/empresas-expositoras-2024/empresas-creajr/Cultiva.png",
