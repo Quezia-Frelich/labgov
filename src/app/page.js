@@ -15,9 +15,9 @@ export default function Home() {
       <Section_welcome />
       <Section_cards/>
       <Section_speakers />
-      <Section_numbers />
+      <Section_cta />
       <Section_location showMap={true} />
-      <Section_cta /> */
+      <Section_numbers />
       <Section_sponsors />
       <Section_programs />
     </>

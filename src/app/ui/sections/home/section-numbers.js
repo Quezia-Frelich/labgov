@@ -31,7 +31,7 @@ export default function Section_numbers() {
 
                     <div className="flex flex-col items-center justify-center gap-5">
                         <img src="/icons/icon_estandes.png" alt="Participantes" className="h-12 md:h-14"></img>
-                        <Number_count number={100} title={'Estandes'} animate={true} />
+                        <Number_count number={110} title={'Estandes'} animate={true} />
                     </div>
 
                     <div className="flex flex-col items-center justify-center gap-5">
