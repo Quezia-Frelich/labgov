@@ -31,17 +31,17 @@ export default function Section_numbers() {
 
                     <div className="flex flex-col items-center justify-center gap-5">
                         <img src="/icons/icon_estandes.png" alt="Participantes" className="h-12 md:h-14"></img>
-                        <Number_count number={70} title={'Estandes'} animate={true} />
+                        <Number_count number={100} title={'Estandes'} animate={true} />
                     </div>
 
                     <div className="flex flex-col items-center justify-center gap-5">
                         <img src="/icons/icon_palestrantes.png" alt="Participantes" className="h-12 md:h-14"></img>
-                        <Number_count number={30} title={'Palestrantes'} animate={true} />
+                        <Number_count number={40} title={'Palestrantes'} animate={true} />
                     </div>
 
                     <div className="flex flex-col items-center justify-center gap-5">
                         <img src="/icons/icon_horas.png" alt="Participantes" className="h-12 md:h-14"></img>
-                        <Number_count before_number={'+'} number={10} after_number={'h'} title={'de conteúdo'} animate={true} />
+                        <Number_count before_number={'+'} number={13} after_number={'h'} title={'de conteúdo'} animate={true} />
                     </div>
 
                 </Container>

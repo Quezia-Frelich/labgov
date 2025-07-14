@@ -177,9 +177,9 @@ export const data_schedule_2025 = [
         company: "Whirlpool",
       },
       {
-        profile: "/summit-2025/modesto-h-ferrer.png",
-        fullName: "Modesto H Ferrer",
-        company: "Professor UFSC Campus Joinville",
+        profile: "/summit-2025/andre-lima.png",
+        fullName: "André Ribeiro de Souza Lima",
+        company: "Tupy",
       },
     ],
     firstSimultaneus: true,
@@ -226,7 +226,7 @@ export const data_schedule_2025 = [
     date: "26/07",
     scenery: "plenária",
     time: "10:30",
-    duration: "40",
+    duration: "50",
     speakers: [
       {
         profile: "/summit-2025/maryanne-mattos.png",
@@ -284,8 +284,8 @@ export const data_schedule_2025 = [
         company: "TJSC",
       },
       {
-        profile: "/summit-2025/Jose Eduardo Fiates.png",
-        fullName: "matheus-brighenti",
+        profile: "/summit-2025/matheus-brighenti.png",
+        fullName: "Matheus Lapolli Brighenti",
         company: "TCE/SC",
       },
       {
@@ -370,6 +370,11 @@ export const data_schedule_2025 = [
         profile: "/summit-2025/Renan S. Antoniolli.png",
         fullName: "Renan S. Antoniolli",
         company: "Tuya Smart",
+      },
+      {
+        profile: "/summit-2025/luiz-pellegrini.png",
+        fullName: "Luiz Henrique Pellegrini",
+        company: "Especialista em Smart Cities",
       },
     ],
   },
