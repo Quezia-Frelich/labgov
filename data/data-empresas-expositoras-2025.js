@@ -112,6 +112,14 @@ export const data_empresas_expositoras = [
     Bio: "Ambiental Referência é uma empresa dedicada a oferecer soluções ambientais inovadoras. Nosso compromisso é simplificar serviços ambientais complexos, oferecendo orientação personalizada e soluções adaptadas para um futuro sustentável.",
   },
   {
+    NomeDaEmpresa: "ANE",
+    Tag: "Parceira",
+    Image:
+      "/empresas-expositoras-2024/empresas-parceira/ANE.png",
+    Site: "https://www.anebrasil.org.br/",
+    Bio: "A ANE é uma associação sem fins lucrativos que atua como fonte independente de aconselhamento para governo, sociedade e indústria. Promove debates e soluções sobre engenharia, ciência e tecnologia, com foco em desenvolvimento nacional, sustentabilidade, educação e redução das desigualdades. Valoriza a memória da engenharia e reconhece profissionais que inspiram novas gerações.",
+  },
+  {
     NomeDaEmpresa: "Anima Acústica",
     Tag: "Aceleradas",
     Image:

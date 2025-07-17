@@ -122,7 +122,7 @@ export const data_schedule_2025 = [
     firstSimultaneus: true,
   },
   {
-    title: "Construção Civil Sustentável",
+    title: "Construindo Cidades para Pessoas: Como a Engenharia e Design Urbano Criam Espaços com Propósito",
     date: "26/07",
     scenery: "tech 1",
     time: "09:00",
@@ -181,6 +181,11 @@ export const data_schedule_2025 = [
         fullName: "André Ribeiro de Souza Lima",
         company: "Tupy",
       },
+      {
+        profile: "/summit-2025/Emerson-Miranda.png",
+        fullName: "Emerson da Silva Miranda",
+        company: "Schulz",
+      },
     ],
     firstSimultaneus: true,
   },
@@ -216,7 +221,9 @@ export const data_schedule_2025 = [
     duration: "40",
     speakers: [
       {
-        company: "Equipe Athens",
+        profile: "/summit-2025/Patricia-Gomes.png",
+        fullName: "Patricia Gomes",
+        company: "Athens Gestão e Pessoas",
       },
     ],
     lastEvent: true,
@@ -415,9 +422,19 @@ export const data_schedule_2025 = [
     duration: "45",
     speakers: [
       {
+        profile: "/summit-2025/Tiago-Frigo.png",
+        fullName: "Tiago Bolan Frigo",
+        company: "Secretário Executivo da Aquicultura e Pesca do Estado de Santa Catarina",
+      },
+      {
         profile: "/summit-2025/daniela-correa.png",
         fullName: "Daniela de Souza Corrêa",
         company: "Gestora estadual de economia azul no Sebrae SC",
+      },
+      {
+        profile: "/summit-2025/Fabiana-Alexandre.png",
+        fullName: "Fabiana Alexandre",
+        company: "Gestora Estadual da Divisão de Defesa Sanitária Vegetal - CIDASC",
       },
     ],
   },

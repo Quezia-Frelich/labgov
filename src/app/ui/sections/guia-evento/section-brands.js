@@ -35,7 +35,7 @@ export default function Section_brands(){
             <Container className="flex flex-col gap-10 text-violet-crea-700">
                 <div>
                     <Text_display_3 className="font-bold mb-5">Feira tecnológica</Text_display_3>
-                    <Text_body>Descubra soluções inovadoras na feira do CREA Summit...</Text_body>
+                    <Text_body>Explore o futuro da engenharia e da tecnologia em um só lugar.</Text_body>
                 </div>
 
                 <div className="flex flex-col md:flex-row gap-5 justify-between items-center">

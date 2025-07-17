@@ -53,7 +53,7 @@ export default function Section_schedule(){
                     </div>
                 </div>
 
-                {/*<Text_body>Para ver a programação detalhada <Text_link href={'/programacao'} underline={true}><strong>clique aqui.</strong></Text_link></Text_body>*/}
+                <Text_body>Para ver a programação detalhada <Text_link href={'/programacao'} underline={true}><strong>clique aqui.</strong></Text_link></Text_body>
             </Container>
         </section>
 

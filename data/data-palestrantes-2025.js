@@ -175,7 +175,7 @@ export const data_palestrantes_2024 = [
     fullName: "Dilnei Silva Bittencourt",
     position: "Eng civil  consultor - Multilog / Hurbana",
     description:
-      "Eng civil. Crea 5833-7 ufsc 1975. Perto de 1milhao de m2 de galpoes. Projetos urbanos (pedra branca). Especialista em sustentabilidade de edificaçoes . Calculista estrutural",
+      "Eng civil. Crea 5833-7 ufsc 1975. Perto de 1milhão de m2 de galpões. Projetos urbanos (pedra branca). Especialista em sustentabilidade de edificações . Calculista estrutural",
     instagram: null,
     linkedin: null,
   },
@@ -349,5 +349,50 @@ export const data_palestrantes_2024 = [
       "Annelise Anderson Bittencourt é engenheira eletricista com mestrado em Sistemas de Energia pela UFSC. Possui 18 anos de experiência no setor elétrico, atuando em projetos e soluções em proteção de sistemas de potência, redes de comunicação, IEC 61850 e Digitalização de Subestações. Desde 2016, integra a GE Grid Solutions como Engenheira de Aplicação de Serviços, com foco em soluções inovadoras aplicadas a transição energética do setor elétrico.",
     instagram: null,
     linkedin: "www.linkedin.com/in/ annelise-anderson-bittencourt-5836a642",
+  },
+  {
+    profile: "/summit-2025/Fabiana-Alexandre.png",
+    fullName: "Fabiana Alexandre",
+    position: "Gestora Estadual da Divisão de Defesa Sanitária Vegetal - CIDASC",
+    description:
+      "Engenheira Agrônoma (UDESC/CAV), especialista em Proteção de Plantas (UFV), Gestora Estadual da Defesa Sanitária Vegetal da CIDASC e 2ª Vice-Presidente do CREA-SC. Atua na defesa vegetal, certificação fitossanitária e políticas públicas com foco em vigilância e educação sanitária em Santa Catarina.",
+    instagram: "https://www.instagram.com/faby_agro/",
+    linkedin: "https://www.linkedin.com/in/fabiana-alexandre-4ab843a1/",
+  },
+  {
+    profile: "/summit-2025/Patricia-Gomes.png",
+    fullName: "Patricia Gomes",
+    position: "CEO - Athens Gestão e Pessoas",
+    description:
+      "Patrícia Gomes, CEO da Athens Gestão e Pessoas, mentora de Líderes, Podcaster no Irmãs Obra. Psicóloga Organizacional com MBA em Gestão Empresarial e especialização em aplicação de neurociência.Aluna da Imersão com Flávio Augusto e Caio Carneiro e do G4 Educação.Co-autora do Livro Elefante Não Voa.2 vezes Vencedora do Prêmio Ser Humano 2023 e 2024. Foi a primeira Mulher Presidente da Associação de Jovens Empreendedores de Criciúma/SC em 2022 e finalista do Prêmio Mulher da ArcelorMittal em 2022.",
+    instagram: "https://www.instagram.com/patigomespsidelideres/",
+    linkedin: null,
+  },
+  {
+    profile: "/summit-2025/Tiago-Frigo.png",
+    fullName: "Tiago Bolan Frigo",
+    position: "Secretário Executivo da Aquicultura e Pesca do Estado de Santa Catarina",
+    description:
+      "Tiago Bolan Frigo, nomeado por Jorginho Mello para a Secretaria de Aquicultura e Pesca, é engenheiro de aquicultura, advogado e tem MBA em Negócios Internacionais. Foi presidente da ABEA, secretário adjunto em Florianópolis (2013-2015) e idealizador do projeto DNA do Pescado. Atuou na Eletrosul por 14 anos, integrou o Gabinete de Transição de Bolsonaro (2018/2019) e foi deputado estadual em 2021, com 19.868 votos.",
+    instagram: null,
+    linkedin: null,
+  },
+  {
+    profile: "/summit-2025/Flavio-Schafer.png",
+    fullName: "Flávio Schäfer",
+    position: "Secretário Executivo da Aquicultura e Pesca do Estado de Santa Catarina",
+    description:
+      "Catarinense e Engenheiro Civil formado pela UFSC, com mais de 27 anos de experiência no setor da construção civil. Pós-graduado em Gestão de Projetos, com atuação na gestão e direção de grandes obras. É membro do Conselho da cidade de Florianópolis e foi conselheiro do Sinduscon Grande Florianópolis. Exerceu a função de Assessor de Relações Institucionais do Crea-SC, e atualmente exerce a função de Superintendente, contribuindo ativamente para o fortalecimento da engenharia catarinense.",
+    instagram: "https://www.instagram.com/flavioschafer?utm_source=qr&igsh=YjN3NG1pZzIzOTZq",
+    linkedin: null,
+  },
+  {
+    profile: "/summit-2025/Emerson-Miranda.png",
+    fullName: "Emerson da Silva Miranda",
+    position: "Engenharia de Automação - Schulz",
+    description:
+      "Emerson é Supervisor - Engenharia de Automação, possui 42 Anos, casado com a Mayara e possui 2 Filhos - Igor e Davi. É natural de Assis Chateaubriand - PR e mora em Joinville desde 1993. Com formação Técnico em Mecânica - CEDUP - Joinville, Engenharia de Produção Mecânica - Univille - Joinville  e MBA - Liderança e Inovação - Univille - Joinville. Iniciou na Schulz em 2004, saindo no final de  2013 quando recebeu uma proposta irrecusável para ir trabalhar na WHB em Pernambuco. Retomou em agosto de 2015 para a Schulz onde está até o presente  momento. Na Schulz iniciou como operador CNC, passando pelas áreas técnicas de ferramentas de usinagem (Presset) e técnico de Fabrica até chegar na Engenharia de desenvolvimento de processos de Usinagem  em 2009. Em 2021 foi convidado a assumir a Engenharia de Automação que estava iniciando.",
+    instagram: null,
+    linkedin: null,
   },
 ];
