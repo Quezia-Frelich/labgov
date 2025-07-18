@@ -236,6 +236,11 @@ export const data_schedule_2025 = [
     duration: "50",
     speakers: [
       {
+        profile: "/summit-2025/Marilisa-Boehm.png",
+        fullName: "Marilisa Boehm",
+        company: "Vice-governadora do Estado de Santa Catarina",
+      },
+      {
         profile: "/summit-2025/maryanne-mattos.png",
         fullName: "Maryanne Mattos",
         company: "Vice Prefeita de Florianópolis",
@@ -454,6 +459,11 @@ export const data_schedule_2025 = [
         profile: "/summit-2025/priscila-nunes.png",
         fullName: "Priscila Nunes",
         company: "Construmove",
+      },
+      {
+        profile: "/summit-2025/Flavio-Schafer.png",
+        fullName: "Flávio Schäfer",
+        company: "Superintendente Crea-SC",
       },
     ],
     lastEvent: true,

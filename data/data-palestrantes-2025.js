@@ -18,6 +18,24 @@ export const data_palestrantes_2024 = [
     linkedin: "https://www.linkedin.com/in/viniciusmarchese/",
   },
   {
+    profile: "/summit-2025/joel-kruger.png",
+    fullName: "Joel Krüger",
+    position: "Presidente - MÚTUA Nacional",
+    description:
+      "Ex presidente do Confea. Ex Conselheiro Federal pelas Instituições de Ensino do Confea. Ex presidente do Crea-PR. Professor universitário da PUC-PR",
+    instagram: "https://www.instagram.com/engenheirojoelkruger?igsh=czBlajJkN3RlcXZz",
+    linkedin: null,
+  },
+  {
+    profile: "/summit-2025/Marilisa-Boehm.png",
+    fullName: "Marilisa Boehm",
+    position: "Vice-governadora do Estado de Santa Catarina",
+    description:
+      "Marilisa Boehm, natural de Joinville/SC, é delegada aposentada da Polícia Civil, onde atuou por 30 anos e foi a primeira mulher a ocupar o cargo em sua cidade. Fundadora e titular da Delegacia da Mulher, também foi delegada regional entre 1999 e 2002. Ingressou na política e, em 2022, foi eleita Vice-Governadora de Santa Catarina pelo PL, ao lado de Jorginho Mello. É casada, mãe de dois filhos e a segunda mulher a ocupar esse cargo no estado.",
+    instagram: "https://www.instagram.com/marilisaboehm/",
+    linkedin: null,
+  },
+  {
     profile: "/summit-2025/Ricardo Faria.png",
     fullName: "Ricardo Faria",
     position: "Proprietário - Granja Faria",
@@ -35,6 +53,52 @@ export const data_palestrantes_2024 = [
     instagram: "",
     linkedin: "",
   },
+
+  {
+    profile: "/summit-2025/alvaro-dourado.png",
+    fullName: "Álvaro Antônio Ribas Dourado",
+    position: "Diretor Geral - MÚTUA/SC",
+    description:
+      "Engenheiro Agrônomo formado pela Universidade Estadual de Maringá em 1985 com Especialização em Administração Rural pela Universidade Federal de Lavras-MG e funcionário público da Companhia Integrada de Desenvolvimento Agrícola de Santa Catarina - CIDASC.",
+    instagram: "https://www.instagram.com/alvaroribasdourado/profilecard/?igsh=MTRyd2dyaHlpeTUxdA==",
+    linkedin: null,
+  },  
+  {
+    profile: "/summit-2025/andre-coelho.png",
+    fullName: "André Coelho",
+    position: "Mestre em Computação | Fundador Autonomoss e Personal Tech",
+    description:
+      "Engenheiro de software com 17 anos de experiência e mestre em Computação. Fundador da Autonomoss e da Personal Tech Academy, atua com IA generativa, automações e agentes inteligentes para escalar produtividade em negócios. Já mentorou mais de 100 startups e é palestrante reconhecido nas áreas de inovação e tecnologia.",
+    instagram: "http://instagram.com/opersonaltech",
+    linkedin: "https://www.linkedin.com/in/andrecoelhop/",
+  },
+  {
+    profile: "/summit-2025/Annelise-Bittencourt.png",
+    fullName: "Annelise Anderson Bittencourt",
+    position: "Lead Service Application Engineer - GE VERNOVA",
+    description:
+      "Annelise Anderson Bittencourt é engenheira eletricista com mestrado em Sistemas de Energia pela UFSC. Possui 18 anos de experiência no setor elétrico, atuando em projetos e soluções em proteção de sistemas de potência, redes de comunicação, IEC 61850 e Digitalização de Subestações. Desde 2016, integra a GE Grid Solutions como Engenheira de Aplicação de Serviços, com foco em soluções inovadoras aplicadas a transição energética do setor elétrico.",
+    instagram: null,
+    linkedin: "www.linkedin.com/in/ annelise-anderson-bittencourt-5836a642",
+  },
+  {
+    profile: "/summit-2025/andre-lima.png",
+    fullName: "André Ribeiro de Souza Lima",
+    position: "Coordenador de Projetos - Tupy",
+    description:
+      "André Lima é engenheiro mecânico pela UTFPR, com MBA em Gerenciamento de Projetos pela FGV e certificação PMP®. Acumula mais de 15 anos de experiência atuando em projetos estratégicos de engenharia, pesquisa, desenvolvimento e inovação em setores industriais de alta complexidade, com destaque para o setor automotivo. Atualmente, é Coordenador de Projetos na Tupy, onde lidera iniciativas de P&D com foco em sustentabilidade, economia circular e tecnologias de baixo carbono. Atua de forma integrada ao ecossistema de inovação, gerenciando portfólios, fomentos e conectando engenharia, mercado e desenvolvimento tecnológico.",
+    instagram: null,
+    linkedin: null,
+  },
+  {
+    profile: "/summit-2025/Carlos-Schneider.png",
+    fullName: "Carlos Alberto Schneider",
+    position: "Academia Nacional de Engenharia (ANE)",
+    description:
+      "Engenheiro mecânico formado pela UFSC em 1972. Após doutorado em metrologia e automação pela RWTH-Aachen, passou a atuar como docente do Dep de Eng.Mecanica na UFSC. Concluiu carreira como prof.titular do programa de pós graduação. Em 1984 criou a Fundação CERTI, que se tornou referência nacional em Metrologia, automação industrial, inovação em produtos eletromecânicos e de programas de empreendedorismo inovador. Hoje é membro da Academia Nacional de Engenharia.",
+    instagram: null,
+    linkedin: null,
+  },
   {
     profile: "/summit-2025/cibele.png",
     fullName: "Cibele Assmann",
@@ -45,49 +109,22 @@ export const data_palestrantes_2024 = [
     linkedin: "https://www.linkedin.com/in/cibeleurbanista",
   },
   {
-    profile: "/summit-2025/mario mota.png",
-    fullName: "Mário Mota",
-    position: "Deputado Estadual - Assembleia Legislativa de Santa Catarina",
+    profile: "/summit-2025/claudio-jacoski.png",
+    fullName: "Claudio Jacoski",
+    position: "Reitor Unochapecó / Presidente ABRUC (Associação Brasileira de Instituições Comunitárias)",
     description:
-      "Formado em Educação Física, iniciou sua trajetória em Tupã (SP) e se consolidou como comunicador em Santa Catarina, onde apresentou o Jornal do Almoço por 36 anos. Em 2022, foi eleito deputado estadual com 56.363 votos. Na Alesc, lidera ações de fiscalização e transparência, com foco em educação, saúde e uso eficiente dos recursos públicos. Defende uma política participativa e próxima da população.",
-    instagram: "https://www.instagram.com/mariomottaoficial/",
-    linkedin: "https://www.linkedin.com/in/mariomottatv/",
+      "Dr. em Eng. de Produção, Eng. Civil. Pesquisador do Programa em Tecnologia e Gestão da Inovação; e do Programa em Contabilidade e Administração da Unochapecó. Liderou o projeto - Pollen Parque Científico e Tecnológico. Autor do Livro - PARQUES TECNOLÓGICOS -Estratégias para estruturação de um ecossistema de inovação. Foi Presidente da Acafe. É conselheiro do CREA/SC, e Reitor da UNOCHAPECÓ, Também é Presidente da ABRUC - Associação Brasileira das Instituições Comunitárias de Educação Superior.",
+    instagram: "https://www.instagram.com/claudiojacoski/#",
+    linkedin: "https://www.linkedin.com/in/jacoski/",
   },
   {
-    profile: "/summit-2025/Renan S. Antoniolli.png",
-    fullName: "Renan S. Antoniolli",
-    position: "IoT Strategic Manager - Tuya Smart",
+    profile: "/summit-2025/daniela-correa.png",
+    fullName: "Daniela de Souza Corrêa",
+    position: "Gestora estadual de economia azul no Sebrae SC Santa Catarina",
     description:
-      "Formado em Engenharia de Telecomunicações pela FURB e pela Universidade do Porto, Portugal. É pós-graduado em Cidades Inteligentes, e também, em Inovação e Transformação Digital. Conta com MBAs em Gestão Comercial e de Gestão de Negócios, pelo IBMEC. Atuou também como Smart Cities Ambassador e liderou a iniciativa de 5G na Deloitte. Com mais de 20 anos de experiência, atualmente é Gerente Estratégico de IoT na Tuya Smart e Diretor de Inovação no SENGE-SC.",
-    instagram: "https://www.instagram.com/renanantoniolli/",
-    linkedin: "https://www.linkedin.com/in/renanantoniolli/",
-  },
-  {
-    profile: "/summit-2025/Jose Eduardo Fiates.png",
-    fullName: "José Eduardo Fiates",
-    position: "Diretor de Inovação e Competitividade e Superintendente do IEL/SC",
-    description:
-      "Engenheiro Mecânico com mestrado e doutorado em Gestão da Inovação e Empreendedorismo- UFSC. Diretor da incubadora CELTA - CERTI (1994-1999), Diretor e Presidente da ANPROTEC (1993-2003), Diretor Executivo do Sapiens Parque (2002/2019), Superintendente Geral da FUNDAÇÃO CERTI (2016/2020), Fundador e Presidente da CVENTURES (2008/2020), Atual Diretor de inovação e Competitividade da FIESC e Superintendente do IEL.",
-    instagram: null,
-    linkedin: null,
-  },
-  {
-    profile: "/summit-2025/Fernando Schmidt.png",
-    fullName: "Fernando Schmidt",
-    position: "Vice presidente de operações - Nova Participações",
-    description:
-      "Catarinense, natural de Itajaí/SC, casado e pai de duas meninas. Engenheiro Civil, graduado pela Universidade Federal de Santa Catarina – UFSC e com MBA em Gerenciamento de Projetos pela Fundação Getúlio Vargas - FGV. Conta com 24 anos de expertise no mercado de engenharia, atuando em projetos, gerenciamento e construção de obras nas áreas de energia, infraestrutura, recursos hídricos, transporte, saneamento, indústrias, óleo e gás e meio ambiente.",
-    instagram: null,
-    linkedin: "https://www.linkedin.com/in/fernando-da-silva-schmidt-4496b09a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-  },
-  {
-    profile: "/summit-2025/modesto-h-ferrer.png",
-    fullName: "Modesto H Ferrert",
-    position: "Diretor Técnico do Ágora Tech Park",
-    description:
-      "Engenheiro mecânico, com mestrado e doutorado em Engenharia Metalúrgica. Há mais de 30 anos lidera projetos de inovação que conectam universidade e mercado. Diretor Técnico do Ágora Tech Park e Presidente do COMCITI, integra a governança do ecossistema de inovação de Joinville. TEDx Speaker e mentor de startups, acumula mais de 20 anos na coordenação das equipes de competição Baja e Fórmula SAE, potencializando talentos e formando lideranças.",
-    instagram: "https://www.instagram.com/mariomottaoficial/",
-    linkedin: "https://www.linkedin.com/in/mariomottatv/",
+      "Gestora estadual do Sebrae Santa Catarina de economias portadoras de futuro, dentre elas a economia azul.  Bacharel em administração com ênfase em empreendedorismo, formação complementar em inovação pelo Sebrae, especialização em Desenvolvimento Local Sustentável, e certificada pelo INSPER-SP em Economia Azul e Cidades.",
+    instagram: "https://www.instagram.com/@dannisc82/#",
+    linkedin: "https://www.linkedin.com/in/daniela-corr%C3%AAa-a1a5701b8/",
   },
   {
     profile: "/summit-2025/Delton Batista.png",
@@ -95,6 +132,33 @@ export const data_palestrantes_2024 = [
     position: "Presidente - LIDE-SC e LIDE-RS",
     description:
       "Presidente do LIDE-SC e LIDE-RS, maior ecossistema de relacionamento corporativo do Brasil, que reúne as empresas com faturamento anual acima de R$ 200 milhões e representam 52% do PIB Privado Nacional.  Economista com MBA em Gestão de Marketing pela FGV, Programas de Especialização em Gestão Empresarial pela FDC e IBMEC, e extensão em Liderança e Inovação pelas Universidades de Ohio (EUA) e Cambridge (Reino Unido), Delton é Conselheiro de grandes grupos empresariais e fundos de investimento.",
+    instagram: null,
+    linkedin: null,
+  },
+  {
+    profile: "/summit-2025/dilnei-bittencourt.png",
+    fullName: "Dilnei Silva Bittencourt",
+    position: "Eng civil  consultor - Multilog / Hurbana",
+    description:
+      "Eng civil. Crea 5833-7 ufsc 1975. Perto de 1milhão de m2 de galpões. Projetos urbanos (pedra branca). Especialista em sustentabilidade de edificações . Calculista estrutural",
+    instagram: null,
+    linkedin: null,
+  },
+  {
+    profile: "/summit-2025/dirceu-leite.png",
+    fullName: "Dirceu Leite",
+    position: "Presidente - Empresa de Pesquisa Agropecuária e Extensão Rural de Santa Catarina",
+    description:
+      "Dirceu Leite é natural de Agrolândia (SC), onde atuou como vice-prefeito de 2017 a 2020. Engenheiro agrônomo formado pela Universidade do Estado de Santa Catarina (UDESC), possui mestrado em Manejo do Solo pela mesma instituição. Ingressou na Epagri em 2014 como extensionista rural e, desde 21 de março de 2023, ocupa a presidência da empresa.",
+    instagram: "https://www.instagram.com/dirceuleite.oficial/",
+    linkedin: null,
+  },
+  {
+    profile: "/summit-2025/Emerson-Miranda.png",
+    fullName: "Emerson da Silva Miranda",
+    position: "Engenharia de Automação - Schulz",
+    description:
+      "Emerson é Supervisor - Engenharia de Automação, possui 42 Anos, casado com a Mayara e possui 2 Filhos - Igor e Davi. É natural de Assis Chateaubriand - PR e mora em Joinville desde 1993. Com formação Técnico em Mecânica - CEDUP - Joinville, Engenharia de Produção Mecânica - Univille - Joinville  e MBA - Liderança e Inovação - Univille - Joinville. Iniciou na Schulz em 2004, saindo no final de  2013 quando recebeu uma proposta irrecusável para ir trabalhar na WHB em Pernambuco. Retomou em agosto de 2015 para a Schulz onde está até o presente  momento. Na Schulz iniciou como operador CNC, passando pelas áreas técnicas de ferramentas de usinagem (Presset) e técnico de Fabrica até chegar na Engenharia de desenvolvimento de processos de Usinagem  em 2009. Em 2021 foi convidado a assumir a Engenharia de Automação que estava iniciando.",
     instagram: null,
     linkedin: null,
   },
@@ -117,40 +181,13 @@ export const data_palestrantes_2024 = [
     linkedin: null,
   },
   {
-    profile: "/summit-2025/nubia-luz.png",
-    fullName: "Núbia F Luz",
-    position: "Diretora Administrativa - Mutua SC",
+    profile: "/summit-2025/Fabiana-Alexandre.png",
+    fullName: "Fabiana Alexandre",
+    position: "Gestora Estadual da Divisão de Defesa Sanitária Vegetal - CIDASC",
     description:
-      "Engenheira Civil formada pela UFSM, atuo como responsável técnica em empresa de execução de obras residenciais, trabalho com regularização de obras comerciais com adequações da acessibilidade dos ambientes.  ",
-    instagram: "https://www.instagram.com/nubiaferreiraluz/profilecard/",
-    linkedin: "https://www.linkedin.com/in/nubia-ferreira-da-luz-32333126/",
-  },
-  {
-    profile: "/summit-2025/roberta-anjos.png",
-    fullName: "Roberta Maas dos Anjos",
-    position: "Diretora Financeira - Mutua SC",
-    description:
-      "Diretora Financeira da Mútua/SC. Presidente do SENGE/SC. Engª Civil, Sanitarista e Ambiental. Mestre em Gestão da Inovação. Pós-graduada em Construção Civil; Eng. de Avaliações e Perícias; Gestão e Governança Corporativa Direcionada às Práticas de ESG; Licitações e compras públicas sustentáveis. MBA em Gestão de Sistemas de Abastecimento de Água e Sistemas de Esgotos Sanitários. Diretora Financeira e Vice-Presidente do CREA (2016/2018) e Presidente da CASAN (2019/2022).",
-    instagram: "https://instagram.com/robertamaas",
-    linkedin: "hhttps://www.linkedin.com/in/robertamaas",
-  },
-  {
-    profile: "/summit-2025/alvaro-dourado.png",
-    fullName: "Álvaro Antônio Ribas Dourado",
-    position: "Diretor Geral - MÚTUA/SC",
-    description:
-      "Engenheiro Agrônomo formado pela Universidade Estadual de Maringá em 1985 com Especialização em Administração Rural pela Universidade Federal de Lavras-MG e funcionário público da Companhia Integrada de Desenvolvimento Agrícola de Santa Catarina - CIDASC.",
-    instagram: "https://www.instagram.com/alvaroribasdourado/profilecard/?igsh=MTRyd2dyaHlpeTUxdA==",
-    linkedin: null,
-  },
-  {
-    profile: "/summit-2025/joel-kruger.png",
-    fullName: "Joel Krüger",
-    position: "Presidente - MÚTUA Nacional",
-    description:
-      "Ex presidente do Confea. Ex Conselheiro Federal pelas Instituições de Ensino do Confea. Ex presidente do Crea-PR. Professor universitário da PUC-PR",
-    instagram: "https://www.instagram.com/engenheirojoelkruger?igsh=czBlajJkN3RlcXZz",
-    linkedin: null,
+      "Engenheira Agrônoma (UDESC/CAV), especialista em Proteção de Plantas (UFV), Gestora Estadual da Defesa Sanitária Vegetal da CIDASC e 2ª Vice-Presidente do CREA-SC. Atua na defesa vegetal, certificação fitossanitária e políticas públicas com foco em vigilância e educação sanitária em Santa Catarina.",
+    instagram: "https://www.instagram.com/faby_agro/",
+    linkedin: "https://www.linkedin.com/in/fabiana-alexandre-4ab843a1/",
   },
   {
     profile: "/summit-2025/felipe-penter.png",
@@ -162,76 +199,31 @@ export const data_palestrantes_2024 = [
     linkedin: null,
   },
   {
-    profile: "/summit-2025/andre-coelho.png",
-    fullName: "André Coelho",
-    position: "Mestre em Computação | Fundador Autonomoss e Personal Tech",
+    profile: "/summit-2025/fernando-farina.png",
+    fullName: "Fernando Farina",
+    position: "Diretor de Engenharia - Líder Global de Materiais da Whirlpool",
     description:
-      "Engenheiro de software com 17 anos de experiência e mestre em Computação. Fundador da Autonomoss e da Personal Tech Academy, atua com IA generativa, automações e agentes inteligentes para escalar produtividade em negócios. Já mentorou mais de 100 startups e é palestrante reconhecido nas áreas de inovação e tecnologia.",
-    instagram: "http://instagram.com/opersonaltech",
-    linkedin: "https://www.linkedin.com/in/andrecoelhop/",
-  },
-   {
-    profile: "/summit-2025/dilnei-bittencourt.png",
-    fullName: "Dilnei Silva Bittencourt",
-    position: "Eng civil  consultor - Multilog / Hurbana",
-    description:
-      "Eng civil. Crea 5833-7 ufsc 1975. Perto de 1milhão de m2 de galpões. Projetos urbanos (pedra branca). Especialista em sustentabilidade de edificações . Calculista estrutural",
+      "Fernando é Diretor Global de Materiais na Whirlpool Corporation. Engenheiro eletricista formado pela UFSC com MBA pela FGV, atua há mais de 16 anos em posições de liderança nas áreas de Desenvolvimento de Produto, Liderança de Projetos, Suprimentos e Qualidade. Ao longo da carreira, liderou projetos e equipes globalmente com foco em inovação, transformação e excelência operacional.",
     instagram: null,
     linkedin: null,
   },
   {
-    profile: "/summit-2025/nivaldo-maria.png",
-    fullName: "Nivaldo de Maria",
-    position: "Engenheiro estrutural - BlueCalc Projetos",
+    profile: "/summit-2025/Fernando Schmidt.png",
+    fullName: "Fernando Schmidt",
+    position: "Vice presidente de operações - Nova Participações",
     description:
-      "Engenheiro Civil e de Segurança do Trabalho, Mestre em Estruturas pela Universidade Federal de Santa Caratina – UFSC. Possui 17 anos de experiência na área de Projetos Estruturais e proprietário da BlueCalc Projetos, com mais de 200 obras projetadas em mais de 500mil m². Nas redes sociais é criador de conteúdo da área de estruturas, ensinando engenheiros a se tornarem calculistas.",
-    instagram: "https://www.instagram.com/engnivaldo/",
-    linkedin: "https://www.linkedin.com/in/engnivaldo/",
-  },
-  {
-    profile: "/summit-2025/matheus-flach.png",
-    fullName: "Matheus Klein Flach",
-    position: "Gerente Territorial e Urbano com Resiliência - Secretaria de Estado da Proteção e Defesa Civil",
-    description:
-      "Matheus Klein Flach é geólogo formado pela Universidade Federal de Santa Catarina, tem pós graduação em Engenharia Geotécnica pela Faculdade Única e é mestre em Engenharia de Transportes e Gestão Territorial também pela Universidade Federal de Santa Catarina.   Trabalha na Secretaria de Estado da Proteção e Defesa Civil, onde já atuou como Assessor Técnico e atualmente ocupa o cargo de Gerente Territorial e Urbano com Resiliência na Diretoria de Gestão de Riscos e Adaptação Climática.",
-    instagram: "https://www.instagram.com/matheuskleinflach",
-    linkedin: null,
-  },
-  {
-    profile: "/summit-2025/kamila-silva.png",
-    fullName: "Kamila Rodrigues da Silva",
-    position: "1ª Vice Presidente - CREA-SC",
-    description:
-      "Graduada em Engenharia Civil (Unesc - 2014); Pós Graduada em Coordenação e Compatibilização de Projetos de Edificações (Unesc - 2017); Mestre em Ciência e Engenharia de Materiais (Unesc 2021); Doutoranda em Eng. De Materiais; Professora na Universidade do extremo Sul Catarinense; Sócia Proprietária da KRS Engenharia; 1 Vice Presidente do CREA – SC.",
-    instagram: " https://www.instagram.com/engkamis",
-    linkedin: "www.linkedin.com/in/kamila-rodrigues-da-silva-1397b296",
-  },
- {
-    profile: "/summit-2025/daniela-correa.png",
-    fullName: "Daniela de Souza Corrêa",
-    position: "Gestora estadual de economia azul no Sebrae SC Santa Catarina",
-    description:
-      "Gestora estadual do Sebrae Santa Catarina de economias portadoras de futuro, dentre elas a economia azul.  Bacharel em administração com ênfase em empreendedorismo, formação complementar em inovação pelo Sebrae, especialização em Desenvolvimento Local Sustentável, e certificada pelo INSPER-SP em Economia Azul e Cidades.",
-    instagram: "https://www.instagram.com/@dannisc82/#",
-    linkedin: "https://www.linkedin.com/in/daniela-corr%C3%AAa-a1a5701b8/",
-  },
-  {
-    profile: "/summit-2025/vitor-muller.png",
-    fullName: "Vitor Müller",
-    position: "Diretor - Crea-SC",
-    description:
-      "Geólogo e mestre em Desastres Naturais (UFSC). Foi professor da UNISUL Tubarão e Pedra Branca, e do departamento de geologia da UFSC. Foi geólogo da DC de Santa Catarina. Atualmente dedica-se exclusivamente às atividades de consultoria em geotecnia pela empresa Similar Engenharia, onde desenvolve principalmente vistorias, ensaios geotécnicos, modelagens e análises de estabilidade de taludes e encostas. É conselheiro do CREA-SC desde 2022, e atualmente faz parte da diretoria do conselho.",
-    instagram: "https://www.instagram.com/vitorsmuller?igsh=MTV0b3QyaTZ0dHJkcQ==",
-    linkedin: null,
-  },
-  {
-    profile: "/summit-2025/PROF-YOGUI.png",
-    fullName: "PROF YOGUI. R.",
-    position: "Conselheiro - Blue Rock Brasil",
-    description:
-      "Aliando três ciclos profissionais sinérgicos e complementares como executivo de negócios e operações no setor de tecnologia e engenharia, como acadêmico na gestão de empreendimentos de ciência e tecnologia e como conselheiro empresarial, colabora com destacados atores públicos e privados, como nexialista e estrategista, para promover impactos sustentáveis nos negócios, na indústria e na sociedade. Autor do Framework de Inovação e Coautor do livro A Historia da Inovação no Brasil",
+      "Catarinense, natural de Itajaí/SC, casado e pai de duas meninas. Engenheiro Civil, graduado pela Universidade Federal de Santa Catarina – UFSC e com MBA em Gerenciamento de Projetos pela Fundação Getúlio Vargas - FGV. Conta com 24 anos de expertise no mercado de engenharia, atuando em projetos, gerenciamento e construção de obras nas áreas de energia, infraestrutura, recursos hídricos, transporte, saneamento, indústrias, óleo e gás e meio ambiente.",
     instagram: null,
-    linkedin: "https://www.linkedin.com/in/yoguir/",
+    linkedin: "https://www.linkedin.com/in/fernando-da-silva-schmidt-4496b09a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+  },
+  {
+    profile: "/summit-2025/Flavio-Schafer.png",
+    fullName: "Flávio Schäfer",
+    position: "Superintendente CREA-SC",
+    description:
+      "Catarinense e Engenheiro Civil formado pela UFSC, com mais de 27 anos de experiência no setor da construção civil. Pós-graduado em Gestão de Projetos, com atuação na gestão e direção de grandes obras. É membro do Conselho da cidade de Florianópolis e foi conselheiro do Sinduscon Grande Florianópolis. Exerceu a função de Assessor de Relações Institucionais do Crea-SC, e atualmente exerce a função de Superintendente, contribuindo ativamente para o fortalecimento da engenharia catarinense.",
+    instagram: "https://www.instagram.com/flavioschafer?utm_source=qr&igsh=YjN3NG1pZzIzOTZq",
+    linkedin: null,
   },
   {
     profile: "/summit-2025/giovane-rosa.png",
@@ -243,21 +235,57 @@ export const data_palestrantes_2024 = [
     linkedin: "https://www.linkedin.com/in/giovane-rosa-gas-organico",
   },
   {
-    profile: "/summit-2025/rodrigo-ferraz.png",
-    fullName: "Rodrigo Ferraz",
-    position: "CTO - ESSS",
+    profile: "/summit-2025/Jose Eduardo Fiates.png",
+    fullName: "José Eduardo Fiates",
+    position: "Diretor de Inovação e Competitividade e Superintendente do IEL/SC",
     description:
-      "Engenheiro Mecânico formado pela UFSC, com mestrado em Ciências Térmicas pela mesma instituição. Iniciou sua trajetória profissional na ESSS, apoiando empresas de diversos setores — como Aeroespacial, Automotivo, Óleo & Gás e Naval — na aplicação de técnicas avançadas de simulação computacional. Ao longo de sua carreira, atuou em diferentes áreas da companhia e hoje ocupa o cargo de Chief Technology Officer (CTO), sendo responsável pela equipe técnica da ESSS.",
+      "Engenheiro Mecânico com mestrado e doutorado em Gestão da Inovação e Empreendedorismo- UFSC. Diretor da incubadora CELTA - CERTI (1994-1999), Diretor e Presidente da ANPROTEC (1993-2003), Diretor Executivo do Sapiens Parque (2002/2019), Superintendente Geral da FUNDAÇÃO CERTI (2016/2020), Fundador e Presidente da CVENTURES (2008/2020), Atual Diretor de inovação e Competitividade da FIESC e Superintendente do IEL.",
     instagram: null,
-    linkedin: "https://www.linkedin.com/in/rodrigoferrazandrade/",
+    linkedin: null,
   },
   {
-    profile: "/summit-2025/fernando-farina.png",
-    fullName: "Fernando Farina",
-    position: "Diretor de Engenharia - Líder Global de Materiais da Whirlpool",
+    profile: "/summit-2025/kamila-silva.png",
+    fullName: "Kamila Rodrigues da Silva",
+    position: "1ª Vice Presidente - CREA-SC",
     description:
-      "Fernando é Diretor Global de Materiais na Whirlpool Corporation. Engenheiro eletricista formado pela UFSC com MBA pela FGV, atua há mais de 16 anos em posições de liderança nas áreas de Desenvolvimento de Produto, Liderança de Projetos, Suprimentos e Qualidade. Ao longo da carreira, liderou projetos e equipes globalmente com foco em inovação, transformação e excelência operacional.",
-    instagram: null,
+      "Graduada em Engenharia Civil (Unesc - 2014); Pós Graduada em Coordenação e Compatibilização de Projetos de Edificações (Unesc - 2017); Mestre em Ciência e Engenharia de Materiais (Unesc 2021); Doutoranda em Eng. De Materiais; Professora na Universidade do extremo Sul Catarinense; Sócia Proprietária da KRS Engenharia; 1 Vice Presidente do CREA – SC.",
+    instagram: " https://www.instagram.com/engkamis",
+    linkedin: "www.linkedin.com/in/kamila-rodrigues-da-silva-1397b296",
+  },
+  {
+    profile: "/summit-2025/luiz-pellegrini.png",
+    fullName: "Luiz Henrique Pellegrini",
+    position: "Especialista em Smart Cities",
+    description:
+      "Engenheiro Civil pela UFSC, Pós-Graduado em Perícia, Auditoria e Gestão Ambiental, Faculdade Oswaldo Cruz/SP. Atuou na coordenação de equipes de projetos, supervisão e fiscalização de obras rodoviárias. Em posição estratégica no Conselho, idealizou projetos na área de inovação como o CREA Summit, Unicrea e Rede de Embaixadores. Entusiasta do assunto, em 2024 inicia o Mestrado na UFSC em Cidades Inteligentes.",
+    instagram: "https://www.instagram.com/pellegrini01/",
+    linkedin: "https://www.linkedin.com/in/luiz-henrique-pellegrini",
+  },
+  {
+    profile: "/summit-2025/mario mota.png",
+    fullName: "Mário Mota",
+    position: "Deputado Estadual - Assembleia Legislativa de Santa Catarina",
+    description:
+      "Formado em Educação Física, iniciou sua trajetória em Tupã (SP) e se consolidou como comunicador em Santa Catarina, onde apresentou o Jornal do Almoço por 36 anos. Em 2022, foi eleito deputado estadual com 56.363 votos. Na Alesc, lidera ações de fiscalização e transparência, com foco em educação, saúde e uso eficiente dos recursos públicos. Defende uma política participativa e próxima da população.",
+    instagram: "https://www.instagram.com/mariomottaoficial/",
+    linkedin: "https://www.linkedin.com/in/mariomottatv/",
+  },
+  {
+    profile: "/summit-2025/maryanne-mattos.png",
+    fullName: "Maryanne Mattos",
+    position: "Vice Prefeita de Florianópolis e Secretária de Segurança e Ordem Pública",
+    description:
+      "Maryanne Mattos é formada em Licenciatura Plena em Educação Artística pela UDESC. Possui pós-graduação em Rádio, TV e Cinema pela Universidade de Lisboa, em Portugal, e em Educação e Sexualidade Humana pela UDESC.  Servidora pública na Guarda Municipal de Florianópolis há 21 anos. Eleita vereadora em 2020, onde ficou até 2024, Maryanne foi eleita  vice-prefeita ao lado do prefeito Topázio em outubro do ano passado. Desde janeiro também ocupa o cargo de secretária de segurança pública da capital",
+    instagram: "https://www.instagram.com/mattosmaryanne?igsh=MTQ3MWZoNmVzYmJmcg==",
+    linkedin: "https://br.linkedin.com/in/mattosmaryanne",
+  },
+  {
+    profile: "/summit-2025/matheus-flach.png",
+    fullName: "Matheus Klein Flach",
+    position: "Gerente Territorial e Urbano com Resiliência - Secretaria de Estado da Proteção e Defesa Civil",
+    description:
+      "Matheus Klein Flach é geólogo formado pela Universidade Federal de Santa Catarina, tem pós graduação em Engenharia Geotécnica pela Faculdade Única e é mestre em Engenharia de Transportes e Gestão Territorial também pela Universidade Federal de Santa Catarina.   Trabalha na Secretaria de Estado da Proteção e Defesa Civil, onde já atuou como Assessor Técnico e atualmente ocupa o cargo de Gerente Territorial e Urbano com Resiliência na Diretoria de Gestão de Riscos e Adaptação Climática.",
+    instagram: "https://www.instagram.com/matheuskleinflach",
     linkedin: null,
   },
   {
@@ -270,94 +298,31 @@ export const data_palestrantes_2024 = [
     linkedin: "https://www.linkedin.com/in/matheus-brighenti-75196b1b3/",
   },
   {
-    profile: "/summit-2025/claudio-jacoski.png",
-    fullName: "Claudio Jacoski",
-    position: "Reitor Unochapecó / Presidente ABRUC (Associação Brasileira de Instituições Comunitárias)",
+    profile: "/summit-2025/modesto-h-ferrer.png",
+    fullName: "Modesto H Ferrert",
+    position: "Diretor Técnico do Ágora Tech Park",
     description:
-      "Dr. em Eng. de Produção, Eng. Civil. Pesquisador do Programa em Tecnologia e Gestão da Inovação; e do Programa em Contabilidade e Administração da Unochapecó. Liderou o projeto - Pollen Parque Científico e Tecnológico. Autor do Livro - PARQUES TECNOLÓGICOS -Estratégias para estruturação de um ecossistema de inovação. Foi Presidente da Acafe. É conselheiro do CREA/SC, e Reitor da UNOCHAPECÓ, Também é Presidente da ABRUC - Associação Brasileira das Instituições Comunitárias de Educação Superior.",
-    instagram: "https://www.instagram.com/claudiojacoski/#",
-    linkedin: "https://www.linkedin.com/in/jacoski/",
+      "Engenheiro mecânico, com mestrado e doutorado em Engenharia Metalúrgica. Há mais de 30 anos lidera projetos de inovação que conectam universidade e mercado. Diretor Técnico do Ágora Tech Park e Presidente do COMCITI, integra a governança do ecossistema de inovação de Joinville. TEDx Speaker e mentor de startups, acumula mais de 20 anos na coordenação das equipes de competição Baja e Fórmula SAE, potencializando talentos e formando lideranças.",
+    instagram: "https://www.instagram.com/mariomottaoficial/",
+    linkedin: "https://www.linkedin.com/in/mariomottatv/",
   },
   {
-    profile: "/summit-2025/priscila-nunes.png",
-    fullName: "Priscila Nunes",
-    position: "COO - Construmove",
+    profile: "/summit-2025/nivaldo-maria.png",
+    fullName: "Nivaldo de Maria",
+    position: "Engenheiro estrutural - BlueCalc Projetos",
     description:
-      "COO do Grupo Construmove, um hub de soluções para o mercado imobiliário que atua nos braços de tecnologia, incorporação e gestão para construtoras e incorporadoras.  Engenheira civil com mais de 16 anos de experiência, com três pós-graduações, além do Grupo Construmove atua em todo o Brasil no ramo de avaliações. Priscila Nunes já ajudou mais de 10.000 engenheiras e arquitetas a conhecerem no mercado de Avaliação de Imóveis.",
-    instagram: "https://www.instagram.com/aprinunes/",
-    linkedin: null,
+      "Engenheiro Civil e de Segurança do Trabalho, Mestre em Estruturas pela Universidade Federal de Santa Caratina – UFSC. Possui 17 anos de experiência na área de Projetos Estruturais e proprietário da BlueCalc Projetos, com mais de 200 obras projetadas em mais de 500mil m². Nas redes sociais é criador de conteúdo da área de estruturas, ensinando engenheiros a se tornarem calculistas.",
+    instagram: "https://www.instagram.com/engnivaldo/",
+    linkedin: "https://www.linkedin.com/in/engnivaldo/",
   },
   {
-    profile: "/summit-2025/andre-lima.png",
-    fullName: "André Ribeiro de Souza Lima",
-    position: "Coordenador de Projetos - Tupy",
+    profile: "/summit-2025/nubia-luz.png",
+    fullName: "Núbia F Luz",
+    position: "Diretora Administrativa - Mutua SC",
     description:
-      "André Lima é engenheiro mecânico pela UTFPR, com MBA em Gerenciamento de Projetos pela FGV e certificação PMP®. Acumula mais de 15 anos de experiência atuando em projetos estratégicos de engenharia, pesquisa, desenvolvimento e inovação em setores industriais de alta complexidade, com destaque para o setor automotivo. Atualmente, é Coordenador de Projetos na Tupy, onde lidera iniciativas de P&D com foco em sustentabilidade, economia circular e tecnologias de baixo carbono. Atua de forma integrada ao ecossistema de inovação, gerenciando portfólios, fomentos e conectando engenharia, mercado e desenvolvimento tecnológico.",
-    instagram: null,
-    linkedin: null,
-  },
-  {
-    profile: "/summit-2025/maryanne-mattos.png",
-    fullName: "Maryanne Mattos",
-    position: "Vice Prefeita de Florianópolis e Secretária de Segurança e Ordem Pública",
-    description:
-      "Maryanne Mattos é formada em Licenciatura Plena em Educação Artística pela UDESC. Possui pós-graduação em Rádio, TV e Cinema pela Universidade de Lisboa, em Portugal, e em Educação e Sexualidade Humana pela UDESC.  Servidora pública na Guarda Municipal de Florianópolis há 21 anos. Eleita vereadora em 2020, onde ficou até 2024, Maryanne foi eleita  vice-prefeita ao lado do prefeito Topázio em outubro do ano passado. Desde janeiro também ocupa o cargo de secretária de segurança pública da capital",
-    instagram: "https://www.instagram.com/mattosmaryanne?igsh=MTQ3MWZoNmVzYmJmcg==",
-    linkedin: "https://br.linkedin.com/in/mattosmaryanne",
-  },
-  {
-    profile: "/summit-2025/Carlos-Schneider.png",
-    fullName: "Carlos Alberto Schneider",
-    position: "Academia Nacional de Engenharia (ANE)",
-    description:
-      "Engenheiro mecânico formado pela UFSC em 1972. Após doutorado em metrologia e automação pela RWTH-Aachen, passou a atuar como docente do Dep de Eng.Mecanica na UFSC. Concluiu carreira como prof.titular do programa de pós graduação. Em 1984 criou a Fundação CERTI, que se tornou referência nacional em Metrologia, automação industrial, inovação em produtos eletromecânicos e de programas de empreendedorismo inovador. Hoje é membro da Academia Nacional de Engenharia.",
-    instagram: null,
-    linkedin: null,
-  },
-  {
-    profile: "/summit-2025/dirceu-leite.png",
-    fullName: "Dirceu Leite",
-    position: "Presidente - Empresa de Pesquisa Agropecuária e Extensão Rural de Santa Catarina",
-    description:
-      "Dirceu Leite é natural de Agrolândia (SC), onde atuou como vice-prefeito de 2017 a 2020. Engenheiro agrônomo formado pela Universidade do Estado de Santa Catarina (UDESC), possui mestrado em Manejo do Solo pela mesma instituição. Ingressou na Epagri em 2014 como extensionista rural e, desde 21 de março de 2023, ocupa a presidência da empresa.",
-    instagram: "https://www.instagram.com/dirceuleite.oficial/",
-    linkedin: null,
-  },
-  {
-    profile: "/summit-2025/luiz-pellegrini.png",
-    fullName: "Luiz Henrique Pellegrini",
-    position: "Especialista em Smart Cities",
-    description:
-      "Engenheiro Civil pela UFSC, Pós-Graduado em Perícia, Auditoria e Gestão Ambiental, Faculdade Oswaldo Cruz/SP. Atuou na coordenação de equipes de projetos, supervisão e fiscalização de obras rodoviárias. Em posição estratégica no Conselho, idealizou projetos na área de inovação como o CREA Summit, Unicrea e Rede de Embaixadores. Entusiasta do assunto, em 2024 inicia o Mestrado na UFSC em Cidades Inteligentes.",
-    instagram: "https://www.instagram.com/pellegrini01/",
-    linkedin: "https://www.linkedin.com/in/luiz-henrique-pellegrini",
-  },
-  {
-    profile: "/summit-2025/Vinicios Bandeira.png",
-    fullName: "Vinícios Bandeira",
-    position: "Diretor Executivo - Gartner",
-    description:
-      "Diretor Executivo do Gartner liderando a expansão regional em Santa Catarina, profissional com mais de 13 anos de experiência e atuação no mercado de tecnologia e inovação, tanto na iniciativa privada quanto pública. Administrador  (CRA/SC 28410) formado pela UNESC e cursando Pós-Graduação em Governança de TI, Segurança Digital e Gestão de Dados pela PUC-PR. Têm como hobby o esporte, principalmente os mergulhos autônomos.",
-    instagram: null,
-    linkedin: "https://www.linkedin.com/in/viniciosbandeira/",
-  },
-  {
-    profile: "/summit-2025/Annelise-Bittencourt.png",
-    fullName: "Annelise Anderson Bittencourt",
-    position: "Lead Service Application Engineer - GE VERNOVA",
-    description:
-      "Annelise Anderson Bittencourt é engenheira eletricista com mestrado em Sistemas de Energia pela UFSC. Possui 18 anos de experiência no setor elétrico, atuando em projetos e soluções em proteção de sistemas de potência, redes de comunicação, IEC 61850 e Digitalização de Subestações. Desde 2016, integra a GE Grid Solutions como Engenheira de Aplicação de Serviços, com foco em soluções inovadoras aplicadas a transição energética do setor elétrico.",
-    instagram: null,
-    linkedin: "www.linkedin.com/in/ annelise-anderson-bittencourt-5836a642",
-  },
-  {
-    profile: "/summit-2025/Fabiana-Alexandre.png",
-    fullName: "Fabiana Alexandre",
-    position: "Gestora Estadual da Divisão de Defesa Sanitária Vegetal - CIDASC",
-    description:
-      "Engenheira Agrônoma (UDESC/CAV), especialista em Proteção de Plantas (UFV), Gestora Estadual da Defesa Sanitária Vegetal da CIDASC e 2ª Vice-Presidente do CREA-SC. Atua na defesa vegetal, certificação fitossanitária e políticas públicas com foco em vigilância e educação sanitária em Santa Catarina.",
-    instagram: "https://www.instagram.com/faby_agro/",
-    linkedin: "https://www.linkedin.com/in/fabiana-alexandre-4ab843a1/",
+      "Engenheira Civil formada pela UFSM, atuo como responsável técnica em empresa de execução de obras residenciais, trabalho com regularização de obras comerciais com adequações da acessibilidade dos ambientes.  ",
+    instagram: "https://www.instagram.com/nubiaferreiraluz/profilecard/",
+    linkedin: "https://www.linkedin.com/in/nubia-ferreira-da-luz-32333126/",
   },
   {
     profile: "/summit-2025/Patricia-Gomes.png",
@@ -369,6 +334,51 @@ export const data_palestrantes_2024 = [
     linkedin: null,
   },
   {
+    profile: "/summit-2025/priscila-nunes.png",
+    fullName: "Priscila Nunes",
+    position: "COO - Construmove",
+    description:
+      "COO do Grupo Construmove, um hub de soluções para o mercado imobiliário que atua nos braços de tecnologia, incorporação e gestão para construtoras e incorporadoras.  Engenheira civil com mais de 16 anos de experiência, com três pós-graduações, além do Grupo Construmove atua em todo o Brasil no ramo de avaliações. Priscila Nunes já ajudou mais de 10.000 engenheiras e arquitetas a conhecerem no mercado de Avaliação de Imóveis.",
+    instagram: "https://www.instagram.com/aprinunes/",
+    linkedin: null,
+  },
+  {
+    profile: "/summit-2025/PROF-YOGUI.png",
+    fullName: "PROF YOGUI. R.",
+    position: "Conselheiro - Blue Rock Brasil",
+    description:
+      "Aliando três ciclos profissionais sinérgicos e complementares como executivo de negócios e operações no setor de tecnologia e engenharia, como acadêmico na gestão de empreendimentos de ciência e tecnologia e como conselheiro empresarial, colabora com destacados atores públicos e privados, como nexialista e estrategista, para promover impactos sustentáveis nos negócios, na indústria e na sociedade. Autor do Framework de Inovação e Coautor do livro A Historia da Inovação no Brasil",
+    instagram: null,
+    linkedin: "https://www.linkedin.com/in/yoguir/",
+  },
+  {
+    profile: "/summit-2025/Renan S. Antoniolli.png",
+    fullName: "Renan S. Antoniolli",
+    position: "IoT Strategic Manager - Tuya Smart",
+    description:
+      "Formado em Engenharia de Telecomunicações pela FURB e pela Universidade do Porto, Portugal. É pós-graduado em Cidades Inteligentes, e também, em Inovação e Transformação Digital. Conta com MBAs em Gestão Comercial e de Gestão de Negócios, pelo IBMEC. Atuou também como Smart Cities Ambassador e liderou a iniciativa de 5G na Deloitte. Com mais de 20 anos de experiência, atualmente é Gerente Estratégico de IoT na Tuya Smart e Diretor de Inovação no SENGE-SC.",
+    instagram: "https://www.instagram.com/renanantoniolli/",
+    linkedin: "https://www.linkedin.com/in/renanantoniolli/",
+  },
+  {
+    profile: "/summit-2025/roberta-anjos.png",
+    fullName: "Roberta Maas dos Anjos",
+    position: "Diretora Financeira - Mutua SC",
+    description:
+      "Diretora Financeira da Mútua/SC. Presidente do SENGE/SC. Engª Civil, Sanitarista e Ambiental. Mestre em Gestão da Inovação. Pós-graduada em Construção Civil; Eng. de Avaliações e Perícias; Gestão e Governança Corporativa Direcionada às Práticas de ESG; Licitações e compras públicas sustentáveis. MBA em Gestão de Sistemas de Abastecimento de Água e Sistemas de Esgotos Sanitários. Diretora Financeira e Vice-Presidente do CREA (2016/2018) e Presidente da CASAN (2019/2022).",
+    instagram: "https://instagram.com/robertamaas",
+    linkedin: "hhttps://www.linkedin.com/in/robertamaas",
+  },
+  {
+    profile: "/summit-2025/rodrigo-ferraz.png",
+    fullName: "Rodrigo Ferraz",
+    position: "CTO - ESSS",
+    description:
+      "Engenheiro Mecânico formado pela UFSC, com mestrado em Ciências Térmicas pela mesma instituição. Iniciou sua trajetória profissional na ESSS, apoiando empresas de diversos setores — como Aeroespacial, Automotivo, Óleo & Gás e Naval — na aplicação de técnicas avançadas de simulação computacional. Ao longo de sua carreira, atuou em diferentes áreas da companhia e hoje ocupa o cargo de Chief Technology Officer (CTO), sendo responsável pela equipe técnica da ESSS.",
+    instagram: null,
+    linkedin: "https://www.linkedin.com/in/rodrigoferrazandrade/",
+  },
+  {
     profile: "/summit-2025/Tiago-Frigo.png",
     fullName: "Tiago Bolan Frigo",
     position: "Secretário Executivo da Aquicultura e Pesca do Estado de Santa Catarina",
@@ -378,21 +388,21 @@ export const data_palestrantes_2024 = [
     linkedin: null,
   },
   {
-    profile: "/summit-2025/Flavio-Schafer.png",
-    fullName: "Flávio Schäfer",
-    position: "Secretário Executivo da Aquicultura e Pesca do Estado de Santa Catarina",
+    profile: "/summit-2025/Vinicios Bandeira.png",
+    fullName: "Vinícios Bandeira",
+    position: "Diretor Executivo - Gartner",
     description:
-      "Catarinense e Engenheiro Civil formado pela UFSC, com mais de 27 anos de experiência no setor da construção civil. Pós-graduado em Gestão de Projetos, com atuação na gestão e direção de grandes obras. É membro do Conselho da cidade de Florianópolis e foi conselheiro do Sinduscon Grande Florianópolis. Exerceu a função de Assessor de Relações Institucionais do Crea-SC, e atualmente exerce a função de Superintendente, contribuindo ativamente para o fortalecimento da engenharia catarinense.",
-    instagram: "https://www.instagram.com/flavioschafer?utm_source=qr&igsh=YjN3NG1pZzIzOTZq",
-    linkedin: null,
+      "Diretor Executivo do Gartner liderando a expansão regional em Santa Catarina, profissional com mais de 13 anos de experiência e atuação no mercado de tecnologia e inovação, tanto na iniciativa privada quanto pública. Administrador  (CRA/SC 28410) formado pela UNESC e cursando Pós-Graduação em Governança de TI, Segurança Digital e Gestão de Dados pela PUC-PR. Têm como hobby o esporte, principalmente os mergulhos autônomos.",
+    instagram: null,
+    linkedin: "https://www.linkedin.com/in/viniciosbandeira/",
   },
   {
-    profile: "/summit-2025/Emerson-Miranda.png",
-    fullName: "Emerson da Silva Miranda",
-    position: "Engenharia de Automação - Schulz",
+    profile: "/summit-2025/vitor-muller.png",
+    fullName: "Vitor Müller",
+    position: "Diretor - Crea-SC",
     description:
-      "Emerson é Supervisor - Engenharia de Automação, possui 42 Anos, casado com a Mayara e possui 2 Filhos - Igor e Davi. É natural de Assis Chateaubriand - PR e mora em Joinville desde 1993. Com formação Técnico em Mecânica - CEDUP - Joinville, Engenharia de Produção Mecânica - Univille - Joinville  e MBA - Liderança e Inovação - Univille - Joinville. Iniciou na Schulz em 2004, saindo no final de  2013 quando recebeu uma proposta irrecusável para ir trabalhar na WHB em Pernambuco. Retomou em agosto de 2015 para a Schulz onde está até o presente  momento. Na Schulz iniciou como operador CNC, passando pelas áreas técnicas de ferramentas de usinagem (Presset) e técnico de Fabrica até chegar na Engenharia de desenvolvimento de processos de Usinagem  em 2009. Em 2021 foi convidado a assumir a Engenharia de Automação que estava iniciando.",
-    instagram: null,
+      "Geólogo e mestre em Desastres Naturais (UFSC). Foi professor da UNISUL Tubarão e Pedra Branca, e do departamento de geologia da UFSC. Foi geólogo da DC de Santa Catarina. Atualmente dedica-se exclusivamente às atividades de consultoria em geotecnia pela empresa Similar Engenharia, onde desenvolve principalmente vistorias, ensaios geotécnicos, modelagens e análises de estabilidade de taludes e encostas. É conselheiro do CREA-SC desde 2022, e atualmente faz parte da diretoria do conselho.",
+    instagram: "https://www.instagram.com/vitorsmuller?igsh=MTV0b3QyaTZ0dHJkcQ==",
     linkedin: null,
   },
 ];

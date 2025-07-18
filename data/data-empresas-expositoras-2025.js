@@ -192,14 +192,6 @@ export const data_empresas_expositoras = [
     Bio: "A Faz teu Pitch é a plataforma digital da Business Crafter que usa inteligência artificial para avaliar e aprimorar pitches de forma objetiva e contínua. Focada em empreendedores, vendedores e estudantes, oferece feedback em tempo real, análise de clareza, estrutura e impacto. Rastreamos o progresso do usuário para melhorias constantes. Nosso time une expertise em IA, comunicação e negócios, garantindo inovação e resultados no mercado digital competitivo. Vamos juntos nessa jornada de sucesso?",
   },
   {
-    NomeDaEmpresa: "Bussolo Engenharia BIM",
-    Tag: "Aceleradas",
-    Image:
-      "/empresas-expositoras-2024/empresas-aceleradas/bussolo-empreendimentos-ltda.png",
-    Site: "https://www.instagram.com/bussoloengenharia/",
-    Bio: "Somos a Bussolo Engenharia, especialistas em projetos para obras de alto padrão. Entregamos soluções completas e compatibilizadas em BIM — da estrutura ao sistema elétrico, tudo com foco em economia, eficiência e excelência técnica. Se você quer construir com qualidade e sem desperdícios, fale com a gente!",
-  },
-  {
     NomeDaEmpresa: "Buuk Analítica & Design",
     Tag: "Manufatura",
     Image:
@@ -241,7 +233,7 @@ export const data_empresas_expositoras = [
     NomeDaEmpresa: "Cultiva",
     Tag: "CREA Jr-SC",
     Image: "/empresas-expositoras-2024/empresas-creajr/Cultiva.png",
-    Site: "https://www.instagram.com/cultiva___/",
+    Site: "https://aquicultiva.com.br//",
     Bio: "A Cultiva é uma startup que desenvolve soluções digitais intuitivas para a aquicultura. Nosso aplicativo apoia produtores de peixes, ostras e camarões na gestão zootécnica e operacional da produção, com ferramentas como calendário produtivo, alertas e cálculos automatizados. Promovemos maior eficiência, rastreabilidade e sustentabilidade na atividade aquícola.",
   },
   {
