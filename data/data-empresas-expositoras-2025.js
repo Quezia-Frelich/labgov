@@ -409,6 +409,13 @@ export const data_empresas_expositoras = [
     Bio: "Na Hawk Engenharia, transformamos desafios em soluções com foco em desempenho, redução de custos e excelência técnica. Atuamos com projetos sob medida para construtoras, incorporadoras, loteadoras e empresas do varejo, entendendo a fundo cada necessidade para entregar resultados inteligentes e eficientes.",
   },
   {
+    NomeDaEmpresa: "Hidroconecta Engenharia",
+    Tag: "Aceleradas",
+    Image: "/empresas-expositoras-2024/empresas-aceleradas/hidroconecta.png",
+    Site: null,
+    Bio: "Empresa especializada em soluções de saneamento, desenvolve projetos e consultorias para empreendimentos que buscam sustentabilidade e eficiência em obras novas, reformas ou regularizações. Os projetos modelados em 3D são compatibilizados as características locais com o objetivo da redução de custos e transtornos em fase de operação e manutenção. A empresa cultua a transparência e a comunicação integrada para alcançar a confiança do cliente e transformar o mercado com saneamento de qualidade!",
+  },
+  {
     NomeDaEmpresa: "Hidrossan Soluções em Saneamento ",
     Tag: "Aceleradas",
     Image: "/empresas-expositoras-2024/empresas-aceleradas/Hidrossan.png",

@@ -100,6 +100,15 @@ export const data_palestrantes_2024 = [
     linkedin: null,
   },
   {
+    profile: "/summit-2025/Celles-Matos.png",
+    fullName: "Celles Regina de Matos",
+    position: "Presidente CIDASC",
+    description:
+      "Celles Regina de Mattos, 54 anos, é médica veterinária formada pela UDESC/UFSC. Natural do Paraná, atuou por 12 anos na prefeitura de Arroio Trinta e em grandes agroindústrias como BRF e JBS. Possui vasta experiência em produção de alimentos de origem animal, com foco em qualidade, rastreabilidade e sustentabilidade. Foi professora na UNOESC por 18 anos. Protetora de animais, também atua como voluntária em ações educativas em comunidades vulneráveis.",
+    instagram: null,
+    linkedin: null,
+  },
+  {
     profile: "/summit-2025/cibele.png",
     fullName: "Cibele Assmann",
     position: "Gerente de Inovação da Sec. de Planejamento Urbano de Florianópolis",
@@ -244,6 +253,15 @@ export const data_palestrantes_2024 = [
     linkedin: null,
   },
   {
+    profile: "/summit-2025/Juliana-Pavan.png",
+    fullName: "Juliana Pavan",
+    position: "Prefeita de Balneário Camboriú",
+    description:
+      "Juliana Pavan Von Borstel, nascida em Balneário Camboriú em 1983, é apresentadora de TV, empresária e graduanda em Administração. Fundadora da FURPAN, presidiu a instituição por três mandatos. Filiada ao PSDB por mais de 20 anos, ingressou no PSD em 2024. Foi eleita vereadora em 2020 com 994 votos. Casada com Edwino Von Borstel Neto, é mãe de Maria Giulia. Atua com foco em comunicação e gestão pública.",
+    instagram: "https://www.instagram.com/jupavan/",
+    linkedin: null,
+  },
+  {
     profile: "/summit-2025/kamila-silva.png",
     fullName: "Kamila Rodrigues da Silva",
     position: "1ª Vice Presidente - CREA-SC",
@@ -260,6 +278,24 @@ export const data_palestrantes_2024 = [
       "Engenheiro Civil pela UFSC, Pós-Graduado em Perícia, Auditoria e Gestão Ambiental, Faculdade Oswaldo Cruz/SP. Atuou na coordenação de equipes de projetos, supervisão e fiscalização de obras rodoviárias. Em posição estratégica no Conselho, idealizou projetos na área de inovação como o CREA Summit, Unicrea e Rede de Embaixadores. Entusiasta do assunto, em 2024 inicia o Mestrado na UFSC em Cidades Inteligentes.",
     instagram: "https://www.instagram.com/pellegrini01/",
     linkedin: "https://www.linkedin.com/in/luiz-henrique-pellegrini",
+  },
+  {
+    profile: "/summit-2025/Mario-Aguiar.png",
+    fullName: "Mario Cezar de Aguiar",
+    position: "Presidente - Sistema FIESC",
+    description:
+      "Engenheiro civil e empresário dos setores da construção civil e do plástico. Preside a Federação das Indústrias de Santa Catarina (FIESC), os conselhos regionais do SESI e do SENAI e o Conselho Estratégico para Infraestrutura de Transporte e Logística Catarinense. É vice-presidente da Confederação Nacional da Indústria (CNI), membro dos Conselhos Nacionais do SESI e do SENAI, além de presidir o Conselho Temático da Indústria de Defesa e Segurança da CNI (Condefesa). É conselheiro da Agência Espacial Brasileira, além de compor o Conselho do Sebrae/SC.",
+    instagram: null,
+    linkedin: null,
+  },
+  {
+    profile: "/summit-2025/Mario-Hildebrandt.png",
+    fullName: "Mário Hildebrandt",
+    position: "Secretário de estado da proteção e defesa civil",
+    description:
+      "Mário Hildebrandt, natural de Mirim Doce (SC), é administrador e assistente social formado pela FURB, com pós em Contabilidade pela FGV. Atuou como secretário de Assistência Social em Blumenau e foi prefeito da cidade por quase sete anos. Destacou-se na gestão da crise de 2008 e na entrega de 1.824 moradias. Atualmente é Secretário de Estado da Proteção e Defesa Civil de SC, com foco em prevenção, mitigação e resposta a desastres.",
+    instagram: null,
+    linkedin: null,
   },
   {
     profile: "/summit-2025/mario mota.png",
@@ -299,7 +335,7 @@ export const data_palestrantes_2024 = [
   },
   {
     profile: "/summit-2025/modesto-h-ferrer.png",
-    fullName: "Modesto H Ferrert",
+    fullName: "Modesto H Ferrer",
     position: "Diretor Técnico do Ágora Tech Park",
     description:
       "Engenheiro mecânico, com mestrado e doutorado em Engenharia Metalúrgica. Há mais de 30 anos lidera projetos de inovação que conectam universidade e mercado. Diretor Técnico do Ágora Tech Park e Presidente do COMCITI, integra a governança do ecossistema de inovação de Joinville. TEDx Speaker e mentor de startups, acumula mais de 20 anos na coordenação das equipes de competição Baja e Fórmula SAE, potencializando talentos e formando lideranças.",
@@ -359,6 +395,15 @@ export const data_palestrantes_2024 = [
       "Formado em Engenharia de Telecomunicações pela FURB e pela Universidade do Porto, Portugal. É pós-graduado em Cidades Inteligentes, e também, em Inovação e Transformação Digital. Conta com MBAs em Gestão Comercial e de Gestão de Negócios, pelo IBMEC. Atuou também como Smart Cities Ambassador e liderou a iniciativa de 5G na Deloitte. Com mais de 20 anos de experiência, atualmente é Gerente Estratégico de IoT na Tuya Smart e Diretor de Inovação no SENGE-SC.",
     instagram: "https://www.instagram.com/renanantoniolli/",
     linkedin: "https://www.linkedin.com/in/renanantoniolli/",
+  },
+  {
+    profile: "/summit-2025/Rhuan-Bittencourt.png",
+    fullName: "Rhuan Bittencourt",
+    position: "Head de Inovação CREA-SC",
+    description:
+      "Head de Inovação no CREA-SC, atua nas áreas de planejamento estratégico, gestão de processos e produtos, além de projetos de inovação interna e aberta. Mentor em programas de empreendedorismo na Wadhwani Foundation, ACATE, InovAtiva, Manaus Tech Hub, TecVitória e TXM Methods e é avaliador em programas e prêmios de inovação dos governos do Espírito Santo e Minas Gerais, além do Ministério da Ciência, Tecnologia e Inovação e Escola Nacional de Administração Pública (ENAP).",
+    instagram: "https://www.linkedin.com/in/rhuanbittencourt/",
+    linkedin: "https://www.instagram.com/rhuan_bittencourt/",
   },
   {
     profile: "/summit-2025/roberta-anjos.png",

@@ -16,6 +16,16 @@ export const data_schedule_2025 = [
         fullName: "Vinicius Marchese",
         company: "Presidente CONFEA",
       },
+      {
+        profile: "/summit-2025/joel-kruger.png",
+        fullName: "Joel Krüger",
+        company: "Presidente MÚTUA Nacional",
+      },
+      {
+        profile: "/summit-2025/Juliana-Pavan.png",
+        fullName: "Juliana Pavan",
+        company: "Prefeita Balneário Camboriú",
+      },
     ],
   },
   {
@@ -30,6 +40,11 @@ export const data_schedule_2025 = [
         fullName: "Kita Xavier",
         company: "Presidente Crea-SC",
       },
+      {
+        profile: "/summit-2025/Mario-Hildebrandt.png",
+        fullName: "Mário Hildebrandt",
+        company: "Secretário de estado da proteção e defesa civil",
+      },
     ],
   },
   {
@@ -43,6 +58,11 @@ export const data_schedule_2025 = [
         profile: "/summit-2024/Kita Xavier.jpeg",
         fullName: "Kita Xavier",
         company: "Presidente Crea-SC",
+      },
+      {
+        profile: "/summit-2025/Mario-Aguiar.png",
+        fullName: "Mario Cezar de Aguiar",
+        company: "Presidente FIESC",
       },
     ],
   },
@@ -160,7 +180,7 @@ export const data_schedule_2025 = [
     ],
   },
   {
-    title: "Painel Engenharias em Transformação: Desafios e Oportunidades na Nova Era da Empregabilidade",
+    title: "Engenharias em Transformação: Desafios e Oportunidades na Nova Era da Empregabilidade",
     date: "26/07",
     scenery: "plenária",
     time: "09:45",
@@ -229,11 +249,26 @@ export const data_schedule_2025 = [
     lastEvent: true,
   },
   {
-    title: "Liderança feminina no setor público ",
+    title: "MÚTUA",
     date: "26/07",
     scenery: "plenária",
     time: "10:30",
-    duration: "50",
+    duration: "22",
+    speakers: [
+      {
+        profile: "/summit-2025/joel-kruger.png",
+        fullName: "Joel Krüger",
+        company: "Presidente MÚTUA Nacional",
+      },
+    ],
+    lastEvent: true,
+  },
+  {
+    title: "Liderança feminina no setor público ",
+    date: "26/07",
+    scenery: "plenária",
+    time: "10:55",
+    duration: "45",
     speakers: [
       {
         profile: "/summit-2025/Marilisa-Boehm.png",
@@ -254,32 +289,22 @@ export const data_schedule_2025 = [
     lastEvent: true,
   },
   {
-    title: "Desafios e Inovações na Engenharia",
+    title: "CONFEA",
     date: "26/07",
     scenery: "plenária",
-    time: "11:25",
-    duration: "45",
+    time: "11:45",
+    duration: "40",
     speakers: [
       {
-        profile: "/summit-2024/Kita Xavier.jpeg",
-        fullName: "Kita Xavier",
-        company: "Presidente Crea-SC",
-      },
-      {
-        profile: "/summit-2024/Vinicius Marchese.jpg",
+        profile: "/summit-2025/Vinicius Marchese.png",
         fullName: "Vinicius Marchese",
         company: "Presidente CONFEA",
-      },
-      {
-        profile: "/summit-2025/joel-kruger.png",
-        fullName: "Joel Krüger",
-        company: "MÚTUA Nacional",
       },
     ],
     isLunchBreak: true,
   },
   {
-    title: "Obras Inacabadas: Impactos Econômicos e Sociais",
+    title: "Obras Públicas Paralizadas: Desafios e Soluções",
     date: "26/07",
     scenery: "plenária",
     time: "14:00",
@@ -347,7 +372,7 @@ export const data_schedule_2025 = [
     ],
   },
   {
-    title: "Inovação e Engenharia na Segurança Nacional",
+    title: "Inovação na Segurança Nacional: Os desafios para os engenheiros do amanhã",
     date: "26/07",
     scenery: "plenária",
     time: "14:55",
@@ -363,11 +388,16 @@ export const data_schedule_2025 = [
         fullName: "Vinícios Bandeira",
         company: "Gartner",
       },
+      {
+        profile: "/summit-2025/Rhuan-Bittencourt.png",
+        fullName: "Rhuan Bittencourt",
+        company: "Head de Inovação CREA-SC",
+      },
     ],
     firstSimultaneus: true,
   },
   {
-    title: "Planejamento Urbano Inteligente",
+    title: "Cidades Inteligentes na Prática: Soluções que Funcionam",
     date: "26/07",
     scenery: "tech 1",
     time: "14:55",
@@ -405,7 +435,7 @@ export const data_schedule_2025 = [
     ],
   },
   {
-    title: "IA na prática na Engenharia",
+    title: "Os impactos reais da inteligência artificial no trabalho: uma perspectiva científica e de mercado",
     date: "26/07",
     scenery: "plenária",
     time: "15:50",
@@ -427,6 +457,11 @@ export const data_schedule_2025 = [
     duration: "45",
     speakers: [
       {
+        profile: "/summit-2025/Celles-Matos.png",
+        fullName: "Celles Regina de Matos",
+        company: "Presidente CIDASC",
+      },
+      {
         profile: "/summit-2025/Tiago-Frigo.png",
         fullName: "Tiago Bolan Frigo",
         company: "Secretário Executivo da Aquicultura e Pesca do Estado de Santa Catarina",
@@ -444,7 +479,7 @@ export const data_schedule_2025 = [
     ],
   },
   {
-    title: "Marketing para Engenheiros: Como gerar negócios nas diferentes mídias",
+    title: "Marketing para Engenheiros: Como gerar negócios",
     date: "26/07",
     scenery: "tech 2",
     time: "15:50",
