@@ -82,7 +82,7 @@ export const data_schedule_2025 = [
     ],
   },
   {
-    title: "Assinatura Acordo de Cooperação Técnica com IEL/SC",
+    title: "Assinatura Convênio com ANE",
     date: "25/07",
     scenery: "plenária",
     time: "20:00",
@@ -105,7 +105,7 @@ export const data_schedule_2025 = [
     date: "25/07",
     scenery: "plenária",
     time: "20:10",
-    duration: "10",
+    duration: "15",
     speakers: [
       {
         profile: "/summit-2024/Kita Xavier.jpeg",
@@ -531,7 +531,7 @@ export const data_schedule_2025 = [
         company: "BlueCalc Projetos",
       },
       {
-        profile: "/summit-2025/Jeferson-Cherobin.png",
+        profile: "/summit-2025/Jeferson-cherobin1.png",
         fullName: "Jeferson Cherobin",
         company: "Fala JC e JC drones",
       },
