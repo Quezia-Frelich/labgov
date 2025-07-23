@@ -4,7 +4,7 @@ export const data_schedule_2025 = [
     date: "25/07",
     scenery: "plenária",
     time: "19:00",
-    duration: "30",
+    duration: "40",
     speakers: [
       {
         profile: "/summit-2024/Kita Xavier.jpeg",
@@ -26,13 +26,28 @@ export const data_schedule_2025 = [
         fullName: "Juliana Pavan",
         company: "Prefeita Balneário Camboriú",
       },
+      {
+        profile: "/summit-2025/Marilisa-Boehm.png",
+        fullName: "Marilisa Boehm",
+        company: "Vice-governadora do Estado de Santa Catarina",
+      },
+      {
+        profile: "/summit-2025/Carlos-Humberto.png",
+        fullName: "Carlos Humberto",
+        company: "Deputado ALESC",
+      },
+      {
+        profile: "/summit-2025/Paulinha.png",
+        fullName: "Paulinha",
+        company: "Deputada ALESC",
+      },
     ],
   },
   {
     title: "Assinatura Convênio com a Defesa Civil",
     date: "25/07",
     scenery: "plenária",
-    time: "19:30",
+    time: "19:40",
     duration: "10",
     speakers: [
       {
@@ -51,7 +66,7 @@ export const data_schedule_2025 = [
     title: "Assinatura Acordo de Cooperação Técnica com IEL/SC",
     date: "25/07",
     scenery: "plenária",
-    time: "19:40",
+    time: "19:50",
     duration: "10",
     speakers: [
       {
@@ -67,11 +82,30 @@ export const data_schedule_2025 = [
     ],
   },
   {
+    title: "Assinatura Acordo de Cooperação Técnica com IEL/SC",
+    date: "25/07",
+    scenery: "plenária",
+    time: "20:00",
+    duration: "10",
+    speakers: [
+      {
+        profile: "/summit-2024/Kita Xavier.jpeg",
+        fullName: "Kita Xavier",
+        company: "Presidente Crea-SC",
+      },
+      {
+        profile: "/summit-2025/Mario-Menel.png",
+        fullName: "Mario Menel",
+        company: "Presidente ANE",
+      },
+    ],
+  },
+  {
     title: "Apresentação Documento 15º CEP",
     date: "25/07",
     scenery: "plenária",
-    time: "19:50",
-    duration: "15",
+    time: "20:10",
+    duration: "10",
     speakers: [
       {
         profile: "/summit-2024/Kita Xavier.jpeg",
@@ -84,7 +118,7 @@ export const data_schedule_2025 = [
         company: "Chefe de Gabinete Crea-SC",
       },
       {
-        profile: "/summit-2024/Delton Batista.png",
+        profile: "/summit-2025/Delton Batista.png",
         fullName: "Delton Batista",
         company: "Sistema LIDE RS SC",
       },
@@ -94,7 +128,7 @@ export const data_schedule_2025 = [
     title: "Painel LIDE",
     date: "25/07",
     scenery: "plenária",
-    time: "20:05",
+    time: "20:25",
     duration: "60",
     speakers: [
       {
@@ -113,10 +147,11 @@ export const data_schedule_2025 = [
     title: "Encerramento e Networking",
     date: "25/07",
     scenery: "plenária",
-    time: "21:05",
+    time: "21:25",
     duration: "",
     speakers: [],
   },
+
 
   {
     title: "Abertura da Feira Tecnológica",
@@ -253,7 +288,7 @@ export const data_schedule_2025 = [
     date: "26/07",
     scenery: "plenária",
     time: "10:30",
-    duration: "22",
+    duration: "20",
     speakers: [
       {
         profile: "/summit-2025/joel-kruger.png",
@@ -334,7 +369,7 @@ export const data_schedule_2025 = [
     firstSimultaneus: true,
   },
   {
-    title: "Desenvolvimento do Agro Catarinense",
+    title: "Oportunidades para o Agro Catarinense",
     date: "26/07",
     scenery: "tech 1",
     time: "14:00",
@@ -346,6 +381,11 @@ export const data_schedule_2025 = [
         company: "Presidente EPAGRI",
       },
       {
+        profile: "/summit-2025/Jose-Padilha.png",
+        fullName: "José Almery Padilha",
+        company: "OCESC",
+      },
+      {
         profile: "/summit-2025/felipe-penter.png",
         fullName: "Felipe Penter",
         company: "Chefe de Gabinete ",
@@ -353,7 +393,7 @@ export const data_schedule_2025 = [
     ],
   },
   {
-    title: "Comitê Gestão de Crise e Defesa Civil",
+    title: "Atuação na Gestão de Desastres: Cooperação entre CREA-SC e Defesa Civil de Santa Catarina",
     date: "26/07",
     scenery: "tech 2",
     time: "14:00",
@@ -368,6 +408,11 @@ export const data_schedule_2025 = [
         profile: "/summit-2025/vitor-muller.png",
         fullName: "Vitor Müller",
         company: "Diretor Crea-SC",
+      },
+      {
+        profile: "/summit-2025/Fernanda-Vanhoni.png",
+        fullName: "Fernanda Vanhoni",
+        company: "Diretora Crea-SC",
       },
     ],
   },
@@ -467,11 +512,6 @@ export const data_schedule_2025 = [
         company: "Secretário Executivo da Aquicultura e Pesca do Estado de Santa Catarina",
       },
       {
-        profile: "/summit-2025/daniela-correa.png",
-        fullName: "Daniela de Souza Corrêa",
-        company: "Gestora estadual de economia azul no Sebrae SC",
-      },
-      {
         profile: "/summit-2025/Fabiana-Alexandre.png",
         fullName: "Fabiana Alexandre",
         company: "Gestora Estadual da Divisão de Defesa Sanitária Vegetal - CIDASC",
@@ -491,9 +531,9 @@ export const data_schedule_2025 = [
         company: "BlueCalc Projetos",
       },
       {
-        profile: "/summit-2025/priscila-nunes.png",
-        fullName: "Priscila Nunes",
-        company: "Construmove",
+        profile: "/summit-2025/Jeferson-Cherobin.png",
+        fullName: "Jeferson Cherobin",
+        company: "Fala JC e JC drones",
       },
       {
         profile: "/summit-2025/Flavio-Schafer.png",
@@ -539,6 +579,11 @@ export const data_schedule_2025 = [
         profile: "/summit-2025/roberta-anjos.png",
         fullName: "Roberta Maas dos Anjos",
         company: "Mutua SC",
+      },
+      {
+        profile: "/summit-2025/Ronie-Constantino.png",
+        fullName: "Ronie Constantino",
+        company: "Central Ailos",
       },
     ],
     lastEvent: true,

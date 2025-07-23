@@ -91,6 +91,15 @@ export const data_palestrantes_2024 = [
     linkedin: null,
   },
   {
+    profile: "/summit-2025/Carlos-Humberto.png",
+    fullName: "Carlos Humberto",
+    position: "Deputado Estadual - ALESC",
+    description:
+      "Carlos Humberto Metzner Silva, nascido em 5 de julho de 1981 em Balneário Camboriú/SC, é empresário e bacharel em Direito. Foi presidente do SINDUSCON BC/Camboriú, vice-prefeito eleito em 2016 e 2020, e deputado estadual suplente em 2020. Em 2022, foi eleito para seu primeiro mandato completo na 20ª Legislatura da ALESC com 46.445 votos. Atua em comissões permanentes da Assembleia.",
+    instagram: null,
+    linkedin: null,
+  },
+  {
     profile: "/summit-2025/Carlos-Schneider.png",
     fullName: "Carlos Alberto Schneider",
     position: "Academia Nacional de Engenharia (ANE)",
@@ -125,15 +134,6 @@ export const data_palestrantes_2024 = [
       "Dr. em Eng. de Produção, Eng. Civil. Pesquisador do Programa em Tecnologia e Gestão da Inovação; e do Programa em Contabilidade e Administração da Unochapecó. Liderou o projeto - Pollen Parque Científico e Tecnológico. Autor do Livro - PARQUES TECNOLÓGICOS -Estratégias para estruturação de um ecossistema de inovação. Foi Presidente da Acafe. É conselheiro do CREA/SC, e Reitor da UNOCHAPECÓ, Também é Presidente da ABRUC - Associação Brasileira das Instituições Comunitárias de Educação Superior.",
     instagram: "https://www.instagram.com/claudiojacoski/#",
     linkedin: "https://www.linkedin.com/in/jacoski/",
-  },
-  {
-    profile: "/summit-2025/daniela-correa.png",
-    fullName: "Daniela de Souza Corrêa",
-    position: "Gestora estadual de economia azul no Sebrae SC Santa Catarina",
-    description:
-      "Gestora estadual do Sebrae Santa Catarina de economias portadoras de futuro, dentre elas a economia azul.  Bacharel em administração com ênfase em empreendedorismo, formação complementar em inovação pelo Sebrae, especialização em Desenvolvimento Local Sustentável, e certificada pelo INSPER-SP em Economia Azul e Cidades.",
-    instagram: "https://www.instagram.com/@dannisc82/#",
-    linkedin: "https://www.linkedin.com/in/daniela-corr%C3%AAa-a1a5701b8/",
   },
   {
     profile: "/summit-2025/Delton Batista.png",
@@ -177,7 +177,7 @@ export const data_palestrantes_2024 = [
     position: "Chefe Agencia de Gestão e Inovação do Exercito",
     description:
       "Erick Galante é Coronel do Exército Brasileiro e atual chefe da AGITEC – Agência de Gestão e Inovação Tecnológica. Engenheiro químico formado pelo IME, doutor.  Atuou na IMBEL liderando projetos, foi professor e pró-reitor no IME. É autor do livro Princípios de Gestão de Riscos, membro ativo de entidades de engenharia e segurança, e condecorado com diversas medalhas militares e civis. É reconhecido por integrar ciência, segurança e inovação tecnológica na defesa nacional.",
-    instagram: "https://www.linkedin.com/in/erick-galante-82670b24www.instagram.com/erickgalante",
+    instagram: "https://www.instagram.com/erickgalante",
     linkedin: "https://www.linkedin.com/in/erick-galante-82670b24",
   },
   {
@@ -204,6 +204,15 @@ export const data_palestrantes_2024 = [
     position: "Chefe de Gabinete - Crea-SC",
     description:
       "Engenheiro Agrônomo com mestrado e doutorado em Produção Vegetal, empresário em fruticultura temperada. Especialista em Agronomia, com foco em vitis vinifera, fertilidade de gemas e suinocultura, além de experiência em educação ambiental. Ex-Professor na Fabet e ex-responsável pelo Depto de Meio Ambiente da ACCS. Foi Conselheiro e Vice-Presidente (2012 - 2013) do Crea-SC e Coordenador da Câmara de Agronomia. Atualmente, ocupa o cargo de Chefe de Gabinete no Crea-SC.",
+    instagram: null,
+    linkedin: null,
+  },
+  {
+    profile: "/summit-2025/Fernanda-Vanhoni.png",
+    fullName: "Fernanda Vanhoni",
+    position: "Diretora CREA-SC",
+    description:
+      "Conselheira no Crea-SC em seu quarto mandato, Fernanda Vanhoni já coordenou a CEEST e foi coordenadora adjunta da câmara nacional no Confea. Presidiu a ACEST e a ABES/SC, e atualmente é vice-presidente do Consema/SC e da ACESA, entidade que também representa no conselho.",
     instagram: null,
     linkedin: null,
   },
@@ -242,6 +251,24 @@ export const data_palestrantes_2024 = [
       "Palestrante, Engenheiro de Produção Civil pela UFSC e especialista em gestão empresarial pela FGV, professor na Amplum biogás academia e professor no curso de MBA Energias renováveis da COOPE UFRJ, Diretor de Energia da ACATE, Conselheiro de inovaçã. CEO da Gás Orgânico, empresa de consultoria e desenvolvimento de novos negócios, integrando Biogás, Biometano e Hidrogênio Verde ao mercado de Gás e Energia.",
     instagram: null,
     linkedin: "https://www.linkedin.com/in/giovane-rosa-gas-organico",
+  },
+  {
+    profile: "/summit-2025/Jeferson-cherobin.png",
+    fullName: "Jeferson Cherobin",
+    position: "Proprietário do canal fala JC e da JC drones",
+    description:
+      "Engenheiro Civil com mais de 10 anos de atuação na construção civil, é o criador do canal Fala JC, especializado em obras de engenharia em Balneário Camboriú e região, com mais de 190 mil inscritos no YouTube. Apaixonado por arranha-céus, ele mostra os bastidores das grandes construções com uma linguagem direta e acessível, aproximando a engenharia do público e valorizando o trabalho técnico dos profissionais da área. Também é fundador da JC Drones.",
+    instagram: null,
+    linkedin: null,
+  },
+  {
+    profile: "/summit-2025/Jose-Padilha.png",
+    fullName: "José Almery Padilha",
+    position: "Coordenador Do Ramo Agropecuário - OCESC",
+    description:
+      "Engenheiro Agrônomo formado pela Fundação Faculdade de Agronomia Luiz Meneghel (Bandeirantes/PR), atua no sistema cooperativo catarinense desde 1983. Trabalhou em cooperativas como Aurora Coop, Fecoagro, e atualmente está há 8 anos na OCESC, onde é Coordenador do Ramo Agropecuário. Já ocupou cargos de gerente de produção e transportes e foi professor de Estatística no Colégio Jorge Lacerda por 5 anos.",
+    instagram: null,
+    linkedin: null,
   },
   {
     profile: "/summit-2025/Jose Eduardo Fiates.png",
@@ -294,6 +321,15 @@ export const data_palestrantes_2024 = [
     position: "Secretário de estado da proteção e defesa civil",
     description:
       "Mário Hildebrandt, natural de Mirim Doce (SC), é administrador e assistente social formado pela FURB, com pós em Contabilidade pela FGV. Atuou como secretário de Assistência Social em Blumenau e foi prefeito da cidade por quase sete anos. Destacou-se na gestão da crise de 2008 e na entrega de 1.824 moradias. Atualmente é Secretário de Estado da Proteção e Defesa Civil de SC, com foco em prevenção, mitigação e resposta a desastres.",
+    instagram: null,
+    linkedin: null,
+  },
+  {
+    profile: "/summit-2025/Mario-Menel.png",
+    fullName: "Mario Menel",
+    position: "Presidente ANE",
+    description:
+      "Graduado em Engenharia Elétrica com pós em Sistemas Elétricos de Potência pela UFSC. Atuou na CELESC, onde foi Diretor, e foi professor da UFSC. Ocupou cargos no Governo de SC, MME/DNAEE e Presidência da República. Fundador e presidente da Energética-Tech e de associações como APINE, ABRACEEL, ABRAGEF, ABREN e ABIAPE, que hoje preside. É presidente da Academia Nacional de Engenharia, do FASE e conselheiro do COINFRA/FIESP.",
     instagram: null,
     linkedin: null,
   },
@@ -370,12 +406,12 @@ export const data_palestrantes_2024 = [
     linkedin: null,
   },
   {
-    profile: "/summit-2025/priscila-nunes.png",
-    fullName: "Priscila Nunes",
-    position: "COO - Construmove",
+    profile: "/summit-2025/Paulinha.png",
+    fullName: "Paulinha",
+    position: "Deputada ALESC",
     description:
-      "COO do Grupo Construmove, um hub de soluções para o mercado imobiliário que atua nos braços de tecnologia, incorporação e gestão para construtoras e incorporadoras.  Engenheira civil com mais de 16 anos de experiência, com três pós-graduações, além do Grupo Construmove atua em todo o Brasil no ramo de avaliações. Priscila Nunes já ajudou mais de 10.000 engenheiras e arquitetas a conhecerem no mercado de Avaliação de Imóveis.",
-    instagram: "https://www.instagram.com/aprinunes/",
+      "Catarinense, mãe e mulher, trabalho pela gestão eficiente, com resultados para a população, e contra as injustiças sociais. Deputada estadual reeleita por Santa Catarina, atualmente primeira-secretária na Mesa Diretora da Assembleia Legislativa, a primeira mulher a ocupar o cargo em 86 anos. Ex-prefeita de Bombinhas, onde fui premiada como a melhor prefeita de Santa Catarina e a terceira melhor do Brasil.",
+    instagram: "https://www.instagram.com/deputadapaulinha/",
     linkedin: null,
   },
   {
@@ -422,6 +458,15 @@ export const data_palestrantes_2024 = [
       "Engenheiro Mecânico formado pela UFSC, com mestrado em Ciências Térmicas pela mesma instituição. Iniciou sua trajetória profissional na ESSS, apoiando empresas de diversos setores — como Aeroespacial, Automotivo, Óleo & Gás e Naval — na aplicação de técnicas avançadas de simulação computacional. Ao longo de sua carreira, atuou em diferentes áreas da companhia e hoje ocupa o cargo de Chief Technology Officer (CTO), sendo responsável pela equipe técnica da ESSS.",
     instagram: null,
     linkedin: "https://www.linkedin.com/in/rodrigoferrazandrade/",
+  },
+  {
+    profile: "/summit-2025/Ronie-Constantino.png",
+    fullName: "Ronie Constantino",
+    position: "Especialista Inteligência de Mercado - Central Ailos",
+    description:
+      "Profissional com mais de 20 anos de experiência no cooperativismo financeiro, com trajetória consolidada na liderança de iniciativas estratégicas voltadas à expansão, performance comercial e fortalecimento sistêmico. Atua com foco em gestão de negócios, planejamento e relacionamento com cooperativas, contribuindo para o desenvolvimento de soluções integradas e sustentáveis no Sistema Ailos. É reconhecido por sua visão sistêmica, capacidade de articulação entre times e entrega de resultados com impacto coletivo.",
+    instagram: null,
+    linkedin: null,
   },
   {
     profile: "/summit-2025/Tiago-Frigo.png",
