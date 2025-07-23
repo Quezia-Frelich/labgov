@@ -101,7 +101,7 @@ export const data_schedule_2025 = [
     ],
   },
   {
-    title: "Apresentação Documento 15º CEP",
+    title: "Apresentação de Resultados do 15º Congresso Estadual de Profissionais",
     date: "25/07",
     scenery: "plenária",
     time: "20:10",
@@ -324,7 +324,7 @@ export const data_schedule_2025 = [
     lastEvent: true,
   },
   {
-    title: "CONFEA",
+    title: "Inovação: o futuro das cidades e a engenharia como agente de transformação",
     date: "26/07",
     scenery: "plenária",
     time: "11:45",
