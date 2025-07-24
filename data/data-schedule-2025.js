@@ -284,16 +284,16 @@ export const data_schedule_2025 = [
     lastEvent: true,
   },
   {
-    title: "MÚTUA",
+    title: "Inovação: o futuro das cidades e a engenharia como agente de transformação",
     date: "26/07",
     scenery: "plenária",
     time: "10:30",
-    duration: "20",
+    duration: "35",
     speakers: [
       {
-        profile: "/summit-2025/joel-kruger.png",
-        fullName: "Joel Krüger",
-        company: "Presidente MÚTUA Nacional",
+        profile: "/summit-2025/Vinicius Marchese.png",
+        fullName: "Vinicius Marchese",
+        company: "Presidente CONFEA",
       },
     ],
     lastEvent: true,
@@ -302,8 +302,8 @@ export const data_schedule_2025 = [
     title: "Liderança feminina no setor público ",
     date: "26/07",
     scenery: "plenária",
-    time: "10:55",
-    duration: "45",
+    time: "11:10",
+    duration: "30",
     speakers: [
       {
         profile: "/summit-2025/Marilisa-Boehm.png",
@@ -324,16 +324,16 @@ export const data_schedule_2025 = [
     lastEvent: true,
   },
   {
-    title: "Inovação: o futuro das cidades e a engenharia como agente de transformação",
+    title: "MÚTUA",
     date: "26/07",
     scenery: "plenária",
     time: "11:45",
-    duration: "40",
+    duration: "20",
     speakers: [
       {
-        profile: "/summit-2025/Vinicius Marchese.png",
-        fullName: "Vinicius Marchese",
-        company: "Presidente CONFEA",
+        profile: "/summit-2025/joel-kruger.png",
+        fullName: "Joel Krüger",
+        company: "Presidente MÚTUA Nacional",
       },
     ],
     isLunchBreak: true,

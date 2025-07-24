@@ -253,7 +253,7 @@ export const data_palestrantes_2024 = [
     linkedin: "https://www.linkedin.com/in/giovane-rosa-gas-organico",
   },
   {
-    profile: "/summit-2025/Jeferson-cherobin.png",
+    profile: "/summit-2025/Jeferson-cherobin1.png",
     fullName: "Jeferson Cherobin",
     position: "Proprietário do canal fala JC e da JC drones",
     description:
