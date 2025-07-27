@@ -54,9 +54,9 @@ export default function Section_welcome() {
 
           <Button_outline
             href={
-              "https://www.sympla.com.br/evento/crea-summit-2025/2928557"
+              "https://drive.google.com/drive/folders/1DOmRHqulZc1KOfA-XSZLR9anNwa084-N"
             }
-            text={"Fazer minha inscrição"}
+            text={"Confira as Fotos do Evento"}
             icon={<ArrowRightIcon className="size-5" />}
             className={
               "items-center rounded-full w-full min-w-32 md:min-w-40 py-5 px-7 bg-white/20 hover:bg-white/10 transition-all"
