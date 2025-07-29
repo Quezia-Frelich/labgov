@@ -54,7 +54,7 @@ export default function Section_welcome() {
 
           <Button_outline
             href={
-              "https://drive.google.com/drive/folders/1DOmRHqulZc1KOfA-XSZLR9anNwa084-N"
+              "https://creascorgbr-my.sharepoint.com/:f:/g/personal/audiovisual_crea-sc_org_br/Eg4229E_FS9JoS8xH84Lcs0B7L4VvKpd_C2Zx-vDUVD1Qg?e=lOBxfM"
             }
             text={"Confira as Fotos do Evento"}
             icon={<ArrowRightIcon className="size-5" />}
