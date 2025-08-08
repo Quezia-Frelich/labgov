@@ -10,7 +10,7 @@ import Text_link from "../../components/text/text-link";
 
 export default function Section_cta ( {} ) {
   return (
-    <section className="bg-[url('/backgrounds/bg_section_cta25.png')] bg-cover bg-center bg-no-repeat min-h-96 my-10 py-10 flex items-center justify-center">
+    <section className="bg-[url('/backgrounds/bg_section_cta.jpg')] bg-cover bg-center bg-no-repeat min-h-96 my-10 py-10 flex items-center justify-center">
         <Container className={'text-white flex flex-col md:flex-row justify-between items-start md:items-center gap-10'}>
             <div>
                 <Text_display_3 className={'font-bold mb-5'}>Confira a programação</Text_display_3>

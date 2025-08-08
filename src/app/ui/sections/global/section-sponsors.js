@@ -36,7 +36,7 @@ export default function Section_sponsors({ }) {
         </div>
 
         <div>
-          {/*<Text_head_1 className={'text-violet-crea-400 mb-5 text-center'}>Parcerias</Text_head_1>
+          <Text_head_1 className={'text-violet-crea-400 mb-5 text-center'}>Parcerias</Text_head_1>
           <div className="mb-5 flex flex-col md:flex-row items-center justify-center gap-10">
             <Link href="https://www.acate.com.br/">
               <img src="/brand/ACATE.png" className="rounded-lg max-h-12" />
@@ -61,7 +61,7 @@ export default function Section_sponsors({ }) {
             <Link href="https://sapiensparque.sc.gov.br/">
               <img src="/brand/logo sapiens.png" className="rounded-lg max-h-12" />
             </Link>
-          </div>*/}
+          </div>
         </div>
       </Container>
     </section>

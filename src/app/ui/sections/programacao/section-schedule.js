@@ -7,12 +7,12 @@ import Text_body from "../../components/text/text-body";
 import { useState } from "react";
 import Text_head_3 from "../../components/text/text-head-3";
 import Tag from "../../components/tags/tag";
-import { data_schedule_2025 } from "../../../../../data/data-schedule-2025";
+import { data_schedule_2024 } from "../../../../../data/data-schedule-2024";
 import Text_head_1 from "../../components/text/text-head-1";
 
 export default function Section_schedule({ }) {
 
-  const [selectDay, setSelectDay] = useState('25/07'); // Controla el día seleccionado
+  const [selectDay, setSelectDay] = useState('22/11'); // Controla el día seleccionado
   const [selectedScenery, setSelectedScenery] = useState('todos'); // Controla el escenario seleccionado en 23/11
 
   const handleSelectDay = (day) => {
@@ -24,17 +24,17 @@ export default function Section_schedule({ }) {
     setSelectedScenery(scenery);
   }
 
-  const filteredSchedule = data_schedule_2025.filter(item => {
+  const filteredSchedule = data_schedule_2024.filter(item => {
     if (item.date !== selectDay) {
       return false;
     }
-    if (selectDay === '26/07') {
+    if (selectDay === '23/11') {
       return selectedScenery === 'todos' || item.scenery === selectedScenery;
     }
     return true;
   });
 
-  const showSpecialRenderings = selectDay === '26/07' && selectedScenery === 'todos';
+  const showSpecialRenderings = selectDay === '23/11' && selectedScenery === 'todos';
 
 
   return (
@@ -43,27 +43,27 @@ export default function Section_schedule({ }) {
         {/* Switch date */}
         <div className="max-w-screen-lg mx-auto text-violet-crea-700 grid grid-cols-2 gap-10">
           <button
-            className={`w-full py-3 px-5 md:px-20 border-2 rounded-2xl hover:bg-violet-crea-400 hover:text-white hover:border-violet-crea-400 ${selectDay === '25/07' ? 'bg-violet-crea-400 text-white border-violet-crea-400 scale-105' : 'border-violet-crea-700'} transition-all`}
-            onClick={() => handleSelectDay('25/07')}
+            className={`w-full py-3 px-5 md:px-20 border-2 rounded-2xl hover:bg-violet-crea-400 hover:text-white hover:border-violet-crea-400 ${selectDay === '22/11' ? 'bg-violet-crea-400 text-white border-violet-crea-400 scale-105' : 'border-violet-crea-700'} transition-all`}
+            onClick={() => handleSelectDay('22/11')}
           >
             <div>
-              <Text_display_3 className={`font-bold`}>25/07</Text_display_3>
+              <Text_display_3 className={`font-bold`}>22/11</Text_display_3>
               <Text_body>Sexta feira</Text_body>
             </div>
           </button>
           <button
-            className={`w-full py-3 px-5 md:px-20 border-2 rounded-2xl hover:bg-violet-crea-400 hover:text-white hover:border-violet-crea-400 ${selectDay === '26/07' ? 'bg-violet-crea-400 text-white border-violet-crea-400 scale-105' : 'border-violet-crea-700'} transition-all`}
-            onClick={() => handleSelectDay('26/07')}
+            className={`w-full py-3 px-5 md:px-20 border-2 rounded-2xl hover:bg-violet-crea-400 hover:text-white hover:border-violet-crea-400 ${selectDay === '23/11' ? 'bg-violet-crea-400 text-white border-violet-crea-400 scale-105' : 'border-violet-crea-700'} transition-all`}
+            onClick={() => handleSelectDay('23/11')}
           >
             <div>
-              <Text_display_3 className={`font-bold`}>26/07</Text_display_3>
+              <Text_display_3 className={`font-bold`}>23/11</Text_display_3>
               <Text_body>Sábado</Text_body>
             </div>
           </button>
         </div>
 
         {/* Filter scenary */}
-        {selectDay === '26/07' && (
+        {selectDay === '23/11' && (
           <div className="max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-4 gap-5">
             <button
               className={`w-full py-1 px-10 border rounded-full hover:bg-violet-crea-400 hover:text-white hover:border-violet-crea-400 ${selectedScenery === 'todos' ? 'bg-violet-crea-400 text-white border-violet-crea-400 scale-105' : 'border-violet-crea-700'} transition-all`}
@@ -133,7 +133,7 @@ export default function Section_schedule({ }) {
               {/* Data speaker */}
               <div className="flex flex-col">
                 {/* Title */}
-                <Text_head_2 className={'font-bold hidden md:block max-w-4xl'}>{item.title}</Text_head_2>
+                <Text_head_2 className={'font-bold hidden md:block w-11/12'}>{item.title}</Text_head_2>
 
                 {/* Speakers names */}
                 <div className="flex flex-col md:flex-row md:gap-10 mb-5">

@@ -18,22 +18,10 @@ const navigation = [
     name: "Inicio",
     href: "/",
   },
-  {
-    name: "Programação",
-    href: "/programacao",
-  },
-  {
-    name: "Palestrantes",
-    href: "/#palestrantes",
-  },
-  {
-    name: "Feira Tecnológica",
-    href: "/guia-evento#feiraTecnológica",
-  },
-  {
-    name: "Guia do evento",
-    href: "/guia-evento",
-  },
+  // {
+  //   name: "Palestrantes",
+  //   href: "/#palestrantes",
+  // },
   // {
   //   name: "Programação",
   //   href: "/programacao",
@@ -51,12 +39,6 @@ const navigation = [
     href: "/",
     subMenu: true,
     subMenuItem: [
-      {
-        subItem: {
-          subName: "Summit 2024",
-          subHref: "/summit-2024",
-        },
-      },
       {
         subItem: {
           subName: "Summit 2023",
@@ -121,23 +103,23 @@ export default function Header() {
                         <>
                           {headerStiky ? (
                             <img
-                              src={"/brand/Summit_2025_colorido.png"}
+                              src={"/brand/Crea_summit_2024_color.png"}
                               className="w-24"
-                              alt="Crea Summit 2025 Logo"
+                              alt="Crea Summit 2024 Logo"
                             />
                           ) : (
                             <img
-                              src={"/brand/Summit_2025_branco.png"}
+                              src={"/brand/CREA Summit 2025_logo.svg"}
                               className="w-24"
-                              alt="Crea Summit 2025 Logo"
+                              alt="Crea Summit 2024 Logo"
                             />
                           )}
                         </>
                       ) : (
                         <img
-                          src={"/brand/Summit_2025_colorido.png"}
+                          src={"/brand/Crea_summit_2024_color.png"}
                           className="w-24"
-                          alt="Crea Summit 2025 Logo"
+                          alt="Crea Summit 2024 Logo"
                         />
                       )}
                     </Link>

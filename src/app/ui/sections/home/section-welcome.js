@@ -43,6 +43,10 @@ export default function Section_welcome() {
             <MapPinIcon className='size-8' /> 
             Expocentro Balneário Camboriú
           </Text_head_2>
+
+          <Text_head_2 className={'flex gap-5'}>
+            Inscrições em breve
+          </Text_head_2>
           
           {/* <Button_outline
             href={'https://www.sympla.com.br/crea-summit-2024__2629588'}
@@ -54,9 +58,9 @@ export default function Section_welcome() {
 
           <Button_outline
             href={
-              "https://creascorgbr-my.sharepoint.com/:f:/g/personal/audiovisual_crea-sc_org_br/Eg4229E_FS9JoS8xH84Lcs0B7L4VvKpd_C2Zx-vDUVD1Qg?e=lOBxfM"
+              "https://www.flickr.com/photos/creasc/collections/72157723385872275/"
             }
-            text={"Confira as Fotos do Evento"}
+            text={"Fotos edição 2024"}
             icon={<ArrowRightIcon className="size-5" />}
             className={
               "items-center rounded-full w-full min-w-32 md:min-w-40 py-5 px-7 bg-white/20 hover:bg-white/10 transition-all"

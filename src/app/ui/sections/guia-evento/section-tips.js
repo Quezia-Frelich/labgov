@@ -7,7 +7,7 @@ import Text_link from "../../components/text/text-link";
 
 export default function Section_tips ( {} ) {
   return (
-    <section className="mb-10 py-20 bg-radial-gradient25">
+    <section className="mb-10 py-20 bg-gradient-to-r from-violet-crea-700 to-violet-crea-400">
         <Container className={'text-white flex flex-col md:flex-row justify-between items-center gap-10'}>
           
           <div className="w-full">
@@ -34,7 +34,7 @@ export default function Section_tips ( {} ) {
 
               </div>
 
-              {/*<div className="my-10 p-4 bg-white/20 border border-white rounded-md">
+              <div className="my-10 p-4 bg-white/20 border border-white rounded-md">
                 <Text_body className={'font-bold'}>Conexão WiFi</Text_body>
                 <Text_body className={'flex items-center gap-5'}>Nosso evento contará com uma rede de wifi própria:
                 </Text_body>
@@ -42,7 +42,7 @@ export default function Section_tips ( {} ) {
                   <li><strong>Nome da rede: </strong> CREASUMMIT2024</li>
                   <li><strong>Senha: </strong> Creasc@2024</li>
                 </ul>
-              </div>*/}
+              </div>
 
           </div>
 

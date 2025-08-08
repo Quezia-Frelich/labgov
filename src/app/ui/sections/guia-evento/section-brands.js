@@ -7,7 +7,7 @@ import Text_head_1 from "../../components/text/text-head-1";
 import Text_display_3 from "../../components/text/text-display-3";
 import Text_body from "../../components/text/text-body";
 import { ArrowRightIcon, ChevronDownIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
-import { data_empresas_expositoras } from "../../../../../data/data-empresas-expositoras-2025";
+import { data_empresas_expositoras } from "../../../../../data/data-empresas-expositoras";
 import Button_outline from "../../components/buttons/button_outline";
 
 
@@ -31,11 +31,11 @@ export default function Section_brands(){
     }, [searchTerm, filterCategory]);
 
     return (
-        <section className="py-20 flex flex-col items-center justify-center" id="feiratecnologica" >
+        <section className="py-20 flex flex-col items-center justify-center">
             <Container className="flex flex-col gap-10 text-violet-crea-700">
                 <div>
                     <Text_display_3 className="font-bold mb-5">Feira tecnológica</Text_display_3>
-                    <Text_body>Explore o futuro da engenharia e da tecnologia em um só lugar.</Text_body>
+                    <Text_body>Descubra soluções inovadoras na feira do CREA Summit...</Text_body>
                 </div>
 
                 <div className="flex flex-col md:flex-row gap-5 justify-between items-center">
@@ -58,12 +58,10 @@ export default function Section_brands(){
                             <option value="" disabled>Filtrar por</option>
                             <option value="Todos">Todos</option>
                             <option value="Agtech">Agtech</option>
-                            <option value="CREA Jr-SC">Crea Jr-SC</option>
                             <option value="Construtech">Construtech</option>
                             <option value="Energia">Energia</option>
                             <option value="Ferramentas Digitais">Ferramentas Digitais</option>
                             <option value="Manufatura">Manufatura 4.0</option>
-                            <option value="Security Tech">Security Tech</option>
                             <option value="Smart Cities">Smart Cities</option>
                             <option value="Sistema Profissional">Sistema Profissional</option>
                             <option value="Parceira">Parceira</option>
@@ -87,13 +85,11 @@ export default function Section_brands(){
                         <img 
                             src={
                             empresa.Tag === "Aceleradas" ? `/empresas-expositoras-2024/empresas-aceleradas/crea-acelera.png` :
-                            empresa.Tag === "CREA Jr-SC" ? `/empresas-expositoras-2024/empresas-creajr/CREA-Jr-SC.png`:
                             empresa.Tag === "Agtech" ? `/empresas-expositoras-2024/empresas-agtech/acate-agtech.png` :
                             empresa.Tag === "Construtech" ? `/empresas-expositoras-2024/empresas-construtech/acate-construtech.png` :
                             empresa.Tag === "Energia" ? `/empresas-expositoras-2024/empresas-energia/acate-energia.png` :
                             empresa.Tag === "Ferramentas Digitais" ? `/empresas-expositoras-2024/empresas-ferramentas-digitais/inovacrea.png` :
                             empresa.Tag === "Manufatura" ? `/empresas-expositoras-2024/empresas-manufatura/manufatura.png` :
-                            empresa.Tag === "Security Tech" ? `/empresas-expositoras-2024/empresas-security-tech/acate-security-tech.png` :
                             empresa.Tag === "Smart Cities" ? `/empresas-expositoras-2024/empresas-smart-cities/acate-smart-cities.png` :
                             ""
                             }
@@ -118,14 +114,12 @@ export default function Section_brands(){
                             <Text_head_1 className={'font-bold'}>{empresa.NomeDaEmpresa}</Text_head_1>
                             <p className={`text-xs text-nowrap w-min rounded-full py-1 px-3 my-2 text-[#072440] 
                                 ${empresa.Tag === "Aceleradas" && 'bg-[#B6D7F5]' }
-                                ${empresa.Tag === "CREA Jr-SC" && 'bg-[#68B6FF]' }
                                 ${empresa.Tag === "Agtech" && 'bg-[#C3F48D]' }
                                 ${empresa.Tag === "Construtech" && 'bg-[#FF9399]' }
                                 ${empresa.Tag === "Energia" && 'bg-[#FFD290]' }
                                 ${empresa.Tag === "Ferramentas Digitais" && 'bg-[#F5B6ED]' }
                                 ${empresa.Tag === "Manufatura" && 'bg-[#C2CAD0]' }
                                 ${empresa.Tag === "Parceira" && 'bg-[#C7A4FF]' }
-                                ${empresa.Tag === "Security Tech" && 'bg-[#F87D7D]' }
                                 ${empresa.Tag === "Smart Cities" && 'bg-[#E0D0C0]' }
                                 ${empresa.Tag === "Sistema Profissional" && 'bg-[#8E90FF]' }
                                 `}>

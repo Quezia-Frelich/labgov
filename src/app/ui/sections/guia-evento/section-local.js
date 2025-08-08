@@ -13,7 +13,7 @@ import Text_link from "../../components/text/text-link";
 
 export default function Section_local({}) {
   return (
-    <section className="mb-10 py-20 bg-radial-gradient25">
+    <section className="mb-10 py-20 bg-gradient-to-r from-violet-crea-700 to-violet-crea-400">
       <Container
         className={
           "text-white flex flex-col md:flex-row justify-between items-center gap-10"
@@ -23,11 +23,11 @@ export default function Section_local({}) {
           <Text_display_3 className={"font-bold mb-5 block md:hidden"}>
             Local do Evento
           </Text_display_3>
-          {/*<img
+          <img
             src="/elements/local-do-evento.png"
             className="md:max-w-96"
             alt="Local do evento"
-          ></img>*/}
+          ></img>
         </div>
         <div className="space-y-8">
           <div>
@@ -71,10 +71,10 @@ export default function Section_local({}) {
             conhecimento e conexão.
             <br></br>
             <br></br>
-            {/*Clique no botão abaixo e veja com mais detalhes o mapa do evento.*/}
+            Clique no botão abaixo e veja com mais detalhes o mapa do evento.
           </Text_body>
 
-          {/*<div className="max-w-72">
+          <div className="max-w-72">
             <Button_outline
               href={"/pdf/Mapa expocentro - CREA Summit 2024.pdf"}
               text={"Baixar mapa do evento"}
@@ -84,7 +84,7 @@ export default function Section_local({}) {
               }
               target={true}
             />
-          </div>*/}
+          </div>
         </div>
       </Container>
     </section>
