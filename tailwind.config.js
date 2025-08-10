@@ -31,13 +31,8 @@ module.exports = {
       red: colors.red,
       yellow: colors.amber,
       blue: colors.blue,
-      "violet-crea": {
-        300: "#CFB9FC",
-        400: "#9162F0",
-        500: "#793FC9",
-        600: "#2E0667",
-        700: "#56008C",
-        800: "#0B0030",
+      "green-labgov": {
+        500: "#41DF82",
       },
       "pink-summit": {
         400: "#FF007E",

@@ -82,14 +82,14 @@ export default function Header() {
   return (
     <>
       <div
-        className={`text-lg w-full top-0 z-50  animate-duration-300 ${
+        className={`text-lg w-full top-0 z-50 text-white animate-duration-300 ${
           pathName === "/"
             ? `${
                 headerStiky
-                  ? "bg-white fixed animate-fade-down text-violet-crea-800"
+                  ? "bg-black fixed animate-fade-down text-violet-crea-800"
                   : "bg-transparent absolute text-white"
               }`
-            : "bg-white sticky animate-fade-down text-violet-crea-800"
+            : "bg-black sticky animate-fade-down text-violet-crea-800"
         }`}
       >
         <Container>
@@ -103,13 +103,13 @@ export default function Header() {
                         <>
                           {headerStiky ? (
                             <img
-                              src={"/brand/Crea_summit_2024_color.png"}
+                              src={"/brand/logo-labgov-header.png"}
                               className="w-24"
                               alt="Crea Summit 2024 Logo"
                             />
                           ) : (
                             <img
-                              src={"/brand/CREA Summit 2025_logo.svg"}
+                              src={"/brand/logo-labgov-header.png"}
                               className="w-24"
                               alt="Crea Summit 2024 Logo"
                             />
@@ -117,7 +117,7 @@ export default function Header() {
                         </>
                       ) : (
                         <img
-                          src={"/brand/Crea_summit_2024_color.png"}
+                          src={"/brand/logo-labgov-header.png"}
                           className="w-24"
                           alt="Crea Summit 2024 Logo"
                         />
@@ -140,7 +140,7 @@ export default function Header() {
                                 }
                               >
                                 <Menu.Button
-                                  className={`h-4 flex items-center text-base px-3 ${
+                                  className={`h-4 flex items-center text-white px-3 ${
                                     pathName === item.href &&
                                     "hover:font-semibold transition-all"
                                   }`}
@@ -158,7 +158,7 @@ export default function Header() {
                                   leaveTo="transform opacity-0 scale-95"
                                 >
                                   <Menu.Items
-                                    className={`absolute top-10 left-0 w-60 px-5 origin-top-left divide-y divide-gray-100 backdrop-blur-md bg-white text-violet-crea-600 shadow-lg focus:outline-none rounded-lg`}
+                                    className={`absolute top-10 left-0 w-60 px-5 origin-top-left divide-y divide-gray-100 backdrop-blur-md bg-black text-violet-crea-600 shadow-lg focus:outline-none rounded-lg`}
                                   >
                                     {item.subMenuItem.map((subItem) => (
                                       <Menu.Item key={subItem.subItem.subName}>
@@ -177,7 +177,7 @@ export default function Header() {
                               <Link
                                 href={item.href}
                                 target={item.blank ? "_blank" : undefined}
-                                className={`h-4 flex items-center text-base px-3 ${
+                                className={`h-4 flex items-center text-white px-3 ${
                                   item.first ? "border-none" : ""
                                 } ${
                                   pathName === `${item.href}`
@@ -233,7 +233,7 @@ export default function Header() {
                       <div className="-mr-2 flex xl:hidden">
                         <Disclosure.Button
                           ref={menuMobileButton}
-                          className="relative inline-flex items-center justify-center rounded-md bg-transparent p-2 text-blue-crea-500 hover:text-blue-crea-500 transition-all"
+                          className="relative inline-flex items-center justify-center rounded-md bg-transparent p-2 text-white hover:text-white transition-all"
                         >
                           <span className="absolute -inset-0.5" />
                           <span className="sr-only">Open main menu</span>
@@ -257,8 +257,8 @@ export default function Header() {
                 <Disclosure.Panel className="xl:hidden">
                   <div
                     className={`space-y-7 px-2 py-8 sm:px-5 ${
-                      pathName === "/" && "bg-white/20"
-                    } backdrop-blur-lg bg-white ${
+                      pathName === "/" && "bg-black/20"
+                    } backdrop-blur-lg bg-black ${
                       headerStiky
                         ? "bg-white"
                         : `${pathName === "/" && "shadow-lg"}`
@@ -269,7 +269,7 @@ export default function Header() {
                         {item.subMenu ? (
                           <Disclosure>
                             <Disclosure.Button
-                              className={`border-blue-crea-500 h-4 flex items-center text-base px-2`}
+                              className={`border-blue-crea-500 h-4 flex items-center text-white px-2`}
                             >
                               {item.name}
                             </Disclosure.Button>
@@ -281,7 +281,7 @@ export default function Header() {
                                     menuMobileButton.current.click()
                                   }
                                   href={subItem.subItem.subHref}
-                                  className={`py-3 border-blue-crea-500 flex items-center text-base px-2 ${
+                                  className={`py-3 border-blue-crea-500 flex items-center text-white px-2 ${
                                     pathName === `${item.href}`
                                       ? "font-bold border-l-2"
                                       : "font-normal"
@@ -296,10 +296,10 @@ export default function Header() {
                           <Disclosure.Button
                             as="a"
                             href={item.href}
-                            className={`border-blue-crea-500 h-4 flex items-center text-base px-2 ${
+                            className={`border-blue-crea-500 h-4 flex items-center text-white px-2 ${
                               pathName === `${item.href}`
-                                ? "text-blue-crea-500 font-bold border-l-2"
-                                : "text-blue-crea-500 font-normal"
+                                ? "text-white font-bold border-l-2"
+                                : "text-whie font-normal"
                             }`}
                           >
                             {item.name}
@@ -336,7 +336,7 @@ export default function Header() {
                           ? `${
                               headerStiky
                                 ? "bg-violet-crea-400 hover:bg-violet-crea-400 text-white"
-                                : "bg-white/20 hover:bg-white/10"
+                                : "bg-black/20 hover:bg-black/10"
                             }`
                           : "bg-violet-crea-400 hover:bg-violet-crea-400 text-white"
                       }`}

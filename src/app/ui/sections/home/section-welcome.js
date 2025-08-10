@@ -17,37 +17,34 @@ export default function Section_welcome() {
         playsInline
         className="absolute top-0 left-0 w-auto min-w-full min-h-full max-w-none z-10"
       >
-        <source src="/video/crea_summit_video.mp4" type="video/mp4" />
-        <source src="/video/crea_summit_video.webm" type="video/webm" />
-        <source src="/video/crea_summit_video.ogg" type="video/ogg" />
+        <source src="/video/video-bg.mp4" type="video/mp4" />
       </video>
 
-      <div className="absolute top-0 z-20 opacity-70 bg-radial-gradient h-screen w-full mix-blend-multiply"></div>
+      <div className="absolute top-0 z-20 opacity-80 bg-black h-screen w-full mix-blend-multiply"></div>
       <div className="absolute top-0 z-30 h-screen w-full">
         <Container
           className={
-            "flex flex-col gap-8 py-20 justify-center items-center h-full text-white"
+            "flex flex-col gap-8 py-20 mt-10 justify-center items-center h-full text-white"
           }
         >
           <img
-            src="/brand/CREA Summit 2025_logo.svg"
-            className="w-52 md:w-80 animate-fade-up animate-once animate-duration-500 animate-ease-in-out"
+            src="/brand/logo-labgov.png"
+            className="w-72 md:w-[30rem] animate-fade-up animate-once animate-duration-500 animate-ease-in-out"
           />
 
+
+          <Text_head_2 className={"text-center"}>Conexões para aceleração da<br></br>transformação digital no setor público.</Text_head_2>
+
           <Text_head_2 className={'flex gap-5'}>
-            <CalendarDaysIcon className='size-8' /> 
-            25 e 26 de julho de 2025
+            <CalendarDaysIcon className="size-8 text-green-labgov-500" />
+            26 de agosto
           </Text_head_2>
 
           <Text_head_2 className={'flex gap-5'}>
-            <MapPinIcon className='size-8' /> 
-            Expocentro Balneário Camboriú
+            <MapPinIcon className="size-8 text-green-labgov-500" />
+            Auditório CIA Primavera
           </Text_head_2>
 
-          <Text_head_2 className={'flex gap-5'}>
-            Inscrições em breve
-          </Text_head_2>
-          
           {/* <Button_outline
             href={'https://www.sympla.com.br/crea-summit-2024__2629588'}
             text={'Garantir meu ingresso'}
@@ -60,13 +57,13 @@ export default function Section_welcome() {
             href={
               "https://www.flickr.com/photos/creasc/collections/72157723385872275/"
             }
-            text={"Fotos edição 2024"}
-            icon={<ArrowRightIcon className="size-5" />}
+            text={"Garantir meu ingresso"}
             className={
-              "items-center rounded-full w-full min-w-32 md:min-w-40 py-5 px-7 bg-white/20 hover:bg-white/10 transition-all"
+              "items-center rounded-full w-full min-w-32 md:min-w-40 py-5 px-7 bg-white/20 hover:bg-white/10 transition-all border-2 border-green-labgov-500"
             }
             target={true}
           />
+
         </Container>
       </div>
     </section>
