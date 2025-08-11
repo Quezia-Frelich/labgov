@@ -7,17 +7,26 @@ import Section_cta from "./ui/sections/global/section-cta";
 import Section_sponsors from "./ui/sections/global/section-sponsors";
 import Section_programs from "./ui/sections/home/section-programs";
 import Section_speakers from "./ui/sections/home/section-speakers";
+import Section_support from "./ui/sections/home/section-support";
+
 
 export default function Home() {
   return (
     <>
-      <Section_welcome />
+      <section id="inicio">
+        <Section_welcome />
+      </section>
       <Section_numbers />
-      <Section_speakers />
-      <Section_location showMap={true} />
-      {/* <Section_cta /> */}
-      <Section_sponsors />
-      <Section_programs />
+      
+      <section id="empresas">
+        <Section_speakers />
+      </section>
+      <Section_support />
+     
+      <section id="progamacao">
+        <Section_sponsors />
+      </section>
+ 
     </>
   );
 }

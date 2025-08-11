@@ -46,14 +46,6 @@ export default function Section_welcome() {
           </Text_head_2>
 
           {/* <Button_outline
-            href={'https://www.sympla.com.br/crea-summit-2024__2629588'}
-            text={'Garantir meu ingresso'}
-            icon={<ArrowRightIcon className='size-5' />}
-            className={'items-center rounded-full w-full min-w-32 md:min-w-40 py-5 px-7 bg-white/20 hover:bg-white/10 transition-all'}
-            target={true}
-          /> */}
-
-          <Button_outline
             href={
               "https://www.flickr.com/photos/creasc/collections/72157723385872275/"
             }
@@ -62,7 +54,7 @@ export default function Section_welcome() {
               "items-center rounded-full w-full min-w-32 md:min-w-40 py-5 px-7 bg-white/20 hover:bg-white/10 transition-all border-2 border-green-labgov-500"
             }
             target={true}
-          />
+          />*/}
 
         </Container>
       </div>

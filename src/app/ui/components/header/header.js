@@ -18,35 +18,15 @@ const navigation = [
     name: "Inicio",
     href: "/",
   },
-  // {
-  //   name: "Palestrantes",
-  //   href: "/#palestrantes",
-  // },
-  // {
-  //   name: "Programação",
-  //   href: "/programacao",
-  // },
-  // {
-  //   name: "Guia do evento",
-  //   href: "/guia-evento",
-  // },
-  // {
-  //   name: "Como chegar",
-  //   href: "/#comoChegar",
-  // },
   {
-    name: "Edições anteriores",
-    href: "/",
-    subMenu: true,
-    subMenuItem: [
-      {
-        subItem: {
-          subName: "Summit 2023",
-          subHref: "/summit-2023",
-        },
-      },
-    ],
+    name: "Programação",
+    href: "/#progamacao",
   },
+  {
+    name: "Empresas",
+    href: "/#empresas",
+  },
+  
 ];
 
 export default function Header() {

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Container from "../../components/container/container";
-import { beneficios } from "../../../../../data/data-palestrantes-2024";
+import { beneficios } from "../../../../../data/data-support";
 import Button_outline from "../../components/buttons/button_outline";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import Text_head_1 from "../../components/text/text-head-1";
@@ -15,13 +15,13 @@ export default function SectionShowcaseLocal() {
   };
 
   return (
-    <section className=" bg-black flex flex-col text-white items-center justify-center" id="feiratecnologica">
+    <section className="py-10 bg-black flex flex-col text-white items-center justify-center" id="feiratecnologica">
       <Container className="flex flex-col gap-10">
         <div className="flex items-center gap-2">
           <div className="h-12 bg-textDarkGreen rounded w-[5px]"></div>
           <div className="flex flex-col">
             <Text_head_1 className="font-bold ">
-              Patrocinadores
+              Apoio Institucional
             </Text_head_1>
           </div>
         </div>

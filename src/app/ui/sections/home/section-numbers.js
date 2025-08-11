@@ -3,37 +3,42 @@
 import Container from "../../components/container/container";
 import Number_count from "../../components/number_count/number_count";
 
+export default function Section_numbers() {
+    return (
+        <section className="relative min-h-72 bg-black text-white py-40 flex flex-col items-center justify-center overflow-hidden">
+            {/* Imagem SVG fixa na direita */}
+            <img
+                src="/elements/grafo.svg"
+                alt=""
+                className="absolute right-0 top-0 h-full object-contain pointer-events-none"
+            />
 
+            <Container>
+                <img
+                    src={"/brand/logo-labgov-header.png"}
+                    className="w-82"
+                    alt="Crea Summit 2024 Logo"
+                />
 
-export default function Section_numbers(){
-    return(
-        <>
-        <section className="min-h-72 bg-radial-gradient text-white py-20 flex flex-col items-center justify-center">
-            <Container className="grid grid-cols-2 lg:grid-cols-4 gap-20">
+                <p className="pt-5 pb-3 me-60">
+                    O LABGOV Summit é um encontro voltado à{" "}
+                    <span className="font-bold text-green-labgov-500">inovação</span> e à{" "}
+                    <span className="font-bold text-green-labgov-500">transformação digital no setor público</span>, com o propósito
+                    de gerar conexões que impulsionem a modernização dos serviços públicos no Brasil.
+                </p>
 
-                <div className="flex flex-col items-center justify-center gap-5">
-                    <img src="/icons/icon_participantes.png" alt="Participantes" className="h-12 md:h-14"></img>
-                    <Number_count before_number={'+'} number={2000} title={'Participantes'} animate={true}/>
-                </div>
-
-                <div className="flex flex-col items-center justify-center gap-5">
-                    <img src="/icons/icon_estandes.png" alt="Participantes" className="h-12 md:h-14"></img>
-                    <Number_count number={83} title={'Estandes'} animate={true}/>
-                </div>
-
-                <div className="flex flex-col items-center justify-center gap-5">
-                    <img src="/icons/icon_palestrantes.png" alt="Participantes" className="h-12 md:h-14"></img>
-                    <Number_count number={37} title={'Palestrantes'} animate={true}/>
-                </div>
-
-                <div className="flex flex-col items-center justify-center gap-5">
-                    <img src="/icons/icon_horas.png" alt="Participantes" className="h-12 md:h-14"></img>
-                    <Number_count before_number={'+'} number={11} after_number={'h'} title={'de conteúdo'} animate={true}/>
-                </div>
-
+                <p className="pb-3 me-60">
+                    Idealizado por um grupo de empresas que integram o Núcleo de Transformação Digital e Inovação da Vertical
+                    Smart Cities da ACATE, o evento reúne organizações com sólida experiência em projetos públicos para compartilhar 
+                    cases reais, boas práticas, tecnologias aplicadas e modelos de gestão inovadores.
+                </p>
+                
+                <p className="me-60">
+                    Mais do que um evento, o LABGOV Summit é um espaço de troca, inspiração e articulação entre empresas, gestores
+                    públicos, lideranças e agentes de inovação, com foco em soluções práticas e escaláveis para os desafios da
+                    transformação digital no setor público.
+                </p>
             </Container>
         </section>
-
-        </>
     )
 }
