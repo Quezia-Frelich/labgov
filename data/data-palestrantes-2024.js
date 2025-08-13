@@ -27,7 +27,7 @@ export const beneficios = [
     titulo: "BPM Canvas",
     descricao: "Somos uma empresa com vasta experiência em desenvolvimento de software, metodologia ágil e todas as tecnologias mais modernas do mercado. Esses e muitos outros fatores nos permitem garantir que cada projeto confiado a nós alcance o seu máximo potencial!",
     urlLogo: "/empresas/bpm-canvas.png",
-    link: null
+    link: "https://www.bpmcanvas.com/ "
   },
   {
     titulo: "MSB",
