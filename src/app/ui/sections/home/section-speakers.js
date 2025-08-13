@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Container from "../../components/container/container";
-import { beneficios } from "../../../../../data/data-palestrantes-2024";
+import  empresas  from "../../../../../data/data-palestrantes-2024";
 import Button_outline from "../../components/buttons/button_outline";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import Text_head_1 from "../../components/text/text-head-1";
@@ -28,7 +28,7 @@ export default function SectionShowcaseLocal() {
 
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-start">
-          {beneficios.map((beneficio, index) => {
+          {empresas.map((beneficio, index) => {
             const isOpen = openCard === index;
             return (
               <div
