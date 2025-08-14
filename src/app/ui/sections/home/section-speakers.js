@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Container from "../../components/container/container";
-import  empresas  from "../../../../../data/data-palestrantes-2024";
+import  {empresas}  from "../../../../../data/data-palestrantes-2024";
 import Button_outline from "../../components/buttons/button_outline";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import Text_head_1 from "../../components/text/text-head-1";
@@ -28,9 +28,9 @@ export default function SectionShowcaseLocal() {
 
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-start">
-          {empresas.map((beneficio, index) => {
-            const isOpen = openCard === index;
-            return (
+                  {empresas.map((empresas, index) => {
+                    const isOpen = openCard === index;
+                    return (
               <div
                 key={index}
                 onClick={() => handleToggleCard(index)}
@@ -38,8 +38,8 @@ export default function SectionShowcaseLocal() {
               >
                 <div className="w-full h-40 overflow-hidden bg-black flex items-center justify-center">
                   <img
-                    src={beneficio.urlLogo}
-                    alt={beneficio.titulo}
+                    src={empresas.urlLogo}
+                    alt={empresas.titulo}
                     className="w-full h-full object-contain"
                     onError={(e) => (e.target.src = "/placeholder.png")}
                   />
@@ -47,16 +47,16 @@ export default function SectionShowcaseLocal() {
 
                 {isOpen && (
                   <div className="p-5 space-y-3">
-                    <h3 className="text-xl font-bold">{beneficio.titulo}</h3>
+                    <h3 className="text-xl font-bold">{empresas.titulo}</h3>
 
                     <p className="text-sm leading-relaxed">
-                      {beneficio.descricaoBeneficio || beneficio.descricao}
+                      {empresas.descricaoEmpresas || empresas.descricao}
                     </p>
-                    {beneficio.link &&
+                    {empresas.link &&
                       <div className="mt-4 max-w-52">
-                        {beneficio.link &&
+                        {empresas.link &&
                           <Button_outline
-                            href={beneficio.link}
+                            href={empresas.link}
                             text={"Acessar site"}
                             icon={<ArrowRightIcon className="size-5" />}
                             className={`items-center justify-between rounded-full py-2 px-5 transition-all flex bg-violet-crea-400 hover:bg-violet-crea-700 text-white text-sm`}
@@ -69,8 +69,8 @@ export default function SectionShowcaseLocal() {
 
                 )}
               </div>
-            );
-          })}
+             );
+})}
         </div>
 
       </Container>

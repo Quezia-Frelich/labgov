@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Container from "../../components/container/container";
-import  beneficios  from "../../../../../data/data-support";
+import  {beneficios} from "../../../../../data/data-support";
 import Button_outline from "../../components/buttons/button_outline";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import Text_head_1 from "../../components/text/text-head-1";

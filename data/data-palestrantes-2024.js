@@ -53,5 +53,4 @@ export const empresas = [
     urlLogo: "/empresas/smartcitytec.png",
     link: "https://plataforma.smartcity.tec.br/"
   },
-  
-];
+]

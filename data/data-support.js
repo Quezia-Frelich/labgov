@@ -29,5 +29,4 @@ export const beneficios = [
     urlLogo: "/empresas/FEPESE.png",
     link: "https://fepese.org.br/"
   },
-  
 ];
