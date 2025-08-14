@@ -25,7 +25,7 @@ export const empresas = [
   },
   {
     titulo: "BPM Canvas",
-    descricao: "Somos uma empresa com vasta experiência em desenvolvimento de software, metodologia ágil e todas as tecnologias mais modernas do mercado. Esses e muitos outros fatores nos permitem garantir que cada projeto confiado a nós alcance o seu máximo potencial!",
+    descricao: "Ferramentas, conteúdos e serviços que auxiliam no desenvolvimento da gestão, inovação e tecnologia de pessoas e empresas.",
     urlLogo: "/empresas/bpm-canvas.png",
     link: "https://www.bpmcanvas.com/ "
   },
@@ -43,7 +43,7 @@ export const empresas = [
   },
   {
     titulo: "Autonomoss",
-    descricao: "A SmartCityTec é uma startup inovadora que oferece soluções inteligentes para a gestão de cidades e territórios, com foco na criação de data spaces e na promoção da interoperabilidade de dados e sistemas.",
+    descricao: "Automatizar com IA não é mágica. É processo. Agentes de IA personalizados para automatizar sua operação de ponta a ponta. Criamos agentes de IA ultra personalizados, que automatizam o trabalho como parte real da sua equipe.",
     urlLogo: "/empresas/autonomoss.png",
     link: "https://www.autonomoss.com/"
   },

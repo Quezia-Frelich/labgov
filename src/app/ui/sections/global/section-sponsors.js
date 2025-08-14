@@ -3,7 +3,8 @@ import { programacao } from "../../../../../data/data-programacao-card";
 
 export default function ProgramacaoSection() {
   return (
-    <section className="relative min-h-72 bg-black text-white py-40 flex flex-col px-32 overflow-hidden">
+    <section className="relative min-h-72 bg-black text-white py-12 md:py-40 flex flex-col px-4 md:px-32 overflow-hidden">
+
       <h2 className="text-white text-xl font-bold mb-6">Programação</h2>
       <div className="space-y-4">
         {programacao.map((item, idx) => (
