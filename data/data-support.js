@@ -6,16 +6,22 @@ export const beneficios = [
     link: "https://smartcities.acate.com.br/"
   },
   {
-    titulo: "SC Mais Inovação",
-    descricao: "O Programa SC Mais Inovação é uma iniciativa do Governo do Estado de Santa Catarina, lançada em 21 de outubro de 2024, com o objetivo de transformar o estado em um grande polo tecnológico. Coordenado pela Secretaria de Estado da Ciência, Tecnologia e Inovação (SCTI), o programa busca conectar governo, iniciativa privada, academia e sociedade civil organizada.",
-    urlLogo: "/empresas/sc-mais-inovacao.png",
-    link: "https://hom.scti.sc.gov.br/site.scmaisinova/"
+    titulo: "LINKLAB",
+    descricao: "O LinkLab é um hub que conecta grandes empresas e startups, promovendo inovação e desenvolvimento por meio de desafios reais e trocas de conhecimento. Em um ambiente dinâmico e inspirador, oferece acesso a corporates de diversas áreas e apoio especializado em jurídico, RH, contábil, marketing e branding. Inclusivo, integra startups de diferentes iniciativas, fortalecendo um dos ecossistemas mais inovadores do Brasil.",
+    urlLogo: "/empresas/linklab.png",
+    link: "https://linklab.acate.com.br/"
   },
   {
     titulo: "SCTI",
     descricao: "Criada na Reforma Administrativa pelo governador Jorginho Mello, a Secretaria de Estado da Ciência, Tecnologia e Inovação fortalece um dos setores que mais cresce em Santa Catarina, responsável por 7,5% do PIB. Seu foco é acelerar políticas públicas que impulsionem o desenvolvimento econômico e aprimorem os serviços públicos por meio da inovação, em articulação com outras secretarias.",
     urlLogo: "/empresas/SCTI.png",
     link: "https://www.scti.sc.gov.br/"
+  },
+  {
+    titulo: "SC Mais Inovação",
+    descricao: "O Programa SC Mais Inovação é uma iniciativa do Governo do Estado de Santa Catarina, lançada em 21 de outubro de 2024, com o objetivo de transformar o estado em um grande polo tecnológico. Coordenado pela Secretaria de Estado da Ciência, Tecnologia e Inovação (SCTI), o programa busca conectar governo, iniciativa privada, academia e sociedade civil organizada.",
+    urlLogo: "/empresas/sc-mais-inovacao.png",
+    link: "https://hom.scti.sc.gov.br/site.scmaisinova/"
   },
   {
     titulo: "Inovagov Santa Catarina",
@@ -28,11 +34,5 @@ export const beneficios = [
     descricao: "Criada em 1977, a FEPESE é uma fundação privada sem fins lucrativos que apoia a UFSC e outras instituições por meio da gestão de projetos de ensino, pesquisa, extensão e inovação. Atua também com cursos, consultorias, processos seletivos e estágios, sempre pautada pela ética, transparência e excelência.",
     urlLogo: "/empresas/FEPESE.png",
     link: "https://fepese.org.br/"
-  },
-  {
-    titulo: "LINKLAB",
-    descricao: "O LinkLab é um hub que conecta grandes empresas e startups, promovendo inovação e desenvolvimento por meio de desafios reais e trocas de conhecimento. Em um ambiente dinâmico e inspirador, oferece acesso a corporates de diversas áreas e apoio especializado em jurídico, RH, contábil, marketing e branding. Inclusivo, integra startups de diferentes iniciativas, fortalecendo um dos ecossistemas mais inovadores do Brasil.",
-    urlLogo: "/empresas/linklab.png",
-    link: "https://linklab.acate.com.br/"
   },
 ];
