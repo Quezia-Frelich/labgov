@@ -29,4 +29,10 @@ export const beneficios = [
     urlLogo: "/empresas/FEPESE.png",
     link: "https://fepese.org.br/"
   },
+  {
+    titulo: "LINKLAB",
+    descricao: "O LinkLab é um hub que conecta grandes empresas e startups, promovendo inovação e desenvolvimento por meio de desafios reais e trocas de conhecimento. Em um ambiente dinâmico e inspirador, oferece acesso a corporates de diversas áreas e apoio especializado em jurídico, RH, contábil, marketing e branding. Inclusivo, integra startups de diferentes iniciativas, fortalecendo um dos ecossistemas mais inovadores do Brasil.",
+    urlLogo: "/empresas/linklab.png",
+    link: "https://linklab.acate.com.br/"
+  },
 ];

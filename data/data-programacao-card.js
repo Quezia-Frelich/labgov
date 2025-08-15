@@ -18,7 +18,7 @@ export const programacao = [
     hora: "09:00",
     titulo: "Painel Crea SC - IA como ferramenta de aceleração da Inovação no setor público.",
     descricoes: ["Mediador: Rhuan Bittencourt",
-      "Painelista: André Coellho (Autonomoss)"]
+      "Painelista: André Coellho (Autonomoss), Felipe Penter (CREA-SC), Rodrigo Bianchetti (Lab of Codes)"]
   },
   {
     icon: "/icons/icon3.svg",
