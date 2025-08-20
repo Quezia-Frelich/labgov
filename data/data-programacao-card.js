@@ -18,7 +18,7 @@ export const programacao = [
     hora: "09:00",
     titulo: "Painel Crea SC - IA como ferramenta de aceleração da Inovação no setor público.",
     descricoes: ["Mediador: Rhuan Bittencourt",
-      "Painelista: André Coellho (Autonomoss), Felipe Penter (CREA-SC), Rodrigo Bianchetti (Lab of Codes)"]
+      "Painelistas: André Coellho (Autonomoss), Sandro Marcus Ernst (CREA-SC), Rodrigo Bianchetti (Lab of Codes)"]
   },
   {
     icon: "/icons/icon3.svg",
@@ -95,7 +95,7 @@ export const programacao = [
     hora: "16:45",
     titulo: "Painel InovaGov - Experimentos no Governo",
     descricoes: ["Mediador: Anna Claudia Krüger",
-      "Painelistas: Pablo Benítez (MPSC), Tatiana Custódio (TCE-SC), Renata Polidoro Aguiar (TJSC), Ramicés Silva (Governo de Santa Catarina)"
+      "Painelistas: Pablo Benítez (MPSC), Tatiana Custódio (TCE-SC), Marcos Leon Bianchi (Ginkgo Lifelong Financialship)"
     ]
   },
   {
