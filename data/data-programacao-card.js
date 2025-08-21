@@ -95,7 +95,7 @@ export const programacao = [
     hora: "16:45",
     titulo: "Painel InovaGov - Experimentos no Governo",
     descricoes: ["Mediador: Anna Claudia Krüger",
-      "Painelistas: Pablo Benítez (MPSC), Tatiana Custódio (TCE-SC), Marcos Leon Bianchi (Ginkgo Lifelong Financialship)"
+      "Painelistas: Pablo Benítez (MPSC), Tatiana Custódio (TCE-SC), Marcos Leon Bianchi (TJ-SC)"
     ]
   },
   {
