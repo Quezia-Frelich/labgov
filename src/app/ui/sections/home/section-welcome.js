@@ -37,12 +37,12 @@ export default function Section_welcome() {
 
           <Text_head_2 className={'flex gap-5'}>
             <CalendarDaysIcon className="size-8 text-green-labgov-500" />
-            26 de agosto
+            04 de agosto
           </Text_head_2>
 
           <Text_head_2 className={'flex gap-5'}>
             <MapPinIcon className="size-8 text-green-labgov-500" />
-            Auditório CIA Primavera
+            Auditório da Sebrae​
           </Text_head_2>
 
           {/* <Button_outline
