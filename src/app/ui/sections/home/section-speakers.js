@@ -17,7 +17,7 @@ export default function Section_speakers() {
   }
 
   return (
-    <section className="py-10 bg-black flex flex-col text-white items-center justify-center" id="palestrantes">
+    <section className="py-10 bg-black flex flex-col text-white items-center justify-center pt-40" id="palestrantes">
       <Container>
         <div className="flex flex-col">
                     <Text_head_1 className="font-bold ">

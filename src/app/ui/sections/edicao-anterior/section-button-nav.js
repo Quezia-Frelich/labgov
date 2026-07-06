@@ -1,6 +1,6 @@
-import Icon_patrocinadores from "../../icons/button-nav/icon-dicas";
-import Icon_apoio from "../../icons/button-nav/icon-dicas";
-import Icon_programacao from "../../icons/button-nav/icon-dicas";
+import Icon_patrocinadores from "../../icons/button-nav/icon_patrocinadores";
+import Icon_apoio from "../../icons/button-nav/icon_apoio";
+import Icon_programacao from "../../icons/button-nav/icon_programacao";
 
 import Button_outline from "../../components/buttons/button_outline";
 import Container from "../../components/container/container";

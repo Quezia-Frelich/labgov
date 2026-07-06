@@ -9,7 +9,7 @@ export const data_palestrantes_2024 = [
     linkedin: "https://www.linkedin.com/in/thaisnahas",
   },
   {
-    profile: "/summit-2024/rodrigo-bianchetti.jpg",
+    profile: "/summit-2024/Rodrigo Bianchetti​.png",
     fullName: "Rodrigo Bianchetti​​",
     position: "CEO - LAB OF CODES​​",
     description:
