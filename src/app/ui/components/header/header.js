@@ -15,16 +15,20 @@ import Button_outline from "../buttons/button_outline";
 
 const navigation = [
   {
-    name: "Inicio",
+    name: "Evento",
     href: "/",
   },
   {
     name: "Programação",
     href: "/#progamacao",
   },
+  //{
+  //  name: "Empresas",
+  //  href: "/#empresas",
+  //},
   {
-    name: "Empresas",
-    href: "/#empresas",
+    name: "Edição anterior",
+    href: "/edicao-anterior",
   },
   
 ];
