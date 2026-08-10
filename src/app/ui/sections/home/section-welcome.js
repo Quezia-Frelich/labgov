@@ -2,6 +2,7 @@ import Container from "../../components/container/container";
 import {
   CalendarDaysIcon,
   MapPinIcon,
+  ClockIcon,
   ArrowRightIcon,
 } from "@heroicons/react/24/outline";
 import Text_head_2 from "../../components/text/text-head-2";
@@ -37,24 +38,29 @@ export default function Section_welcome() {
 
           <Text_head_2 className={'flex gap-5'}>
             <CalendarDaysIcon className="size-8 text-green-labgov-500" />
-            04 de agosto
+            15 de setembro
+          </Text_head_2>
+
+          <Text_head_2 className={'flex gap-5'}>
+            <ClockIcon className="size-8 text-green-labgov-500" />
+            8:30 às 12:00
           </Text_head_2>
 
           <Text_head_2 className={'flex gap-5'}>
             <MapPinIcon className="size-8 text-green-labgov-500" />
-            Auditório da Sebrae​
+            Auditório da ACATE - Primavera
           </Text_head_2>
 
-          {/* <Button_outline
+          {<Button_outline
             href={
-              "https://www.flickr.com/photos/creasc/collections/72157723385872275/"
+              "https://painel.egem.org.br//createInscritoNaoLogado/1714?_gl=1*1e62sh4*_ga*MTcwNjc0Mzg2OS4xNzg2MTIzODU4*_ga_Z9E9F8TPED*czE3ODYxMjM4NTgkbzEkZzEkdDE3ODYxMjM4NjUkajUzJGwwJGgxNzg1Nzk1ODI4"
             }
             text={"Garantir meu ingresso"}
             className={
               "items-center rounded-full w-full min-w-32 md:min-w-40 py-5 px-7 bg-white/20 hover:bg-white/10 transition-all border-2 border-green-labgov-500"
             }
             target={true}
-          />*/}
+          />}
 
         </Container>
       </div>

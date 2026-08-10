@@ -21,7 +21,7 @@ export default function SectionShowcaseLocal() {
           <div className="h-12 bg-textDarkGreen rounded w-[5px]"></div>
           <div className="flex flex-col">
             <Text_head_1 className="font-bold ">
-              Apoio Institucional
+              Realização
             </Text_head_1>
           </div>
         </div>
@@ -45,7 +45,7 @@ export default function SectionShowcaseLocal() {
                   />
                 </div>
 
-                {isOpen && (
+                {/* isOpen && (
                   <div className="p-5 space-y-3">
                     <h3 className="text-xl font-bold">{beneficio.titulo}</h3>
 
@@ -67,7 +67,7 @@ export default function SectionShowcaseLocal() {
                   </div>
 
 
-                )}
+                )*/}
               </div>
             );
           })}

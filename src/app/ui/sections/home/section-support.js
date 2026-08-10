@@ -27,7 +27,7 @@ export default function SectionShowcaseLocal() {
           <div className="h-12 bg-textDarkGreen rounded w-[5px]"></div>
           <div className="flex flex-col">
             <Text_head_1 className="font-bold">
-              Patrocinadores
+              Apoio Institucional
             </Text_head_1>
           </div>
         </div>

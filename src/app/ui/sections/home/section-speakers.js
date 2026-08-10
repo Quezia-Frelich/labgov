@@ -29,7 +29,7 @@ export default function Section_speakers() {
             <div key={index} className={`${openBox === index ? 'col-span-2 xl:col-span-3 border-2 border-violet-crea-600 flex' : 'col-span-1 border-transparent max-w-96 mx-auto overflow-hidden'} border-2 rounded-lg transition-all duration-300 relative cursor-pointer group`} onClick={() => handleOpenBox(index)}>
               
               {/* Profile do palestrante */}
-              <img src={palestrante.profile} alt={palestrante.fullName} className={`rounded-md max-h-64 ${openBox === index && 'hidden md:block'} `}/>
+              <img src={palestrante.profile} alt={palestrante.fullName} className={`rounded-md max-h-72 ${openBox === index && 'hidden md:block'} `}/>
 
               {/* Nome e titulo em profile */}
               <div className={openBox === index ? 'hidden' : 'absolute bottom-0 p-4 h-full flex flex-col justify-end text-center bg-gradient-to-b from-40% from-violet-crea-600/0 to-violet-crea-600/80 w-full text-white'}>
