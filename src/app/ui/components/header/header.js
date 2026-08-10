@@ -26,10 +26,10 @@ const navigation = [
   //  name: "Empresas",
   //  href: "/#empresas",
   //},
-  {
-    name: "Edição anterior",
-    href: "/edicao-anterior",
-  },
+  //{
+  //  name: "Edição anterior",
+  //  href: "/edicao-anterior",
+  //},
   
 ];
 

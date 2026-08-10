@@ -4,7 +4,7 @@ export const programacao = [
     hora: "08:30",
     titulo: "Abertura",
     descricoes: [
-      "Rodrigo Bianchetti ​",
+      "Rodrigo Bianchetti ​"
     ]
   },
   {
