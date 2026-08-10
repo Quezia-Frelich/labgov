@@ -1,30 +1,23 @@
 export const programacao = [
   {
     icon: "/icons/icon2.svg", // caminho relativo à pasta public
-    hora: "08:15",
+    hora: "08:30",
     titulo: "Abertura",
     descricoes: [
-      "Kita Xavier (CREA-SC), Thais Nahas (Vertical), Rodrigo BIanchetti (Núcleo)",
+      "Rodrigo Bianchetti ​",
     ]
   },
   {
     icon: "/icons/icon3.svg",
-    hora: "08:30",
-    titulo: "Palestra Estratégias de desenvolvimento de IA no setor público",
-    descricoes: ["André Coelho"]
-  },
-  {
-    icon: "/icons/icon1.svg",
     hora: "09:00",
-    titulo: "Painel Crea SC - IA como ferramenta de aceleração da Inovação no setor público.",
-    descricoes: ["Mediador: Rhuan Bittencourt",
-      "Painelistas: André Coellho (Autonomoss), Sandro Marcus Ernst (CREA-SC), Rodrigo Bianchetti (Lab of Codes)"]
+    titulo: "Palestra de Abertura – Case:  Estruturação do Escritório de Processos do Gov. SC​",
+    descricoes: ["Edson Rosa Gomes da Silva"]
   },
   {
-    icon: "/icons/icon3.svg",
+    icon: "/icons/icon4.svg",
     hora: "09:30",
-    titulo: "Humanos 5.0",
-    descricoes: ["Sidnei Rodrigues"]
+    titulo: "Painel - Living LABs e Inovação Aberta – Da estruturação, contratação à digitalização​",
+    descricoes: ["Thais"]
   },
   {
     icon: "/icons/icon2.svg",
@@ -33,51 +26,49 @@ export const programacao = [
     descricoes: [""]
   },
   {
+    icon: "/icons/icon1.svg",
+    hora: "10:30",
+    titulo: "Espaço iConects, UT e Apoiadores:  CINCATARINA, CIGA e EGEM​",
+    descricoes: ["Elói Rönnau e convidados"]
+  },
+  {
+    icon: "/icons/icon1.svg",
+    hora: "11:00",
+    titulo: "Espaço SEBRAE",
+    descricoes: ["SEBRAE"]
+  },
+  {
+    icon: "/icons/icon3.svg",
+    hora: "11:30",
+    titulo: "Palestra - Infraestrutura Básica  para Governos Cognitivos​",
+    descricoes: ["Gilsoni Lunardi Albino"]
+  },
+    /*
+  {
     icon: "/icons/icon3.svg",
     hora: "10:30",
-    titulo: "Palestra PPPs como instrumento para viabilizar cidades inteligentes",
-    descricoes: ["Maurício Melo"]
+    titulo: "TD baseada em dados  - Trilha de Formação – Cidades que Aprendem  ​",
+    descricoes: ["Rodrigo"]
   },
   {
     icon: "/icons/icon1.svg",
-    hora: "11:15",
-    titulo: "Painel SC Mais Inovaçao - Marco legal",
-    descricoes: ["Mediador: Eduardo luiz Domingos",
-      "Painelistas: Murilo Mafra (SCTI), Adriano Rodrigues (SC Mais Inovação), Cristina Martins (SC Mais Inovação)"
-    ]
-  },
-  {
-    icon: "/icons/icon4.svg",
-    hora: "11:45",
-    titulo: "Pitch Kartado - Gestão de ativos e serviços de campo em infraestrutura",
-    descricoes: ["Pedro Fornari"]
-  },
-  {
-    icon: "/icons/icon2.svg",
-    hora: "12:00",
-    titulo: "Almoço",
-    descricoes: [""]
+    hora: "11:00",
+    titulo: "Espaço CINCATARINA",
+    descricoes: ["CINCATARINA"]
   },
   {
     icon: "/icons/icon3.svg",
-    hora: "14:00",
-    titulo: "Palestra Transformando Cidades com Inovação Colaborativa e Inteligência",
-    descricoes: ["Thaís Nahas"]
+    hora: "11:30",
+    titulo: "Palestra - Infraestrutura Básica  para Governos Cognitivos​",
+    descricoes: ["Gil"]
   },
   {
     icon: "/icons/icon1.svg",
-    hora: "14:45",
-    titulo: "Painel Cidades Inteligentes",
-    descricoes: ["Mediador: Thaís Nahas",
-      "Painelistas: Maitê Vieira (SANAPP), Gilsoni (SmartCityTec)"
-    ]
+    hora: "14:30",
+    titulo: "Espaço CIGA",
+    descricoes: ["CIGA"]
   },
-  {
-    icon: "/icons/icon4.svg",
-    hora: "15:15",
-    titulo: "Pitch Sanapp - Transformando dados de saneamento em decisões estratégicas",
-    descricoes: ["Maitê Vieira"]
-  },
+
   {
     icon: "/icons/icon2.svg",
     hora: "15:30",
@@ -85,23 +76,16 @@ export const programacao = [
     descricoes: [""]
   },
   {
-    icon: "/icons/icon3.svg",
+    icon: "/icons/icon4.svg",
     hora: "16:00",
-    titulo: "Palestra Experimentando em compras públicas de inovação",
-    descricoes: ["Anna Claudia Krüger"]
+    titulo: "Projeto vigia​",
+    descricoes: ["TCE"]
   },
+  
   {
-    icon: "/icons/icon1.svg",
-    hora: "16:45",
-    titulo: "Painel InovaGov - Experimentos no Governo",
-    descricoes: ["Mediador: Anna Claudia Krüger",
-      "Painelistas: Pablo Benítez (MPSC), Tatiana Custódio (TCE-SC), Marcos Leon Bianchi (TJ-SC), Ramicés Silva (Governo de Santa Catarina)"
-    ]
-  },
-  {
-    icon: "/icons/icon3.svg",
-    hora: "17:15",
-    titulo: "Palestra Design de Serviço no setor público: o case do Metrô de São Paulo",
-    descricoes: ["Claudia Grandi / Vini de Castro"]
-  },
+    icon: "/icons/icon2.svg",
+    hora: "17:00",
+    titulo: "Ecenrramento",
+    descricoes: [""]
+  },*/
 ];
