@@ -1,91 +1,46 @@
 export const programacao = [
   {
-    icon: "/icons/icon2.svg", // caminho relativo à pasta public
+    icon: "/icons/icon2.svg",
     hora: "08:30",
     titulo: "Abertura",
     descricoes: [
-      "Rodrigo Bianchetti ​"
+      "Kita Xavier (CREA-SC), Elói Rönnau (iConnects), Rodrigo Bianchetti (LAB OF CODES)"
     ]
   },
   {
     icon: "/icons/icon3.svg",
     hora: "09:00",
-    titulo: "Palestra de Abertura – Case:  Estruturação do Escritório de Processos do Gov. SC​",
-    descricoes: ["Edson Rosa Gomes da Silva"]
+    titulo: "Palestra: A Justiça em Dados",
+    descricoes: ["Filipe Ivo Rosa (TJ/SC)"]
   },
   {
-    icon: "/icons/icon4.svg",
+    icon: "/icons/icon1.svg",
     hora: "09:30",
-    titulo: "Painel - Living LABs e Inovação Aberta – Da estruturação, contratação à digitalização​",
-    descricoes: ["Thais"]
+    titulo: "Palestra: Estruturação da Área de Dados para Fiscalização",
+    descricoes: ["Sandro Marcus Ernst (CREA-SC)"]
   },
   {
-    icon: "/icons/icon2.svg",
+    icon: "/icons/icon3.svg",
     hora: "10:00",
     titulo: "Coffee Break",
     descricoes: [""]
   },
   {
-    icon: "/icons/icon1.svg",
-    hora: "10:30",
-    titulo: "Espaço iConects, UT e Apoiadores:  CINCATARINA, CIGA e EGEM​",
-    descricoes: ["Elói Rönnau e convidados"]
-  },
-  {
-    icon: "/icons/icon1.svg",
-    hora: "11:00",
-    titulo: "Espaço SEBRAE",
-    descricoes: ["SEBRAE"]
-  },
-  {
-    icon: "/icons/icon3.svg",
-    hora: "11:30",
-    titulo: "Palestra - Infraestrutura Básica  para Governos Cognitivos​",
-    descricoes: ["Gilsoni Lunardi Albino"]
-  },
-    /*
-  {
-    icon: "/icons/icon3.svg",
-    hora: "10:30",
-    titulo: "TD baseada em dados  - Trilha de Formação – Cidades que Aprendem  ​",
-    descricoes: ["Rodrigo"]
-  },
-  {
-    icon: "/icons/icon1.svg",
-    hora: "11:00",
-    titulo: "Espaço CINCATARINA",
-    descricoes: ["CINCATARINA"]
-  },
-  {
-    icon: "/icons/icon3.svg",
-    hora: "11:30",
-    titulo: "Palestra - Infraestrutura Básica  para Governos Cognitivos​",
-    descricoes: ["Gil"]
-  },
-  {
-    icon: "/icons/icon1.svg",
-    hora: "14:30",
-    titulo: "Espaço CIGA",
-    descricoes: ["CIGA"]
-  },
-
-  {
     icon: "/icons/icon2.svg",
-    hora: "15:30",
-    titulo: "Coffee Break",
-    descricoes: [""]
+    hora: "10:30",
+    titulo: "Palestra: Do BI aos Ecossistemas de Dados: uma nova arquitetura para a inteligência organizacional",
+    descricoes: ["Ibsem Dias (KDV)"]
   },
   {
-    icon: "/icons/icon4.svg",
-    hora: "16:00",
-    titulo: "Projeto vigia​",
-    descricoes: ["TCE"]
+    icon: "/icons/icon3.svg",
+    hora: "11:00",
+    titulo: "Painel: Qualidade e Governança de Dados: os desafios para uma Inteligência Artificial confiável no setor público",
+    descricoes: ["Rodrigo Bianchetti e Convidados"]
   },
-  
   {
-    icon: "/icons/icon2.svg",
-    hora: "17:00",
-    titulo: "Ecenrramento",
-    descricoes: [""]
-  },*/
+    icon: "/icons/icon1.svg",
+    hora: "11:30",
+    titulo: "Palestra: Gestão de Dados e Reforma Tributária: desafios e oportunidades para os municípios",
+    descricoes: ["Gilsoni Lunardi Albino (Smart City Tec)"]
+  }
 ];

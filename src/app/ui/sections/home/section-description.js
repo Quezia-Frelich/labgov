@@ -21,21 +21,18 @@ export default function Section_numbers() {
                 />
 
                 <p className="pt-5 pb-3 me-4 md:me-60">
-  O LABGOV Summit é um encontro voltado à{" "}
+  O LABGOV Summit é um encontro estratégico voltado à{" "}
   <span className="font-bold text-green-labgov-500">inovação</span> e à{" "}
-  <span className="font-bold text-green-labgov-500">transformação digital no setor público</span>, com o propósito
-  de gerar conexões que impulsionem a modernização dos serviços públicos no Brasil.
+  <span className="font-bold text-green-labgov-500">transformação digital no setor público</span>, com o propósito 
+  de conectar atores-chave para acelerar a modernização dos serviços públicos no Brasil.
 </p>
 
 <p className="pb-3 me-4 md:me-60">
-  O evento reúne organizações com sólida experiência em projetos públicos para compartilhar casos reais, soluções 
-  implementadas e abordagens que geram impacto concreto na gestão pública.​
+  O evento reúne organizações com sólida experiência em projetos públicos para compartilhar casos reais, soluções implementadas e abordagens que geram impacto concreto na gestão pública.
 </p>
 
 <p className="me-4 md:me-60">
-  Mais do que um evento, o LABGOV Summit promove a articulação entre empresas, gestores públicos e lideranças, criando 
-  um ambiente orientado à troca de experiências e à construção de soluções práticas e escaláveis para desafios reais 
-  da transformação digital.​
+  Mais do que um evento, o LABGOV Summit promove a articulação entre empresas, gestores públicos e lideranças, criando um ambiente orientado à troca de experiências e à construção de soluções práticas e escaláveis para desafios reais da transformação digital.
 </p>
             </Container>
         </section>
