@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Container from "../../components/container/container";
-import { data_palestrantes_2024 } from "../../../../../data/data-palestrantes-2025";
+import { data_palestrantes_2026 } from "../../../../../data/data-palestrantes-2026";
 import Text_head_3 from "../../components/text/text-head-3";
 import Text_head_1 from "../../components/text/text-head-1";
 import Text_display_3 from "../../components/text/text-display-3";
@@ -25,7 +25,7 @@ export default function Section_speakers() {
                     </Text_head_1>
                   </div>
         <div className={'grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-5 pt-10 text-violet-crea-600'}>
-          {data_palestrantes_2024.map((palestrante, index) => (
+          {data_palestrantes_2026.map((palestrante, index) => (
             <div key={index} className={`${openBox === index ? 'col-span-2 xl:col-span-3 border-2 border-violet-crea-600 flex' : 'col-span-1 border-transparent max-w-96 mx-auto overflow-hidden'} border-2 rounded-lg transition-all duration-300 relative cursor-pointer group`} onClick={() => handleOpenBox(index)}>
               
               {/* Profile do palestrante */}

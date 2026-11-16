@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Container from "../../components/container/container";
-import { empresas } from "../../../../../data/data-palestrantes-2024";
+import { empresas } from "../../../../../data/data-support";
 import Button_outline from "../../components/buttons/button_outline";
 import {
   ArrowRightIcon,
@@ -27,7 +27,7 @@ export default function SectionShowcaseLocal() {
           <div className="h-12 bg-textDarkGreen rounded w-[5px]"></div>
           <div className="flex flex-col">
             <Text_head_1 className="font-bold">
-              Apoio Institucional
+              Apoio Técnico Institucional
             </Text_head_1>
           </div>
         </div>
@@ -78,7 +78,6 @@ export default function SectionShowcaseLocal() {
                   />
                 </div>
 
-                {/* Conteúdo 
                 {isOpen && (
                   <div className="p-5 space-y-3">
                     <h3 className="text-xl font-bold">
@@ -101,7 +100,7 @@ export default function SectionShowcaseLocal() {
                       </div>
                     )}
                   </div>
-                )}*/}
+                )}
               </div>
             );
           })}

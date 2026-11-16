@@ -2,11 +2,10 @@ import Container from "../../components/container/container";
 import {
   CalendarDaysIcon,
   MapPinIcon,
-  ClockIcon,
-  ArrowRightIcon,
 } from "@heroicons/react/24/outline";
 import Text_head_2 from "../../components/text/text-head-2";
 import Button_outline from "../../components/buttons/button_outline";
+import { EVENT_REGISTRATION_URL } from "../../../event-config";
 
 export default function Section_welcome() {
   return (
@@ -28,36 +27,42 @@ export default function Section_welcome() {
             "flex flex-col gap-8 py-20 mt-10 justify-center items-center h-full text-white"
           }
         >
-          <img
-            src="/brand/logo-labgov.png"
-            className="w-72 md:w-[30rem] animate-fade-up animate-once animate-duration-500 animate-ease-in-out"
-          />
+          <div className="flex flex-col items-center gap-3 animate-fade-up animate-once animate-duration-500 animate-ease-in-out">
+            <img
+              src="/brand/logo-labgov.png"
+              alt="LabGov Summit"
+              className="w-72 sm:w-[30rem] md:w-[32rem]"
+            />
+            <span className="w-40 sm:w-52 border-y border-green-labgov-500 py-1 text-center text-base sm:text-lg md:text-2xl font-medium">
+              3ª Edição - 2026
+            </span>
+          </div>
 
-
-          <Text_head_2 className={"text-center"}>Conexões para aceleração da<br></br>transformação digital no setor público.</Text_head_2>
+          <div className="text-center">
+            <p className="text-xl md:text-2xl font-bold">
+              DO DADO À INTELIGÊNCIA:
+            </p>
+            <Text_head_2 className="max-w-3xl">
+              Governança, Ecossistemas de Dados e<br/> Inteligência Artificial no
+              Setor Público.
+            </Text_head_2>
+          </div>
 
           <Text_head_2 className={'flex gap-5'}>
             <CalendarDaysIcon className="size-8 text-green-labgov-500" />
-            15 de setembro
-          </Text_head_2>
-
-          <Text_head_2 className={'flex gap-5'}>
-            <ClockIcon className="size-8 text-green-labgov-500" />
-            8:30 às 12:00
+            01 de dezembro de 2026
           </Text_head_2>
 
           <Text_head_2 className={'flex gap-5'}>
             <MapPinIcon className="size-8 text-green-labgov-500" />
-            Auditório da ACATE - Primavera
+            Auditório Crea-SC
           </Text_head_2>
 
           {<Button_outline
-            href={
-              "https://painel.egem.org.br//createInscritoNaoLogado/1714?_gl=1*1e62sh4*_ga*MTcwNjc0Mzg2OS4xNzg2MTIzODU4*_ga_Z9E9F8TPED*czE3ODYxMjM4NTgkbzEkZzEkdDE3ODYxMjM4NjUkajUzJGwwJGgxNzg1Nzk1ODI4"
-            }
+            href={EVENT_REGISTRATION_URL}
             text={"Garantir meu ingresso"}
             className={
-              "items-center rounded-full w-full min-w-32 md:min-w-40 py-5 px-7 bg-white/20 hover:bg-white/10 transition-all border-2 border-green-labgov-500"
+              "items-center rounded-full w-full min-w-32 md:min-w-40 py-3 px-7 bg-white/20 hover:bg-white/10 transition-all border-2 border-white"
             }
             target={true}
           />}

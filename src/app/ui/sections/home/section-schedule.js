@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Container from "../../components/container/container";
-import  {beneficios} from "../../../../../data/data-support";
+import  {patrocinadores} from "../../../../../data/data-sponsors-2026";
 import Button_outline from "../../components/buttons/button_outline";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import Text_head_1 from "../../components/text/text-head-1";
@@ -28,35 +28,49 @@ export default function SectionShowcaseLocal() {
 
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-start">
-          {beneficios.map((beneficio, index) => {
+          {patrocinadores.map((patrocinador, index) => {
             const isOpen = openCard === index;
             return (
               <div
                 key={index}
-                onClick={() => handleToggleCard(index)}
+                onClick={(event) => {
+                  if (!event.target.closest("a")) {
+                    handleToggleCard(index);
+                  }
+                }}
                 className="bg-black text-white border border-green-labgov-500 rounded-xl overflow-hidden shadow-md cursor-pointer transition-all duration-300"
               >
                 <div className="w-full h-40 overflow-hidden bg-black flex items-center justify-center">
                   <img
-                    src={beneficio.urlLogo}
-                    alt={beneficio.titulo}
-                    className="w-full h-full object-contain"
+                    src={patrocinador.urlLogo}
+                    alt={patrocinador.titulo}
+                    className="w-full h-full object-contain p-5"
                     onError={(e) => (e.target.src = "/placeholder.png")}
                   />
                 </div>
 
-                {/* isOpen && (
+                {isOpen && (
                   <div className="p-5 space-y-3">
-                    <h3 className="text-xl font-bold">{beneficio.titulo}</h3>
+                    <h3 className="text-xl font-bold">{patrocinador.titulo}</h3>
 
                     <p className="text-sm leading-relaxed">
-                      {beneficio.descricaoBeneficio || beneficio.descricao}
+                      {patrocinador.descricao
+                        .split(/(<b>.*?<\/b>)/g)
+                        .map((part, partIndex) =>
+                          part.startsWith("<b>") ? (
+                            <strong key={partIndex}>
+                              {part.slice(3, -4)}
+                            </strong>
+                          ) : (
+                            part
+                          )
+                        )}
                     </p>
-                    {beneficio.link &&
+                    {patrocinador.link &&
                       <div className="mt-4 max-w-52">
-                        {beneficio.link &&
+                        {patrocinador.link &&
                           <Button_outline
-                            href={beneficio.link}
+                            href={patrocinador.link}
                             text={"Acessar site"}
                             icon={<ArrowRightIcon className="size-5" />}
                             className={`items-center justify-between rounded-full py-2 px-5 transition-all flex bg-violet-crea-400 hover:bg-violet-crea-700 text-white text-sm`}
@@ -67,7 +81,7 @@ export default function SectionShowcaseLocal() {
                   </div>
 
 
-                )*/}
+                )}
               </div>
             );
           })}

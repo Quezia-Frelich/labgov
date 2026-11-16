@@ -27,7 +27,7 @@ export default function Home() {
         <Section_sponsors />
       </section>
 
-      <Section_ut/>
+      {/* <Section_ut/> */}
 
     </>
   );

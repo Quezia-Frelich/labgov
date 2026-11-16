@@ -1,21 +1,18 @@
 "use client";
 import { Fragment, useEffect } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
-import {
-  ArrowRightIcon,
-  Bars3Icon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { useState } from "react";
 import { useRef } from "react";
 import Container from "../container/container";
 import Button_outline from "../buttons/button_outline";
+import { EVENT_REGISTRATION_URL } from "../../../event-config";
 
 const navigation = [
   {
-    name: "Evento",
+    name: "Início",
     href: "/",
   },
   {
@@ -82,33 +79,33 @@ export default function Header() {
               <>
                 <div className="mx-auto max-w-screen-xl py-5 px-4 xl:px-0 sm:px-6 lg:px-8">
                   <div className="flex h-16 items-center justify-between">
-                    <Link className="w-49" href={"/"}>
+                    <Link className="w-40 shrink-0" href={"/"}>
                       {pathName === "/" ? (
                         <>
                           {headerStiky ? (
                             <img
                               src={"/brand/logo-labgov-header.png"}
-                              className="w-24"
-                              alt="Crea Summit 2024 Logo"
+                              className="w-40"
+                              alt="LabGov Summit logo"
                             />
                           ) : (
                             <img
                               src={"/brand/logo-labgov-header.png"}
-                              className="w-24"
-                              alt="Crea Summit 2024 Logo"
+                              className="w-40"
+                              alt="LabGov Summit logo"
                             />
                           )}
                         </>
                       ) : (
                         <img
                           src={"/brand/logo-labgov-header.png"}
-                          className="w-24"
-                          alt="Crea Summit 2024 Logo"
+                          className="w-40"
+                          alt="LabGov Summit logo"
                         />
                       )}
                     </Link>
 
-                    <div className="hidden xl:block">
+                    <div className="hidden lg:block">
                       <div className="ml-5 flex gap-5 items-baseline">
                         {navigation.map((item) => (
                           <Fragment key={item.name}>
@@ -196,25 +193,14 @@ export default function Header() {
                     </div>
 
                     <div className="flex items-center justify-between gap-5">
-                      {/* <Button_outline
-                        href={
-                          "https://www.sympla.com.br/crea-summit-2024__2629588"
-                        }
-                        text={"Ingresso"}
-                        icon={<ArrowRightIcon className="size-5" />}
-                        className={`items-center rounded-full py-1 md:py-3 px-5 transition-all hidden md:flex ${
-                          pathName === "/"
-                            ? `${
-                                headerStiky
-                                  ? "bg-violet-crea-400 hover:bg-violet-crea-400 text-white"
-                                  : "bg-white/20 hover:bg-white/10"
-                              }`
-                            : "bg-violet-crea-400 hover:bg-violet-crea-400 text-white"
-                        }`}
+                      <Button_outline
+                        href={EVENT_REGISTRATION_URL}
+                        text={"Garantir meu ingresso"}
+                        className="hidden lg:flex items-center rounded-full py-3 px-7 border-white bg-white/10 hover:bg-white/20 transition-all"
                         target={true}
-                      /> */}
+                      />
 
-                      <div className="-mr-2 flex xl:hidden">
+                      <div className="-mr-2 flex lg:hidden">
                         <Disclosure.Button
                           ref={menuMobileButton}
                           className="relative inline-flex items-center justify-center rounded-md bg-transparent p-2 text-white hover:text-white transition-all"
@@ -238,7 +224,7 @@ export default function Header() {
                   </div>
                 </div>
 
-                <Disclosure.Panel className="xl:hidden">
+                <Disclosure.Panel className="lg:hidden">
                   <div
                     className={`space-y-7 px-2 py-8 sm:px-5 ${
                       pathName === "/" && "bg-black/20"
@@ -310,20 +296,9 @@ export default function Header() {
                       </Fragment>
                     ))}
                     <Button_outline
-                      href={
-                        "https://www.sympla.com.br/crea-summit-2024__2629588"
-                      }
-                      text={"Ingresso"}
-                      icon={<ArrowRightIcon className="size-5" />}
-                      className={`items-center justify-between rounded-full py-1 md:py-3 px-5 transition-all mt-5 w-full flex md:hidden ${
-                        pathName === "/"
-                          ? `${
-                              headerStiky
-                                ? "bg-violet-crea-400 hover:bg-violet-crea-400 text-white"
-                                : "bg-black/20 hover:bg-black/10"
-                            }`
-                          : "bg-violet-crea-400 hover:bg-violet-crea-400 text-white"
-                      }`}
+                      href={EVENT_REGISTRATION_URL}
+                      text={"Garantir meu ingresso"}
+                      className="items-center justify-center rounded-full py-3 px-5 mt-5 w-full flex lg:hidden border-white bg-white/10 hover:bg-white/20 transition-all"
                       target={true}
                     />
                   </div>
