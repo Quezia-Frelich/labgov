@@ -13,7 +13,7 @@ export const data_palestrantes_2026 = [
     fullName: "Elói Rönnau",
     position: "CEO - SmartCityTec",
     description:
-      "Especialista em gestão pública com uma experiência acumulada ao longo de mais de 3 décadas, dedicadas ao serviço público. Formado em Contabilidade e com especialização em Contabilidade Pública, tem experiência em Governança Pública, Orçamento Público, Licitações, Contratos Administrativos e Gestão de Consórcios Públicos. Atuou como Diretor Executivo do Consórcio Interfederativo Santa Catarina -CINCATARINA. Foi Presidente do Colegiado de Consórcios Públicos Intermunicipais do Estado de Santa Catarina (CCPSC) e conselheiro no Conselho de Consumidores da CELESC - CONCCEL, representando o setor público. Atualmente é Presidente do iConects - Instituto de Conectividade e Sustentabilidade, CEO da Smartcitytec e CCO da UT-Urban Tech.",
+      "Consultor de Inovação e Transformação Digital para o Setor Público e CEO da LAB OF CODES, startup especializada em inovação, transformação digital e governança digital para o setor público. Graduado em Ciências da Computação, com pós-graduação em Desenvolvimento de Aplicações WEB e especialização em Gestão de Pessoas, possui certificação PMP e mais de 30 anos de experiência em projetos públicos no Brasil, América Central e EUA. Atua com consultoria, capacitação e mentoria, aplicando metodologias de transformação digital e inovação.",
 
     linkedin: "https://www.linkedin.com/in/eloi-ronnau-8290078a/",
   },
